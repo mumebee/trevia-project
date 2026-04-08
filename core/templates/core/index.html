@@ -1,5 +1,4 @@
 {% load static %}
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,15 +9,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    {% include 'components/header.html' %}
+    <div class="page-wrapper">
+        {% include 'components/header.html' %}
 
-<!-- header -->
-
-<main class="content-area">
-
-</main>
+        <main class="content-area">
+            <section class="first-section">
+                <div class="pills-container">
+                    <div class="text-pill welcome-pill">
+                        <h2>Welcome to</h2>
+                    </div>
+                    <div class="text-pill trevia-pill">
+                        <h2>TREVIA</h2>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
 <footer class="footer">
-    <p>&copy; 2023 Trevia. All rights reserved.</p>
 </footer>
 </body>
 </html>

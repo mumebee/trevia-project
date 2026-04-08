@@ -1,12 +1,20 @@
 {% load static %}
 <header class="main-header">
-    <div class="container">
-        <h1 class="logo">Trevia</h1>
-        <nav>
+    <div class="nav-container">
+        <button class="user-btn"><i class="bi bi-person"></i></button>
+        <nav>    
             <ul class="nav-links">
                 <li><a href="/">Home</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="{% url 'about' %}">About</a></li>
+                <li><a href="{% url 'contacts' %}">Contacts</a></li>
             </ul>
         </nav>
     </div>
+        <div class="header-right">
+            <div class="search-wrapper">
+                <input type="text" placeholder="search" class="search-input">
+                <i class="bi bi-search search-icon"></i>
+            </div>
+            <button class="menu-btn"><i class="bi bi-list"></i></button>
+        </div>
 </header>

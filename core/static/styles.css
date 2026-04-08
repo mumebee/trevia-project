@@ -1,70 +1,105 @@
-/* Resetting default browser margins */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #f7f3e8;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 2rem;
 }
 
-/* Header Styling */
-.main-header {
-    background-color: #1a1a2e; /* Deep dark blue */
-    color: #ffffff;
-    padding: 1rem 0;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.page-wrapper{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.container {
+/* ==========HEADER========= */
+.main-header{
+    background-color: #ffffff;
+    width: 100%;
+    padding: 10px 25px;
+    border-radius: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    margin-bottom: 80px;
 }
-
-/* Logo Section */
-.logo {
-    font-size: 1.8rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-.logo span {
-    color: #00d2ff; /* Bright blue accent */
-}
-
-/* Navigation Links */
-.nav-links {
-    list-style: none;
+.nav-container, .header-right{
     display: flex;
-    gap: 30px;
+    align-items: center;
+    gap: 20px;
 }
-
-.nav-links a {
-    color: #ffffff;
+.nav-links{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+.nav-links a{
     text-decoration: none;
+    color: #333;
     font-weight: 500;
-    font-size: 1rem;
-    transition: color 0.3s ease;
+    font-size: 35px;
+}
+.user-btn, .menu-btn{
+    background: none;
+    border: none;
+    font-size: 45px;
+    cursor: pointer;
+    font-weight: 600;
 }
 
-.nav-links a:hover {
-    color: #00d2ff;
+/* ==========SEARCH========= */
+.search-wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.search-input{
+    background-color: #d1d1d1;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 40px 12px 15px;
+    width: 160px;
+    font-size: 16px;
+}
+.search-icon{
+    position: absolute;
+    right: 12px;
+    color: white;
 }
 
-/* Main Content Area */
-main {
-    padding: 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
+/* ========== CONTENT (The Center Pills) ========== */
+.pills-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.text-pill{
+    background-color: #cdc7b0;
+    padding: 15px 40px;
+    border-radius: 100px;
+}
+.welcome-pill h2{
+    font-size: 2.5rem;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.trevia-pill{
+    padding: 10px 60px;
+}
+.trevia-pill h2{
+    font-size: 4.5rem;
+    font-family: serif;
+    letter-spacing: 2px;
 }
