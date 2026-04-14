@@ -6,83 +6,32 @@
 body {
     font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f7f3e8;
-    display: flex;
+    background-color: #01321F;
+    margin: 0;
+    /* display: flex;
     justify-content: center;
-    min-height: 100vh;
-    padding: 2rem;
+    min-height: 100vh; */
 }
-
-.page-wrapper{
+header {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;       /* Spans the whole screen */
+    z-index: 1000;      /* High enough to stay above everything */
+    pointer-events: none; /* Allows clicks to pass through to the section below if needed */
+}
+.page-wrapper {
     width: 100%;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-/* ==========HEADER========= */
-.main-header{
-    background-color: #ffffff;
-    width: 100%;
-    padding: 10px 25px;
-    border-radius: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-    margin-bottom: 80px;
-}
-.nav-container, .header-right{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-.nav-links{
-    display: flex;
-    gap: 25px;
-    list-style: none;
-}
-.nav-links a{
-    text-decoration: none;
-    color: #333;
-    font-weight: 500;
-    font-size: 35px;
-}
-.user-btn, .menu-btn{
-    background: none;
-    border: none;
-    font-size: 45px;
-    cursor: pointer;
-    font-weight: 600;
-}
-
-/* ==========SEARCH========= */
-.search-wrapper{
     position: relative;
-    display: flex;
-    align-items: center;
 }
-.search-input{
-    background-color: #d1d1d1;
-    border: none;
-    border-radius: 20px;
-    padding: 12px 40px 12px 15px;
-    width: 160px;
-    font-size: 16px;
-}
-.search-icon{
-    position: absolute;
-    right: 12px;
-    color: white;
-}
-
 /* ========== CONTENT (The Center Pills) ========== */
 .pills-container{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
     gap: 20px;
+    z-index: 2;
+    margin-top: -90px;
 }
 .text-pill{
     background-color: #cdc7b0;
@@ -102,4 +51,41 @@ body {
     font-size: 4.5rem;
     font-family: serif;
     letter-spacing: 2px;
+}
+.first-section {
+    width: 100%; 
+    min-height: 100vh;
+    background-image: url('../../static/trevia_back.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -160px;
+    padding-top: 100px;
+}
+.first-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(1, 50, 31, 0.45);   /* adjust opacity as needed */
+    z-index: 1;
+}
+
+.content-area{
+    width: 100%;
+}
+.second-section {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #01321F; /* Or a new image url */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

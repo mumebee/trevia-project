@@ -1,0 +1,105 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'sidebar.css' %}">
+<div class="sidebar-menu" id="sidebar-menu">
+    <div class="menu-header">
+        {% if request.user.is_authenticated %}
+
+            <div class="dropdown">
+                <button class="icon-btn-href-p2" onclick="toggleDropdown(event)">
+                    <i class="bi bi-person-fill"></i>
+                    <span class="reg">{{ request.user.username }}</span>
+                </button>    
+                <ul class="dropdown-menu" id="dropdownMenu">
+                    <li><a href="/logout" class="dropdown-text">Logout</a></li>
+                </ul>
+            </div>
+        {% else %}
+        <div class="dropdown">
+            <button class="icon-btn-href-p2" onclick="toggleDropdown(event)">
+                <i class="bi bi-person"></i>
+                <span class="reg">{{ request.user.username }}</span>
+            </button>    
+            <ul class="dropdown-menu" id="dropdownMenu">
+                <li><a href="/registration" class="dropdown-text">Sign up</a></li>
+                <li><a href="/login" class="dropdown-text">Sign in</a></li>
+            </ul>
+        </div>
+        {% endif %}
+        <h2>Menu</h2>
+        <button class="close-label" id="close-sidebar">
+            <i class="bi bi-x-lg"></i>
+        </button>
+    </div>
+    
+    <!-- Mobile navigation items -->
+    <nav class="categories-list">
+        <a href="/" class="category-link">
+            <span><i class="bi bi-house"></i> Home</span>
+            <i class="bi bi-chevron-right category-arrow"></i>
+        </a>
+        <a href="/registration" class="category-link">
+            <span><i class="bi bi-person"></i> Sign up</span>
+            <i class="bi bi-chevron-right category-arrow"></i>
+        </a>
+
+        <a href="/contacts" class="category-link">
+            <span><i class="bi bi-telephone"></i> Contacts</span>
+            <i class="bi bi-chevron-right category-arrow"></i>
+        </a>
+        
+        <!-- Divider -->
+        <div style="border-top: 2px solid #f0e5d8; margin: 15px 0;"></div>
+        
+        <!-- Categories heading -->
+        <div class="categories-header">
+            Categories
+        </div>
+        
+        <!-- {% for category in categories %}
+        <a href="{% url 'category_products' category.id %}" class="category-link">
+            {{ category.name }}
+            <i class="bi bi-chevron-right category-arrow"></i>
+        </a>
+        {% endfor %} -->
+    </nav>
+</div>
+
+<div class="overlay" id="overlay"></div>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Sidebar elements
+        const menuToggleBtn = document.getElementById('menu-toggle-btn');
+        const closeSidebar = document.getElementById('close-sidebar');
+        const overlay = document.getElementById('overlay');
+        const sidebar = document.getElementById('sidebar-menu');
+
+        // Function to close sidebar
+        function closeSidebarMenu() {
+            sidebar.classList.remove('active');
+            overlay.classList.remove('active');
+            document.body.style.overflow = ''; // Restore scrolling
+        }
+
+        // Open sidebar
+        if (menuToggleBtn) {
+            menuToggleBtn.addEventListener('click', function() {
+                sidebar.classList.add('active');
+                overlay.classList.add('active');
+                document.body.style.overflow = 'hidden'; // Prevent scrolling
+            });
+        }
+
+        // Close sidebar on button click or overlay click
+        if (closeSidebar) {
+            closeSidebar.addEventListener('click', closeSidebarMenu);
+        }
+        if (overlay) {
+            overlay.addEventListener('click', closeSidebarMenu);
+        }
+
+        // Close sidebar when clicking internal links
+        document.querySelectorAll('.sidebar-menu a').forEach(link => {
+            link.addEventListener('click', closeSidebarMenu);
+        });
+    });
+</script>

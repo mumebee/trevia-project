@@ -1,0 +1,150 @@
+/* ==========HEADER========= */
+/* header.css */
+.main-header {
+    background-color: rgba(255, 255, 255, 0.95);
+    width: 100%;
+    max-width: 1200px;
+    padding: 25px 25px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    margin-left: auto;
+    margin-right: auto;
+    
+    margin-bottom: 40px;
+    margin-top: 15px;
+    position: relative;
+}
+.nav-container, .header-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav-links{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 35px;
+}
+.menu-btn{
+    background: none;
+    border: none;
+    font-size: 45px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.user-btn{
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    color: #333;
+    padding: 5px 10px;
+}
+.user-btn i{
+    font-size: 32px;
+    line-height: 1;
+}
+.user-name-label{
+    font-size: 14px;
+    font-weight: 600;
+    max-width: 90px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #333;
+}
+/* ============DROPDOWN MENU============== */
+.user-dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%); /* Centers dropdown under the button */
+    background-color: #fff;
+    min-width: 150px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    margin-top: 10px;
+    border: 1px solid #eee;
+    z-index: 102;
+}
+.user-dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content a{
+    color: #333;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    transition: background 0.2s;
+}
+.dropdown-content a:hover{
+    background-color: #f1f1f1;
+    color: #333;
+}
+.logout-item{
+    color: #b91c1c !important;
+}
+.user-info{
+    padding: 5px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+.dropdown-content hr{
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 8px 0;
+}
+
+
+
+
+
+/* ==========SEARCH========= */
+.search-wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.search-input{
+    background-color: #d1d1d1;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 40px 12px 15px;
+    width: 160px;
+    font-size: 16px;
+}
+.search-icon{
+    position: absolute;
+    right: 12px;
+    color: white;
+}
+.main-header a,
+.main-header button,
+.nav-links a,
+.user-btn,
+.menu-btn {
+    pointer-events: auto;
+    position: relative;
+    z-index: 101;
+}
