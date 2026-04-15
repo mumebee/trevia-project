@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Atmosfera",
+    "country": "Uzbekistan",
+    "city": "Tashkent",
+    "cuisine_type": "uzbek",
+    "price": 7,
+    "lat": 41.339,
+    "lng": 69.284,
+    "image": "https://avatars.mds.yandex.net/get-altay/14702189/2a00000195dd2d1c116d0cf5b2d32d5c31a5/orig"
+  }
+]

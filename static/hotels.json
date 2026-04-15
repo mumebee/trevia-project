@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Hilton Tashkent City",
+    "country": "Uzbekistan",
+    "city": "Tashkent",
+    "stars": 5,
+    "price": 120,
+    "lat": 41.314,
+    "lng": 69.249,
+    "image": "https://oasisinternational.travel/wp-content/uploads/2020/02/Hilton-Tashkent-City-Hotel.jpg"
+  }
+]
