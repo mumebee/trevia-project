@@ -1,22 +1,61 @@
 {
   "hotels": [
-
     {
       "id": 1,
       "country": "Uzbekistan",
       "city": "Tashkent",
       "name": "Hilton Tashkent City",
       "rooms": [
-        { "name": "King Guest Room", "size": "36 m²", "beds": "1 King-size bed", "price": 180 },
-        { "name": "Twin Guest Room", "size": "36 m²", "beds": "2 Single beds", "price": 180 },
-        { "name": "Executive Room", "size": "38 m²", "beds": "1 King-size bed", "price": 230 },
-        { "name": "Suite", "size": "70 m²", "beds": "1 King-size bed", "price": 400 },
-        { "name": "Presidential Suite", "size": "220 m²", "beds": "1 King-size bed", "price": 2000 }
+        {
+          "name": "King Guest Room",
+          "size": "36 m²",
+          "beds": "1 King-size bed",
+          "price": 180
+        },
+        {
+          "name": "Twin Guest Room",
+          "size": "36 m²",
+          "beds": "2 Single beds",
+          "price": 180
+        },
+        {
+          "name": "Executive Room",
+          "size": "38 m²",
+          "beds": "1 King-size bed",
+          "price": 230
+        },
+        {
+          "name": "Suite",
+          "size": "70 m²",
+          "beds": "1 King-size bed",
+          "price": 400
+        },
+        {
+          "name": "Presidential Suite",
+          "size": "220 m²",
+          "beds": "1 King-size bed",
+          "price": 2000
+        }
       ],
       "food": [
-        { "place_name": "Saffron", "menu": ["drinks", "meat", "salads"], "price": [45000, 180000, 70000] }
+        {
+          "place_name": "Saffron",
+          "menu": [
+            "drinks",
+            "meat",
+            "salads"
+          ],
+          "price": [
+            45000,
+            180000,
+            70000
+          ]
+        }
       ],
-      "location": { "lat": 41.3111, "long": 69.2797 },
+      "location": {
+        "lat": 41.3111,
+        "long": 69.2797
+      },
       "views": {
         "good": [
           "Central location with direct access to modern city district and shopping areas.",
@@ -31,21 +70,50 @@
         ]
       }
     },
-
     {
       "id": 2,
       "name": "InterContinental Tashkent",
       "country": "Uzbekistan",
       "city": "Tashkent",
       "rooms": [
-        { "name": "Classic Room", "size": "38 m²", "beds": "1 King-size bed", "price": 220 },
-        { "name": "Premium Room", "size": "40 m²", "beds": "1 King-size bed", "price": 260 },
-        { "name": "Suite", "size": "65 m²", "beds": "1 King-size bed", "price": 420 }
+        {
+          "name": "Classic Room",
+          "size": "38 m²",
+          "beds": "1 King-size bed",
+          "price": 220
+        },
+        {
+          "name": "Premium Room",
+          "size": "40 m²",
+          "beds": "1 King-size bed",
+          "price": 260
+        },
+        {
+          "name": "Suite",
+          "size": "65 m²",
+          "beds": "1 King-size bed",
+          "price": 420
+        }
       ],
       "food": [
-        { "place_name": "Ember", "menu": ["drinks", "meat", "seafood"], "price": [60000, 200000, 250000] }
+        {
+          "place_name": "Ember",
+          "menu": [
+            "drinks",
+            "meat",
+            "seafood"
+          ],
+          "price": [
+            60000,
+            200000,
+            250000
+          ]
+        }
       ],
-      "location": { "lat": 41.2995, "long": 69.2401 },
+      "location": {
+        "lat": 41.2995,
+        "long": 69.2401
+      },
       "views": {
         "good": [
           "New luxury hotel with high-end interior and premium design.",
@@ -58,20 +126,44 @@
         ]
       }
     },
-
     {
       "id": 3,
       "name": "Garnet Mir Hotel",
       "country": "Uzbekistan",
       "city": "Tashkent",
       "rooms": [
-        { "name": "Standard Room", "size": "25 m²", "beds": "1 Double bed", "price": 70 },
-        { "name": "Deluxe Room", "size": "30 m²", "beds": "1 King-size bed", "price": 95 }
+        {
+          "name": "Standard Room",
+          "size": "25 m²",
+          "beds": "1 Double bed",
+          "price": 70
+        },
+        {
+          "name": "Deluxe Room",
+          "size": "30 m²",
+          "beds": "1 King-size bed",
+          "price": 95
+        }
       ],
       "food": [
-        { "place_name": "Hotel Dining", "menu": ["drinks", "meat", "breakfast"], "price": [25000, 80000, 50000] }
+        {
+          "place_name": "Hotel Dining",
+          "menu": [
+            "drinks",
+            "meat",
+            "breakfast"
+          ],
+          "price": [
+            25000,
+            80000,
+            50000
+          ]
+        }
       ],
-      "location": { "lat": 41.28, "long": 69.25 },
+      "location": {
+        "lat": 41.28,
+        "long": 69.25
+      },
       "views": {
         "good": [
           "Affordable pricing for budget travelers.",
@@ -84,20 +176,44 @@
         ]
       }
     },
-
     {
       "id": 4,
       "name": "Royal Sebzor Hotel",
       "country": "Uzbekistan",
       "city": "Tashkent",
       "rooms": [
-        { "name": "Standard", "size": "28 m²", "beds": "1 Double bed", "price": 80 },
-        { "name": "Suite", "size": "45 m²", "beds": "1 King-size bed", "price": 140 }
+        {
+          "name": "Standard",
+          "size": "28 m²",
+          "beds": "1 Double bed",
+          "price": 80
+        },
+        {
+          "name": "Suite",
+          "size": "45 m²",
+          "beds": "1 King-size bed",
+          "price": 140
+        }
       ],
       "food": [
-        { "place_name": "Sebzor Restaurant", "menu": ["drinks", "meat", "salads"], "price": [30000, 90000, 60000] }
+        {
+          "place_name": "Sebzor Restaurant",
+          "menu": [
+            "drinks",
+            "meat",
+            "salads"
+          ],
+          "price": [
+            30000,
+            90000,
+            60000
+          ]
+        }
       ],
-      "location": { "lat": 41.32, "long": 69.26 },
+      "location": {
+        "lat": 41.32,
+        "long": 69.26
+      },
       "views": {
         "good": [
           "Quiet area with less traffic noise.",
@@ -110,20 +226,44 @@
         ]
       }
     },
-
     {
       "id": 5,
       "name": "Avant Wellness Hotel",
       "country": "Uzbekistan",
       "city": "Tashkent",
       "rooms": [
-        { "name": "Wellness Room", "size": "30 m²", "beds": "1 King-size bed", "price": 120 },
-        { "name": "Spa Suite", "size": "55 m²", "beds": "1 King-size bed", "price": 250 }
+        {
+          "name": "Wellness Room",
+          "size": "30 m²",
+          "beds": "1 King-size bed",
+          "price": 120
+        },
+        {
+          "name": "Spa Suite",
+          "size": "55 m²",
+          "beds": "1 King-size bed",
+          "price": 250
+        }
       ],
       "food": [
-        { "place_name": "Healthy Bar", "menu": ["drinks", "salads", "light meals"], "price": [40000, 70000, 90000] }
+        {
+          "place_name": "Healthy Bar",
+          "menu": [
+            "drinks",
+            "salads",
+            "light meals"
+          ],
+          "price": [
+            40000,
+            70000,
+            90000
+          ]
+        }
       ],
-      "location": { "lat": 41.29, "long": 69.27 },
+      "location": {
+        "lat": 41.29,
+        "long": 69.27
+      },
       "views": {
         "good": [
           "Strong focus on wellness and spa services.",
@@ -136,20 +276,44 @@
         ]
       }
     },
-
     {
       "id": 6,
       "name": "Mercure Tashkent South",
       "country": "Uzbekistan",
       "city": "Tashkent",
       "rooms": [
-        { "name": "Standard", "size": "25 m²", "beds": "1 Queen bed", "price": 100 },
-        { "name": "Suite", "size": "50 m²", "beds": "1 King-size bed", "price": 220 }
+        {
+          "name": "Standard",
+          "size": "25 m²",
+          "beds": "1 Queen bed",
+          "price": 100
+        },
+        {
+          "name": "Suite",
+          "size": "50 m²",
+          "beds": "1 King-size bed",
+          "price": 220
+        }
       ],
       "food": [
-        { "place_name": "Mercure Dining", "menu": ["drinks", "meat", "local dishes"], "price": [35000, 110000, 80000] }
+        {
+          "place_name": "Mercure Dining",
+          "menu": [
+            "drinks",
+            "meat",
+            "local dishes"
+          ],
+          "price": [
+            35000,
+            110000,
+            80000
+          ]
+        }
       ],
-      "location": { "lat": 41.25, "long": 69.2 },
+      "location": {
+        "lat": 41.25,
+        "long": 69.2
+      },
       "views": {
         "good": [
           "Modern and affordable option.",
@@ -162,20 +326,44 @@
         ]
       }
     },
-
     {
       "id": 7,
       "name": "Mövenpick Tashkent Old City",
       "country": "Uzbekistan",
       "city": "Tashkent",
       "rooms": [
-        { "name": "Classic Room", "size": "30 m²", "beds": "1 King-size bed", "price": 130 },
-        { "name": "Suite", "size": "60 m²", "beds": "1 King-size bed", "price": 280 }
+        {
+          "name": "Classic Room",
+          "size": "30 m²",
+          "beds": "1 King-size bed",
+          "price": 130
+        },
+        {
+          "name": "Suite",
+          "size": "60 m²",
+          "beds": "1 King-size bed",
+          "price": 280
+        }
       ],
       "food": [
-        { "place_name": "Movenpick Restaurant", "menu": ["drinks", "meat", "desserts"], "price": [40000, 140000, 60000] }
+        {
+          "place_name": "Movenpick Restaurant",
+          "menu": [
+            "drinks",
+            "meat",
+            "desserts"
+          ],
+          "price": [
+            40000,
+            140000,
+            60000
+          ]
+        }
       ],
-      "location": { "lat": 41.31, "long": 69.25 },
+      "location": {
+        "lat": 41.31,
+        "long": 69.25
+      },
       "views": {
         "good": [
           "Good balance between price and quality.",
@@ -188,20 +376,44 @@
         ]
       }
     },
-
     {
       "id": 8,
       "name": "Swissôtel Tashkent",
       "country": "Uzbekistan",
       "city": "Tashkent",
       "rooms": [
-        { "name": "Deluxe Room", "size": "35 m²", "beds": "1 King-size bed", "price": 200 },
-        { "name": "Suite", "size": "80 m²", "beds": "1 King-size bed", "price": 450 }
+        {
+          "name": "Deluxe Room",
+          "size": "35 m²",
+          "beds": "1 King-size bed",
+          "price": 200
+        },
+        {
+          "name": "Suite",
+          "size": "80 m²",
+          "beds": "1 King-size bed",
+          "price": 450
+        }
       ],
       "food": [
-        { "place_name": "Swiss Dining", "menu": ["drinks", "meat", "international"], "price": [60000, 190000, 150000] }
+        {
+          "place_name": "Swiss Dining",
+          "menu": [
+            "drinks",
+            "meat",
+            "international"
+          ],
+          "price": [
+            60000,
+            190000,
+            150000
+          ]
+        }
       ],
-      "location": { "lat": 41.30, "long": 69.27 },
+      "location": {
+        "lat": 41.30,
+        "long": 69.27
+      },
       "views": {
         "good": [
           "High-end luxury experience.",
@@ -214,20 +426,44 @@
         ]
       }
     },
-
     {
       "id": 9,
       "name": "Praga Hotel",
       "country": "Uzbekistan",
       "city": "Tashkent",
       "rooms": [
-        { "name": "Standard", "size": "25 m²", "beds": "1 Double bed", "price": 75 },
-        { "name": "Deluxe", "size": "30 m²", "beds": "1 King-size bed", "price": 100 }
+        {
+          "name": "Standard",
+          "size": "25 m²",
+          "beds": "1 Double bed",
+          "price": 75
+        },
+        {
+          "name": "Deluxe",
+          "size": "30 m²",
+          "beds": "1 King-size bed",
+          "price": 100
+        }
       ],
       "food": [
-        { "place_name": "Praga Cafe", "menu": ["drinks", "meat", "breakfast"], "price": [25000, 85000, 50000] }
+        {
+          "place_name": "Praga Cafe",
+          "menu": [
+            "drinks",
+            "meat",
+            "breakfast"
+          ],
+          "price": [
+            25000,
+            85000,
+            50000
+          ]
+        }
       ],
-      "location": { "lat": 41.29, "long": 69.24 },
+      "location": {
+        "lat": 41.29,
+        "long": 69.24
+      },
       "views": {
         "good": [
           "Affordable and clean hotel.",
@@ -240,20 +476,44 @@
         ]
       }
     },
-
     {
       "id": 10,
       "name": "Radisson Blu Hotel",
       "country": "Uzbekistan",
       "city": "Tashkent",
       "rooms": [
-        { "name": "Standard", "size": "28 m²", "beds": "1 King-size bed", "price": 140 },
-        { "name": "Suite", "size": "55 m²", "beds": "1 King-size bed", "price": 300 }
+        {
+          "name": "Standard",
+          "size": "28 m²",
+          "beds": "1 King-size bed",
+          "price": 140
+        },
+        {
+          "name": "Suite",
+          "size": "55 m²",
+          "beds": "1 King-size bed",
+          "price": 300
+        }
       ],
       "food": [
-        { "place_name": "Brasserie", "menu": ["drinks", "meat", "buffet"], "price": [50000, 160000, 90000] }
+        {
+          "place_name": "Brasserie",
+          "menu": [
+            "drinks",
+            "meat",
+            "buffet"
+          ],
+          "price": [
+            50000,
+            160000,
+            90000
+          ]
+        }
       ],
-      "location": { "lat": 41.325, "long": 69.28 },
+      "location": {
+        "lat": 41.325,
+        "long": 69.28
+      },
       "views": {
         "good": [
           "Reliable international hotel standard.",
@@ -266,20 +526,44 @@
         ]
       }
     },
-
     {
       "id": 11,
       "name": "Crowne Plaza Tashkent",
       "country": "Uzbekistan",
       "city": "Tashkent",
       "rooms": [
-        { "name": "Standard", "size": "30 m²", "beds": "1 King-size bed", "price": 170 },
-        { "name": "Suite", "size": "65 m²", "beds": "1 King-size bed", "price": 320 }
+        {
+          "name": "Standard",
+          "size": "30 m²",
+          "beds": "1 King-size bed",
+          "price": 170
+        },
+        {
+          "name": "Suite",
+          "size": "65 m²",
+          "beds": "1 King-size bed",
+          "price": 320
+        }
       ],
       "food": [
-        { "place_name": "Plaza Dining", "menu": ["drinks", "meat", "international"], "price": [55000, 170000, 130000] }
+        {
+          "place_name": "Plaza Dining",
+          "menu": [
+            "drinks",
+            "meat",
+            "international"
+          ],
+          "price": [
+            55000,
+            170000,
+            130000
+          ]
+        }
       ],
-      "location": { "lat": 41.30, "long": 69.26 },
+      "location": {
+        "lat": 41.30,
+        "long": 69.26
+      },
       "views": {
         "good": [
           "Modern and business-friendly hotel.",
@@ -292,20 +576,44 @@
         ]
       }
     },
-
     {
       "id": 12,
       "name": "Hotel New York Tashkent",
       "country": "Uzbekistan",
       "city": "Tashkent",
       "rooms": [
-        { "name": "Standard", "size": "24 m²", "beds": "1 Double bed", "price": 60 },
-        { "name": "Deluxe", "size": "30 m²", "beds": "1 King-size bed", "price": 85 }
+        {
+          "name": "Standard",
+          "size": "24 m²",
+          "beds": "1 Double bed",
+          "price": 60
+        },
+        {
+          "name": "Deluxe",
+          "size": "30 m²",
+          "beds": "1 King-size bed",
+          "price": 85
+        }
       ],
       "food": [
-        { "place_name": "NY Cafe", "menu": ["drinks", "fast food", "breakfast"], "price": [20000, 60000, 40000] }
+        {
+          "place_name": "NY Cafe",
+          "menu": [
+            "drinks",
+            "fast food",
+            "breakfast"
+          ],
+          "price": [
+            20000,
+            60000,
+            40000
+          ]
+        }
       ],
-      "location": { "lat": 41.28, "long": 69.23 },
+      "location": {
+        "lat": 41.28,
+        "long": 69.23
+      },
       "views": {
         "good": [
           "Very budget-friendly option.",
@@ -324,14 +632,44 @@
       "city": "Samarkand",
       "name": "Hilton Garden Inn Samarkand",
       "rooms": [
-        { "name": "Standard Room", "size": "28 m²", "beds": "1 King-size bed", "price": 130 },
-        { "name": "Twin Room", "size": "28 m²", "beds": "2 Single beds", "price": 130 },
-        { "name": "Suite", "size": "55 m²", "beds": "1 King-size bed", "price": 260 }
+        {
+          "name": "Standard Room",
+          "size": "28 m²",
+          "beds": "1 King-size bed",
+          "price": 130
+        },
+        {
+          "name": "Twin Room",
+          "size": "28 m²",
+          "beds": "2 Single beds",
+          "price": 130
+        },
+        {
+          "name": "Suite",
+          "size": "55 m²",
+          "beds": "1 King-size bed",
+          "price": 260
+        }
       ],
       "food": [
-        { "place_name": "Garden Grill", "menu": ["drinks", "meat", "salads"], "price": [40000, 130000, 70000] }
+        {
+          "place_name": "Garden Grill",
+          "menu": [
+            "drinks",
+            "meat",
+            "salads"
+          ],
+          "price": [
+            40000,
+            130000,
+            70000
+          ]
+        }
       ],
-      "location": { "lat": 39.6542, "long": 66.9597 },
+      "location": {
+        "lat": 39.6542,
+        "long": 66.9597
+      },
       "views": {
         "good": [
           "Modern international hotel with consistent quality and clean rooms.",
@@ -344,20 +682,44 @@
         ]
       }
     },
-
     {
       "id": 14,
       "country": "Uzbekistan",
       "city": "Samarkand",
       "name": "Minor Hotel",
       "rooms": [
-        { "name": "Standard Room", "size": "22 m²", "beds": "1 Double bed", "price": 60 },
-        { "name": "Family Room", "size": "35 m²", "beds": "2 Double beds", "price": 90 }
+        {
+          "name": "Standard Room",
+          "size": "22 m²",
+          "beds": "1 Double bed",
+          "price": 60
+        },
+        {
+          "name": "Family Room",
+          "size": "35 m²",
+          "beds": "2 Double beds",
+          "price": 90
+        }
       ],
       "food": [
-        { "place_name": "Minor Dining", "menu": ["drinks", "meat", "breakfast"], "price": [20000, 70000, 40000] }
+        {
+          "place_name": "Minor Dining",
+          "menu": [
+            "drinks",
+            "meat",
+            "breakfast"
+          ],
+          "price": [
+            20000,
+            70000,
+            40000
+          ]
+        }
       ],
-      "location": { "lat": 39.66, "long": 66.97 },
+      "location": {
+        "lat": 39.66,
+        "long": 66.97
+      },
       "views": {
         "good": [
           "Very affordable option with decent cleanliness.",
@@ -370,20 +732,44 @@
         ]
       }
     },
-
     {
       "id": 15,
       "country": "Uzbekistan",
       "city": "Samarkand",
       "name": "Khan Hotel Samarkand",
       "rooms": [
-        { "name": "Standard Room", "size": "25 m²", "beds": "1 King-size bed", "price": 85 },
-        { "name": "Deluxe Room", "size": "32 m²", "beds": "1 King-size bed", "price": 120 }
+        {
+          "name": "Standard Room",
+          "size": "25 m²",
+          "beds": "1 King-size bed",
+          "price": 85
+        },
+        {
+          "name": "Deluxe Room",
+          "size": "32 m²",
+          "beds": "1 King-size bed",
+          "price": 120
+        }
       ],
       "food": [
-        { "place_name": "Khan Restaurant", "menu": ["drinks", "meat", "local dishes"], "price": [30000, 100000, 80000] }
+        {
+          "place_name": "Khan Restaurant",
+          "menu": [
+            "drinks",
+            "meat",
+            "local dishes"
+          ],
+          "price": [
+            30000,
+            100000,
+            80000
+          ]
+        }
       ],
-      "location": { "lat": 39.65, "long": 66.96 },
+      "location": {
+        "lat": 39.65,
+        "long": 66.96
+      },
       "views": {
         "good": [
           "Good balance between price and comfort.",
@@ -396,20 +782,44 @@
         ]
       }
     },
-
     {
       "id": 16,
       "country": "Uzbekistan",
       "city": "Samarkand",
       "name": "Savitsky Plaza",
       "rooms": [
-        { "name": "Deluxe Room", "size": "35 m²", "beds": "1 King-size bed", "price": 150 },
-        { "name": "Suite", "size": "70 m²", "beds": "1 King-size bed", "price": 300 }
+        {
+          "name": "Deluxe Room",
+          "size": "35 m²",
+          "beds": "1 King-size bed",
+          "price": 150
+        },
+        {
+          "name": "Suite",
+          "size": "70 m²",
+          "beds": "1 King-size bed",
+          "price": 300
+        }
       ],
       "food": [
-        { "place_name": "Plaza Restaurant", "menu": ["drinks", "meat", "international"], "price": [50000, 150000, 120000] }
+        {
+          "place_name": "Plaza Restaurant",
+          "menu": [
+            "drinks",
+            "meat",
+            "international"
+          ],
+          "price": [
+            50000,
+            150000,
+            120000
+          ]
+        }
       ],
-      "location": { "lat": 39.654, "long": 66.965 },
+      "location": {
+        "lat": 39.654,
+        "long": 66.965
+      },
       "views": {
         "good": [
           "Modern hotel with high-quality interior design.",
@@ -422,20 +832,44 @@
         ]
       }
     },
-
     {
       "id": 17,
       "country": "Uzbekistan",
       "city": "Samarkand",
       "name": "L'Argamak",
       "rooms": [
-        { "name": "Boutique Room", "size": "30 m²", "beds": "1 King-size bed", "price": 160 },
-        { "name": "Suite", "size": "60 m²", "beds": "1 King-size bed", "price": 280 }
+        {
+          "name": "Boutique Room",
+          "size": "30 m²",
+          "beds": "1 King-size bed",
+          "price": 160
+        },
+        {
+          "name": "Suite",
+          "size": "60 m²",
+          "beds": "1 King-size bed",
+          "price": 280
+        }
       ],
       "food": [
-        { "place_name": "Argamak Dining", "menu": ["drinks", "meat", "traditional"], "price": [45000, 140000, 110000] }
+        {
+          "place_name": "Argamak Dining",
+          "menu": [
+            "drinks",
+            "meat",
+            "traditional"
+          ],
+          "price": [
+            45000,
+            140000,
+            110000
+          ]
+        }
       ],
-      "location": { "lat": 39.655, "long": 66.97 },
+      "location": {
+        "lat": 39.655,
+        "long": 66.97
+      },
       "views": {
         "good": [
           "Authentic boutique hotel with strong cultural atmosphere.",
@@ -448,20 +882,44 @@
         ]
       }
     },
-
     {
       "id": 18,
       "country": "Uzbekistan",
       "city": "Samarkand",
       "name": "Silk Road By Minyoun",
       "rooms": [
-        { "name": "Deluxe Room", "size": "38 m²", "beds": "1 King-size bed", "price": 170 },
-        { "name": "Executive Suite", "size": "75 m²", "beds": "1 King-size bed", "price": 350 }
+        {
+          "name": "Deluxe Room",
+          "size": "38 m²",
+          "beds": "1 King-size bed",
+          "price": 170
+        },
+        {
+          "name": "Executive Suite",
+          "size": "75 m²",
+          "beds": "1 King-size bed",
+          "price": 350
+        }
       ],
       "food": [
-        { "place_name": "Silk Road Restaurant", "menu": ["drinks", "meat", "international"], "price": [50000, 160000, 130000] }
+        {
+          "place_name": "Silk Road Restaurant",
+          "menu": [
+            "drinks",
+            "meat",
+            "international"
+          ],
+          "price": [
+            50000,
+            160000,
+            130000
+          ]
+        }
       ],
-      "location": { "lat": 39.66, "long": 66.98 },
+      "location": {
+        "lat": 39.66,
+        "long": 66.98
+      },
       "views": {
         "good": [
           "Luxury hotel with spacious and modern rooms.",
@@ -474,20 +932,44 @@
         ]
       }
     },
-
     {
       "id": 19,
       "country": "Uzbekistan",
       "city": "Samarkand",
       "name": "Mövenpick Samarkand",
       "rooms": [
-        { "name": "Classic Room", "size": "30 m²", "beds": "1 King-size bed", "price": 140 },
-        { "name": "Suite", "size": "60 m²", "beds": "1 King-size bed", "price": 280 }
+        {
+          "name": "Classic Room",
+          "size": "30 m²",
+          "beds": "1 King-size bed",
+          "price": 140
+        },
+        {
+          "name": "Suite",
+          "size": "60 m²",
+          "beds": "1 King-size bed",
+          "price": 280
+        }
       ],
       "food": [
-        { "place_name": "Movenpick Restaurant", "menu": ["drinks", "meat", "desserts"], "price": [40000, 140000, 60000] }
+        {
+          "place_name": "Movenpick Restaurant",
+          "menu": [
+            "drinks",
+            "meat",
+            "desserts"
+          ],
+          "price": [
+            40000,
+            140000,
+            60000
+          ]
+        }
       ],
-      "location": { "lat": 39.65, "long": 66.96 },
+      "location": {
+        "lat": 39.65,
+        "long": 66.96
+      },
       "views": {
         "good": [
           "Reliable international brand with consistent quality.",
@@ -500,20 +982,44 @@
         ]
       }
     },
-
     {
       "id": 20,
       "country": "Uzbekistan",
       "city": "Samarkand",
       "name": "Hotel Caravan Serail",
       "rooms": [
-        { "name": "Standard Room", "size": "25 m²", "beds": "1 Double bed", "price": 70 },
-        { "name": "Deluxe Room", "size": "30 m²", "beds": "1 King-size bed", "price": 100 }
+        {
+          "name": "Standard Room",
+          "size": "25 m²",
+          "beds": "1 Double bed",
+          "price": 70
+        },
+        {
+          "name": "Deluxe Room",
+          "size": "30 m²",
+          "beds": "1 King-size bed",
+          "price": 100
+        }
       ],
       "food": [
-        { "place_name": "Caravan Dining", "menu": ["drinks", "meat", "local"], "price": [25000, 90000, 70000] }
+        {
+          "place_name": "Caravan Dining",
+          "menu": [
+            "drinks",
+            "meat",
+            "local"
+          ],
+          "price": [
+            25000,
+            90000,
+            70000
+          ]
+        }
       ],
-      "location": { "lat": 39.66, "long": 66.97 },
+      "location": {
+        "lat": 39.66,
+        "long": 66.97
+      },
       "views": {
         "good": [
           "Good value for money.",
@@ -526,20 +1032,44 @@
         ]
       }
     },
-
     {
       "id": 21,
       "country": "Uzbekistan",
       "city": "Samarkand",
       "name": "Nizamov Hotel",
       "rooms": [
-        { "name": "Standard Room", "size": "24 m²", "beds": "1 Double bed", "price": 65 },
-        { "name": "Family Room", "size": "35 m²", "beds": "2 Double beds", "price": 95 }
+        {
+          "name": "Standard Room",
+          "size": "24 m²",
+          "beds": "1 Double bed",
+          "price": 65
+        },
+        {
+          "name": "Family Room",
+          "size": "35 m²",
+          "beds": "2 Double beds",
+          "price": 95
+        }
       ],
       "food": [
-        { "place_name": "Nizamov Dining", "menu": ["drinks", "meat", "breakfast"], "price": [20000, 75000, 40000] }
+        {
+          "place_name": "Nizamov Dining",
+          "menu": [
+            "drinks",
+            "meat",
+            "breakfast"
+          ],
+          "price": [
+            20000,
+            75000,
+            40000
+          ]
+        }
       ],
-      "location": { "lat": 39.655, "long": 66.965 },
+      "location": {
+        "lat": 39.655,
+        "long": 66.965
+      },
       "views": {
         "good": [
           "Budget-friendly hotel with decent comfort.",
@@ -552,20 +1082,44 @@
         ]
       }
     },
-
     {
       "id": 22,
       "country": "Uzbekistan",
       "city": "Samarkand",
       "name": "Platan",
       "rooms": [
-        { "name": "Standard Room", "size": "28 m²", "beds": "1 King-size bed", "price": 110 },
-        { "name": "Suite", "size": "50 m²", "beds": "1 King-size bed", "price": 220 }
+        {
+          "name": "Standard Room",
+          "size": "28 m²",
+          "beds": "1 King-size bed",
+          "price": 110
+        },
+        {
+          "name": "Suite",
+          "size": "50 m²",
+          "beds": "1 King-size bed",
+          "price": 220
+        }
       ],
       "food": [
-        { "place_name": "Platan Restaurant", "menu": ["drinks", "meat", "salads"], "price": [35000, 120000, 70000] }
+        {
+          "place_name": "Platan Restaurant",
+          "menu": [
+            "drinks",
+            "meat",
+            "salads"
+          ],
+          "price": [
+            35000,
+            120000,
+            70000
+          ]
+        }
       ],
-      "location": { "lat": 39.654, "long": 66.964 },
+      "location": {
+        "lat": 39.654,
+        "long": 66.964
+      },
       "views": {
         "good": [
           "Comfortable mid-range hotel with good service.",
@@ -578,20 +1132,44 @@
         ]
       }
     },
-
     {
       "id": 23,
       "country": "Uzbekistan",
       "city": "Samarkand",
       "name": "Guest House SEASONS",
       "rooms": [
-        { "name": "Standard Room", "size": "20 m²", "beds": "1 Double bed", "price": 50 },
-        { "name": "Family Room", "size": "30 m²", "beds": "2 Double beds", "price": 80 }
+        {
+          "name": "Standard Room",
+          "size": "20 m²",
+          "beds": "1 Double bed",
+          "price": 50
+        },
+        {
+          "name": "Family Room",
+          "size": "30 m²",
+          "beds": "2 Double beds",
+          "price": 80
+        }
       ],
       "food": [
-        { "place_name": "Guest Dining", "menu": ["drinks", "home food", "breakfast"], "price": [15000, 50000, 30000] }
+        {
+          "place_name": "Guest Dining",
+          "menu": [
+            "drinks",
+            "home food",
+            "breakfast"
+          ],
+          "price": [
+            15000,
+            50000,
+            30000
+          ]
+        }
       ],
-      "location": { "lat": 39.66, "long": 66.96 },
+      "location": {
+        "lat": 39.66,
+        "long": 66.96
+      },
       "views": {
         "good": [
           "Very affordable and cozy guest house.",
@@ -603,7 +1181,864 @@
           "Not suitable for luxury travelers."
         ]
       }
-    }
+    },
+    {
+      "id": 24,
+      "country": "Uzbekistan",
+      "city": "Bukhara",
+      "name": "Bibi-Khanym Hotel",
+      "rooms": [
+        {
+          "name": "Standard Room",
+          "size": "25 m²",
+          "beds": "1 Double bed",
+          "price": 70
+        },
+        {
+          "name": "Deluxe Room",
+          "size": "32 m²",
+          "beds": "1 King-size bed",
+          "price": 100
+        }
+      ],
+      "food": [
+        {
+          "place_name": "Khanym Dining",
+          "menu": [
+            "drinks",
+            "meat",
+            "traditional"
+          ],
+          "price": [
+            25000,
+            90000,
+            70000
+          ]
+        }
+      ],
+      "location": {
+        "lat": 39.7747,
+        "long": 64.4286
+      },
+      "views": {
+        "good": [
+          "Close to historical monuments and walking distance to main attractions.",
+          "Authentic Uzbek design and traditional atmosphere.",
+          "Friendly staff and welcoming environment."
+        ],
+        "bad": [
+          "Rooms are relatively basic.",
+          "Limited modern amenities."
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "name": "Rangrez Hotel",
+      "country": "Uzbekistan",
+      "city": "Bukhara",
+      "rooms": [
+        {
+          "name": "Standard",
+          "size": "22 m²",
+          "beds": "1 Double bed",
+          "price": 60
+        },
+        {
+          "name": "Deluxe",
+          "size": "30 m²",
+          "beds": "1 King-size bed",
+          "price": 90
+        }
+      ],
+      "food": [
+        {
+          "place_name": "Rangrez Cafe",
+          "menu": [
+            "drinks",
+            "meat",
+            "salads"
+          ],
+          "price": [
+            20000,
+            80000,
+            60000
+          ]
+        }
+      ],
+      "location": {
+        "lat": 39.77,
+        "long": 64.42
+      },
+      "views": {
+        "good": [
+          "Affordable boutique hotel with traditional style.",
+          "Quiet atmosphere and good location.",
+          "Clean and comfortable rooms."
+        ],
+        "bad": [
+          "Small room sizes.",
+          "Limited service options."
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "name": "Amelia Hotel",
+      "country": "Uzbekistan",
+      "city": "Bukhara",
+      "rooms": [
+        {
+          "name": "Standard",
+          "size": "24 m²",
+          "beds": "1 Double bed",
+          "price": 80
+        },
+        {
+          "name": "Suite",
+          "size": "40 m²",
+          "beds": "1 King-size bed",
+          "price": 140
+        }
+      ],
+      "food": [
+        {
+          "place_name": "Amelia Restaurant",
+          "menu": [
+            "drinks",
+            "meat",
+            "traditional"
+          ],
+          "price": [
+            30000,
+            100000,
+            80000
+          ]
+        }
+      ],
+      "location": {
+        "lat": 39.775,
+        "long": 64.425
+      },
+      "views": {
+        "good": [
+          "Beautiful historic building with authentic decor.",
+          "Excellent location near Lyabi-Hauz.",
+          "Highly praised atmosphere and design."
+        ],
+        "bad": [
+          "Rooms vary in size and layout.",
+          "Slightly higher price for boutique experience."
+        ]
+      }
+    },
+    {
+      "id": 27,
+      "name": "Salom Inn",
+      "country": "Uzbekistan",
+      "city": "Bukhara",
+      "rooms": [
+        {
+          "name": "Standard",
+          "size": "20 m²",
+          "beds": "1 Double bed",
+          "price": 50
+        },
+        {
+          "name": "Family Room",
+          "size": "30 m²",
+          "beds": "2 Double beds",
+          "price": 75
+        }
+      ],
+      "food": [
+        {
+          "place_name": "Salom Dining",
+          "menu": [
+            "drinks",
+            "home food",
+            "breakfast"
+          ],
+          "price": [
+            15000,
+            50000,
+            30000
+          ]
+        }
+      ],
+      "location": {
+        "lat": 39.77,
+        "long": 64.43
+      },
+      "views": {
+        "good": [
+          "Very budget-friendly option.",
+          "Home-style cooking and cozy environment.",
+          "Friendly and helpful hosts."
+        ],
+        "bad": [
+          "Basic facilities.",
+          "Not suitable for luxury stays."
+        ]
+      }
+    },
+    {
+      "id": 28,
+      "name": "Meros Hotel",
+      "country": "Uzbekistan",
+      "city": "Bukhara",
+      "rooms": [
+        {
+          "name": "Standard",
+          "size": "24 m²",
+          "beds": "1 Double bed",
+          "price": 65
+        },
+        {
+          "name": "Deluxe",
+          "size": "30 m²",
+          "beds": "1 King-size bed",
+          "price": 95
+        }
+      ],
+      "food": [
+        {
+          "place_name": "Meros Restaurant",
+          "menu": [
+            "drinks",
+            "meat",
+            "local"
+          ],
+          "price": [
+            20000,
+            85000,
+            60000
+          ]
+        }
+      ],
+      "location": {
+        "lat": 39.774,
+        "long": 64.424
+      },
+      "views": {
+        "good": [
+          "Good value for money.",
+          "Clean rooms and calm environment.",
+          "Convenient location."
+        ],
+        "bad": [
+          "Limited amenities.",
+          "Simple breakfast options."
+        ]
+      }
+    },
+    {
+      "id": 29,
+      "name": "Wyndham Bukhara",
+      "country": "Uzbekistan",
+      "city": "Bukhara",
+      "rooms": [
+        {
+          "name": "Standard Room",
+          "size": "32 m²",
+          "beds": "1 King-size bed",
+          "price": 150
+        },
+        {
+          "name": "Suite",
+          "size": "70 m²",
+          "beds": "1 King-size bed",
+          "price": 320
+        }
+      ],
+      "food": [
+        {
+          "place_name": "Wyndham Restaurant",
+          "menu": [
+            "drinks",
+            "meat",
+            "international"
+          ],
+          "price": [
+            50000,
+            160000,
+            120000
+          ]
+        }
+      ],
+      "location": {
+        "lat": 39.77,
+        "long": 64.43
+      },
+      "views": {
+        "good": [
+          "Modern international hotel with high comfort level.",
+          "Spacious rooms and strong service quality.",
+          "Good facilities including pool and gym."
+        ],
+        "bad": [
+          "More expensive than most Bukhara hotels.",
+          "Less traditional atmosphere."
+        ]
+      }
+    },
+    {
+      "id": 30,
+      "name": "Lyabi-House Hotel",
+      "country": "Uzbekistan",
+      "city": "Bukhara",
+      "rooms": [
+        {
+          "name": "Standard",
+          "size": "28 m²",
+          "beds": "1 King-size bed",
+          "price": 120
+        },
+        {
+          "name": "Suite",
+          "size": "50 m²",
+          "beds": "1 King-size bed",
+          "price": 220
+        }
+      ],
+      "food": [
+        {
+          "place_name": "Lyabi Restaurant",
+          "menu": [
+            "drinks",
+            "meat",
+            "traditional"
+          ],
+          "price": [
+            35000,
+            120000,
+            90000
+          ]
+        }
+      ],
+      "location": {
+        "lat": 39.775,
+        "long": 64.425
+      },
+      "views": {
+        "good": [
+          "Historic building with unique architecture.",
+          "Excellent location near central square.",
+          "Authentic cultural experience."
+        ],
+        "bad": [
+          "Higher price for boutique style.",
+          "Limited modern features."
+        ]
+      }
+    },
+    {
+      "id": 31,
+      "name": "Hotel Malika Bukhara",
+      "country": "Uzbekistan",
+      "city": "Bukhara",
+      "rooms": [
+        {
+          "name": "Standard",
+          "size": "25 m²",
+          "beds": "1 Double bed",
+          "price": 85
+        },
+        {
+          "name": "Deluxe",
+          "size": "32 m²",
+          "beds": "1 King-size bed",
+          "price": 120
+        }
+      ],
+      "food": [
+        {
+          "place_name": "Malika Dining",
+          "menu": [
+            "drinks",
+            "meat",
+            "salads"
+          ],
+          "price": [
+            30000,
+            100000,
+            70000
+          ]
+        }
+      ],
+      "location": {
+        "lat": 39.774,
+        "long": 64.426
+      },
+      "views": {
+        "good": [
+          "Well-known reliable hotel in Bukhara.",
+          "Comfortable rooms and good service.",
+          "Convenient for tourists."
+        ],
+        "bad": [
+          "Slightly outdated design.",
+          "Can be busy in high season."
+        ]
+      }
+    },
+    {
+      "id": 32,
+      "name": "Kukaldosh Boutique Hotel",
+      "country": "Uzbekistan",
+      "city": "Bukhara",
+      "rooms": [
+        {
+          "name": "Boutique Room",
+          "size": "30 m²",
+          "beds": "1 King-size bed",
+          "price": 130
+        },
+        {
+          "name": "Suite",
+          "size": "55 m²",
+          "beds": "1 King-size bed",
+          "price": 240
+        }
+      ],
+      "food": [
+        {
+          "place_name": "Kukaldosh Dining",
+          "menu": [
+            "drinks",
+            "meat",
+            "traditional"
+          ],
+          "price": [
+            35000,
+            120000,
+            90000
+          ]
+        }
+      ],
+      "location": {
+        "lat": 39.775,
+        "long": 64.427
+      },
+      "views": {
+        "good": [
+          "Stylish boutique hotel with strong cultural design.",
+          "Excellent location near landmarks.",
+          "Personalized service."
+        ],
+        "bad": [
+          "Limited number of rooms.",
+          "Higher pricing."
+        ]
+      }
+    },
+    {
+      "id": 33,
+      "name": "Hotel Bukhara",
+      "country": "Uzbekistan",
+      "city": "Bukhara",
+      "rooms": [
+        {
+          "name": "Standard",
+          "size": "26 m²",
+          "beds": "1 Double bed",
+          "price": 70
+        },
+        {
+          "name": "Deluxe",
+          "size": "34 m²",
+          "beds": "1 King-size bed",
+          "price": 100
+        }
+      ],
+      "food": [
+        {
+          "place_name": "Bukhara Dining",
+          "menu": [
+            "drinks",
+            "meat",
+            "local"
+          ],
+          "price": [
+            25000,
+            90000,
+            70000
+          ]
+        }
+      ],
+      "location": {
+        "lat": 39.77,
+        "long": 64.42
+      },
+      "views": {
+        "good": [
+          "Affordable and centrally located.",
+          "Simple but comfortable rooms.",
+          "Good for short stays."
+        ],
+        "bad": [
+          "Basic facilities.",
+          "Limited services."
+        ]
+      }
+    },
+    {
+      "id": 34,
+      "name": "Hotel Asia Bukhara",
+      "country": "Uzbekistan",
+      "city": "Bukhara",
+      "rooms": [
+        {
+          "name": "Standard",
+          "size": "30 m²",
+          "beds": "1 King-size bed",
+          "price": 120
+        },
+        {
+          "name": "Suite",
+          "size": "60 m²",
+          "beds": "1 King-size bed",
+          "price": 250
+        }
+      ],
+      "food": [
+        {
+          "place_name": "Asia Restaurant",
+          "menu": [
+            "drinks",
+            "meat",
+            "buffet"
+          ],
+          "price": [
+            40000,
+            130000,
+            90000
+          ]
+        }
+      ],
+      "location": {
+        "lat": 39.775,
+        "long": 64.426
+      },
+      "views": {
+        "good": [
+          "Large hotel with good facilities.",
+          "Swimming pool and outdoor spaces appreciated.",
+          "Convenient location."
+        ],
+        "bad": [
+          "Can feel crowded with tour groups.",
+          "Service can be inconsistent."
+        ]
+      }
+    },
+    {
+      "id": 35,
+      "name": "Paradise Plaza Luxury Hotel",
+      "country": "Uzbekistan",
+      "city": "Bukhara",
+      "rooms": [
+        {
+          "name": "Deluxe Room",
+          "size": "35 m²",
+          "beds": "1 King-size bed",
+          "price": 140
+        },
+        {
+          "name": "Luxury Suite",
+          "size": "75 m²",
+          "beds": "1 King-size bed",
+          "price": 300
+        }
+      ],
+      "food": [
+        {
+          "place_name": "Paradise Dining",
+          "menu": [
+            "drinks",
+            "meat",
+            "international"
+          ],
+          "price": [
+            45000,
+            150000,
+            120000
+          ]
+        }
+      ],
+      "location": {
+        "lat": 39.77,
+        "long": 64.43
+      },
+      "views": {
+        "good": [
+          "Modern luxury hotel with high comfort level.",
+          "Spacious and stylish rooms.",
+          "Good service quality."
+        ],
+        "bad": [
+          "Higher price range.",
+          "Less traditional atmosphere."
+        ]
+      }
+    }, {
+      "id": 36,
+      "country": "Uzbekistan",
+      "city": "Khiva",
+      "name": "Farovon Khiva Hotel",
+      "rooms": [
+        { "name": "Standard Room", "size": "30 m²", "beds": "1 King-size bed", "price": 140 },
+        { "name": "Suite", "size": "65 m²", "beds": "1 King-size bed", "price": 280 }
+      ],
+      "food": [
+        { "place_name": "Farovon Restaurant", "menu": ["drinks", "meat", "buffet"], "price": [40000, 130000, 90000] }
+      ],
+      "location": { "lat": 41.3783, "long": 60.3639 },
+      "views": {
+        "good": [
+          "One of the most modern hotels in Khiva with full facilities.",
+          "Large rooms and high comfort level.",
+          "Good for luxury travelers."
+        ],
+        "bad": [
+          "Located outside old city walls.",
+          "More expensive than most Khiva hotels."
+        ]
+      }
+    },
 
+    {
+      "id": 37,
+      "name": "Polvon Qoriy Boutique Hotel",
+      "country": "Uzbekistan",
+      "city": "Khiva",
+      "rooms": [
+        { "name": "Boutique Room", "size": "25 m²", "beds": "1 Double bed", "price": 90 },
+        { "name": "Deluxe", "size": "32 m²", "beds": "1 King-size bed", "price": 120 }
+      ],
+      "food": [
+        { "place_name": "Polvon Dining", "menu": ["drinks", "meat", "traditional"], "price": [30000, 100000, 70000] }
+      ],
+      "location": { "lat": 41.377, "long": 60.36 },
+      "views": {
+        "good": [
+          "Authentic boutique experience inside historic area.",
+          "Beautiful traditional design.",
+          "Friendly and attentive staff."
+        ],
+        "bad": [
+          "Limited modern facilities.",
+          "Smaller room sizes."
+        ]
+      }
+    },
+
+    {
+      "id": 38,
+      "name": "Feruzkhan Hotel",
+      "country": "Uzbekistan",
+      "city": "Khiva",
+      "rooms": [
+        { "name": "Standard", "size": "24 m²", "beds": "1 Double bed", "price": 80 },
+        { "name": "Family Room", "size": "35 m²", "beds": "2 Double beds", "price": 110 }
+      ],
+      "food": [
+        { "place_name": "Feruz Dining", "menu": ["drinks", "meat", "local"], "price": [25000, 85000, 60000] }
+      ],
+      "location": { "lat": 41.378, "long": 60.362 },
+      "views": {
+        "good": [
+          "Good value for money.",
+          "Comfortable and clean rooms.",
+          "Convenient location near attractions."
+        ],
+        "bad": [
+          "Basic amenities.",
+          "Limited dining variety."
+        ]
+      }
+    },
+
+    {
+      "id": 39,
+      "name": "Islambek Khiva",
+      "country": "Uzbekistan",
+      "city": "Khiva",
+      "rooms": [
+        { "name": "Standard", "size": "22 m²", "beds": "1 Double bed", "price": 70 },
+        { "name": "Deluxe", "size": "28 m²", "beds": "1 King-size bed", "price": 95 }
+      ],
+      "food": [
+        { "place_name": "Islambek Dining", "menu": ["drinks", "meat", "breakfast"], "price": [20000, 75000, 50000] }
+      ],
+      "location": { "lat": 41.377, "long": 60.361 },
+      "views": {
+        "good": [
+          "Affordable and centrally located.",
+          "Friendly staff and welcoming atmosphere.",
+          "Good for budget travelers."
+        ],
+        "bad": [
+          "Simple facilities.",
+          "Rooms are small."
+        ]
+      }
+    },
+
+    {
+      "id": 40,
+      "name": "Hotel Bankir Khiva",
+      "country": "Uzbekistan",
+      "city": "Khiva",
+      "rooms": [
+        { "name": "Standard", "size": "24 m²", "beds": "1 Double bed", "price": 75 },
+        { "name": "Suite", "size": "40 m²", "beds": "1 King-size bed", "price": 130 }
+      ],
+      "food": [
+        { "place_name": "Bankir Dining", "menu": ["drinks", "meat", "traditional"], "price": [25000, 90000, 70000] }
+      ],
+      "location": { "lat": 41.378, "long": 60.363 },
+      "views": {
+        "good": [
+          "Comfortable and well-maintained hotel.",
+          "Good location near old city.",
+          "Friendly service."
+        ],
+        "bad": [
+          "Limited luxury features.",
+          "Basic breakfast options."
+        ]
+      }
+    },
+
+    {
+      "id": 41,
+      "name": "Khiva Siyovush Hotel",
+      "country": "Uzbekistan",
+      "city": "Khiva",
+      "rooms": [
+        { "name": "Standard", "size": "25 m²", "beds": "1 Double bed", "price": 80 },
+        { "name": "Deluxe", "size": "30 m²", "beds": "1 King-size bed", "price": 110 }
+      ],
+      "food": [
+        { "place_name": "Siyovush Dining", "menu": ["drinks", "meat", "local"], "price": [25000, 85000, 60000] }
+      ],
+      "location": { "lat": 41.377, "long": 60.362 },
+      "views": {
+        "good": [
+          "Clean and comfortable rooms.",
+          "Quiet environment.",
+          "Good service."
+        ],
+        "bad": [
+          "Limited amenities.",
+          "Not a luxury hotel."
+        ]
+      }
+    },
+
+    {
+      "id": 42,
+      "name": "Said Islom Khodja",
+      "country": "Uzbekistan",
+      "city": "Khiva",
+      "rooms": [
+        { "name": "Standard", "size": "22 m²", "beds": "1 Double bed", "price": 70 },
+        { "name": "Family Room", "size": "32 m²", "beds": "2 Double beds", "price": 100 }
+      ],
+      "food": [
+        { "place_name": "Khodja Dining", "menu": ["drinks", "meat", "traditional"], "price": [20000, 80000, 60000] }
+      ],
+      "location": { "lat": 41.378, "long": 60.36 },
+      "views": {
+        "good": [
+          "Located inside historical area.",
+          "Authentic atmosphere.",
+          "Friendly hosts."
+        ],
+        "bad": [
+          "Basic facilities.",
+          "Limited comfort level."
+        ]
+      }
+    },
+
+    {
+      "id": 43,
+      "name": "Shaherezada Khiva",
+      "country": "Uzbekistan",
+      "city": "Khiva",
+      "rooms": [
+        { "name": "Standard", "size": "24 m²", "beds": "1 Double bed", "price": 85 },
+        { "name": "Suite", "size": "45 m²", "beds": "1 King-size bed", "price": 150 }
+      ],
+      "food": [
+        { "place_name": "Shaherezada Dining", "menu": ["drinks", "meat", "traditional"], "price": [30000, 100000, 70000] }
+      ],
+      "location": { "lat": 41.377, "long": 60.361 },
+      "views": {
+        "good": [
+          "Beautiful boutique design.",
+          "Comfortable rooms and good service.",
+          "Nice atmosphere."
+        ],
+        "bad": [
+          "Higher price compared to similar hotels.",
+          "Limited facilities."
+        ]
+      }
+    },
+
+    {
+      "id": 44,
+      "name": "Hotel Erkin Palace",
+      "country": "Uzbekistan",
+      "city": "Khiva",
+      "rooms": [
+        { "name": "Standard", "size": "26 m²", "beds": "1 Double bed", "price": 90 },
+        { "name": "Suite", "size": "50 m²", "beds": "1 King-size bed", "price": 160 }
+      ],
+      "food": [
+        { "place_name": "Erkin Dining", "menu": ["drinks", "meat", "international"], "price": [30000, 110000, 90000] }
+      ],
+      "location": { "lat": 41.378, "long": 60.362 },
+      "views": {
+        "good": [
+          "Comfortable hotel with good facilities.",
+          "Clean and spacious rooms.",
+          "Friendly staff."
+        ],
+        "bad": [
+          "Not fully luxury level.",
+          "Slightly expensive for its category."
+        ]
+      }
+    },
+
+    {
+      "id": 45,
+      "name": "Sulton-Sayyor",
+      "country": "Uzbekistan",
+      "city": "Khiva",
+      "rooms": [
+        { "name": "Standard", "size": "22 m²", "beds": "1 Double bed", "price": 65 },
+        { "name": "Family Room", "size": "30 m²", "beds": "2 Double beds", "price": 95 }
+      ],
+      "food": [
+        { "place_name": "Sayyor Dining", "menu": ["drinks", "home food", "breakfast"], "price": [15000, 50000, 30000] }
+      ],
+      "location": { "lat": 41.377, "long": 60.36 },
+      "views": {
+        "good": [
+          "Very budget-friendly guesthouse.",
+          "Cozy and authentic experience.",
+          "Friendly hosts."
+        ],
+        "bad": [
+          "Very basic comfort.",
+          "Limited services."
+        ]
+      }
+    }
   ]
 }
