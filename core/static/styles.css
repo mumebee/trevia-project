@@ -39,7 +39,6 @@ header {
     margin-top: -90px;
 }
 .text-pill{
-    /* background-color: #ffffffbd; */
     padding: 15px 40px;
     border-radius: 100px;
     font-family: 'BoldCondensed';
@@ -86,7 +85,7 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(1, 50, 31, 0.45);   /* adjust opacity as needed */
+    background: rgba(1, 50, 31, 0.45);
     z-index: 0;
 }
 
@@ -96,7 +95,7 @@ header {
 .second-section {
     width: 100%;
     min-height: 100vh;
-    background-color: #01321F; /* Or a new image url */
+    background-color: #01321F;
     display: flex;
     justify-content: center;
     align-items: center;
