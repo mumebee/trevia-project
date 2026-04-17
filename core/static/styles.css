@@ -17,7 +17,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;       /* Spans the whole screen */
-    z-index: 99;      /* High enough to stay above everything */
+    z-index: 1;      /* High enough to stay above everything */
     pointer-events: none; /* Allows clicks to pass through to the section below if needed */
 }
 .page-wrapper {
@@ -30,7 +30,7 @@ header {
     flex-direction: column;
     align-items: center; 
     gap: 20px;
-    z-index: 2;
+    z-index: 1;
     margin-top: -90px;
 }
 .text-pill{
