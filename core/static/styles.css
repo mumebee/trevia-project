@@ -20,6 +20,12 @@ header {
     z-index: 1;      /* High enough to stay above everything */
     pointer-events: none; /* Allows clicks to pass through to the section below if needed */
 }
+@font-face {
+    font-family: 'BoldCondensed'; /* A name you choose for the font */
+    src: url('../../static/Brice Bold Condensed.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
 .page-wrapper {
     width: 100%;
     position: relative;
@@ -28,29 +34,35 @@ header {
 .pills-container{
     display: flex;
     flex-direction: column;
-    align-items: center; 
-    gap: 20px;
+    align-items: center;
     z-index: 1;
     margin-top: -90px;
 }
 .text-pill{
-    background-color: #cdc7b0;
+    /* background-color: #ffffffbd; */
     padding: 15px 40px;
     border-radius: 100px;
+    font-family: 'BoldCondensed';
+    color: #ffffff;
 }
 .welcome-pill h2{
     font-size: 2.5rem;
     font-weight: 400;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     text-transform: uppercase;
+    margin-bottom: -45px;
 }
 .trevia-pill{
     padding: 10px 60px;
 }
 .trevia-pill h2{
-    font-size: 4.5rem;
-    font-family: serif;
-    letter-spacing: 2px;
+    font-size: 125px;
+    font-family: 'BoldCondensed';
+    letter-spacing: 3px;
+    text-align: center;
+}
+.trevia-pill2{
+    margin-top: -65px;
 }
 .first-section {
     width: 100%; 
