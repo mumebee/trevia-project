@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Registan Square",
+    "country": "Uzbekistan",
+    "city": "Samarkand",
+    "category": ["history", "architecture", "museum", "walk"],
+    "duration": 2,
+    "price": 10,
+    "lat": 39.654,
+    "lng": 66.975,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/Registan_square_Samarkand.jpg"
+  }
+]
