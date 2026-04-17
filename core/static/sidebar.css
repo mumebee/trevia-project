@@ -10,6 +10,7 @@
     transition: all 0.3s;
     background: none;
     border: none;
+    z-index: 1000;
 }
 .overlay{
     position: fixed;
@@ -21,7 +22,7 @@
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s, visibility 0.3s;
-    z-index: 998;
+    z-index: 2;
     cursor: pointer;
     pointer-events: none;
 }
@@ -41,7 +42,7 @@
     background-color: #ece9da;
     box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
     transition: right 0.3s ease;
-    z-index: 999;
+    z-index: 1000;
     overflow: auto;
 }
 .sidebar-menu.active{

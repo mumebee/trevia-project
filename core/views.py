@@ -12,6 +12,9 @@ def about_view(request):
 def contacts_view(request):
     return render(request, 'core/contacts.html')
 
+def explore_view(request):
+    return render(request , "core/explore.html")
+
 def registration_view(request):
     if request.method == 'POST':
         print(request.POST)

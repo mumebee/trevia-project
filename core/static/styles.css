@@ -17,7 +17,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;       /* Spans the whole screen */
-    z-index: 1000;      /* High enough to stay above everything */
+    z-index: 99;      /* High enough to stay above everything */
     pointer-events: none; /* Allows clicks to pass through to the section below if needed */
 }
 .page-wrapper {
@@ -75,7 +75,7 @@ header {
     width: 100%;
     height: 100%;
     background: rgba(1, 50, 31, 0.45);   /* adjust opacity as needed */
-    z-index: 1;
+    z-index: 0;
 }
 
 .content-area{
