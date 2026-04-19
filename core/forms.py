@@ -7,11 +7,11 @@ class LoginForm(AuthenticationForm):
         super().__init__(*args, **kwargs)
         self.fields['username'].widget.attrs.update({
             'class': 'form-control',
-            'placeholder': 'Sizning usernamingiz'
+            'placeholder': 'username'
         })
         self.fields['password'].widget.attrs.update({
             'class': 'form-control',
-            'placeholder': 'Sizning parolingiz'
+            'placeholder': 'password'
         })
 
 class RegistrationForm(UserCreationForm):
@@ -26,10 +26,10 @@ class RegistrationForm(UserCreationForm):
         for field in self.fields.values():
             field.widget.attrs.update({'class': 'form-control'})
         
-        self.fields['username'].widget.attrs.update({'placeholder': 'Sizning usernamingiz'})
-        self.fields['email'].widget.attrs.update({'placeholder': 'Sizning emailingiz'})
-        self.fields['password1'].widget.attrs.update({'placeholder': 'Parol kiriting'})
-        self.fields['password2'].widget.attrs.update({'placeholder': 'Parol takrorlang'})
+        self.fields['username'].widget.attrs.update({'placeholder': 'username'})
+        self.fields['email'].widget.attrs.update({'placeholder': 'email'})
+        self.fields['password1'].widget.attrs.update({'placeholder': 'password'})
+        self.fields['password2'].widget.attrs.update({'placeholder': 'repeat password'})
 
     def save(self, commit=True):
         user = super().save(commit=False)
