@@ -20,6 +20,9 @@ def contacts_view(request):
 def explore_view(request):
     return render(request, "core/explore.html")
 
+def add_to_itinerary_activity(request):
+    return render(request, "core/itinerary.html")
+
 def registration_view(request):
     if request.method == 'POST':
         print(request.POST)
