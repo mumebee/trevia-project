@@ -1,0 +1,20 @@
+<h1>Hotels</h1>
+
+<form method="GET">
+    <input name="country" placeholder="Country">
+
+    <input name="min_price" type="number" placeholder="Min price">
+    <input name="max_price" type="number" placeholder="Max price">
+
+    <button type="submit">Filter</button>
+</form>
+
+<hr>
+
+{% for h in hotels %}
+    <div>
+        <h3>{{ h.name }}</h3>
+        <p>{{ h.city }}, {{ h.country }}</p>
+        <p>{{ h.price }}</p>
+    </div>
+{% endfor %}

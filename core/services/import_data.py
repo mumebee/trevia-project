@@ -3,52 +3,69 @@ from core.models import Activity, Restaurant, Hotel
 
 
 def load_json(path):
-    with open(path, 'r', encoding='utf-8') as f:
+    with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
 
-def run():
-    # ACTIVITIES
-    activities = load_json("data/activities.json")
-    for item in activities:
+# ACTIVITIES
+def import_activities():
+    data = load_json("data/activities.json")
+
+    for item in data:
         Activity.objects.create(
-            name =item["name"],
-            country = item["country"],
-            city = item["city"],
-            category = item.get("category", []),
-            duration = item.get("duration", 1),
-            price = item["price"],
-            lat = item["lat"],
-            lng = item["lng"],
-            image = item["image"]
+            name=item["name"],
+            country=item["country"],
+            city=item["city"],
+            category=item.get("category", ["general"])[0],
+            duration=item.get("duration", 1),
+            base_price=item.get("price", 0),
+            lat=item["lat"],
+            lng=item["lng"],
+            image=item["image"],
+            tags=",".join(item.get("category", []))
         )
 
-    # RESTAURANTS
-    restaurants = load_json("data/restaurants.json")
-    for item in restaurants:
+
+# RESTAURANTS
+def import_restaurants():
+    data = load_json("data/restaurants.json")
+
+    for item in data:
         Restaurant.objects.create(
-            name = item["name"],
-            country = item["country"],
-            city = item["city"],
-            cuisine_type = item.get("cuisine_type", ""),
-            price = item["price"],
-            lat = item["lat"],
-            lng = item["lng"],
-            image = item["image"]
+            name=item["name"],
+            country=item["country"],
+            city=item["city"],
+            cuisine_type=item.get("cuisine_type", ""),
+            base_price=item.get("price", 0),
+            lat=item["lat"],
+            lng=item["lng"],
+            image=item["image"],
+            tags=item.get("cuisine_type", "")
         )
 
-    # HOTELS
-    hotels = load_json("data/hotels.json")
-    for item in hotels:
+
+# HOTELS
+def import_hotels():
+    data = load_json("data/hotels.json")["hotels"]
+
+    for item in data:
+        min_price = min(room["price"] for room in item.get("rooms", []))
+
         Hotel.objects.create(
-            name = item["name"],
-            country = item["country"],
-            city = item["city"],
-            stars = item.get("stars", 3),
-            price = item["price"],
-            lat = item["lat"],
-            lng = item["lng"],
-            image = item["image"]
+            name=item["name"],
+            country=item["country"],
+            city=item["city"],
+            stars=3,
+            base_price=min_price,
+            lat=item["location"]["lat"],
+            lng=item["location"]["long"],
+            image="https://via.placeholder.com/300",
+            tags="hotel,luxury"
         )
 
-    print("DATA IMPORTING COMPLETE!!!")
+
+def run():
+    import_activities()
+    import_restaurants()
+    import_hotels()
+    print("DATA IMPORT COMPLETE")

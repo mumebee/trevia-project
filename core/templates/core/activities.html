@@ -1,0 +1,28 @@
+<h1>Activities</h1>
+
+<form method="GET">
+    <input name="country" placeholder="Country">
+    <input name="city" placeholder="City">
+
+    <input name="min_price" type="number" placeholder="Min price">
+    <input name="max_price" type="number" placeholder="Max price">
+
+    <label><input type="checkbox" name="tags" value="history"> History</label>
+    <label><input type="checkbox" name="tags" value="nature"> Nature</label>
+    <label><input type="checkbox" name="tags" value="food"> Food</label>
+
+    <button type="submit">Filter</button>
+</form>
+
+<hr>
+
+{% for a in activities %}
+    <div>
+        <h3>{{ a.name }}</h3>
+        <p>{{ a.city }}, {{ a.country }}</p>
+        <p>{{ a.price }}</p>
+
+        <a href="#">❤️ Like</a>
+        <a href="#">➕ Add to itinerary</a>
+    </div>
+{% endfor %}

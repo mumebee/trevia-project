@@ -1,0 +1,20 @@
+<h1>Restaurants</h1>
+
+<form method="GET">
+    <input name="country" placeholder="Country">
+
+    <input name="min_price" type="number" placeholder="Min price">
+    <input name="max_price" type="number" placeholder="Max price">
+
+    <button type="submit">Filter</button>
+</form>
+
+<hr>
+
+{% for r in restaurants %}
+    <div>
+        <h3>{{ r.name }}</h3>
+        <p>{{ r.cuisine_type }}</p>
+        <p>{{ r.price }}</p>
+    </div>
+{% endfor %}
