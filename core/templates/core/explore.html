@@ -1,17 +1,49 @@
-<h1>Explore Trevia</h1>
+{% load static %}
+<!DOCTYPE html>
+<html>
 
-<div class="explore-buttons">
+<head>
+    <title>Trevia</title>
 
-    <a href="{% url 'activities' %}">
-        <button>Activities</button>
-    </a>
+    <!-- <link rel="stylesheet" href="{% static 'styles.css' %}"> -->
+    <link rel="stylesheet" href="{% static 'header.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <a href="{% url 'restaurants' %}">
-        <button>Restaurants</button>
-    </a>
+    <link rel="stylesheet" href="{% static 'explore.css' %}">
+</head>
 
-    <a href="{% url 'hotels' %}">
-        <button>Hotels</button>
-    </a>
+<body>
 
-</div>
+    <div class="page-wrapper">
+        <main class="content-area">
+        
+            {% include 'components/header.html' %}
+            
+            <section class="first-section">
+                <div class="explore-div">
+                    <h2 class="text-explore">EXPLORE</h2>
+                </div>
+                <div class="explore-categories">
+
+                    <div class="category"></div>
+                    <div class="category"></div>
+                    <div class="category"></div>
+                    <div class="category"></div>
+                    <div class="category"></div>
+                    <div class="category"></div>
+                    <div class="category"></div>
+                    <div class="category"></div>
+                </div>
+            </section>
+            <section class="second-section">
+                
+            </section>
+        </main>
+    </div>
+
+    <footer>
+    </footer>
+
+</body>
+</html>

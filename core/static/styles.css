@@ -8,24 +8,21 @@ body {
     line-height: 1.6;
     background-color: #01321F;
     margin: 0;
-    /* display: flex;
-    justify-content: center;
-    min-height: 100vh; */
 }
 header {
     position: absolute; 
     top: 0;
     left: 0;
-    width: 100%;       /* Spans the whole screen */
-    z-index: 1;      /* High enough to stay above everything */
-    pointer-events: none; /* Allows clicks to pass through to the section below if needed */
+    width: 100%;
+    z-index: 1;
+    pointer-events: none;
 }
 @font-face {
-    font-family: 'BoldCondensed'; /* A name you choose for the font */
+    font-family: 'BoldCondensed';
     src: url('../../static/Brice Bold Condensed.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
-  }
+}
 .page-wrapper {
     width: 100%;
     position: relative;
@@ -65,7 +62,7 @@ header {
 }
 .first-section {
     width: 100%; 
-    min-height: 100vh;
+    min-height: 160vh;
     background-image: url('../../static/trevia_back.png');
     background-size: cover;
     background-position: center;
