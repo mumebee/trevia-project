@@ -10,4 +10,13 @@ urlpatterns = [
     path('logout/', views.logout_view, name='logout'),
     path('profile/', views.profile_view, name='profile'),
     path('explore/', views.explore_view, name='explore'),
+
+    path("like/", views.like_place),
+    path("itinerary/", views.add_to_itinerary_activity),
+
+    path("explore/", views.explore_view, name="explore"),
+
+    path("explore/activities/", views.activities_view, name="activities"),
+    path("explore/restaurants/", views.restaurants_view, name="restaurants"),
+    path("explore/hotels/", views.hotels_view, name="hotels"),
 ]
