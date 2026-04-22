@@ -1781,19 +1781,45 @@
           "Less traditional atmosphere."
         ]
       }
-    }, {
+    },
+    {
       "id": 36,
       "country": "Uzbekistan",
       "city": "Khiva",
       "name": "Farovon Khiva Hotel",
       "rooms": [
-        { "name": "Standard Room", "size": "30 m²", "beds": "1 King-size bed", "price": 140 },
-        { "name": "Suite", "size": "65 m²", "beds": "1 King-size bed", "price": 280 }
+        {
+          "name": "Standard Room",
+          "size": "30 m²",
+          "beds": "1 King-size bed",
+          "price": 140
+        },
+        {
+          "name": "Suite",
+          "size": "65 m²",
+          "beds": "1 King-size bed",
+          "price": 280
+        }
       ],
       "food": [
-        { "place_name": "Farovon Restaurant", "menu": ["drinks", "meat", "buffet"], "price": [40000, 130000, 90000] }
+        {
+          "place_name": "Farovon Restaurant",
+          "menu": [
+            "drinks",
+            "meat",
+            "buffet"
+          ],
+          "price": [
+            40000,
+            130000,
+            90000
+          ]
+        }
       ],
-      "location": { "lat": 41.3783, "long": 60.3639 },
+      "location": {
+        "lat": 41.3783,
+        "long": 60.3639
+      },
       "views": {
         "good": [
           "One of the most modern hotels in Khiva with full facilities.",
@@ -1806,20 +1832,44 @@
         ]
       }
     },
-
     {
       "id": 37,
       "name": "Polvon Qoriy Boutique Hotel",
       "country": "Uzbekistan",
       "city": "Khiva",
       "rooms": [
-        { "name": "Boutique Room", "size": "25 m²", "beds": "1 Double bed", "price": 90 },
-        { "name": "Deluxe", "size": "32 m²", "beds": "1 King-size bed", "price": 120 }
+        {
+          "name": "Boutique Room",
+          "size": "25 m²",
+          "beds": "1 Double bed",
+          "price": 90
+        },
+        {
+          "name": "Deluxe",
+          "size": "32 m²",
+          "beds": "1 King-size bed",
+          "price": 120
+        }
       ],
       "food": [
-        { "place_name": "Polvon Dining", "menu": ["drinks", "meat", "traditional"], "price": [30000, 100000, 70000] }
+        {
+          "place_name": "Polvon Dining",
+          "menu": [
+            "drinks",
+            "meat",
+            "traditional"
+          ],
+          "price": [
+            30000,
+            100000,
+            70000
+          ]
+        }
       ],
-      "location": { "lat": 41.377, "long": 60.36 },
+      "location": {
+        "lat": 41.377,
+        "long": 60.36
+      },
       "views": {
         "good": [
           "Authentic boutique experience inside historic area.",
@@ -1832,20 +1882,44 @@
         ]
       }
     },
-
     {
       "id": 38,
       "name": "Feruzkhan Hotel",
       "country": "Uzbekistan",
       "city": "Khiva",
       "rooms": [
-        { "name": "Standard", "size": "24 m²", "beds": "1 Double bed", "price": 80 },
-        { "name": "Family Room", "size": "35 m²", "beds": "2 Double beds", "price": 110 }
+        {
+          "name": "Standard",
+          "size": "24 m²",
+          "beds": "1 Double bed",
+          "price": 80
+        },
+        {
+          "name": "Family Room",
+          "size": "35 m²",
+          "beds": "2 Double beds",
+          "price": 110
+        }
       ],
       "food": [
-        { "place_name": "Feruz Dining", "menu": ["drinks", "meat", "local"], "price": [25000, 85000, 60000] }
+        {
+          "place_name": "Feruz Dining",
+          "menu": [
+            "drinks",
+            "meat",
+            "local"
+          ],
+          "price": [
+            25000,
+            85000,
+            60000
+          ]
+        }
       ],
-      "location": { "lat": 41.378, "long": 60.362 },
+      "location": {
+        "lat": 41.378,
+        "long": 60.362
+      },
       "views": {
         "good": [
           "Good value for money.",
@@ -1858,20 +1932,44 @@
         ]
       }
     },
-
     {
       "id": 39,
       "name": "Islambek Khiva",
       "country": "Uzbekistan",
       "city": "Khiva",
       "rooms": [
-        { "name": "Standard", "size": "22 m²", "beds": "1 Double bed", "price": 70 },
-        { "name": "Deluxe", "size": "28 m²", "beds": "1 King-size bed", "price": 95 }
+        {
+          "name": "Standard",
+          "size": "22 m²",
+          "beds": "1 Double bed",
+          "price": 70
+        },
+        {
+          "name": "Deluxe",
+          "size": "28 m²",
+          "beds": "1 King-size bed",
+          "price": 95
+        }
       ],
       "food": [
-        { "place_name": "Islambek Dining", "menu": ["drinks", "meat", "breakfast"], "price": [20000, 75000, 50000] }
+        {
+          "place_name": "Islambek Dining",
+          "menu": [
+            "drinks",
+            "meat",
+            "breakfast"
+          ],
+          "price": [
+            20000,
+            75000,
+            50000
+          ]
+        }
       ],
-      "location": { "lat": 41.377, "long": 60.361 },
+      "location": {
+        "lat": 41.377,
+        "long": 60.361
+      },
       "views": {
         "good": [
           "Affordable and centrally located.",
@@ -1884,20 +1982,44 @@
         ]
       }
     },
-
     {
       "id": 40,
       "name": "Hotel Bankir Khiva",
       "country": "Uzbekistan",
       "city": "Khiva",
       "rooms": [
-        { "name": "Standard", "size": "24 m²", "beds": "1 Double bed", "price": 75 },
-        { "name": "Suite", "size": "40 m²", "beds": "1 King-size bed", "price": 130 }
+        {
+          "name": "Standard",
+          "size": "24 m²",
+          "beds": "1 Double bed",
+          "price": 75
+        },
+        {
+          "name": "Suite",
+          "size": "40 m²",
+          "beds": "1 King-size bed",
+          "price": 130
+        }
       ],
       "food": [
-        { "place_name": "Bankir Dining", "menu": ["drinks", "meat", "traditional"], "price": [25000, 90000, 70000] }
+        {
+          "place_name": "Bankir Dining",
+          "menu": [
+            "drinks",
+            "meat",
+            "traditional"
+          ],
+          "price": [
+            25000,
+            90000,
+            70000
+          ]
+        }
       ],
-      "location": { "lat": 41.378, "long": 60.363 },
+      "location": {
+        "lat": 41.378,
+        "long": 60.363
+      },
       "views": {
         "good": [
           "Comfortable and well-maintained hotel.",
@@ -1910,20 +2032,44 @@
         ]
       }
     },
-
     {
       "id": 41,
       "name": "Khiva Siyovush Hotel",
       "country": "Uzbekistan",
       "city": "Khiva",
       "rooms": [
-        { "name": "Standard", "size": "25 m²", "beds": "1 Double bed", "price": 80 },
-        { "name": "Deluxe", "size": "30 m²", "beds": "1 King-size bed", "price": 110 }
+        {
+          "name": "Standard",
+          "size": "25 m²",
+          "beds": "1 Double bed",
+          "price": 80
+        },
+        {
+          "name": "Deluxe",
+          "size": "30 m²",
+          "beds": "1 King-size bed",
+          "price": 110
+        }
       ],
       "food": [
-        { "place_name": "Siyovush Dining", "menu": ["drinks", "meat", "local"], "price": [25000, 85000, 60000] }
+        {
+          "place_name": "Siyovush Dining",
+          "menu": [
+            "drinks",
+            "meat",
+            "local"
+          ],
+          "price": [
+            25000,
+            85000,
+            60000
+          ]
+        }
       ],
-      "location": { "lat": 41.377, "long": 60.362 },
+      "location": {
+        "lat": 41.377,
+        "long": 60.362
+      },
       "views": {
         "good": [
           "Clean and comfortable rooms.",
@@ -1936,20 +2082,44 @@
         ]
       }
     },
-
     {
       "id": 42,
       "name": "Said Islom Khodja",
       "country": "Uzbekistan",
       "city": "Khiva",
       "rooms": [
-        { "name": "Standard", "size": "22 m²", "beds": "1 Double bed", "price": 70 },
-        { "name": "Family Room", "size": "32 m²", "beds": "2 Double beds", "price": 100 }
+        {
+          "name": "Standard",
+          "size": "22 m²",
+          "beds": "1 Double bed",
+          "price": 70
+        },
+        {
+          "name": "Family Room",
+          "size": "32 m²",
+          "beds": "2 Double beds",
+          "price": 100
+        }
       ],
       "food": [
-        { "place_name": "Khodja Dining", "menu": ["drinks", "meat", "traditional"], "price": [20000, 80000, 60000] }
+        {
+          "place_name": "Khodja Dining",
+          "menu": [
+            "drinks",
+            "meat",
+            "traditional"
+          ],
+          "price": [
+            20000,
+            80000,
+            60000
+          ]
+        }
       ],
-      "location": { "lat": 41.378, "long": 60.36 },
+      "location": {
+        "lat": 41.378,
+        "long": 60.36
+      },
       "views": {
         "good": [
           "Located inside historical area.",
@@ -1962,20 +2132,44 @@
         ]
       }
     },
-
     {
       "id": 43,
       "name": "Shaherezada Khiva",
       "country": "Uzbekistan",
       "city": "Khiva",
       "rooms": [
-        { "name": "Standard", "size": "24 m²", "beds": "1 Double bed", "price": 85 },
-        { "name": "Suite", "size": "45 m²", "beds": "1 King-size bed", "price": 150 }
+        {
+          "name": "Standard",
+          "size": "24 m²",
+          "beds": "1 Double bed",
+          "price": 85
+        },
+        {
+          "name": "Suite",
+          "size": "45 m²",
+          "beds": "1 King-size bed",
+          "price": 150
+        }
       ],
       "food": [
-        { "place_name": "Shaherezada Dining", "menu": ["drinks", "meat", "traditional"], "price": [30000, 100000, 70000] }
+        {
+          "place_name": "Shaherezada Dining",
+          "menu": [
+            "drinks",
+            "meat",
+            "traditional"
+          ],
+          "price": [
+            30000,
+            100000,
+            70000
+          ]
+        }
       ],
-      "location": { "lat": 41.377, "long": 60.361 },
+      "location": {
+        "lat": 41.377,
+        "long": 60.361
+      },
       "views": {
         "good": [
           "Beautiful boutique design.",
@@ -1988,20 +2182,44 @@
         ]
       }
     },
-
     {
       "id": 44,
       "name": "Hotel Erkin Palace",
       "country": "Uzbekistan",
       "city": "Khiva",
       "rooms": [
-        { "name": "Standard", "size": "26 m²", "beds": "1 Double bed", "price": 90 },
-        { "name": "Suite", "size": "50 m²", "beds": "1 King-size bed", "price": 160 }
+        {
+          "name": "Standard",
+          "size": "26 m²",
+          "beds": "1 Double bed",
+          "price": 90
+        },
+        {
+          "name": "Suite",
+          "size": "50 m²",
+          "beds": "1 King-size bed",
+          "price": 160
+        }
       ],
       "food": [
-        { "place_name": "Erkin Dining", "menu": ["drinks", "meat", "international"], "price": [30000, 110000, 90000] }
+        {
+          "place_name": "Erkin Dining",
+          "menu": [
+            "drinks",
+            "meat",
+            "international"
+          ],
+          "price": [
+            30000,
+            110000,
+            90000
+          ]
+        }
       ],
-      "location": { "lat": 41.378, "long": 60.362 },
+      "location": {
+        "lat": 41.378,
+        "long": 60.362
+      },
       "views": {
         "good": [
           "Comfortable hotel with good facilities.",
@@ -2014,20 +2232,44 @@
         ]
       }
     },
-
     {
       "id": 45,
       "name": "Sulton-Sayyor",
       "country": "Uzbekistan",
       "city": "Khiva",
       "rooms": [
-        { "name": "Standard", "size": "22 m²", "beds": "1 Double bed", "price": 65 },
-        { "name": "Family Room", "size": "30 m²", "beds": "2 Double beds", "price": 95 }
+        {
+          "name": "Standard",
+          "size": "22 m²",
+          "beds": "1 Double bed",
+          "price": 65
+        },
+        {
+          "name": "Family Room",
+          "size": "30 m²",
+          "beds": "2 Double beds",
+          "price": 95
+        }
       ],
       "food": [
-        { "place_name": "Sayyor Dining", "menu": ["drinks", "home food", "breakfast"], "price": [15000, 50000, 30000] }
+        {
+          "place_name": "Sayyor Dining",
+          "menu": [
+            "drinks",
+            "home food",
+            "breakfast"
+          ],
+          "price": [
+            15000,
+            50000,
+            30000
+          ]
+        }
       ],
-      "location": { "lat": 41.377, "long": 60.36 },
+      "location": {
+        "lat": 41.377,
+        "long": 60.36
+      },
       "views": {
         "good": [
           "Very budget-friendly guesthouse.",
