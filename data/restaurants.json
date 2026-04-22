@@ -1,12 +1,3493 @@
 [
   {
-    "name": "Atmosfera",
+    "name": "Cafe 1991",
     "country": "Uzbekistan",
     "city": "Tashkent",
     "cuisine_type": "uzbek",
-    "price": 7,
-    "lat": 41.339,
-    "lng": 69.284,
+    "menu": {
+      "shashlik": 98000,
+      "plov": 75000,
+      "lagman": 45000,
+      "manti": 52000,
+      "samsa": 25000,
+      "shurpa": 38000
+    },
+    "lat": 41.3128,
+    "lng": 69.2797,
     "image": "https://avatars.mds.yandex.net/get-altay/14702189/2a00000195dd2d1c116d0cf5b2d32d5c31a5/orig"
+  },
+  {
+    "name": "Jumanji",
+    "country": "Uzbekistan",
+    "city": "Tashkent",
+    "cuisine_type": "fusion",
+    "menu": {
+      "sushi_rolls": 65000,
+      "shashlik": 85000,
+      "manti": 55000,
+      "dim_sum": 48000,
+      "pizza": 72000,
+      "salad": 38000
+    },
+    "lat": 41.2995,
+    "lng": 69.2400,
+    "image": "https://avatars.mds.yandex.net/get-altay/12345678/abc123def/orig"
+  },
+  {
+    "name": "Manana",
+    "country": "Uzbekistan",
+    "city": "Tashkent",
+    "cuisine_type": "georgian",
+    "menu": {
+      "khachapuri": 78000,
+      "shashlik": 92000,
+      "khinkali": 68000,
+      "adjarian_boat": 85000,
+      "satsivi": 65000,
+      "pkhali": 42000
+    },
+    "lat": 41.3110,
+    "lng": 69.2750,
+    "image": "https://avatars.mds.yandex.net/get-altay/87654321/manana_tashkent/orig"
+  },
+  {
+    "name": "Anor",
+    "country": "Uzbekistan",
+    "city": "Tashkent",
+    "cuisine_type": "uzbek",
+    "menu": {
+      "lagman": 42000,
+      "shurpa": 38000,
+      "samsa": 25000,
+      "plov": 72000,
+      "norin": 45000,
+      "qovurma": 58000
+    },
+    "lat": 41.2900,
+    "lng": 69.2600,
+    "image": "https://avatars.mds.yandex.net/get-altay/45678901/anor_tashkent/orig"
+  },
+  {
+    "name": "Arisu",
+    "country": "Uzbekistan",
+    "city": "Tashkent",
+    "cuisine_type": "uzbek",
+    "menu": {
+      "plov": 72000,
+      "shashlik": 88000,
+      "manti": 52000,
+      "tandir_noodles": 48000,
+      "dimlama": 65000,
+      "somsa_meat": 28000
+    },
+    "lat": 41.3050,
+    "lng": 69.2850,
+    "image": "https://avatars.mds.yandex.net/get-altay/23456789/arisu_tashkent/orig"
+  },
+  {
+    "name": "Istanbul",
+    "country": "Uzbekistan",
+    "city": "Tashkent",
+    "cuisine_type": "turkish",
+    "menu": {
+      "kebab": 75000,
+      "pide": 68000,
+      "baklava": 32000,
+      "doner": 62000,
+      "lahmacun": 45000,
+      "ayran": 18000
+    },
+    "lat": 41.3150,
+    "lng": 69.2650,
+    "image": "https://avatars.mds.yandex.net/get-altay/34567890/istanbul_tashkent/orig"
+  },
+  {
+    "name": "Tandiriy",
+    "country": "Uzbekistan",
+    "city": "Tashkent",
+    "cuisine_type": "uzbek",
+    "menu": {
+      "tandir_noodles": 48000,
+      "shashlik": 90000,
+      "non": 15000,
+      "plov": 78000,
+      "qazy": 85000,
+      "kazy": 72000
+    },
+    "lat": 41.3000,
+    "lng": 69.2700,
+    "image": "https://avatars.mds.yandex.net/get-altay/56789012/tandiriy_tashkent/orig"
+  },
+  {
+    "name": "Южанин",
+    "country": "Uzbekistan",
+    "city": "Tashkent",
+    "cuisine_type": "uzbek",
+    "menu": {
+      "plov": 78000,
+      "shashlik": 95000,
+      "shurpa": 42000,
+      "manti": 55000,
+      "samsa": 26000,
+      "lagman": 44000
+    },
+    "lat": 41.3100,
+    "lng": 69.2800,
+    "image": "https://avatars.mds.yandex.net/get-altay/67890123/yuzhanin_tashkent/orig"
+  },
+  {
+    "name": "MEATme Grill & Bar",
+    "country": "Uzbekistan",
+    "city": "Tashkent",
+    "cuisine_type": "steakhouse",
+    "menu": {
+      "ribeye": 185000,
+      "shashlik": 98000,
+      "burger": 65000,
+      "t-bone": 220000,
+      "ribs": 125000,
+      "salad": 38000
+    },
+    "lat": 41.3200,
+    "lng": 69.2900,
+    "image": "https://avatars.mds.yandex.net/get-altay/78901234/meatme_tashkent/orig"
+  },
+  {
+    "name": "Uzbekona",
+    "country": "Uzbekistan",
+    "city": "Tashkent",
+    "cuisine_type": "uzbek",
+    "menu": {
+      "oasis_plov": 82000,
+      "shashlik": 92000,
+      "samsa": 28000,
+      "shurpa": 41000,
+      "manti": 54000,
+      "lagman": 46000
+    },
+    "lat": 41.3080,
+    "lng": 69.2780,
+    "image": "https://avatars.mds.yandex.net/get-altay/89012345/uzbekona_tashkent/orig"
+  },
+  {
+    "name": "Köfteci Ramiz",
+    "country": "Uzbekistan",
+    "city": "Tashkent",
+    "cuisine_type": "turkish",
+    "menu": {
+      "kofte": 72000,
+      "doner": 68000,
+      "lahmacun": 45000,
+      "iskender": 78000,
+      "pide": 65000,
+      "baklava": 32000
+    },
+    "lat": 41.3020,
+    "lng": 69.2720,
+    "image": "https://avatars.mds.yandex.net/get-altay/90123456/ramiz_tashkent/orig"
+  },
+  {
+    "name": "Miramandi",
+    "country": "Uzbekistan",
+    "city": "Tashkent",
+    "cuisine_type": "uzbek",
+    "menu": {
+      "miramandi_plov": 76000,
+      "shashlik": 88000,
+      "manti": 48000,
+      "shurpa": 39000,
+      "samsa": 27000,
+      "norin": 44000
+    },
+    "lat": 41.3180,
+    "lng": 69.2680,
+    "image": "https://avatars.mds.yandex.net/get-altay/01234567/miramandi_tashkent/orig"
+  },
+  {
+    "name": "Afsona Restaurant",
+    "country": "Uzbekistan",
+    "city": "Tashkent",
+    "cuisine_type": "uzbek",
+    "menu": {
+      "legend_plov": 79000,
+      "shashlik": 93000,
+      "lagman": 46000,
+      "manti": 56000,
+      "qovurma": 62000,
+      "somsa": 29000
+    },
+    "lat": 41.3070,
+    "lng": 69.2810,
+    "image": "https://avatars.mds.yandex.net/get-altay/12345678/afsona_tashkent/orig"
+  },
+  {
+    "name": "Khiva Restaurant",
+    "country": "Uzbekistan",
+    "city": "Tashkent",
+    "cuisine_type": "khorezm",
+    "menu": {
+      "khorezm_plov": 82000,
+      "shashlik": 95000,
+      "norin": 52000,
+      "shurpa": 41000,
+      "chorba": 38000,
+      "kazy": 78000
+    },
+    "lat": 41.3090,
+    "lng": 69.2770,
+    "image": "https://avatars.mds.yandex.net/get-altay/23456789/khiva_tashkent/orig"
+  },
+  {
+    "name": "Karimbek",
+    "country": "Uzbekistan",
+    "city": "Samarkand",
+    "cuisine_type": "uzbek",
+    "menu": {
+      "shashlik": 85000,
+      "pilaff": 72000,
+      "manti": 48000,
+      "shurpa": 38000,
+      "samsa": 25000,
+      "lagman": 42000
+    },
+    "lat": 39.6542,
+    "lng": 66.9750,
+    "image": "https://avatars.mds.yandex.net/get-altay/11111111/karimbek_samarkand/orig"
+  },
+  {
+    "name": "Samarkand",
+    "country": "Uzbekistan",
+    "city": "Samarkand",
+    "cuisine_type": "uzbek",
+    "menu": {
+      "gijduvon_shashlik": 92000,
+      "manti": 52000,
+      "samsa": 28000,
+      "shurva": 41000,
+      "plov": 78000,
+      "non": 18000
+    },
+    "lat": 39.6505,
+    "lng": 66.9851,
+    "image": "https://avatars.mds.yandex.net/get-altay/22222222/samarkand_rest/orig"
+  },
+  {
+    "name": "Uyfaytlar",
+    "country": "Uzbekistan",
+    "city": "Samarkand",
+    "cuisine_type": "uzbek",
+    "menu": {
+      "plov": 74000,
+      "shashlik": 88000,
+      "shurpa": 39000,
+      "manti": 49000,
+      "samsa_potato": 24000,
+      "qovurma": 58000
+    },
+    "lat": 39.6523,
+    "lng": 66.9789,
+    "image": "https://avatars.mds.yandex.net/get-altay/33333333/uyfaytlar_samarkand/orig"
+  },
+  {
+    "name": "Valide",
+    "country": "Uzbekistan",
+    "city": "Samarkand",
+    "cuisine_type": "uzbek",
+    "menu": {
+      "royal_plov": 82000,
+      "shashlik": 95000,
+      "norin": 45000,
+      "shurpa": 42000,
+      "tandir_noodles": 48000,
+      "samsa": 27000
+    },
+    "lat": 39.6487,
+    "lng": 66.9824,
+    "image": "https://avatars.mds.yandex.net/get-altay/44444444/valide_samarkand/orig"
+  },
+  {
+    "name": "Sangizar",
+    "country": "Uzbekistan",
+    "city": "Samarkand",
+    "cuisine_type": "uzbek_european",
+    "menu": {
+      "park_plov": 79000,
+      "shashlik": 90000,
+      "grilled_veggies": 38000,
+      "manti": 51000,
+      "caesar_salad": 45000,
+      "lagman": 43000
+    },
+    "lat": 39.6601,
+    "lng": 66.9702,
+    "image": "https://avatars.mds.yandex.net/get-altay/55555555/sangizar_samarkand/orig"
+  },
+  {
+    "name": "Katana",
+    "country": "Uzbekistan",
+    "city": "Samarkand",
+    "cuisine_type": "japanese_uzbek",
+    "menu": {
+      "sushi_set": 85000,
+      "shashlik": 88000,
+      "miso_soup": 28000,
+      "ramen": 65000,
+      "tempura": 52000,
+      "plov_rolls": 72000
+    },
+    "lat": 39.6534,
+    "lng": 66.9778,
+    "image": "https://avatars.mds.yandex.net/get-altay/66666666/katana_samarkand/orig"
+  },
+  {
+    "name": "Emirhan",
+    "country": "Uzbekistan",
+    "city": "Samarkand",
+    "cuisine_type": "uzbek",
+    "menu": {
+      "emir_plov": 81000,
+      "shashlik": 94000,
+      "manti": 53000,
+      "shurpa": 40000,
+      "samsa": 26000,
+      "qazy": 78000
+    },
+    "lat": 39.6512,
+    "lng": 66.9805,
+    "image": "https://avatars.mds.yandex.net/get-altay/77777777/emirhan_samarkand/orig"
+  },
+  {
+    "name": "Samarqand Osh Markazi N1",
+    "country": "Uzbekistan",
+    "city": "Samarkand",
+    "cuisine_type": "uzbek",
+    "menu": {
+      "osh_plov": 68000,
+      "shashlik": 82000,
+      "samsa": 23000,
+      "lagman": 41000,
+      "manti": 47000,
+      "shurpa": 37000
+    },
+    "lat": 39.6478,
+    "lng": 66.9843,
+    "image": "https://avatars.mds.yandex.net/get-altay/88888888/osh_markazi_samarkand/orig"
+  },
+  {
+    "name": "Mone Cafe & Bakery",
+    "country": "Uzbekistan",
+    "city": "Samarkand",
+    "cuisine_type": "cafe",
+    "menu": {
+      "croissant": 25000,
+      "latte": 38000,
+      "cheesecake": 45000,
+      "sandwich": 42000,
+      "pancakes": 39000,
+      "smoothie": 35000
+    },
+    "lat": 39.6556,
+    "lng": 66.9767,
+    "image": "https://avatars.mds.yandex.net/get-altay/99999999/mone_samarkand/orig"
+  },
+  {
+    "name": "Menresa",
+    "country": "Uzbekistan",
+    "city": "Samarkand",
+    "cuisine_type": "uzbek",
+    "menu": {
+      "palace_plov": 83000,
+      "shashlik": 96000,
+      "manti": 55000,
+      "shurpa": 43000,
+      "samsa": 29000,
+      "norin": 46000
+    },
+    "lat": 39.6499,
+    "lng": 66.9812,
+    "image": "https://avatars.mds.yandex.net/get-altay/10101010/menresa_samarkand/orig"
+  },
+  {
+    "name": "Old City Restaurant",
+    "country": "Uzbekistan",
+    "city": "Samarkand",
+    "cuisine_type": "uzbek",
+    "menu": {
+      "ancient_plov": 77000,
+      "shashlik": 91000,
+      "manti": 50000,
+      "shurpa": 39000,
+      "samsa": 27000,
+      "lagman": 44000
+    },
+    "lat": 39.6521,
+    "lng": 66.9790,
+    "image": "https://avatars.mds.yandex.net/get-altay/12121212/oldcity_samarkand/orig"
+  },
+  {
+    "name": "Avesto",
+    "country": "Uzbekistan",
+    "city": "Samarkand",
+    "cuisine_type": "uzbek",
+    "menu": {
+      "avesto_plov": 80000,
+      "shashlik": 93000,
+      "manti": 52000,
+      "shurpa": 41000,
+      "samsa": 26000,
+      "qovurma": 59000
+    },
+    "lat": 39.6508,
+    "lng": 66.9836,
+    "image": "https://avatars.mds.yandex.net/get-altay/13131313/avesto_samarkand/orig"
+  },
+  {
+    "name": "Terrassa Cafe & Restaurant",
+    "country": "Uzbekistan",
+    "city": "Khiva",
+    "cuisine_type": "uzbek",
+    "menu": {
+      "panoramic_plov": 82000,
+      "shashlik_plate": 95000,
+      "manti": 52000,
+      "shurpa": 41000,
+      "samsa": 27000,
+      "lagman": 45000
+    },
+    "lat": 41.3805,
+    "lng": 60.3540,
+    "image": "https://avatars.mds.yandex.net/get-altay/11112222/terrassa_khiva/orig"
+  },
+  {
+    "name": "Khorezm Art Restaurant",
+    "country": "Uzbekistan",
+    "city": "Khiva",
+    "cuisine_type": "khorezm",
+    "menu": {
+      "khorezm_plov": 85000,
+      "shashlik": 92000,
+      "norin": 48000,
+      "chorba": 39000,
+      "kazy": 78000,
+      "samsa": 26000
+    },
+    "lat": 41.3812,
+    "lng": 60.3551,
+    "image": "https://avatars.mds.yandex.net/get-altay/22223333/khorezm_art_khiva/orig"
+  },
+  {
+    "name": "Khiva Moon",
+    "country": "Uzbekistan",
+    "city": "Khiva",
+    "cuisine_type": "uzbek_asian",
+    "menu": {
+      "moon_plov": 78000,
+      "shashlik": 88000,
+      "manti": 51000,
+      "lagman": 43000,
+      "shurpa": 38000,
+      "dimlama": 62000
+    },
+    "lat": 41.3802,
+    "lng": 60.3542,
+    "image": "https://avatars.mds.yandex.net/get-altay/33334444/khiva_moon/orig"
+  },
+  {
+    "name": "Cafe Zarafshon",
+    "country": "Uzbekistan",
+    "city": "Khiva",
+    "cuisine_type": "uzbek",
+    "menu": {
+      "zarafshon_shurpa": 39000,
+      "shashlik": 85000,
+      "samsa": 25000,
+      "plov": 74000,
+      "manti": 49000,
+      "achichuk": 42000
+    },
+    "lat": 41.3821,
+    "lng": 60.3560,
+    "image": "https://avatars.mds.yandex.net/get-altay/44445555/zarafshon_khiva/orig"
+  },
+  {
+    "name": "Mirza Bashi",
+    "country": "Uzbekistan",
+    "city": "Khiva",
+    "cuisine_type": "uzbek",
+    "menu": {
+      "norin_noodles": 45000,
+      "shashlik": 90000,
+      "plov": 76000,
+      "manti": 53000,
+      "shurpa": 40000,
+      "qovurma": 58000
+    },
+    "lat": 41.3798,
+    "lng": 60.3535,
+    "image": "https://avatars.mds.yandex.net/get-altay/55556666/mirza_bashi_khiva/orig"
+  },
+  {
+    "name": "Bir Gumbaz",
+    "country": "Uzbekistan",
+    "city": "Khiva",
+    "cuisine_type": "uzbek",
+    "menu": {
+      "minaret_plov": 80000,
+      "shashlik": 93000,
+      "samsa": 28000,
+      "lagman": 46000,
+      "shurpa": 41000,
+      "kazy": 76000
+    },
+    "lat": 41.3815,
+    "lng": 60.3558,
+    "image": "https://avatars.mds.yandex.net/get-altay/66667777/bir_gumbaz_khiva/orig"
+  },
+  {
+    "name": "Malika Kheivak Restaurant",
+    "country": "Uzbekistan",
+    "city": "Khiva",
+    "cuisine_type": "uzbek",
+    "menu": {
+      "kheivak_plov": 79000,
+      "shashlik": 91000,
+      "manti": 50000,
+      "shurpa": 39000,
+      "samsa": 26000,
+      "norin": 44000
+    },
+    "lat": 41.3808,
+    "lng": 60.3547,
+    "image": "https://avatars.mds.yandex.net/get-altay/77778888/malika_kheivak/orig"
+  },
+  {
+    "name": "Zarafshan Chaikhana",
+    "country": "Uzbekistan",
+    "city": "Khiva",
+    "cuisine_type": "uzbek",
+    "menu": {
+      "chaikhana_plov": 72000,
+      "shashlik": 84000,
+      "samsa": 24000,
+      "shurpa": 37000,
+      "non": 15000,
+      "qatiq": 28000
+    },
+    "lat": 41.3824,
+    "lng": 60.3562,
+    "image": "https://avatars.mds.yandex.net/get-altay/88889999/zarafshan_chaikhana/orig"
+  },
+  {
+    "name": "Restaurant Yasavul Boshis",
+    "country": "Uzbekistan",
+    "city": "Khiva",
+    "cuisine_type": "uzbek",
+    "menu": {
+      "yasavul_plov": 83000,
+      "shashlik": 96000,
+      "manti": 54000,
+      "shurpa": 42000,
+      "lagman": 47000,
+      "qazy": 79000
+    },
+    "lat": 41.3795,
+    "lng": 60.3532,
+    "image": "https://avatars.mds.yandex.net/get-altay/99990000/yasavul_boshis/orig"
+  },
+  {
+    "name": "Sultan Restourant",
+    "country": "Uzbekistan",
+    "city": "Khiva",
+    "cuisine_type": "uzbek",
+    "menu": {
+      "sultan_plov": 86000,
+      "shashlik": 98000,
+      "norin": 49000,
+      "shurpa": 43000,
+      "samsa": 29000,
+      "dimlama": 65000
+    },
+    "lat": 41.3810,
+    "lng": 60.3554,
+    "image": "https://avatars.mds.yandex.net/get-altay/10101011/sultan_khiva/orig"
+  },
+  {
+    "name": "JOY Gastro Restaurant",
+    "country": "Uzbekistan",
+    "city": "Bukhara",
+    "cuisine_type": "modern_uzbek",
+    "menu": {
+      "gastro_plov": 95000,
+      "shashlik_deluxe": 105000,
+      "manti_truffle": 68000,
+      "beef_tartar": 72000,
+      "caesar_salad": 45000,
+      "lavash_wrap": 38000
+    },
+    "lat": 39.7743,
+    "lng": 64.4268,
+    "image": "https://avatars.mds.yandex.net/get-altay/12121212/joy_gastro_bukhara/orig"
+  },
+  {
+    "name": "Ayvan",
+    "country": "Uzbekistan",
+    "city": "Bukhara",
+    "cuisine_type": "uzbek",
+    "menu": {
+      "bukhara_plov": 55000,
+      "shashlik": 85000,
+      "manti": 48000,
+      "shurpa": 38000,
+      "samsa": 25000,
+      "lagman": 42000
+    },
+    "lat": 39.7712,
+    "lng": 64.4289,
+    "image": "https://avatars.mds.yandex.net/get-altay/23232323/ayvan_bukhara/orig"
+  },
+  {
+    "name": "Zolotaya Buhara",
+    "country": "Uzbekistan",
+    "city": "Bukhara",
+    "cuisine_type": "uzbek",
+    "menu": {
+      "golden_plov": 82000,
+      "shashlik": 92000,
+      "jiz_biz": 65000,
+      "shurpa": 41000,
+      "samsa": 27000,
+      "qazy": 78000
+    },
+    "lat": 39.7735,
+    "lng": 64.4256,
+    "image": "https://avatars.mds.yandex.net/get-altay/34343434/zolotaya_bukhara/orig"
+  },
+  {
+    "name": "Zaytoon",
+    "country": "Uzbekistan",
+    "city": "Bukhara",
+    "cuisine_type": "lebanese",
+    "menu": {
+      "hummus_plate": 38000,
+      "shawarma": 65000,
+      "falafel": 42000,
+      "tabouleh": 35000,
+      "grilled_halloumi": 58000,
+      "baklava": 28000
+    },
+    "lat": 39.7751,
+    "lng": 64.4272,
+    "image": "https://avatars.mds.yandex.net/get-altay/45454545/zaytoon_bukhara/orig"
+  },
+  {
+    "name": "Old Bukhara",
+    "country": "Uzbekistan",
+    "city": "Bukhara",
+    "cuisine_type": "uzbek",
+    "menu": {
+      "ancient_plov": 78000,
+      "shashlik": 90000,
+      "manti": 51000,
+      "shurpa": 39000,
+      "samsa": 26000,
+      "norin": 45000
+    },
+    "lat": 39.7708,
+    "lng": 64.4295,
+    "image": "https://avatars.mds.yandex.net/get-altay/56565656/old_bukhara/orig"
+  },
+  {
+    "name": "Labi Hovuz",
+    "country": "Uzbekistan",
+    "city": "Bukhara",
+    "cuisine_type": "uzbek",
+    "menu": {
+      "hovuz_plov": 76000,
+      "shashlik": 88000,
+      "samsa": 24000,
+      "lagman": 43000,
+      "shurpa": 37000,
+      "qatiq": 29000
+    },
+    "lat": 39.7724,
+    "lng": 64.4261,
+    "image": "https://avatars.mds.yandex.net/get-altay/67676767/labi_hovuz/orig"
+  },
+  {
+    "name": "The Plov Center",
+    "country": "Uzbekistan",
+    "city": "Bukhara",
+    "cuisine_type": "uzbek",
+    "menu": {
+      "classic_plov": 68000,
+      "wedding_plov": 72000,
+      "shashlik": 85000,
+      "manti": 47000,
+      "samsa": 23000,
+      "shurpa": 36000
+    },
+    "lat": 39.7748,
+    "lng": 64.4249,
+    "image": "https://avatars.mds.yandex.net/get-altay/78787878/plov_center_bukhara/orig"
+  },
+  {
+    "name": "Garten Restaurant",
+    "country": "Uzbekistan",
+    "city": "Bukhara",
+    "cuisine_type": "european_uzbek",
+    "menu": {
+      "garden_salad": 42000,
+      "steak": 125000,
+      "pizza": 65000,
+      "pasta": 58000,
+      "shashlik": 92000,
+      "tiramisu": 38000
+    },
+    "lat": 39.7762,
+    "lng": 64.4237,
+    "image": "https://avatars.mds.yandex.net/get-altay/89898989/garten_bukhara/orig"
+  },
+  {
+    "name": "Besh Qozon",
+    "country": "Uzbekistan",
+    "city": "Bukhara",
+    "cuisine_type": "uzbek",
+    "menu": {
+      "besh_qozon": 85000,
+      "shashlik": 93000,
+      "manti": 52000,
+      "shurpa": 40000,
+      "samsa": 27000,
+      "lagman": 45000
+    },
+    "lat": 39.7695,
+    "lng": 64.4301,
+    "image": "https://avatars.mds.yandex.net/get-altay/90909090/besh_qozon_bukhara/orig"
+  },
+  {
+    "name": "Minor Somsa",
+    "country": "Uzbekistan",
+    "city": "Bukhara",
+    "cuisine_type": "uzbek",
+    "menu": {
+      "meat_samsa": 25000,
+      "potato_samsa": 22000,
+      "pumpkin_samsa": 23000,
+      "shashlik": 87000,
+      "plov": 74000,
+      "shurpa": 38000
+    },
+    "lat": 39.7739,
+    "lng": 64.4254,
+    "image": "https://avatars.mds.yandex.net/get-altay/01010101/minor_somsa_bukhara/orig"
+  },
+  {
+    "name": "Ammar Cafe",
+    "country": "Turkmenistan",
+    "city": "Ashgabat",
+    "cuisine_type": "turkmen",
+    "menu": {
+      "plov": 45000,
+      "shashlik": 65000,
+      "manti": 38000,
+      "shorba": 32000,
+      "samsa": 22000,
+      "chechek": 28000
+    },
+    "lat": 37.9412,
+    "lng": 58.4020,
+    "image": "https://avatars.mds.yandex.net/get-altay/11110000/ammar_ashgabat/orig"
+  },
+  {
+    "name": "Sha Coffee",
+    "country": "Turkmenistan",
+    "city": "Ashgabat",
+    "cuisine_type": "cafe",
+    "menu": {
+      "coffee": 25000,
+      "shashlik": 62000,
+      "sandwich": 35000,
+      "cake": 28000,
+      "latte": 32000,
+      "samsa": 23000
+    },
+    "lat": 37.9421,
+    "lng": 58.4035,
+    "image": "https://avatars.mds.yandex.net/get-altay/22220000/sha_coffee_ashgabat/orig"
+  },
+  {
+    "name": "AlpEt Steakhouse",
+    "country": "Turkmenistan",
+    "city": "Ashgabat",
+    "cuisine_type": "steakhouse",
+    "menu": {
+      "ribeye": 125000,
+      "shashlik": 78000,
+      "manti": 42000,
+      "salad": 35000,
+      "plov": 48000,
+      "beer": 25000
+    },
+    "lat": 37.9408,
+    "lng": 58.4042,
+    "image": "https://avatars.mds.yandex.net/get-altay/33330000/alpet_steakhouse/orig"
+  },
+  {
+    "name": "Hezzet Restaurant",
+    "country": "Turkmenistan",
+    "city": "Ashgabat",
+    "cuisine_type": "turkmen",
+    "menu": {
+      "ishlekli": 42000,
+      "plov": 46000,
+      "shashlik": 68000,
+      "dograma": 38000,
+      "gutap": 29000,
+      "chak_chak": 22000
+    },
+    "lat": 37.9430,
+    "lng": 58.4018,
+    "image": "https://avatars.mds.yandex.net/get-altay/44440000/hezzet_ashgabat/orig"
+  },
+  {
+    "name": "Evos",
+    "country": "Turkmenistan",
+    "city": "Ashgabat",
+    "cuisine_type": "fast_food",
+    "menu": {
+      "burger": 38000,
+      "shashlik": 59000,
+      "fries": 22000,
+      "plov": 45000,
+      "samsa": 25000,
+      "cola": 15000
+    },
+    "lat": 37.9418,
+    "lng": 58.4028,
+    "image": "https://avatars.mds.yandex.net/get-altay/55550000/evos_ashgabat/orig"
+  },
+  {
+    "name": "KOPETDAG PROJECT",
+    "country": "Turkmenistan",
+    "city": "Ashgabat",
+    "cuisine_type": "modern_turkmen",
+    "menu": {
+      "kopetdag_plov": 52000,
+      "shashlik": 72000,
+      "manti": 41000,
+      "shorba": 34000,
+      "samsa": 24000,
+      "salad": 32000
+    },
+    "lat": 37.9445,
+    "lng": 58.4005,
+    "image": "https://avatars.mds.yandex.net/get-altay/66660000/kopetdag_project/orig"
+  },
+  {
+    "name": "Joshgun Palow House",
+    "country": "Turkmenistan",
+    "city": "Ashgabat",
+    "cuisine_type": "turkmen",
+    "menu": {
+      "palow": 44000,
+      "shashlik": 67000,
+      "manti": 39000,
+      "shorba": 33000,
+      "samsa": 23000,
+      "qutab": 28000
+    },
+    "lat": 37.9398,
+    "lng": 58.4051,
+    "image": "https://avatars.mds.yandex.net/get-altay/77770000/joshgun_palow/orig"
+  },
+  {
+    "name": "Üzüm Café",
+    "country": "Turkmenistan",
+    "city": "Ashgabat",
+    "cuisine_type": "cafe",
+    "menu": {
+      "grape_salad": 32000,
+      "shashlik": 64000,
+      "plov": 47000,
+      "coffee": 26000,
+      "cake": 29000,
+      "samsa": 24000
+    },
+    "lat": 37.9427,
+    "lng": 58.4032,
+    "image": "https://avatars.mds.yandex.net/get-altay/88880000/uzum_cafe_ashgabat/orig"
+  },
+  {
+    "name": "Oguzhan Restaurant",
+    "country": "Turkmenistan",
+    "city": "Ashgabat",
+    "cuisine_type": "turkmen",
+    "menu": {
+      "oguz_plov": 48000,
+      "shashlik": 70000,
+      "ishlekli": 41000,
+      "dograma": 37000,
+      "samsa": 25000,
+      "chak_chak": 24000
+    },
+    "lat": 37.9435,
+    "lng": 58.4012,
+    "image": "https://avatars.mds.yandex.net/get-altay/99990000/oguzhan_ashgabat/orig"
+  },
+  {
+    "name": "Kopetdag Restaurant",
+    "country": "Turkmenistan",
+    "city": "Ashgabat",
+    "cuisine_type": "turkmen",
+    "menu": {
+      "mountain_plov": 49000,
+      "shashlik": 71000,
+      "manti": 40000,
+      "shorba": 35000,
+      "gutap": 29000,
+      "samsa": 24000
+    },
+    "lat": 37.9402,
+    "lng": 58.4048,
+    "image": "https://avatars.mds.yandex.net/get-altay/10101000/kopetdag_rest_ashgabat/orig"
+  },{
+    "name": "Turkmenbashi Sea Port Restaurant",
+    "country": "Turkmenistan",
+    "city": "Turkmenbashi",
+    "cuisine_type": "seafood_turkmen",
+    "menu": {
+      "caspian_fish_plov": 52000,
+      "grilled_sturgeon": 78000,
+      "shashlik": 65000,
+      "fish_shorba": 38000,
+      "samsa_seafood": 32000,
+      "manti_fish": 42000
+    },
+    "lat": 40.0198,
+    "lng": 52.9652,
+    "image": "https://avatars.mds.yandex.net/get-altay/11111111/seaport_turkmenbashi/orig"
+  },
+  {
+    "name": "Cafe Lido",
+    "country": "Turkmenistan",
+    "city": "Turkmenbashi",
+    "cuisine_type": "seafood",
+    "menu": {
+      "seafood_platter": 85000,
+      "grilled_fish": 68000,
+      "shashlik": 62000,
+      "shorba": 34000,
+      "samsa": 25000,
+      "salad": 32000
+    },
+    "lat": 40.0215,
+    "lng": 52.9678,
+    "image": "https://avatars.mds.yandex.net/get-altay/22222222/cafe_lido_awaza/orig"
+  },
+  {
+    "name": "Awaza Restaurant",
+    "country": "Turkmenistan",
+    "city": "Turkmenbashi",
+    "cuisine_type": "turkmen",
+    "menu": {
+      "awaza_plov": 48000,
+      "shashlik": 67000,
+      "manti": 39000,
+      "shorba": 33000,
+      "samsa": 24000,
+      "dograma": 37000
+    },
+    "lat": 40.0232,
+    "lng": 52.9691,
+    "image": "https://avatars.mds.yandex.net/get-altay/33333333/awaza_restaurant/orig"
+  },
+  {
+    "name": "Caravan Restaurant",
+    "country": "Turkmenistan",
+    "city": "Turkmenbashi",
+    "cuisine_type": "turkmen",
+    "menu": {
+      "caravan_plov": 46000,
+      "kebab_plate": 64000,
+      "ishlekli": 41000,
+      "gutap": 29000,
+      "shorba": 35000,
+      "samsa": 23000
+    },
+    "lat": 40.0189,
+    "lng": 52.9645,
+    "image": "https://avatars.mds.yandex.net/get-altay/44444444/caravan_turkmenbashi/orig"
+  },
+  {
+    "name": "Merw Restaurant",
+    "country": "Turkmenistan",
+    "city": "Turkmenbashi",
+    "cuisine_type": "turkmen",
+    "menu": {
+      "merw_plov": 47000,
+      "shashlik": 66000,
+      "manti": 40000,
+      "vegetable_plov": 38000,
+      "samsa": 25000,
+      "salad": 30000
+    },
+    "lat": 40.0204,
+    "lng": 52.9663,
+    "image": "https://avatars.mds.yandex.net/get-altay/55555555/merw_restaurant/orig"
+  },
+  {
+    "name": "Olga",
+    "country": "Turkmenistan",
+    "city": "Turkmenbashi",
+    "cuisine_type": "international",
+    "menu": {
+      "olga_plov": 49000,
+      "steak": 95000,
+      "pizza": 58000,
+      "shashlik": 68000,
+      "pasta": 45000,
+      "dessert": 32000
+    },
+    "lat": 40.0221,
+    "lng": 52.9680,
+    "image": "https://avatars.mds.yandex.net/get-altay/66666666/olga_turkmenbashi/orig"
+  },
+  {
+    "name": "Tolkun",
+    "country": "Turkmenistan",
+    "city": "Turkmenbashi",
+    "cuisine_type": "turkmen",
+    "menu": {
+      "tolkun_plov": 45000,
+      "shashlik": 63000,
+      "manti": 38000,
+      "shorba": 32000,
+      "samsa": 22000,
+      "qutab": 28000
+    },
+    "lat": 40.0192,
+    "lng": 52.9658,
+    "image": "https://avatars.mds.yandex.net/get-altay/77777777/tolkun_restaurant/orig"
+  },
+  {
+    "name": "DorLoft Restoranı",
+    "country": "Turkmenistan",
+    "city": "Turkmenbashi",
+    "cuisine_type": "modern_turkmen",
+    "menu": {
+      "loft_plov": 52000,
+      "shashlik_deluxe": 74000,
+      "manti": 41000,
+      "salad": 34000,
+      "samsa": 26000,
+      "dessert": 30000
+    },
+    "lat": 40.0210,
+    "lng": 52.9672,
+    "image": "https://avatars.mds.yandex.net/get-altay/88888888/dorloft_turkmenbashi/orig"
+  },
+  {
+    "name": "Кафе Uly Balkan",
+    "country": "Turkmenistan",
+    "city": "Turkmenbashi",
+    "cuisine_type": "turkmen",
+    "menu": {
+      "balkan_plov": 46000,
+      "shashlik": 65000,
+      "ishlekli": 39000,
+      "gutap": 28000,
+      "shorba": 33000,
+      "samsa": 24000
+    },
+    "lat": 40.0200,
+    "lng": 52.9660,
+    "image": "https://avatars.mds.yandex.net/get-altay/99999999/uly_balkan/orig"
+  },
+  {
+    "name": "Balkan Restaurant",
+    "country": "Turkmenistan",
+    "city": "Turkmenbashi",
+    "cuisine_type": "turkmen",
+    "menu": {
+      "balkan_plov": 47000,
+      "shashlik": 67000,
+      "manti": 40000,
+      "dograma": 37000,
+      "samsa": 25000,
+      "chak_chak": 26000
+    },
+    "lat": 40.0185,
+    "lng": 52.9640,
+    "image": "https://avatars.mds.yandex.net/get-altay/10101010/balkan_rest_turkmenbashi/orig"
+  },{
+    "name": "Taze Gun Restaurant Aladdin",
+    "country": "Turkmenistan",
+    "city": "Mary",
+    "cuisine_type": "turkmen",
+    "menu": {
+      "aladdin_plov": 48000,
+      "shashlik": 67000,
+      "manti": 39000,
+      "shorba": 34000,
+      "samsa": 25000,
+      "ishlekli": 42000
+    },
+    "lat": 37.5935,
+    "lng": 61.8312,
+    "image": "https://avatars.mds.yandex.net/get-altay/11111111/aladdin_mary/orig"
+  },
+  {
+    "name": "Cafe MaryLand",
+    "country": "Turkmenistan",
+    "city": "Mary",
+    "cuisine_type": "cafe",
+    "menu": {
+      "maryland_plov": 45000,
+      "shashlik": 64000,
+      "coffee": 28000,
+      "samsa": 24000,
+      "cake": 32000,
+      "sandwich": 38000
+    },
+    "lat": 37.5942,
+    "lng": 61.8328,
+    "image": "https://avatars.mds.yandex.net/get-altay/22222222/maryland_mary/orig"
+  },
+  {
+    "name": "Mary Restoran",
+    "country": "Turkmenistan",
+    "city": "Mary",
+    "cuisine_type": "turkmen",
+    "menu": {
+      "mary_plov": 46000,
+      "shashlik": 65000,
+      "manti": 40000,
+      "shorba": 33000,
+      "gutap": 29000,
+      "dograma": 37000
+    },
+    "lat": 37.5928,
+    "lng": 61.8305,
+    "image": "https://avatars.mds.yandex.net/get-altay/33333333/mary_restoran/orig"
+  },
+  {
+    "name": "Shapak Restaurant",
+    "country": "Turkmenistan",
+    "city": "Mary",
+    "cuisine_type": "turkmen",
+    "menu": {
+      "shapak_plov": 47000,
+      "shashlik": 66000,
+      "samsa": 26000,
+      "shorba": 35000,
+      "manti": 41000,
+      "qutab": 30000
+    },
+    "lat": 37.5951,
+    "lng": 61.8334,
+    "image": "https://avatars.mds.yandex.net/get-altay/44444444/shapak_mary/orig"
+  },
+  {
+    "name": "Elin Pizza",
+    "country": "Turkmenistan",
+    "city": "Mary",
+    "cuisine_type": "pizza",
+    "menu": {
+      "margherita": 42000,
+      "shashlik_pizza": 52000,
+      "plov_pizza": 48000,
+      "shashlik": 63000,
+      "samsa": 23000,
+      "cola": 18000
+    },
+    "lat": 37.5938,
+    "lng": 61.8318,
+    "image": "https://avatars.mds.yandex.net/get-altay/55555555/elin_pizza_mary/orig"
+  },
+  {
+    "name": "Marguş Restoran",
+    "country": "Turkmenistan",
+    "city": "Mary",
+    "cuisine_type": "turkmen",
+    "menu": {
+      "margus_plov": 49000,
+      "shashlik": 68000,
+      "manti": 42000,
+      "shorba": 36000,
+      "samsa": 27000,
+      "ishlekli": 43000
+    },
+    "lat": 37.5948,
+    "lng": 61.8325,
+    "image": "https://avatars.mds.yandex.net/get-altay/66666666/margus_mary/orig"
+  },
+  {
+    "name": "Ak Ýyldyz Kafe",
+    "country": "Turkmenistan",
+    "city": "Mary",
+    "cuisine_type": "cafe",
+    "menu": {
+      "white_star_plov": 44000,
+      "shashlik": 62000,
+      "coffee": 26000,
+      "samsa": 24000,
+      "cake": 30000,
+      "tea": 15000
+    },
+    "lat": 37.5921,
+    "lng": 61.8298,
+    "image": "https://avatars.mds.yandex.net/get-altay/77777777/ak_yyldyz_mary/orig"
+  },
+  {
+    "name": "Gyzylgum Kafe",
+    "country": "Turkmenistan",
+    "city": "Mary",
+    "cuisine_type": "turkmen",
+    "menu": {
+      "gyzylgum_plov": 45000,
+      "shashlik": 64000,
+      "manti": 38000,
+      "shorba": 32000,
+      "samsa": 25000,
+      "salad": 31000
+    },
+    "lat": 37.5955,
+    "lng": 61.8342,
+    "image": "https://avatars.mds.yandex.net/get-altay/88888888/gyzylgum_mary/orig"
+  },
+  {
+    "name": "Restaurant Belent",
+    "country": "Turkmenistan",
+    "city": "Mary",
+    "cuisine_type": "turkmen",
+    "menu": {
+      "belent_plov": 47000,
+      "shashlik": 67000,
+      "gutap": 30000,
+      "shorba": 34000,
+      "samsa": 26000,
+      "dograma": 38000
+    },
+    "lat": 37.5915,
+    "lng": 61.8302,
+    "image": "https://avatars.mds.yandex.net/get-altay/99999999/belent_mary/orig"
+  },
+  {
+    "name": "Saya Restaurant Mary",
+    "country": "Turkmenistan",
+    "city": "Mary",
+    "cuisine_type": "turkmen",
+    "menu": {
+      "saya_plov": 48000,
+      "shashlik": 66000,
+      "manti": 41000,
+      "shorba": 35000,
+      "samsa": 27000,
+      "chak_chak": 28000
+    },
+    "lat": 37.5962,
+    "lng": 61.8351,
+    "image": "https://avatars.mds.yandex.net/get-altay/10101010/saya_mary/orig"
+  },
+  {
+    "name": "Bay Town Restaurant",
+    "country": "Turkmenistan",
+    "city": "Dashoguz",
+    "cuisine_type": "turkmen",
+    "menu": {
+      "bay_plov": 46000,
+      "shashlik": 65000,
+      "manti": 39000,
+      "shorba": 33000,
+      "samsa": 25000,
+      "kutab": 28000
+    },
+    "lat": 41.8365,
+    "lng": 59.9642,
+    "image": "https://avatars.mds.yandex.net/get-altay/11111111/bay_town_dashoguz/orig"
+  },
+  {
+    "name": "Oguz Restaurant",
+    "country": "Turkmenistan",
+    "city": "Dashoguz",
+    "cuisine_type": "steakhouse",
+    "menu": {
+      "oguz_plov": 48000,
+      "shashlik": 68000,
+      "steak": 95000,
+      "manti": 41000,
+      "samsa": 26000,
+      "salad": 34000
+    },
+    "lat": 41.8372,
+    "lng": 59.9658,
+    "image": "https://avatars.mds.yandex.net/get-altay/22222222/oguz_dashoguz/orig"
+  },
+  {
+    "name": "Restoran Serpay",
+    "country": "Turkmenistan",
+    "city": "Dashoguz",
+    "cuisine_type": "turkish_uzbek",
+    "menu": {
+      "serpay_plov": 47000,
+      "kebab": 67000,
+      "manti": 40000,
+      "shorba": 35000,
+      "samsa": 27000,
+      "doner": 45000
+    },
+    "lat": 41.8368,
+    "lng": 59.9648,
+    "image": "https://avatars.mds.yandex.net/get-altay/33333333/serpay_dashoguz/orig"
+  },
+  {
+    "name": "Bereket Kafe",
+    "country": "Turkmenistan",
+    "city": "Dashoguz",
+    "cuisine_type": "cafe",
+    "menu": {
+      "bereket_plov": 44000,
+      "shashlik": 63000,
+      "coffee": 28000,
+      "samsa": 24000,
+      "cake": 32000,
+      "tea": 16000
+    },
+    "lat": 41.8375,
+    "lng": 59.9661,
+    "image": "https://avatars.mds.yandex.net/get-altay/44444444/bereket_dashoguz/orig"
+  },
+  {
+    "name": "DZ Burger House",
+    "country": "Turkmenistan",
+    "city": "Dashoguz",
+    "cuisine_type": "fast_food",
+    "menu": {
+      "dz_burger": 38000,
+      "shashlik": 59000,
+      "fries": 22000,
+      "plov": 45000,
+      "samsa": 25000,
+      "cola": 18000
+    },
+    "lat": 41.8359,
+    "lng": 59.9635,
+    "image": "https://avatars.mds.yandex.net/get-altay/55555555/dz_burger_dashoguz/orig"
+  },
+  {
+    "name": "Bay Town",
+    "country": "Turkmenistan",
+    "city": "Dashoguz",
+    "cuisine_type": "turkmen",
+    "menu": {
+      "town_plov": 45000,
+      "shashlik": 64000,
+      "manti": 38000,
+      "shorba": 32000,
+      "samsa": 24000,
+      "ishlekli": 41000
+    },
+    "lat": 41.8378,
+    "lng": 59.9665,
+    "image": "https://avatars.mds.yandex.net/get-altay/66666666/bay_town2_dashoguz/orig"
+  },
+  {
+    "name": "Serpay Restaurant",
+    "country": "Turkmenistan",
+    "city": "Dashoguz",
+    "cuisine_type": "turkmen",
+    "menu": {
+      "serpay_shashlik": 66000,
+      "plov": 47000,
+      "manti": 41000,
+      "shorba": 34000,
+      "samsa": 26000,
+      "kutab": 29000
+    },
+    "lat": 41.8362,
+    "lng": 59.9640,
+    "image": "https://avatars.mds.yandex.net/get-altay/77777777/serpay_rest_dashoguz/orig"
+  },
+  {
+    "name": "Oguz",
+    "country": "Turkmenistan",
+    "city": "Dashoguz",
+    "cuisine_type": "turkmen",
+    "menu": {
+      "oguz_steak": 72000,
+      "plov": 46000,
+      "shashlik": 67000,
+      "manti": 39000,
+      "samsa": 25000,
+      "dograma": 37000
+    },
+    "lat": 41.8381,
+    "lng": 59.9672,
+    "image": "https://avatars.mds.yandex.net/get-altay/88888888/oguz2_dashoguz/orig"
+  },
+  {
+    "name": "Bereket",
+    "country": "Turkmenistan",
+    "city": "Dashoguz",
+    "cuisine_type": "cafe",
+    "menu": {
+      "bereket_plov": 45000,
+      "shashlik": 64000,
+      "coffee": 27000,
+      "samsa": 25000,
+      "tea": 16000,
+      "cake": 33000
+    },
+    "lat": 41.8355,
+    "lng": 59.9630,
+    "image": "https://avatars.mds.yandex.net/get-altay/99999999/bereket2_dashoguz/orig"
+  },
+  {
+    "name": "Local Kebab Spot",
+    "country": "Turkmenistan",
+    "city": "Dashoguz",
+    "cuisine_type": "street_food",
+    "menu": {
+      "local_kebab": 45000,
+      "shashlik": 58000,
+      "samsa": 22000,
+      "plov": 43000,
+      "shorba": 30000,
+      "non": 15000
+    },
+    "lat": 41.8369,
+    "lng": 59.9650,
+    "image": "https://avatars.mds.yandex.net/get-altay/10101011/kebab_spot_dashoguz/orig"
+  },
+  {
+    "name": "Al Sham Restaurant",
+    "country": "Tajikistan",
+    "city": "Dushanbe",
+    "cuisine_type": "middle_eastern",
+    "menu": {
+      "shawarma": 45000,
+      "kebab_plate": 68000,
+      "hummus": 32000,
+      "falafel": 38000,
+      "mansaf": 52000,
+      "baklava": 28000
+    },
+    "lat": 38.5598,
+    "lng": 68.7870,
+    "image": "https://avatars.mds.yandex.net/get-altay/11111111/alsham_dushanbe/orig"
+  },
+  {
+    "name": "Segafredo in Dushanbe",
+    "country": "Tajikistan",
+    "city": "Dushanbe",
+    "cuisine_type": "italian_cafe",
+    "menu": {
+      "espresso": 28000,
+      "pizza": 65000,
+      "pasta": 58000,
+      "tiramisu": 38000,
+      "caprese": 42000,
+      "latte": 35000
+    },
+    "lat": 38.5605,
+    "lng": 68.7882,
+    "image": "https://avatars.mds.yandex.net/get-altay/22222222/segafredo_dushanbe/orig"
+  },
+  {
+    "name": "Traktir",
+    "country": "Tajikistan",
+    "city": "Dushanbe",
+    "cuisine_type": "tajik",
+    "menu": {
+      "qurutob": 42000,
+      "shashlik": 65000,
+      "plov": 48000,
+      "samsa": 25000,
+      "shorpo": 38000,
+      "non": 18000
+    },
+    "lat": 38.5612,
+    "lng": 68.7890,
+    "image": "https://avatars.mds.yandex.net/get-altay/33333333/traktir_dushanbe/orig"
+  },
+  {
+    "name": "Bella Pizza & Pasta",
+    "country": "Tajikistan",
+    "city": "Dushanbe",
+    "cuisine_type": "italian",
+    "menu": {
+      "margherita": 52000,
+      "carbonara": 68000,
+      "lasagna": 72000,
+      "tiramisu": 35000,
+      "caesar": 42000,
+      "gelato": 28000
+    },
+    "lat": 38.5592,
+    "lng": 68.7865,
+    "image": "https://avatars.mds.yandex.net/get-altay/44444444/bella_dushanbe/orig"
+  },
+  {
+    "name": "Iskender",
+    "country": "Tajikistan",
+    "city": "Dushanbe",
+    "cuisine_type": "turkish",
+    "menu": {
+      "iskender_kebab": 65000,
+      "doner": 48000,
+      "pide": 52000,
+      "lahmacun": 38000,
+      "baklava": 30000,
+      "ayran": 20000
+    },
+    "lat": 38.5608,
+    "lng": 68.7878,
+    "image": "https://avatars.mds.yandex.net/get-altay/55555555/iskender_dushanbe/orig"
+  },
+  {
+    "name": "Coffee Moose Plaza",
+    "country": "Tajikistan",
+    "city": "Dushanbe",
+    "cuisine_type": "cafe",
+    "menu": {
+      "flat_white": 32000,
+      "croissant": 28000,
+      "sandwich": 42000,
+      "cheesecake": 38000,
+      "smoothie": 35000,
+      "pancakes": 45000
+    },
+    "lat": 38.5615,
+    "lng": 68.7885,
+    "image": "https://avatars.mds.yandex.net/get-altay/66666666/moose_dushanbe/orig"
+  },
+  {
+    "name": "Delhi Darbar Dushanbe",
+    "country": "Tajikistan",
+    "city": "Dushanbe",
+    "cuisine_type": "indian",
+    "menu": {
+      "butter_chicken": 68000,
+      "biryani": 65000,
+      "naan": 25000,
+      "samosa": 32000,
+      "dal": 42000,
+      "gulab_jamun": 28000
+    },
+    "lat": 38.5589,
+    "lng": 68.7858,
+    "image": "https://avatars.mds.yandex.net/get-altay/77777777/delhi_dushanbe/orig"
+  },
+  {
+    "name": "Salsa Restaurant",
+    "country": "Tajikistan",
+    "city": "Dushanbe",
+    "cuisine_type": "latin",
+    "menu": {
+      "tacos": 48000,
+      "burrito": 65000,
+      "ceviche": 72000,
+      "empanadas": 38000,
+      "guacamole": 35000,
+      "churros": 30000
+    },
+    "lat": 38.5620,
+    "lng": 68.7900,
+    "image": "https://avatars.mds.yandex.net/get-altay/88888888/salsa_dushanbe/orig"
+  },
+  {
+    "name": "Qurutobkhonai Olim",
+    "country": "Tajikistan",
+    "city": "Dushanbe",
+    "cuisine_type": "tajik",
+    "menu": {
+      "qurutob": 38000,
+      "shashlik": 62000,
+      "plov": 45000,
+      "samsa": 24000,
+      "osh": 42000,
+      "salad": 32000
+    },
+    "lat": 38.5600,
+    "lng": 68.7875,
+    "image": "https://avatars.mds.yandex.net/get-altay/99999999/olim_dushanbe/orig"
+  },
+  {
+    "name": "Buhora",
+    "country": "Tajikistan",
+    "city": "Dushanbe",
+    "cuisine_type": "tajik",
+    "menu": {
+      "buhora_plov": 52000,
+      "shashlik": 68000,
+      "qurutob": 42000,
+      "damlama": 48000,
+      "samsa": 26000,
+      "non": 20000
+    },
+    "lat": 38.5618,
+    "lng": 68.7895,
+    "image": "https://avatars.mds.yandex.net/get-altay/10101010/buhora_dushanbe/orig"
+  },
+  {
+    "name": "Restaurant Adibon",
+    "country": "Tajikistan",
+    "city": "Khujand",
+    "cuisine_type": "tajik",
+    "menu": {
+      "khujand_plov": 45000,
+      "shashlik": 62000,
+      "qurutob": 38000,
+      "samsa": 24000,
+      "shorpo": 35000,
+      "javari_soup": 42000
+    },
+    "lat": 40.2829,
+    "lng": 69.6083,
+    "image": "https://avatars.mds.yandex.net/get-altay/11111112/adibon_khujand/orig"
+  },
+  {
+    "name": "Restaurant Omar Khayam",
+    "country": "Tajikistan",
+    "city": "Khujand",
+    "cuisine_type": "tajik",
+    "menu": {
+      "khayam_plov": 48000,
+      "shashlik": 65000,
+      "manti": 40000,
+      "qurutob": 39000,
+      "samsa": 25000,
+      "lagman": 37000
+    },
+    "lat": 40.2835,
+    "lng": 69.6090,
+    "image": "https://avatars.mds.yandex.net/get-altay/22222223/omar_khujand/orig"
+  },
+  {
+    "name": "TajBurger",
+    "country": "Tajikistan",
+    "city": "Khujand",
+    "cuisine_type": "fast_food",
+    "menu": {
+      "taj_burger": 38000,
+      "shashlik": 58000,
+      "fries": 22000,
+      "plov_burger": 42000,
+      "samsa": 25000,
+      "cola": 18000
+    },
+    "lat": 40.2822,
+    "lng": 69.6075,
+    "image": "https://avatars.mds.yandex.net/get-altay/33333334/tajburger_khujand/orig"
+  },
+  {
+    "name": "Turkish cafe - Saray",
+    "country": "Tajikistan",
+    "city": "Khujand",
+    "cuisine_type": "turkish",
+    "menu": {
+      "doner": 45000,
+      "pide": 52000,
+      "kebab": 65000,
+      "lahmacun": 38000,
+      "baklava": 30000,
+      "ayran": 20000
+    },
+    "lat": 40.2840,
+    "lng": 69.6100,
+    "image": "https://avatars.mds.yandex.net/get-altay/44444445/saray_khujand/orig"
+  },
+  {
+    "name": "Restoran Bakhtiyor",
+    "country": "Tajikistan",
+    "city": "Khujand",
+    "cuisine_type": "tajik",
+    "menu": {
+      "bakhtiyor_plov": 46000,
+      "shashlik": 63000,
+      "manti": 39000,
+      "qurutob": 37000,
+      "samsa": 24000,
+      "shorpo": 34000
+    },
+    "lat": 40.2838,
+    "lng": 69.6095,
+    "image": "https://avatars.mds.yandex.net/get-altay/55555556/bakhtiyor_khujand/orig"
+  },
+   {
+    "name": "Kafe Ravshan",
+    "country": "Tajikistan",
+    "city": "Khujand",
+    "cuisine_type": "cafe",
+    "menu": {
+      "ravshan_plov": 44000,
+      "shashlik": 61000,
+      "coffee": 28000,
+      "samsa": 23000,
+      "salad": 35000,
+      "tea": 16000
+    },
+    "lat": 40.2828,
+    "lng": 69.6080,
+    "image": "https://avatars.mds.yandex.net/get-altay/11111111/ravshan_khujand/orig"
+  },
+  {
+    "name": "Restoran Parlament",
+    "country": "Tajikistan",
+    "city": "Khujand",
+    "cuisine_type": "european",
+    "menu": {
+      "parlament_plov": 52000,
+      "steak": 85000,
+      "pizza": 65000,
+      "caesar_salad": 42000,
+      "pasta": 58000,
+      "tiramisu": 38000
+    },
+    "lat": 40.2832,
+    "lng": 69.6085,
+    "image": "https://avatars.mds.yandex.net/get-altay/22222222/parlament_khujand/orig"
+  },
+  {
+    "name": "Kafe Nematjon",
+    "country": "Tajikistan",
+    "city": "Khujand",
+    "cuisine_type": "tajik",
+    "menu": {
+      "nematjon_plov": 45000,
+      "shashlik": 62000,
+      "qurutob": 38000,
+      "samsa": 24000,
+      "manti": 39000,
+      "shorpo": 35000
+    },
+    "lat": 40.2841,
+    "lng": 69.6092,
+    "image": "https://avatars.mds.yandex.net/get-altay/33333333/nematjon_khujand/orig"
+  },
+  {
+    "name": "Shohona restaurant",
+    "country": "Tajikistan",
+    "city": "Khujand",
+    "cuisine_type": "tajik",
+    "menu": {
+      "shohona_plov": 48000,
+      "shashlik": 65000,
+      "qurutob": 40000,
+      "samsa": 26000,
+      "javari_plov": 46000,
+      "non": 20000
+    },
+    "lat": 40.2850,
+    "lng": 69.6100,
+    "image": "https://avatars.mds.yandex.net/get-altay/44444444/shohona_khujand/orig"
+  },
+  {
+    "name": "Bogi Firdavs",
+    "country": "Tajikistan",
+    "city": "Khujand",
+    "cuisine_type": "tajik",
+    "menu": {
+      "firdavs_plov": 47000,
+      "shashlik": 64000,
+      "manti": 41000,
+      "shorpo": 36000,
+      "samsa": 25000,
+      "damlama": 45000
+    },
+    "lat": 40.2815,
+    "lng": 69.6070,
+    "image": "https://avatars.mds.yandex.net/get-altay/55555555/firdavs_khujand/orig"
+  },{
+    "name": "Choykhonai Istaravshan",
+    "country": "Tajikistan",
+    "city": "Kulob",
+    "cuisine_type": "tajik",
+    "menu": {
+      "qurutob": 38000,
+      "shashlik": 62000,
+      "plov": 45000,
+      "samsa": 24000,
+      "shorpo": 35000,
+      "non": 18000
+    },
+    "lat": 37.9405,
+    "lng": 69.8002,
+    "image": "https://avatars.mds.yandex.net/get-altay/11111111/istaravshan_kulob/orig"
+  },
+  {
+    "name": "Kulob Restaurant",
+    "country": "Tajikistan",
+    "city": "Kulob",
+    "cuisine_type": "tajik",
+    "menu": {
+      "kulob_plov": 48000,
+      "shashlik": 65000,
+      "manti": 39000,
+      "qurutob": 37000,
+      "samsa": 25000,
+      "javari_plov": 46000
+    },
+    "lat": 37.9412,
+    "lng": 69.8018,
+    "image": "https://avatars.mds.yandex.net/get-altay/22222222/kulob_rest/orig"
+  },
+  {
+    "name": "Somon Restaurant",
+    "country": "Tajikistan",
+    "city": "Kulob",
+    "cuisine_type": "tajik",
+    "menu": {
+      "somon_plov": 47000,
+      "shashlik": 64000,
+      "osh": 42000,
+      "shorpo": 36000,
+      "samsa": 26000,
+      "salad": 32000
+    },
+    "lat": 37.9398,
+    "lng": 69.7995,
+    "image": "https://avatars.mds.yandex.net/get-altay/33333333/somon_kulob/orig"
+  },
+  {
+    "name": "Kafe Kulob",
+    "country": "Tajikistan",
+    "city": "Kulob",
+    "cuisine_type": "cafe",
+    "menu": {
+      "kulob_shashlik": 58000,
+      "plov": 44000,
+      "coffee": 28000,
+      "samsa": 23000,
+      "tea": 16000,
+      "cake": 34000
+    },
+    "lat": 37.9420,
+    "lng": 69.8025,
+    "image": "https://avatars.mds.yandex.net/get-altay/44444444/kafe_kulob/orig"
+  },
+  {
+    "name": "Navruz Cafe",
+    "country": "Tajikistan",
+    "city": "Kulob",
+    "cuisine_type": "cafe",
+    "menu": {
+      "navruz_plov": 45000,
+      "shashlik": 61000,
+      "manti": 38000,
+      "coffee": 27000,
+      "samsa": 24000,
+      "salad": 33000
+    },
+    "lat": 37.9408,
+    "lng": 69.8008,
+    "image": "https://avatars.mds.yandex.net/get-altay/55555555/navruz_kulob/orig"
+  },
+  {
+    "name": "Oshkhona Kulob",
+    "country": "Tajikistan",
+    "city": "Kulob",
+    "cuisine_type": "tajik",
+    "menu": {
+      "kulob_osh": 42000,
+      "shashlik": 63000,
+      "qurutob": 36000,
+      "samsa": 25000,
+      "shorpo": 34000,
+      "non": 19000
+    },
+    "lat": 37.9418,
+    "lng": 69.8012,
+    "image": "https://avatars.mds.yandex.net/get-altay/66666666/oshkhona_kulob/orig"
+  },
+  {
+    "name": "Nuri Vakhsh",
+    "country": "Tajikistan",
+    "city": "Kulob",
+    "cuisine_type": "tajik",
+    "menu": {
+      "vakhsh_plov": 49000,
+      "shashlik": 66000,
+      "manti": 41000,
+      "qurutob": 39000,
+      "samsa": 27000,
+      "damlama": 45000
+    },
+    "lat": 37.9395,
+    "lng": 69.7988,
+    "image": "https://avatars.mds.yandex.net/get-altay/77777777/nuri_vakhsh/orig"
+  },
+  {
+    "name": "Zarafshon Cafe",
+    "country": "Tajikistan",
+    "city": "Kulob",
+    "cuisine_type": "cafe",
+    "menu": {
+      "zarafshon_plov": 46000,
+      "shashlik": 62000,
+      "coffee": 29000,
+      "samsa": 26000,
+      "tea": 17000,
+      "salad": 35000
+    },
+    "lat": 37.9425,
+    "lng": 69.8030,
+    "image": "https://avatars.mds.yandex.net/get-altay/88888888/zarafshon_kulob/orig"
+  },
+  {
+    "name": "Vatan Restaurant",
+    "country": "Tajikistan",
+    "city": "Kulob",
+    "cuisine_type": "tajik",
+    "menu": {
+      "vatan_plov": 52000,
+      "shashlik": 68000,
+      "qurutob": 41000,
+      "manti": 42000,
+      "samsa": 28000,
+      "shorpo": 37000
+    },
+    "lat": 37.9402,
+    "lng": 69.7992,
+    "image": "https://avatars.mds.yandex.net/get-altay/99999999/vatan_kulob/orig"
+  },
+  {
+    "name": "Sugdiyon",
+    "country": "Tajikistan",
+    "city": "Kulob",
+    "cuisine_type": "tajik",
+    "menu": {
+      "sugdiyon_plov": 48000,
+      "shashlik": 65000,
+      "javari_plov": 47000,
+      "qurutob": 40000,
+      "samsa": 27000,
+      "non": 21000
+    },
+    "lat": 37.9415,
+    "lng": 69.8015,
+    "image": "https://avatars.mds.yandex.net/get-altay/10101010/sugdiyon_kulob/orig"
+  },{
+    "name": "Delhi Darbar",
+    "country": "Tajikistan",
+    "city": "Khorog",
+    "cuisine_type": "indian",
+    "menu": {
+      "butter_chicken": 68000,
+      "biryani": 65000,
+      "naan": 25000,
+      "samosa": 32000,
+      "dal": 42000,
+      "paneer_tikka": 58000
+    },
+    "lat": 39.4281,
+    "lng": 71.5684,
+    "image": "https://avatars.mds.yandex.net/get-altay/11111111/delhi_darbar_khorog/orig"
+  },
+  {
+    "name": "Chor Bogh",
+    "country": "Tajikistan",
+    "city": "Khorog",
+    "cuisine_type": "tajik",
+    "menu": {
+      "chicken_dumplings": 45000,
+      "shashlik": 62000,
+      "qurutob": 38000,
+      "plov": 48000,
+      "samsa": 25000,
+      "shorpo": 35000
+    },
+    "lat": 39.4278,
+    "lng": 71.5690,
+    "image": "https://avatars.mds.yandex.net/get-altay/22222222/chor_bogh_khorog/orig"
+  },
+  {
+    "name": "Khorog Fried Chicken",
+    "country": "Tajikistan",
+    "city": "Khorog",
+    "cuisine_type": "fast_food",
+    "menu": {
+      "fried_chicken": 42000,
+      "pizza": 52000,
+      "calzone": 48000,
+      "french_fries": 22000,
+      "samsa": 26000,
+      "cola": 18000
+    },
+    "lat": 39.4285,
+    "lng": 71.5678,
+    "image": "https://avatars.mds.yandex.net/get-altay/33333333/khorog_chicken/orig"
+  },
+  {
+    "name": "World of Cuisines",
+    "country": "Tajikistan",
+    "city": "Khorog",
+    "cuisine_type": "international",
+    "menu": {
+      "pizza": 58000,
+      "shashlik": 65000,
+      "pasta": 52000,
+      "burger": 45000,
+      "salad": 38000,
+      "dessert_plate": 35000
+    },
+    "lat": 39.4290,
+    "lng": 71.5688,
+    "image": "https://avatars.mds.yandex.net/get-altay/44444444/world_cuisines_khorog/orig"
+  },
+  {
+    "name": "Serena Inn",
+    "country": "Tajikistan",
+    "city": "Khorog",
+    "cuisine_type": "pamir_international",
+    "menu": {
+      "pamir_plov": 52000,
+      "shashlik": 68000,
+      "manti": 41000,
+      "qurutob": 39000,
+      "samsa": 27000,
+      "mountain_tea": 20000
+    },
+    "lat": 39.4275,
+    "lng": 71.5692,
+    "image": "https://avatars.mds.yandex.net/get-altay/55555555/serena_khorog/orig"
+  },
+  {
+    "name": "Kurutob",
+    "country": "Tajikistan",
+    "city": "Khorog",
+    "cuisine_type": "tajik",
+    "menu": {
+      "classic_qurutob": 38000,
+      "shashlik": 61000,
+      "plov": 46000,
+      "samsa": 24000,
+      "shorpo": 34000,
+      "javari_plov": 48000
+    },
+    "lat": 39.4288,
+    "lng": 71.5675,
+    "image": "https://avatars.mds.yandex.net/get-altay/66666666/kurutob_khorog/orig"
+  },
+  {
+    "name": "Cafe Pamir",
+    "country": "Tajikistan",
+    "city": "Khorog",
+    "cuisine_type": "cafe",
+    "menu": {
+      "pamir_plov": 45000,
+      "shashlik": 63000,
+      "coffee": 29000,
+      "samsa": 25000,
+      "tea": 17000,
+      "cake": 36000
+    },
+    "lat": 39.4292,
+    "lng": 71.5680,
+    "image": "https://avatars.mds.yandex.net/get-altay/77777777/pamir_cafe_khorog/orig"
+  },
+  {
+    "name": "Dushanbe Cafe",
+    "country": "Tajikistan",
+    "city": "Khorog",
+    "cuisine_type": "cafe",
+    "menu": {
+      "dushanbe_plov": 47000,
+      "shashlik": 64000,
+      "manti": 39000,
+      "coffee": 28000,
+      "samsa": 26000,
+      "salad": 34000
+    },
+    "lat": 39.4272,
+    "lng": 71.5695,
+    "image": "https://avatars.mds.yandex.net/get-altay/88888888/dushanbe_cafe_khorog/orig"
+  },
+  {
+    "name": "Rohat Restaurant",
+    "country": "Tajikistan",
+    "city": "Khorog",
+    "cuisine_type": "tajik",
+    "menu": {
+      "rohat_plov": 51000,
+      "shashlik": 67000,
+      "qurutob": 40000,
+      "manti": 42000,
+      "samsa": 28000,
+      "shorpo": 37000
+    },
+    "lat": 39.4283,
+    "lng": 71.5682,
+    "image": "https://avatars.mds.yandex.net/get-altay/99999999/rohat_khorog/orig"
+  },
+  {
+    "name": "Pamir Lounge",
+    "country": "Tajikistan",
+    "city": "Khorog",
+    "cuisine_type": "pamir_cafe",
+    "menu": {
+      "pamir_lounge_plov": 49000,
+      "shashlik": 66000,
+      "mountain_manti": 41000,
+      "herbal_tea": 22000,
+      "samsa": 27000,
+      "yak_cheese_salad": 38000
+    },
+    "lat": 39.4295,
+    "lng": 71.5670,
+    "image": "https://avatars.mds.yandex.net/get-altay/10101011/pamir_lounge_khorog/orig"
+  },{
+    "name": "NAVAT",
+    "country": "Kyrgyzstan",
+    "city": "Bishkek",
+    "cuisine_type": "kyrgyz_international",
+    "menu": {
+      "kymyz": 35000,
+      "beshbarmak": 78000,
+      "shashlik": 65000,
+      "plov": 52000,
+      "manti": 42000,
+      "lagman": 38000
+    },
+    "lat": 42.8746,
+    "lng": 74.5698,
+    "image": "https://avatars.mds.yandex.net/get-altay/11111111/navat_bishkek/orig"
+  },
+  {
+    "name": "Papuri",
+    "country": "Kyrgyzstan",
+    "city": "Bishkek",
+    "cuisine_type": "grill",
+    "menu": {
+      "grilled_ribs": 85000,
+      "shashlik_plate": 72000,
+      "lula_kebab": 68000,
+      "salad": 38000,
+      "flatbread": 25000,
+      "lavash": 28000
+    },
+    "lat": 42.8752,
+    "lng": 74.5705,
+    "image": "https://avatars.mds.yandex.net/get-altay/22222222/papuri_bishkek/orig"
+  },
+  {
+    "name": "Cafe Faiza",
+    "country": "Kyrgyzstan",
+    "city": "Bishkek",
+    "cuisine_type": "central_asian",
+    "menu": {
+      "faiza_plov": 48000,
+      "shashlik": 62000,
+      "manti": 39000,
+      "samsa": 24000,
+      "shorpo": 35000,
+      "kazy": 58000
+    },
+    "lat": 42.8740,
+    "lng": 74.5692,
+    "image": "https://avatars.mds.yandex.net/get-altay/33333333/faiza_bishkek/orig"
+  },
+  {
+    "name": "Oblako 53",
+    "country": "Kyrgyzstan",
+    "city": "Bishkek",
+    "cuisine_type": "italian",
+    "menu": {
+      "carbonara": 68000,
+      "margherita": 65000,
+      "tiramisu": 38000,
+      "bruschetta": 42000,
+      "risotto": 72000,
+      "espresso": 28000
+    },
+    "lat": 42.8758,
+    "lng": 74.5710,
+    "image": "https://avatars.mds.yandex.net/get-altay/44444444/oblako53_bishkek/orig"
+  },
+  {
+    "name": "Bublik",
+    "country": "Kyrgyzstan",
+    "city": "Bishkek",
+    "cuisine_type": "cafe",
+    "menu": {
+      "flat_white": 32000,
+      "croissant": 28000,
+      "sandwich": 45000,
+      "cheesecake": 38000,
+      "smoothie": 35000,
+      "bagel": 42000
+    },
+    "lat": 42.8735,
+    "lng": 74.5685,
+    "image": "https://avatars.mds.yandex.net/get-altay/55555555/bublik_bishkek/orig"
+  },
+  {
+    "name": "Faiza",
+    "country": "Kyrgyzstan",
+    "city": "Bishkek",
+    "cuisine_type": "central_asian",
+    "menu": {
+      "classic_plov": 52000,
+      "shashlik": 64000,
+      "manti": 41000,
+      "samsa": 26000,
+      "lagman": 37000,
+      "kazy_plate": 59000
+    },
+    "lat": 42.8760,
+    "lng": 74.5715,
+    "image": "https://avatars.mds.yandex.net/get-altay/66666666/faiza2_bishkek/orig"
+  },
+  {
+    "name": "Sierra Coffee & Restaurant",
+    "country": "Kyrgyzstan",
+    "city": "Bishkek",
+    "cuisine_type": "coffee_house",
+    "menu": {
+      "cappuccino": 34000,
+      "avocado_toast": 45000,
+      "pancakes": 42000,
+      "shashlik": 68000,
+      "salmon_bagel": 52000,
+      "matcha_latte": 36000
+    },
+    "lat": 42.8748,
+    "lng": 74.5702,
+    "image": "https://avatars.mds.yandex.net/get-altay/77777777/sierra_bishkek/orig"
+  },
+  {
+    "name": "Sim Sim",
+    "country": "Kyrgyzstan",
+    "city": "Bishkek",
+    "cuisine_type": "uzbek",
+    "menu": {
+      "uzbek_plov": 48000,
+      "shashlik": 63000,
+      "samsa": 25000,
+      "norin": 42000,
+      "shurpa": 38000,
+      "tandir_noodles": 45000
+    },
+    "lat": 42.8755,
+    "lng": 74.5708,
+    "image": "https://avatars.mds.yandex.net/get-altay/88888888/simsim_bishkek/orig"
+  },
+  {
+    "name": "Pur-Pur",
+    "country": "Kyrgyzstan",
+    "city": "Bishkek",
+    "cuisine_type": "modern_kyrgyz",
+    "menu": {
+      "kurd_cheese_salad": 42000,
+      "horse_meat_plov": 68000,
+      "chuchvara": 39000,
+      "kymyz_cocktail": 35000,
+      "shashlik_deluxe": 75000,
+      "boorsok": 28000
+    },
+    "lat": 42.8738,
+    "lng": 74.5690,
+    "image": "https://avatars.mds.yandex.net/get-altay/99999999/purpur_bishkek/orig"
+  },
+  {
+    "name": "Mimino",
+    "country": "Kyrgyzstan",
+    "city": "Bishkek",
+    "cuisine_type": "georgian",
+    "menu": {
+      "khachapuri": 65000,
+      "khinkali": 48000,
+      "shashlik": 72000,
+      "satsivi": 58000,
+      "pkhali": 38000,
+      "churchkhela": 32000
+    },
+    "lat": 42.8762,
+    "lng": 74.5720,
+    "image": "https://avatars.mds.yandex.net/get-altay/10101011/mimino_bishkek/orig"
+  },{
+    "name": "Mimino",
+    "country": "Kyrgyzstan",
+    "city": "Osh",
+    "cuisine_type": "georgian",
+    "menu": {
+      "khachapuri": 65000,
+      "khinkali": 48000,
+      "shashlik": 72000,
+      "satsivi": 58000,
+      "pkhali": 38000,
+      "churchkhela": 32000
+    },
+    "lat": 40.5283,
+    "lng": 72.7985,
+    "image": "https://avatars.mds.yandex.net/get-altay/11111111/mimino_osh/orig"
+  },
+  {
+    "name": "Navat Chaikhana",
+    "country": "Kyrgyzstan",
+    "city": "Osh",
+    "cuisine_type": "uzbek_kyrgyz",
+    "menu": {
+      "osh_plov": 52000,
+      "shashlik": 68000,
+      "manti": 41000,
+      "lagman": 38000,
+      "samsa": 25000,
+      "shorpo": 35000
+    },
+    "lat": 40.5290,
+    "lng": 72.7992,
+    "image": "https://avatars.mds.yandex.net/get-altay/22222222/navat_chaikhana_osh/orig"
+  },
+  {
+    "name": "Dolce Vita",
+    "country": "Kyrgyzstan",
+    "city": "Osh",
+    "cuisine_type": "italian",
+    "menu": {
+      "margherita": 58000,
+      "carbonara": 65000,
+      "lasagna": 72000,
+      "tiramisu": 38000,
+      "caesar_salad": 42000,
+      "espresso": 28000
+    },
+    "lat": 40.5278,
+    "lng": 72.7978,
+    "image": "https://avatars.mds.yandex.net/get-altay/33333333/dolce_vita_osh/orig"
+  },
+  {
+    "name": "Cafe Atabek",
+    "country": "Kyrgyzstan",
+    "city": "Osh",
+    "cuisine_type": "kyrgyz_european",
+    "menu": {
+      "atabek_plov": 48000,
+      "shashlik": 64000,
+      "beshbarmak": 75000,
+      "manti": 39000,
+      "samsa": 26000,
+      "coffee": 30000
+    },
+    "lat": 40.5295,
+    "lng": 72.8000,
+    "image": "https://avatars.mds.yandex.net/get-altay/44444444/atabek_osh/orig"
+  },
+  {
+    "name": "Izum",
+    "country": "Kyrgyzstan",
+    "city": "Osh",
+    "cuisine_type": "cafe",
+    "menu": {
+      "izum_plov": 45000,
+      "shashlik": 62000,
+      "latte": 32000,
+      "samsa": 24000,
+      "cheesecake": 38000,
+      "smoothie": 35000
+    },
+    "lat": 40.5288,
+    "lng": 72.7988,
+    "image": "https://avatars.mds.yandex.net/get-altay/55555555/izum_osh/orig"
+  },
+  {
+    "name": "Oligarkh Restorany",
+    "country": "Kyrgyzstan",
+    "city": "Osh",
+    "cuisine_type": "steakhouse",
+    "menu": {
+      "ribeye": 125000,
+      "shashlik_deluxe": 85000,
+      "plov": 52000,
+      "caesar_salad": 45000,
+      "manti": 42000,
+      "wine": 68000
+    },
+    "lat": 40.5275,
+    "lng": 72.7972,
+    "image": "https://avatars.mds.yandex.net/get-altay/66666666/oligarkh_osh/orig"
+  },
+  {
+    "name": "Islambek Café",
+    "country": "Kyrgyzstan",
+    "city": "Osh",
+    "cuisine_type": "kyrgyz",
+    "menu": {
+      "islambek_plov": 47000,
+      "shashlik": 63000,
+      "beshbarmak": 78000,
+      "kymyz": 32000,
+      "samsa": 25000,
+      "lagman": 38000
+    },
+    "lat": 40.5300,
+    "lng": 72.8005,
+    "image": "https://avatars.mds.yandex.net/get-altay/77777777/islambek_osh/orig"
+  },
+  {
+    "name": "Grenki.osh",
+    "country": "Kyrgyzstan",
+    "city": "Osh",
+    "cuisine_type": "fast_food",
+    "menu": {
+      "grenki": 38000,
+      "shashlik": 59000,
+      "fries": 22000,
+      "burger": 42000,
+      "samsa": 24000,
+      "cola": 18000
+    },
+    "lat": 40.5280,
+    "lng": 72.7980,
+    "image": "https://avatars.mds.yandex.net/get-altay/88888888/grenki_osh/orig"
+  },
+  {
+    "name": "Eldorado Grand Restaurant",
+    "country": "Kyrgyzstan",
+    "city": "Osh",
+    "cuisine_type": "international",
+    "menu": {
+      "steak": 98000,
+      "seafood_platter": 125000,
+      "pizza": 65000,
+      "shashlik": 72000,
+      "sushi_set": 85000,
+      "dessert_plate": 42000
+    },
+    "lat": 40.5298,
+    "lng": 72.8010,
+    "image": "https://avatars.mds.yandex.net/get-altay/99999999/eldorado_osh/orig"
+  },
+  {
+    "name": "Arbat Resto-Cafe",
+    "country": "Kyrgyzstan",
+    "city": "Osh",
+    "cuisine_type": "russian_european",
+    "menu": {
+      "pelmeni": 42000,
+      "shashlik": 64000,
+      "borsch": 35000,
+      "blini": 38000,
+      "salad_olivier": 32000,
+      "vodka_shot": 25000
+    },
+    "lat": 40.5272,
+    "lng": 72.7968,
+    "image": "https://avatars.mds.yandex.net/get-altay/10101011/arbat_osh/orig"
+  }, {
+    "name": "Dastorkon Restaurant",
+    "country": "Kyrgyzstan",
+    "city": "Karakol",
+    "cuisine_type": "kyrgyz_ethnic",
+    "menu": {
+      "beshbarmak": 78000,
+      "kymyz": 35000,
+      "shashlik": 65000,
+      "kurd_salad": 42000,
+      "manti": 41000,
+      "lagman": 38000
+    },
+    "lat": 42.4910,
+    "lng": 78.3935,
+    "image": "https://avatars.mds.yandex.net/get-altay/11111111/dastorkon_karakol/orig"
+  },
+  {
+    "name": "Altyn Kumara",
+    "country": "Kyrgyzstan",
+    "city": "Karakol",
+    "cuisine_type": "barbecue",
+    "menu": {
+      "shashlik_plate": 72000,
+      "sushi_set": 65000,
+      "pizza": 58000,
+      "plov": 52000,
+      "samsa": 25000,
+      "beer": 32000
+    },
+    "lat": 42.4915,
+    "lng": 78.3942,
+    "image": "https://avatars.mds.yandex.net/get-altay/22222222/altyn_kumara_karakol/orig"
+  },
+  {
+    "name": "Lighthouse Coffee & Tea",
+    "country": "Kyrgyzstan",
+    "city": "Karakol",
+    "cuisine_type": "cafe",
+    "menu": {
+      "flat_white": 34000,
+      "avocado_toast": 45000,
+      "pancakes": 42000,
+      "croissant": 28000,
+      "smoothie": 38000,
+      "sandwich": 48000
+    },
+    "lat": 42.4908,
+    "lng": 78.3930,
+    "image": "https://avatars.mds.yandex.net/get-altay/33333333/lighthouse_karakol/orig"
+  },
+  {
+    "name": "Restaurant Ala Too",
+    "country": "Kyrgyzstan",
+    "city": "Karakol",
+    "cuisine_type": "kyrgyz",
+    "menu": {
+      "ala_too_plov": 52000,
+      "shashlik": 68000,
+      "beshbarmak": 85000,
+      "manti": 41000,
+      "kymyz": 32000,
+      "samsa": 26000
+    },
+    "lat": 42.4920,
+    "lng": 78.3948,
+    "image": "https://avatars.mds.yandex.net/get-altay/44444444/ala_too_karakol/orig"
+  },
+  {
+    "name": "SIERRA Coffee & Restaurant Karakol",
+    "country": "Kyrgyzstan",
+    "city": "Karakol",
+    "cuisine_type": "coffee_house",
+    "menu": {
+      "cappuccino": 36000,
+      "breakfast_plate": 52000,
+      "shashlik": 65000,
+      "pasta": 58000,
+      "cheesecake": 38000,
+      "latte": 34000
+    },
+    "lat": 42.4912,
+    "lng": 78.3938,
+    "image": "https://avatars.mds.yandex.net/get-altay/55555555/sierra_karakol/orig"
+  },
+  {
+    "name": "Kochevnik Cafe",
+    "country": "Kyrgyzstan",
+    "city": "Karakol",
+    "cuisine_type": "nomad",
+    "menu": {
+      "nomad_plov": 48000,
+      "horse_meat": 72000,
+      "kurd_cheese": 35000,
+      "shashlik": 64000,
+      "manti": 39000,
+      "kymyz": 30000
+    },
+    "lat": 42.4905,
+    "lng": 78.3925,
+    "image": "https://avatars.mds.yandex.net/get-altay/66666666/kochevnik_karakol/orig"
+  },
+  {
+    "name": "Archa",
+    "country": "Kyrgyzstan",
+    "city": "Karakol",
+    "cuisine_type": "kyrgyz",
+    "menu": {
+      "archa_plov": 51000,
+      "shashlik": 67000,
+      "lagman": 38000,
+      "samsa": 27000,
+      "shorpo": 36000,
+      "boorsok": 28000
+    },
+    "lat": 42.4925,
+    "lng": 78.3955,
+    "image": "https://avatars.mds.yandex.net/get-altay/77777777/archa_karakol/orig"
+  },
+  {
+    "name": "Cafe Zarina",
+    "country": "Kyrgyzstan",
+    "city": "Karakol",
+    "cuisine_type": "cafe",
+    "menu": {
+      "zarina_plov": 46000,
+      "shashlik": 63000,
+      "coffee": 29000,
+      "samsa": 25000,
+      "tea": 17000,
+      "cake": 37000
+    },
+    "lat": 42.4918,
+    "lng": 78.3940,
+    "image": "https://avatars.mds.yandex.net/get-altay/88888888/zarina_karakol/orig"
+  },
+  {
+    "name": "U Saidy",
+    "country": "Kyrgyzstan",
+    "city": "Karakol",
+    "cuisine_type": "uzbek",
+    "menu": {
+      "said_plov": 49000,
+      "shashlik": 66000,
+      "norin": 42000,
+      "samsa": 26000,
+      "shurpa": 37000,
+      "tandir_noodles": 45000
+    },
+    "lat": 42.4902,
+    "lng": 78.3928,
+    "image": "https://avatars.mds.yandex.net/get-altay/99999999/u_saidy_karakol/orig"
+  },
+  {
+    "name": "Tattuu Family",
+    "country": "Kyrgyzstan",
+    "city": "Karakol",
+    "cuisine_type": "family_kyrgyz",
+    "menu": {
+      "family_plov": 47000,
+      "shashlik": 64000,
+      "manti": 40000,
+      "kymyz": 31000,
+      "samsa": 27000,
+      "beshbarmak": 78000
+    },
+    "lat": 42.4922,
+    "lng": 78.3950,
+    "image": "https://avatars.mds.yandex.net/get-altay/10101011/tattuu_karakol/orig"
+  },{
+    "name": "Saltanat Kholl",
+    "country": "Kyrgyzstan",
+    "city": "Naryn",
+    "cuisine_type": "kyrgyz",
+    "menu": {
+      "naryn_plov": 48000,
+      "shashlik": 65000,
+      "beshbarmak": 85000,
+      "kymyz": 32000,
+      "manti": 41000,
+      "samsa": 26000
+    },
+    "lat": 41.4335,
+    "lng": 76.0062,
+    "image": "https://avatars.mds.yandex.net/get-altay/11111111/saltanat_naryn/orig"
+  },
+  {
+    "name": "Kafe Gurman",
+    "country": "Kyrgyzstan",
+    "city": "Naryn",
+    "cuisine_type": "european",
+    "menu": {
+      "gourmet_plov": 52000,
+      "steak": 95000,
+      "pizza": 65000,
+      "caesar_salad": 42000,
+      "pasta": 58000,
+      "cheesecake": 38000
+    },
+    "lat": 41.4340,
+    "lng": 76.0070,
+    "image": "https://avatars.mds.yandex.net/get-altay/22222222/gurman_naryn/orig"
+  },
+  {
+    "name": "KulturCafe Naryn",
+    "country": "Kyrgyzstan",
+    "city": "Naryn",
+    "cuisine_type": "cafe",
+    "menu": {
+      "cultural_plov": 46000,
+      "shashlik": 63000,
+      "coffee": 29000,
+      "samsa": 25000,
+      "latte": 34000,
+      "croissant": 32000
+    },
+    "lat": 41.4338,
+    "lng": 76.0068,
+    "image": "https://avatars.mds.yandex.net/get-altay/33333333/kulturcafe_naryn/orig"
+  },
+  {
+    "name": "Cafe Solnechnyi Naryn",
+    "country": "Kyrgyzstan",
+    "city": "Naryn",
+    "cuisine_type": "cafe",
+    "menu": {
+      "sunny_plov": 47000,
+      "shashlik": 64000,
+      "manti": 39000,
+      "tea": 17000,
+      "samsa": 26000,
+      "salad": 35000
+    },
+    "lat": 41.4345,
+    "lng": 76.0080,
+    "image": "https://avatars.mds.yandex.net/get-altay/44444444/solnechnyi_naryn/orig"
+  },
+  {
+    "name": "Khan Tengri Restaurant",
+    "country": "Kyrgyzstan",
+    "city": "Naryn",
+    "cuisine_type": "kyrgyz",
+    "menu": {
+      "khan_tengri_plov": 54000,
+      "shashlik": 68000,
+      "beshbarmak": 88000,
+      "kymyz": 34000,
+      "lagman": 40000,
+      "kurd_cheese": 38000
+    },
+    "lat": 41.4328,
+    "lng": 76.0055,
+    "image": "https://avatars.mds.yandex.net/get-altay/55555555/khan_tengri_naryn/orig"
+  },
+  {
+    "name": "Grand Khan Tengri",
+    "country": "Kyrgyzstan",
+    "city": "Naryn",
+    "cuisine_type": "luxury_kyrgyz",
+    "menu": {
+      "grand_plov": 62000,
+      "shashlik_deluxe": 85000,
+      "horse_meat": 98000,
+      "mountain_salad": 45000,
+      "manti": 43000,
+      "champagne": 72000
+    },
+    "lat": 41.4350,
+    "lng": 76.0085,
+    "image": "https://avatars.mds.yandex.net/get-altay/66666666/grand_khan_naryn/orig"
+  },
+  {
+    "name": "Naryn Restaurant",
+    "country": "Kyrgyzstan",
+    "city": "Naryn",
+    "cuisine_type": "kyrgyz",
+    "menu": {
+      "naryn_plov": 49000,
+      "shashlik": 66000,
+      "beshbarmak": 82000,
+      "manti": 42000,
+      "samsa": 27000,
+      "shorpo": 36000
+    },
+    "lat": 41.4332,
+    "lng": 76.0060,
+    "image": "https://avatars.mds.yandex.net/get-altay/77777777/naryn_rest/orig"
+  },
+  {
+    "name": "Altyn-Too",
+    "country": "Kyrgyzstan",
+    "city": "Naryn",
+    "cuisine_type": "kyrgyz",
+    "menu": {
+      "altyn_plov": 51000,
+      "shashlik": 67000,
+      "kymyz": 33000,
+      "lagman": 41000,
+      "samsa": 28000,
+      "boorsok": 29000
+    },
+    "lat": 41.4342,
+    "lng": 76.0072,
+    "image": "https://avatars.mds.yandex.net/get-altay/88888888/altyn_too_naryn/orig"
+  },
+  {
+    "name": "Kafe Naryn",
+    "country": "Kyrgyzstan",
+    "city": "Naryn",
+    "cuisine_type": "cafe",
+    "menu": {
+      "naryn_cafe_plov": 45000,
+      "shashlik": 62000,
+      "coffee": 30000,
+      "samsa": 25000,
+      "tea": 18000,
+      "cake": 37000
+    },
+    "lat": 41.4325,
+    "lng": 76.0050,
+    "image": "https://avatars.mds.yandex.net/get-altay/99999999/kafe_naryn/orig"
+  },
+  {
+    "name": "Oshkhona Naryn",
+    "country": "Kyrgyzstan",
+    "city": "Naryn",
+    "cuisine_type": "kyrgyz",
+    "menu": {
+      "naryn_osh": 43000,
+      "shashlik": 64000,
+      "manti": 38000,
+      "shorpo": 34000,
+      "samsa": 24000,
+      "non": 19000
+    },
+    "lat": 41.4352,
+    "lng": 76.0090,
+    "image": "https://avatars.mds.yandex.net/get-altay/10101011/oshkhona_naryn/orig"
+  },{
+    "name": "Navat",
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "cuisine_type": "kazakh",
+    "menu": {
+      "beshbarmak": 85000,
+      "kazy": 78000,
+      "kumis": 35000,
+      "shashlik": 72000,
+      "manti": 45000,
+      "kurd": 42000
+    },
+    "lat": 43.2389,
+    "lng": 76.8898,
+    "image": "https://avatars.mds.yandex.net/get-altay/11111111/navat_almaty/orig"
+  },
+  {
+    "name": "Tarkhun",
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "cuisine_type": "kazakh_fusion",
+    "menu": {
+      "tarkhun_plov": 68000,
+      "manty": 52000,
+      "shashlik": 65000,
+      "samsa": 28000,
+      "shurpa": 38000,
+      "baursak": 25000
+    },
+    "lat": 43.2395,
+    "lng": 76.8905,
+    "image": "https://avatars.mds.yandex.net/get-altay/22222222/tarkhun_almaty/orig"
+  },
+  {
+    "name": "SANDYQ",
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "cuisine_type": "kazakh",
+    "menu": {
+      "sandyq_plov": 72000,
+      "beshbarmak": 88000,
+      "shashlik": 68000,
+      "kazy_plate": 75000,
+      "manti": 46000,
+      "kurd_salad": 42000
+    },
+    "lat": 43.2402,
+    "lng": 76.8912,
+    "image": "https://avatars.mds.yandex.net/get-altay/33333333/sandyq_almaty/orig"
+  },
+  {
+    "name": "Beefeater Dostyk",
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "cuisine_type": "steakhouse",
+    "menu": {
+      "ribeye": 145000,
+      "shashlik": 85000,
+      "t_bone": 165000,
+      "burger": 65000,
+      "caesar_salad": 45000,
+      "ribs": 98000
+    },
+    "lat": 43.2390,
+    "lng": 76.8900,
+    "image": "https://avatars.mds.yandex.net/get-altay/44444444/beefeater_dostyk/orig"
+  },
+  {
+    "name": "Daredzhani Kunayeva",
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "cuisine_type": "georgian",
+    "menu": {
+      "khachapuri": 68000,
+      "khinkali": 52000,
+      "shashlik": 72000,
+      "satsivi": 65000,
+      "pkhali": 42000,
+      "ajapsandali": 48000
+    },
+    "lat": 43.2385,
+    "lng": 76.8892,
+    "image": "https://avatars.mds.yandex.net/get-altay/55555555/daredzhani_almaty/orig"
+  },
+  {
+    "name": "Nuala",
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "cuisine_type": "irish_pub",
+    "menu": {
+      "guinness_stew": 72000,
+      "fish_chips": 65000,
+      "shepherds_pie": 68000,
+      "burger": 62000,
+      "irish_soda": 38000,
+      "beer": 45000
+    },
+    "lat": 43.2408,
+    "lng": 76.8920,
+    "image": "https://avatars.mds.yandex.net/get-altay/66666666/nuala_almaty/orig"
+  },
+  {
+    "name": "Manga Sushi",
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "cuisine_type": "japanese",
+    "menu": {
+      "sushi_set": 85000,
+      "ramen": 68000,
+      "sashimi": 92000,
+      "tempura": 52000,
+      "miso_soup": 28000,
+      "udon": 65000
+    },
+    "lat": 43.2415,
+    "lng": 76.8930,
+    "image": "https://avatars.mds.yandex.net/get-altay/77777777/manga_sushi_almaty/orig"
+  },
+  {
+    "name": "Chechil Rozybakiyeva",
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "cuisine_type": "kazakh_pub",
+    "menu": {
+      "chechil_plate": 45000,
+      "shashlik": 68000,
+      "plov": 52000,
+      "kazy": 75000,
+      "samsa": 29000,
+      "beer": 38000
+    },
+    "lat": 43.2378,
+    "lng": 76.8880,
+    "image": "https://avatars.mds.yandex.net/get-altay/88888888/chechil_almaty/orig"
+  },
+  {
+    "name": "Beefeater Forum",
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "cuisine_type": "steakhouse",
+    "menu": {
+      "ribeye": 148000,
+      "shashlik": 87000,
+      "filet_mignon": 165000,
+      "wings": 52000,
+      "potato_wedges": 35000,
+      "beer": 42000
+    },
+    "lat": 43.2398,
+    "lng": 76.8915,
+    "image": "https://avatars.mds.yandex.net/get-altay/99999999/beefeater_forum/orig"
+  },
+  {
+    "name": "KISHLAK",
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "cuisine_type": "uzbek",
+    "menu": {
+      "kishlak_plov": 68000,
+      "shashlik": 72000,
+      "norin": 45000,
+      "samsa": 28000,
+      "shurpa": 42000,
+      "tandir_noodles": 52000
+    },
+    "lat": 43.2405,
+    "lng": 76.8925,
+    "image": "https://avatars.mds.yandex.net/get-altay/10101011/kishlak_almaty/orig"
+  },{
+    "name": "Saksaul",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "cuisine_type": "kazakh",
+    "menu": {
+      "beshbarmak": 85000,
+      "kazy": 78000,
+      "kumis": 35000,
+      "shashlik": 72000,
+      "manti": 45000,
+      "kurt": 28000
+    },
+    "lat": 51.1282,
+    "lng": 71.4304,
+    "image": "https://avatars.mds.yandex.net/get-altay/11111111/saksaul_astana/orig"
+  },
+  {
+    "name": "Salter's",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "cuisine_type": "modern_european",
+    "menu": {
+      "ribeye_steak": 145000,
+      "foie_gras": 98000,
+      "truffle_pasta": 85000,
+      "caviar_service": 125000,
+      "caesar_salad": 45000,
+      "tiramisu": 38000
+    },
+    "lat": 51.1290,
+    "lng": 71.4315,
+    "image": "https://avatars.mds.yandex.net/get-altay/22222222/salters_astana/orig"
+  },
+  {
+    "name": "Өzen",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "cuisine_type": "kazakh_fusion",
+    "menu": {
+      "ozen_plov": 68000,
+      "horse_meat_tartare": 72000,
+      "shashlik_deluxe": 85000,
+      "kurd_salad": 42000,
+      "manti_modern": 52000,
+      "kumis_cocktail": 38000
+    },
+    "lat": 51.1278,
+    "lng": 71.4298,
+    "image": "https://avatars.mds.yandex.net/get-altay/33333333/ozen_astana/orig"
+  },
+  {
+    "name": "La Rivière",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "cuisine_type": "french_mediterranean",
+    "menu": {
+      "foie_gras": 95000,
+      "lobster_risotto": 125000,
+      "beef_wellington": 145000,
+      "escargot": 58000,
+      "creme_brulee": 42000,
+      "french_onion_soup": 38000
+    },
+    "lat": 51.1285,
+    "lng": 71.4300,
+    "image": "https://avatars.mds.yandex.net/get-altay/44444444/la_riviere_astana/orig"
+  },
+  {
+    "name": "Mökki",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "cuisine_type": "nordic",
+    "menu": {
+      "reindeer_steak": 98000,
+      "smoked_salmon": 72000,
+      "lingonberry_salad": 45000,
+      "potato_gratin": 42000,
+      "cloudberry_cheesecake": 38000,
+      "aquavit": 35000
+    },
+    "lat": 51.1292,
+    "lng": 71.4318,
+    "image": "https://avatars.mds.yandex.net/get-altay/55555555/mokki_astana/orig"
+  },
+  {
+    "name": "Emiliya",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "cuisine_type": "italian",
+    "menu": {
+      "truffle_pizza": 75000,
+      "carbonara": 68000,
+      "ossobuco": 85000,
+      "tiramisu": 42000,
+      "prosciutto_salad": 48000,
+      "limoncello": 32000
+    },
+    "lat": 51.1275,
+    "lng": 71.4295,
+    "image": "https://avatars.mds.yandex.net/get-altay/66666666/emiliya_astana/orig"
+  },
+  {
+    "name": "Cloud9 Dine & Wine",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "cuisine_type": "fusion_wine_bar",
+    "menu": {
+      "wagyu_tartare": 125000,
+      "truffle_fries": 45000,
+      "lobster_roll": 98000,
+      "charcuterie": 68000,
+      "caviar_bumps": 150000,
+      "champagne": 85000
+    },
+    "lat": 51.1300,
+    "lng": 71.4325,
+    "image": "https://avatars.mds.yandex.net/get-altay/77777777/cloud9_astana/orig"
+  },
+  {
+    "name": "Chechil Pub Satpayeva",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "cuisine_type": "kazakh_pub",
+    "menu": {
+      "chechil_platter": 42000,
+      "shashlik": 68000,
+      "kazy_wings": 52000,
+      "pelmeni": 45000,
+      "samsa": 28000,
+      "beer_flight": 38000
+    },
+    "lat": 51.1288,
+    "lng": 71.4310,
+    "image": "https://avatars.mds.yandex.net/get-altay/88888888/chechil_astana/orig"
+  },
+  {
+    "name": "Fest 425",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "cuisine_type": "modern_kazakh",
+    "menu": {
+      "fest_plov": 72000,
+      "shashlik_trio": 85000,
+      "horse_meat_carpaccio": 78000,
+      "kurt_foam_salad": 48000,
+      "manti_bites": 52000,
+      "kumis_sorbet": 35000
+    },
+    "lat": 51.1270,
+    "lng": 71.4290,
+    "image": "https://avatars.mds.yandex.net/get-altay/99999999/fest425_astana/orig"
+  },
+  {
+    "name": "Eternal Sky",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "cuisine_type": "panoramic_fine_dining",
+    "menu": {
+      "skyline_beshbarmak": 95000,
+      "caviar_service": 145000,
+      "wagyu_shashlik": 165000,
+      "truffle_manti": 85000,
+      "gold_leaf_dessert": 68000,
+      "aged_kumis": 42000
+    },
+    "lat": 51.1295,
+    "lng": 71.4320,
+    "image": "https://avatars.mds.yandex.net/get-altay/10101011/eternal_sky_astana/orig"
+  },{
+    "name": "Kazakhasia",
+    "country": "Kazakhstan",
+    "city": "Shymkent",
+    "cuisine_type": "kazakh_fusion",
+    "menu": {
+      "shymkent_plov": 68000,
+      "beshbarmak": 82000,
+      "shashlik_deluxe": 75000,
+      "kazy_plate": 72000,
+      "manti": 45000,
+      "kurt_salad": 38000
+    },
+    "lat": 42.3005,
+    "lng": 69.6002,
+    "image": "https://avatars.mds.yandex.net/get-altay/11111111/kazakhasia_shymkent/orig"
+  },
+  {
+    "name": "Bar Villa",
+    "country": "Kazakhstan",
+    "city": "Shymkent",
+    "cuisine_type": "european_grill",
+    "menu": {
+      "steak_plate": 95000,
+      "truffle_fries": 42000,
+      "burger": 65000,
+      "charcuterie": 68000,
+      "craft_beer": 35000,
+      "sushi_rolls": 52000
+    },
+    "lat": 42.3012,
+    "lng": 69.6010,
+    "image": "https://avatars.mds.yandex.net/get-altay/22222222/bar_villa_shymkent/orig"
+  },
+  {
+    "name": "Meat & Sea",
+    "country": "Kazakhstan",
+    "city": "Shymkent",
+    "cuisine_type": "steak_seafood",
+    "menu": {
+      "ribeye": 138000,
+      "lobster_tail": 115000,
+      "seafood_platter": 92000,
+      "filet_mignon": 145000,
+      "oysters": 65000,
+      "crab_cakes": 78000
+    },
+    "lat": 42.3008,
+    "lng": 69.6008,
+    "image": "https://avatars.mds.yandex.net/get-altay/33333333/meat_sea_shymkent/orig"
+  },
+  {
+    "name": "Vinopark",
+    "country": "Kazakhstan",
+    "city": "Shymkent",
+    "cuisine_type": "japanese_wine_bar",
+    "menu": {
+      "sushi_set": 82000,
+      "wagyu_tataki": 95000,
+      "tempura_platter": 58000,
+      "sashimi": 88000,
+      "wine_pairing": 65000,
+      "miso_black_cod": 72000
+    },
+    "lat": 42.3018,
+    "lng": 69.6018,
+    "image": "https://avatars.mds.yandex.net/get-altay/44444444/vinopark_shymkent/orig"
+  },
+  {
+    "name": "Olivia Restaurant",
+    "country": "Kazakhstan",
+    "city": "Shymkent",
+    "cuisine_type": "italian",
+    "menu": {
+      "truffle_risotto": 78000,
+      "lobster_pasta": 95000,
+      "beef_carpaccio": 68000,
+      "tiramisu": 42000,
+      "prosciutto_pizza": 65000,
+      "limoncello": 35000
+    },
+    "lat": 42.2998,
+    "lng": 69.5995,
+    "image": "https://avatars.mds.yandex.net/get-altay/55555555/olivia_shymkent/orig"
+  },
+  {
+    "name": "Sandyq",
+    "country": "Kazakhstan",
+    "city": "Shymkent",
+    "cuisine_type": "kazakh",
+    "menu": {
+      "sandyq_beshbarmak": 85000,
+      "horse_plov": 68000,
+      "kazy_deluxe": 74000,
+      "shashlik": 72000,
+      "manti": 46000,
+      "kumis": 32000
+    },
+    "lat": 42.3020,
+    "lng": 69.6020,
+    "image": "https://avatars.mds.yandex.net/get-altay/66666666/sandyq_shymkent/orig"
+  },
+  {
+    "name": "Abay Restaurant",
+    "country": "Kazakhstan",
+    "city": "Shymkent",
+    "cuisine_type": "kazakh_traditional",
+    "menu": {
+      "abay_plov": 65000,
+      "beshbarmak": 78000,
+      "shashlik": 68000,
+      "kuurdak": 52000,
+      "samsa": 28000,
+      "shurpa": 38000
+    },
+    "lat": 42.3015,
+    "lng": 69.6015,
+    "image": "https://avatars.mds.yandex.net/get-altay/77777777/abay_shymkent/orig"
+  },
+  {
+    "name": "Dastarkhan",
+    "country": "Kazakhstan",
+    "city": "Shymkent",
+    "cuisine_type": "central_asian",
+    "menu": {
+      "dastarkhan_plov": 68000,
+      "shashlik_platter": 72000,
+      "lagman": 42000,
+      "manti": 45000,
+      "samsa_tandir": 29000,
+      "shorpo": 36000
+    },
+    "lat": 42.3000,
+    "lng": 69.5998,
+    "image": "https://avatars.mds.yandex.net/get-altay/88888888/dastarkhan_shymkent/orig"
+  },
+  {
+    "name": "Kishlak",
+    "country": "Kazakhstan",
+    "city": "Shymkent",
+    "cuisine_type": "uzbek",
+    "menu": {
+      "kishlak_plov": 70000,
+      "shashlik_uzbek": 68000,
+      "norin": 45000,
+      "samsa": 30000,
+      "shurpa": 42000,
+      "tandir_bread": 25000
+    },
+    "lat": 42.3022,
+    "lng": 69.6022,
+    "image": "https://avatars.mds.yandex.net/get-altay/99999999/kishlak_shymkent/orig"
+  },
+  {
+    "name": "Saigon",
+    "country": "Kazakhstan",
+    "city": "Shymkent",
+    "cuisine_type": "vietnamese",
+    "menu": {
+      "pho_bo": 58000,
+      "bun_thit_nuong": 62000,
+      "spring_rolls": 42000,
+      "com_tam": 65000,
+      "goi_ga": 38000,
+      "ca_phe_sua": 32000
+    },
+    "lat": 42.2995,
+    "lng": 69.5992,
+    "image": "https://avatars.mds.yandex.net/get-altay/10101012/saigon_shymkent/orig"
+  },{
+    "name": "Ұлы Тау Мейрамханасы",
+    "country": "Kazakhstan",
+    "city": "Turkistan",
+    "cuisine_type": "kazakh",
+    "menu": {
+      "beshbarmak": 78000,
+      "kazy": 72000,
+      "shashlik": 65000,
+      "manti": 42000,
+      "kurt": 28000,
+      "shurpa": 35000
+    },
+    "lat": 43.2975,
+    "lng": 68.2502,
+    "image": "https://avatars.mds.yandex.net/get-altay/11111111/uly_tau_turkistan/orig"
+  },
+  {
+    "name": "Antalya Cafe Restaurant",
+    "country": "Kazakhstan",
+    "city": "Turkistan",
+    "cuisine_type": "turkish",
+    "menu": {
+      "doner": 52000,
+      "lahmacun": 38000,
+      "adana_kebab": 68000,
+      "pide": 45000,
+      "baklava": 32000,
+      "ayran": 20000
+    },
+    "lat": 43.2980,
+    "lng": 68.2510,
+    "image": "https://avatars.mds.yandex.net/get-altay/22222222/antalya_turkistan/orig"
+  },
+  {
+    "name": "Al-Fatih",
+    "country": "Kazakhstan",
+    "city": "Turkistan",
+    "cuisine_type": "central_asian",
+    "menu": {
+      "fatih_plov": 65000,
+      "shashlik": 62000,
+      "manti": 41000,
+      "samsa": 26000,
+      "lagman": 38000,
+      "shorpo": 34000
+    },
+    "lat": 43.2972,
+    "lng": 68.2498,
+    "image": "https://avatars.mds.yandex.net/get-altay/33333333/al_fatih_turkistan/orig"
+  },
+  {
+    "name": "Turkistan Meyramkhanasy",
+    "country": "Kazakhstan",
+    "city": "Turkistan",
+    "cuisine_type": "kazakh_traditional",
+    "menu": {
+      "turkistan_plov": 68000,
+      "beshbarmak": 82000,
+      "shashlik": 67000,
+      "kuurdak": 52000,
+      "samsa": 28000,
+      "kumis": 32000
+    },
+    "lat": 43.2985,
+    "lng": 68.2515,
+    "image": "https://avatars.mds.yandex.net/get-altay/44444444/meyramkhanasy_turkistan/orig"
+  },
+  {
+    "name": "Döner Evi",
+    "country": "Kazakhstan",
+    "city": "Turkistan",
+    "cuisine_type": "turkish_streetfood",
+    "menu": {
+      "doner_classic": 45000,
+      "iskender": 58000,
+      "shish_tavuk": 52000,
+      "lahmacun": 32000,
+      "ayran": 18000,
+      "cay": 15000
+    },
+    "lat": 43.2978,
+    "lng": 68.2505,
+    "image": "https://avatars.mds.yandex.net/get-altay/55555555/doner_evi_turkistan/orig"
+  },
+  {
+    "name": "Sandyk",
+    "country": "Kazakhstan",
+    "city": "Turkistan",
+    "cuisine_type": "kazakh_bbq",
+    "menu": {
+      "sandyk_shashlik": 72000,
+      "kazy_plate": 75000,
+      "horse_plov": 68000,
+      "kuurdak": 55000,
+      "manti": 43000,
+      "kurt": 29000
+    },
+    "lat": 43.2988,
+    "lng": 68.2520,
+    "image": "https://avatars.mds.yandex.net/get-altay/66666666/sandyk_turkistan/orig"
+  },
+  {
+    "name": "Kafe Daulet",
+    "country": "Kazakhstan",
+    "city": "Turkistan",
+    "cuisine_type": "cafe",
+    "menu": {
+      "daulet_plov": 48000,
+      "shashlik": 58000,
+      "samsa": 24000,
+      "manti": 38000,
+      "tea": 16000,
+      "salad": 32000
+    },
+    "lat": 43.2970,
+    "lng": 68.2495,
+    "image": "https://avatars.mds.yandex.net/get-altay/77777777/kafe_daulet_turkistan/orig"
+  },
+  {
+    "name": "Wow Plov",
+    "country": "Kazakhstan",
+    "city": "Turkistan",
+    "cuisine_type": "uzbek_plov",
+    "menu": {
+      "wow_plov": 52000,
+      "osh_tajik": 48000,
+      "shashlik": 61000,
+      "samsa": 25000,
+      "non": 20000,
+      "shurpa": 35000
+    },
+    "lat": 43.2982,
+    "lng": 68.2508,
+    "image": "https://avatars.mds.yandex.net/get-altay/88888888/wow_plov_turkistan/orig"
+  },
+  {
+    "name": "Edem Restaurant",
+    "country": "Kazakhstan",
+    "city": "Turkistan",
+    "cuisine_type": "kazakh",
+    "menu": {
+      "edem_beshbarmak": 79000,
+      "shashlik_plate": 68000,
+      "manti": 44000,
+      "lagman": 39000,
+      "samsa": 27000,
+      "shorpo": 36000
+    },
+    "lat": 43.2990,
+    "lng": 68.2525,
+    "image": "https://avatars.mds.yandex.net/get-altay/99999999/edem_turkistan/orig"
+  },
+  {
+    "name": "El Dorado",
+    "country": "Kazakhstan",
+    "city": "Turkistan",
+    "cuisine_type": "european",
+    "menu": {
+      "pizza_margherita": 52000,
+      "steak": 85000,
+      "pasta": 58000,
+      "caesar_salad": 42000,
+      "tiramisu": 35000,
+      "coffee": 28000
+    },
+    "lat": 43.2968,
+    "lng": 68.2490,
+    "image": "https://avatars.mds.yandex.net/get-altay/10101012/el_dorado_turkistan/orig"
   }
+
 ]
