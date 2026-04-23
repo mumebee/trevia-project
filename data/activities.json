@@ -4,7 +4,11 @@
     "name": "Tashkent City Mall",
     "country": "Uzbekistan",
     "city": "Tashkent",
-    "category": ["shopping", "mall", "modern"],
+    "category": [
+      "shopping",
+      "mall",
+      "modern"
+    ],
     "duration": 2,
     "price": 0,
     "lat": 41.3275,
@@ -17,7 +21,11 @@
     "name": "Samarqand Darvoza Mall",
     "country": "Uzbekistan",
     "city": "Tashkent",
-    "category": ["shopping", "mall", "entertainment"],
+    "category": [
+      "shopping",
+      "mall",
+      "entertainment"
+    ],
     "duration": 2.5,
     "price": 0,
     "lat": 41.2990,
@@ -30,7 +38,11 @@
     "name": "NEXT Shopping Mall",
     "country": "Uzbekistan",
     "city": "Tashkent",
-    "category": ["shopping", "boutique", "luxury"],
+    "category": [
+      "shopping",
+      "boutique",
+      "luxury"
+    ],
     "duration": 1.5,
     "price": 0,
     "lat": 41.3120,
@@ -43,7 +55,11 @@
     "name": "Riviera Mall Tashkent",
     "country": "Uzbekistan",
     "city": "Tashkent",
-    "category": ["shopping", "luxury", "dining"],
+    "category": [
+      "shopping",
+      "luxury",
+      "dining"
+    ],
     "duration": 1.5,
     "price": 0,
     "lat": 41.3050,
@@ -56,7 +72,11 @@
     "name": "Chorsu Bazaar",
     "country": "Uzbekistan",
     "city": "Tashkent",
-    "category": ["shopping", "bazaar", "traditional"],
+    "category": [
+      "shopping",
+      "bazaar",
+      "traditional"
+    ],
     "duration": 2,
     "price": 0,
     "lat": 41.3247,
@@ -69,7 +89,11 @@
     "name": "Parkent Bazaar",
     "country": "Uzbekistan",
     "city": "Tashkent",
-    "category": ["shopping", "local", "produce"],
+    "category": [
+      "shopping",
+      "local",
+      "produce"
+    ],
     "duration": 1.5,
     "price": 0,
     "lat": 41.2900,
@@ -82,7 +106,11 @@
     "name": "Yunusabad Tennis Courts",
     "country": "Uzbekistan",
     "city": "Tashkent",
-    "category": ["active", "tennis", "sports"],
+    "category": [
+      "active",
+      "tennis",
+      "sports"
+    ],
     "duration": 1.5,
     "price": 5,
     "lat": 41.3400,
@@ -95,7 +123,11 @@
     "name": "Reforma Pilates Studio",
     "country": "Uzbekistan",
     "city": "Tashkent",
-    "category": ["active", "pilates", "fitness"],
+    "category": [
+      "active",
+      "pilates",
+      "fitness"
+    ],
     "duration": 1,
     "price": 15,
     "lat": 41.3100,
@@ -108,7 +140,11 @@
     "name": "ProFit Pilates",
     "country": "Uzbekistan",
     "city": "Tashkent",
-    "category": ["active", "pilates", "studio"],
+    "category": [
+      "active",
+      "pilates",
+      "studio"
+    ],
     "duration": 1,
     "price": 12,
     "lat": 41.3150,
@@ -121,7 +157,11 @@
     "name": "Bunyodkor Stadium",
     "country": "Uzbekistan",
     "city": "Tashkent",
-    "category": ["active", "stadium", "football"],
+    "category": [
+      "active",
+      "stadium",
+      "football"
+    ],
     "duration": 2,
     "price": 5,
     "lat": 41.2333,
@@ -134,7 +174,11 @@
     "name": "Chimgan Mountains",
     "country": "Uzbekistan",
     "city": "Tashkent",
-    "category": ["active", "hiking", "mountains"],
+    "category": [
+      "active",
+      "hiking",
+      "mountains"
+    ],
     "duration": 4,
     "price": 10,
     "lat": 41.5333,
@@ -147,7 +191,11 @@
     "name": "Vertical Climbing Gym",
     "country": "Uzbekistan",
     "city": "Tashkent",
-    "category": ["active", "climbing", "gym"],
+    "category": [
+      "active",
+      "climbing",
+      "gym"
+    ],
     "duration": 1.5,
     "price": 8,
     "lat": 41.3200,
@@ -160,7 +208,11 @@
     "name": "Khast Imam Complex",
     "country": "Uzbekistan",
     "city": "Tashkent",
-    "category": ["cultural", "islamic", "architecture"],
+    "category": [
+      "cultural",
+      "islamic",
+      "architecture"
+    ],
     "duration": 1.5,
     "price": 2,
     "lat": 41.3147,
@@ -173,7 +225,11 @@
     "name": "Amir Timur Museum",
     "country": "Uzbekistan",
     "city": "Tashkent",
-    "category": ["cultural", "history", "museum"],
+    "category": [
+      "cultural",
+      "history",
+      "museum"
+    ],
     "duration": 1.5,
     "price": 3,
     "lat": 41.2978,
@@ -186,7 +242,11 @@
     "name": "Navoi Theatre",
     "country": "Uzbekistan",
     "city": "Tashkent",
-    "category": ["cultural", "theatre", "opera"],
+    "category": [
+      "cultural",
+      "theatre",
+      "opera"
+    ],
     "duration": 2.5,
     "price": 10,
     "lat": 41.2975,
@@ -199,7 +259,11 @@
     "name": "State Museum of History of Uzbekistan",
     "country": "Uzbekistan",
     "city": "Tashkent",
-    "category": ["cultural", "museum", "history"],
+    "category": [
+      "cultural",
+      "museum",
+      "history"
+    ],
     "duration": 2,
     "price": 3,
     "lat": 41.2950,
@@ -212,7 +276,11 @@
     "name": "Thai Spa Tashkent",
     "country": "Uzbekistan",
     "city": "Tashkent",
-    "category": ["relax", "spa", "massage"],
+    "category": [
+      "relax",
+      "spa",
+      "massage"
+    ],
     "duration": 1.5,
     "price": 25,
     "lat": 41.3000,
@@ -225,7 +293,11 @@
     "name": "U-Spa by Wyndham",
     "country": "Uzbekistan",
     "city": "Tashkent",
-    "category": ["relax", "hotel", "spa"],
+    "category": [
+      "relax",
+      "hotel",
+      "spa"
+    ],
     "duration": 2,
     "price": 35,
     "lat": 41.3250,
@@ -238,7 +310,11 @@
     "name": "Serenity Spa",
     "country": "Uzbekistan",
     "city": "Tashkent",
-    "category": ["relax", "spa", "wellness"],
+    "category": [
+      "relax",
+      "spa",
+      "wellness"
+    ],
     "duration": 1.5,
     "price": 30,
     "lat": 41.3100,
@@ -251,7 +327,11 @@
     "name": "Magic City Park",
     "country": "Uzbekistan",
     "city": "Tashkent",
-    "category": ["fun", "amusement", "family"],
+    "category": [
+      "fun",
+      "amusement",
+      "family"
+    ],
     "duration": 3,
     "price": 10,
     "lat": 41.2800,
@@ -264,7 +344,11 @@
     "name": "VR Park Tashkent",
     "country": "Uzbekistan",
     "city": "Tashkent",
-    "category": ["fun", "virtual", "reality"],
+    "category": [
+      "fun",
+      "virtual",
+      "reality"
+    ],
     "duration": 1.5,
     "price": 12,
     "lat": 41.3275,
@@ -277,7 +361,11 @@
     "name": "7 Fridays Club",
     "country": "Uzbekistan",
     "city": "Tashkent",
-    "category": ["fun", "nightclub", "party"],
+    "category": [
+      "fun",
+      "nightclub",
+      "party"
+    ],
     "duration": 3,
     "price": 10,
     "lat": 41.3050,
@@ -290,7 +378,11 @@
     "name": "CMI Afterparty Bar",
     "country": "Uzbekistan",
     "city": "Tashkent",
-    "category": ["fun", "bar", "nightlife"],
+    "category": [
+      "fun",
+      "bar",
+      "nightlife"
+    ],
     "duration": 2,
     "price": 8,
     "lat": 41.3100,
@@ -303,7 +395,11 @@
     "name": "The Time Bar",
     "country": "Uzbekistan",
     "city": "Tashkent",
-    "category": ["fun", "bar", "lounge"],
+    "category": [
+      "fun",
+      "bar",
+      "lounge"
+    ],
     "duration": 2,
     "price": 10,
     "lat": 41.3150,
@@ -316,7 +412,11 @@
     "name": "Sky Lounge Tashkent",
     "country": "Uzbekistan",
     "city": "Tashkent",
-    "category": ["fun", "rooftop", "nightlife"],
+    "category": [
+      "fun",
+      "rooftop",
+      "nightlife"
+    ],
     "duration": 2.5,
     "price": 15,
     "lat": 41.3200,
@@ -329,19 +429,28 @@
     "name": "Caspian Sea Promenade",
     "country": "Uzbekistan",
     "city": "Tashkent",
-    "category": ["active", "walk", "scenic"],
+    "category": [
+      "active",
+      "walk",
+      "scenic"
+    ],
     "duration": 1.5,
     "price": 0,
     "lat": 41.3080,
     "lng": 69.2650,
     "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400",
     "description": "Beautiful waterfront promenade for evening strolls with sea breezes."
-  },{
+  },
+  {
     "id": 27,
     "name": "Siab Bazaar",
     "country": "Uzbekistan",
     "city": "Samarkand",
-    "category": ["shopping", "bazaar", "traditional"],
+    "category": [
+      "shopping",
+      "bazaar",
+      "traditional"
+    ],
     "duration": 2,
     "price": 0,
     "lat": 39.6489,
@@ -354,7 +463,11 @@
     "name": "Family Park Mall",
     "country": "Uzbekistan",
     "city": "Samarkand",
-    "category": ["shopping", "mall", "family"],
+    "category": [
+      "shopping",
+      "mall",
+      "family"
+    ],
     "duration": 2,
     "price": 0,
     "lat": 39.6550,
@@ -367,7 +480,11 @@
     "name": "Silk Road Samarkand Shops",
     "country": "Uzbekistan",
     "city": "Samarkand",
-    "category": ["shopping", "souvenirs", "silk"],
+    "category": [
+      "shopping",
+      "souvenirs",
+      "silk"
+    ],
     "duration": 1.5,
     "price": 0,
     "lat": 39.6500,
@@ -380,7 +497,11 @@
     "name": "Yangi Bazaar",
     "country": "Uzbekistan",
     "city": "Samarkand",
-    "category": ["shopping", "local", "market"],
+    "category": [
+      "shopping",
+      "local",
+      "market"
+    ],
     "duration": 1.5,
     "price": 0,
     "lat": 39.6450,
@@ -393,7 +514,11 @@
     "name": "Silk Road Samarkand Rowing Canal",
     "country": "Uzbekistan",
     "city": "Samarkand",
-    "category": ["active", "rowing", "water"],
+    "category": [
+      "active",
+      "rowing",
+      "water"
+    ],
     "duration": 1.5,
     "price": 5,
     "lat": 39.6600,
@@ -406,7 +531,11 @@
     "name": "Samarkand Tennis Complex",
     "country": "Uzbekistan",
     "city": "Samarkand",
-    "category": ["active", "tennis", "sports"],
+    "category": [
+      "active",
+      "tennis",
+      "sports"
+    ],
     "duration": 1.5,
     "price": 8,
     "lat": 39.6520,
@@ -419,7 +548,11 @@
     "name": "Hilton Garden Inn Fitness",
     "country": "Uzbekistan",
     "city": "Samarkand",
-    "category": ["active", "fitness", "gym"],
+    "category": [
+      "active",
+      "fitness",
+      "gym"
+    ],
     "duration": 1,
     "price": 15,
     "lat": 39.6470,
@@ -432,7 +565,11 @@
     "name": "Samarkand Tourist Complex Cycling Area",
     "country": "Uzbekistan",
     "city": "Samarkand",
-    "category": ["active", "cycling", "tourist"],
+    "category": [
+      "active",
+      "cycling",
+      "tourist"
+    ],
     "duration": 2,
     "price": 5,
     "lat": 39.6530,
@@ -445,7 +582,11 @@
     "name": "Registan",
     "country": "Uzbekistan",
     "city": "Samarkand",
-    "category": ["cultural", "architecture", "unesco"],
+    "category": [
+      "cultural",
+      "architecture",
+      "unesco"
+    ],
     "duration": 2,
     "price": 5,
     "lat": 39.6483,
@@ -458,7 +599,11 @@
     "name": "Shah-i-Zinda",
     "country": "Uzbekistan",
     "city": "Samarkand",
-    "category": ["cultural", "necropolis", "mausoleums"],
+    "category": [
+      "cultural",
+      "necropolis",
+      "mausoleums"
+    ],
     "duration": 1.5,
     "price": 3,
     "lat": 39.6547,
@@ -471,7 +616,11 @@
     "name": "Gur-e-Amir",
     "country": "Uzbekistan",
     "city": "Samarkand",
-    "category": ["cultural", "mausoleum", "timur"],
+    "category": [
+      "cultural",
+      "mausoleum",
+      "timur"
+    ],
     "duration": 1,
     "price": 3,
     "lat": 39.6469,
@@ -484,7 +633,11 @@
     "name": "Bibi-Khanym Mosque",
     "country": "Uzbekistan",
     "city": "Samarkand",
-    "category": ["cultural", "mosque", "architecture"],
+    "category": [
+      "cultural",
+      "mosque",
+      "architecture"
+    ],
     "duration": 1,
     "price": 2,
     "lat": 39.6492,
@@ -497,7 +650,11 @@
     "name": "Silk Road by Minyoun",
     "country": "Uzbekistan",
     "city": "Samarkand",
-    "category": ["relax", "spa", "luxury"],
+    "category": [
+      "relax",
+      "spa",
+      "luxury"
+    ],
     "duration": 2,
     "price": 40,
     "lat": 39.6510,
@@ -510,7 +667,11 @@
     "name": "Mövenpick Samarkand",
     "country": "Uzbekistan",
     "city": "Samarkand",
-    "category": ["relax", "hotel", "wellness"],
+    "category": [
+      "relax",
+      "hotel",
+      "wellness"
+    ],
     "duration": 1.5,
     "price": 35,
     "lat": 39.6475,
@@ -523,7 +684,11 @@
     "name": "Eternal City Tea Houses",
     "country": "Uzbekistan",
     "city": "Samarkand",
-    "category": ["relax", "tea", "traditional"],
+    "category": [
+      "relax",
+      "tea",
+      "traditional"
+    ],
     "duration": 1,
     "price": 5,
     "lat": 39.6490,
@@ -536,7 +701,11 @@
     "name": "Bibi Lounge",
     "country": "Uzbekistan",
     "city": "Samarkand",
-    "category": ["fun", "lounge", "nightlife"],
+    "category": [
+      "fun",
+      "lounge",
+      "nightlife"
+    ],
     "duration": 2,
     "price": 10,
     "lat": 39.6500,
@@ -549,7 +718,11 @@
     "name": "Emirhan Rooftop",
     "country": "Uzbekistan",
     "city": "Samarkand",
-    "category": ["fun", "rooftop", "views"],
+    "category": [
+      "fun",
+      "rooftop",
+      "views"
+    ],
     "duration": 2.5,
     "price": 15,
     "lat": 39.6520,
@@ -562,19 +735,28 @@
     "name": "Silk Road Samarkand Entertainment Zone",
     "country": "Uzbekistan",
     "city": "Samarkand",
-    "category": ["fun", "entertainment", "family"],
+    "category": [
+      "fun",
+      "entertainment",
+      "family"
+    ],
     "duration": 2,
     "price": 8,
     "lat": 39.6550,
     "lng": 66.9450,
     "image": "https://images.unsplash.com/photo-1582213782171-e8a6796f75e0?w=400",
     "description": "Modern entertainment zone with games and shows."
-  },{
+  },
+  {
     "id": 45,
     "name": "Itchan Kala Artisan Shops",
     "country": "Uzbekistan",
     "city": "Khiva",
-    "category": ["shopping", "artisan", "crafts"],
+    "category": [
+      "shopping",
+      "artisan",
+      "crafts"
+    ],
     "duration": 1.5,
     "price": 5,
     "lat": 41.3833,
@@ -587,7 +769,11 @@
     "name": "Khiva Bazaar",
     "country": "Uzbekistan",
     "city": "Khiva",
-    "category": ["shopping", "bazaar", "traditional"],
+    "category": [
+      "shopping",
+      "bazaar",
+      "traditional"
+    ],
     "duration": 2,
     "price": 0,
     "lat": 41.3820,
@@ -600,7 +786,11 @@
     "name": "Silk Carpet Workshops",
     "country": "Uzbekistan",
     "city": "Khiva",
-    "category": ["shopping", "carpets", "silk"],
+    "category": [
+      "shopping",
+      "carpets",
+      "silk"
+    ],
     "duration": 1,
     "price": 10,
     "lat": 41.3840,
@@ -613,7 +803,11 @@
     "name": "Woodcarving Workshops",
     "country": "Uzbekistan",
     "city": "Khiva",
-    "category": ["shopping", "woodwork", "craft"],
+    "category": [
+      "shopping",
+      "woodwork",
+      "craft"
+    ],
     "duration": 1,
     "price": 5,
     "lat": 41.3835,
@@ -626,7 +820,11 @@
     "name": "Itchan Kala Walking Route",
     "country": "Uzbekistan",
     "city": "Khiva",
-    "category": ["active", "walking", "unesco"],
+    "category": [
+      "active",
+      "walking",
+      "unesco"
+    ],
     "duration": 2.5,
     "price": 0,
     "lat": 41.3833,
@@ -639,7 +837,11 @@
     "name": "Farovon Fitness",
     "country": "Uzbekistan",
     "city": "Khiva",
-    "category": ["active", "fitness", "gym"],
+    "category": [
+      "active",
+      "fitness",
+      "gym"
+    ],
     "duration": 1,
     "price": 10,
     "lat": 41.3850,
@@ -652,7 +854,11 @@
     "name": "Ayaz Kala Day Trip",
     "country": "Uzbekistan",
     "city": "Khiva",
-    "category": ["active", "hiking", "ancient"],
+    "category": [
+      "active",
+      "hiking",
+      "ancient"
+    ],
     "duration": 4,
     "price": 25,
     "lat": 41.5833,
@@ -665,7 +871,11 @@
     "name": "Itchan Kala",
     "country": "Uzbekistan",
     "city": "Khiva",
-    "category": ["cultural", "unesco", "architecture"],
+    "category": [
+      "cultural",
+      "unesco",
+      "architecture"
+    ],
     "duration": 3,
     "price": 5,
     "lat": 41.3833,
@@ -678,7 +888,11 @@
     "name": "Kalta Minor",
     "country": "Uzbekistan",
     "city": "Khiva",
-    "category": ["cultural", "minaret", "architecture"],
+    "category": [
+      "cultural",
+      "minaret",
+      "architecture"
+    ],
     "duration": 0.75,
     "price": 0,
     "lat": 41.3830,
@@ -691,7 +905,11 @@
     "name": "Kunya Ark",
     "country": "Uzbekistan",
     "city": "Khiva",
-    "category": ["cultural", "fortress", "museum"],
+    "category": [
+      "cultural",
+      "fortress",
+      "museum"
+    ],
     "duration": 1.5,
     "price": 3,
     "lat": 41.3828,
@@ -704,7 +922,11 @@
     "name": "Juma Mosque",
     "country": "Uzbekistan",
     "city": "Khiva",
-    "category": ["cultural", "mosque", "pillars"],
+    "category": [
+      "cultural",
+      "mosque",
+      "pillars"
+    ],
     "duration": 1,
     "price": 2,
     "lat": 41.3835,
@@ -717,7 +939,11 @@
     "name": "Farovon Khiva Hotel",
     "country": "Uzbekistan",
     "city": "Khiva",
-    "category": ["relax", "hotel", "pool"],
+    "category": [
+      "relax",
+      "hotel",
+      "pool"
+    ],
     "duration": 2,
     "price": 20,
     "lat": 41.3850,
@@ -730,7 +956,11 @@
     "name": "Terrace Cafés Itchan Kala",
     "country": "Uzbekistan",
     "city": "Khiva",
-    "category": ["relax", "cafe", "views"],
+    "category": [
+      "relax",
+      "cafe",
+      "views"
+    ],
     "duration": 1,
     "price": 5,
     "lat": 41.3838,
@@ -743,7 +973,11 @@
     "name": "Khiva Hammam",
     "country": "Uzbekistan",
     "city": "Khiva",
-    "category": ["relax", "hammam", "traditional"],
+    "category": [
+      "relax",
+      "hammam",
+      "traditional"
+    ],
     "duration": 1.5,
     "price": 15,
     "lat": 41.3840,
@@ -756,7 +990,11 @@
     "name": "Terrassa Cafe Rooftop",
     "country": "Uzbekistan",
     "city": "Khiva",
-    "category": ["fun", "rooftop", "nightlife"],
+    "category": [
+      "fun",
+      "rooftop",
+      "nightlife"
+    ],
     "duration": 2,
     "price": 8,
     "lat": 41.3832,
@@ -769,7 +1007,11 @@
     "name": "Farovon Bowling",
     "country": "Uzbekistan",
     "city": "Khiva",
-    "category": ["fun", "bowling", "family"],
+    "category": [
+      "fun",
+      "bowling",
+      "family"
+    ],
     "duration": 1.5,
     "price": 10,
     "lat": 41.3855,
@@ -782,19 +1024,28 @@
     "name": "Khorezm Folk Performance Venue",
     "country": "Uzbekistan",
     "city": "Khiva",
-    "category": ["fun", "cultural", "shows"],
+    "category": [
+      "fun",
+      "cultural",
+      "shows"
+    ],
     "duration": 2,
     "price": 12,
     "lat": 41.3825,
     "lng": 60.3650,
     "image": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400",
     "description": "Evening folk dance and music performances."
-  },{
+  },
+  {
     "id": 62,
     "name": "Trading Domes",
     "country": "Uzbekistan",
     "city": "Bukhara",
-    "category": ["shopping", "historical", "silk"],
+    "category": [
+      "shopping",
+      "historical",
+      "silk"
+    ],
     "duration": 1.5,
     "price": 0,
     "lat": 39.7747,
@@ -807,7 +1058,11 @@
     "name": "Bukhara Bazaar",
     "country": "Uzbekistan",
     "city": "Bukhara",
-    "category": ["shopping", "bazaar", "traditional"],
+    "category": [
+      "shopping",
+      "bazaar",
+      "traditional"
+    ],
     "duration": 2,
     "price": 0,
     "lat": 39.7750,
@@ -820,7 +1075,11 @@
     "name": "Lyabi Hauz Shopping Area",
     "country": "Uzbekistan",
     "city": "Bukhara",
-    "category": ["shopping", "souvenirs", "pond"],
+    "category": [
+      "shopping",
+      "souvenirs",
+      "pond"
+    ],
     "duration": 1.5,
     "price": 0,
     "lat": 39.7710,
@@ -833,7 +1092,11 @@
     "name": "Karakul Fashion Workshops",
     "country": "Uzbekistan",
     "city": "Bukhara",
-    "category": ["shopping", "fashion", "wool"],
+    "category": [
+      "shopping",
+      "fashion",
+      "wool"
+    ],
     "duration": 1,
     "price": 10,
     "lat": 39.7730,
@@ -846,7 +1109,11 @@
     "name": "Bukhara Fitness Center",
     "country": "Uzbekistan",
     "city": "Bukhara",
-    "category": ["active", "fitness", "gym"],
+    "category": [
+      "active",
+      "fitness",
+      "gym"
+    ],
     "duration": 1,
     "price": 12,
     "lat": 39.7700,
@@ -859,7 +1126,11 @@
     "name": "Bukhara Tennis Courts",
     "country": "Uzbekistan",
     "city": "Bukhara",
-    "category": ["active", "tennis", "sports"],
+    "category": [
+      "active",
+      "tennis",
+      "sports"
+    ],
     "duration": 1.5,
     "price": 8,
     "lat": 39.7680,
@@ -872,7 +1143,11 @@
     "name": "Old City Walking Route",
     "country": "Uzbekistan",
     "city": "Bukhara",
-    "category": ["active", "walking", "unesco"],
+    "category": [
+      "active",
+      "walking",
+      "unesco"
+    ],
     "duration": 3,
     "price": 0,
     "lat": 39.7740,
@@ -885,7 +1160,11 @@
     "name": "Poi Kalyan Complex",
     "country": "Uzbekistan",
     "city": "Bukhara",
-    "category": ["cultural", "minaret", "mosque"],
+    "category": [
+      "cultural",
+      "minaret",
+      "mosque"
+    ],
     "duration": 2,
     "price": 4,
     "lat": 39.7714,
@@ -898,7 +1177,11 @@
     "name": "Ark of Bukhara",
     "country": "Uzbekistan",
     "city": "Bukhara",
-    "category": ["cultural", "fortress", "museum"],
+    "category": [
+      "cultural",
+      "fortress",
+      "museum"
+    ],
     "duration": 1.5,
     "price": 4,
     "lat": 39.7769,
@@ -911,7 +1194,11 @@
     "name": "Samanid Mausoleum",
     "country": "Uzbekistan",
     "city": "Bukhara",
-    "category": ["cultural", "mausoleum", "architecture"],
+    "category": [
+      "cultural",
+      "mausoleum",
+      "architecture"
+    ],
     "duration": 1,
     "price": 2,
     "lat": 39.7717,
@@ -924,7 +1211,11 @@
     "name": "Chor Minor",
     "country": "Uzbekistan",
     "city": "Bukhara",
-    "category": ["cultural", "minaret", "unique"],
+    "category": [
+      "cultural",
+      "minaret",
+      "unique"
+    ],
     "duration": 0.75,
     "price": 2,
     "lat": 39.7650,
@@ -937,7 +1228,11 @@
     "name": "Bozori Kord Hammam",
     "country": "Uzbekistan",
     "city": "Bukhara",
-    "category": ["relax", "hammam", "traditional"],
+    "category": [
+      "relax",
+      "hammam",
+      "traditional"
+    ],
     "duration": 1.5,
     "price": 15,
     "lat": 39.7755,
@@ -950,7 +1245,11 @@
     "name": "Mercure Bukhara",
     "country": "Uzbekistan",
     "city": "Bukhara",
-    "category": ["relax", "hotel", "spa"],
+    "category": [
+      "relax",
+      "hotel",
+      "spa"
+    ],
     "duration": 2,
     "price": 25,
     "lat": 39.7730,
@@ -963,7 +1262,11 @@
     "name": "Lyabi Hauz Tea Houses",
     "country": "Uzbekistan",
     "city": "Bukhara",
-    "category": ["relax", "tea", "pond"],
+    "category": [
+      "relax",
+      "tea",
+      "pond"
+    ],
     "duration": 1,
     "price": 5,
     "lat": 39.7710,
@@ -976,7 +1279,11 @@
     "name": "Old Bukhara Wine Bar",
     "country": "Uzbekistan",
     "city": "Bukhara",
-    "category": ["fun", "wine", "historical"],
+    "category": [
+      "fun",
+      "wine",
+      "historical"
+    ],
     "duration": 2,
     "price": 12,
     "lat": 39.7745,
@@ -989,7 +1296,11 @@
     "name": "Minzifa Rooftop",
     "country": "Uzbekistan",
     "city": "Bukhara",
-    "category": ["fun", "rooftop", "views"],
+    "category": [
+      "fun",
+      "rooftop",
+      "views"
+    ],
     "duration": 2.5,
     "price": 15,
     "lat": 39.7720,
@@ -1002,19 +1313,28 @@
     "name": "Nodir Devon Begi Folk Show",
     "country": "Uzbekistan",
     "city": "Bukhara",
-    "category": ["fun", "folk", "performance"],
+    "category": [
+      "fun",
+      "folk",
+      "performance"
+    ],
     "duration": 1.5,
     "price": 10,
     "lat": 39.7705,
     "lng": 64.7165,
     "image": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400",
     "description": "Traditional music and dance at historic madrasa."
-  },  {
+  },
+  {
     "id": 79,
     "name": "Berkarar Shopping Center",
     "country": "Turkmenistan",
     "city": "Ashgabat",
-    "category": ["shopping", "modern", "luxury"],
+    "category": [
+      "shopping",
+      "modern",
+      "luxury"
+    ],
     "duration": 2,
     "price": 0,
     "lat": 37.9500,
@@ -1027,7 +1347,11 @@
     "name": "Altyn Asyr Bazaar",
     "country": "Turkmenistan",
     "city": "Ashgabat",
-    "category": ["shopping", "bazaar", "traditional"],
+    "category": [
+      "shopping",
+      "bazaar",
+      "traditional"
+    ],
     "duration": 2.5,
     "price": 0,
     "lat": 37.9600,
@@ -1040,7 +1364,11 @@
     "name": "Gulistan Bazaar",
     "country": "Turkmenistan",
     "city": "Ashgabat",
-    "category": ["shopping", "local", "produce"],
+    "category": [
+      "shopping",
+      "local",
+      "produce"
+    ],
     "duration": 1.5,
     "price": 0,
     "lat": 37.9550,
@@ -1053,7 +1381,11 @@
     "name": "Ashgabat Mall",
     "country": "Turkmenistan",
     "city": "Ashgabat",
-    "category": ["shopping", "mall", "entertainment"],
+    "category": [
+      "shopping",
+      "mall",
+      "entertainment"
+    ],
     "duration": 2,
     "price": 0,
     "lat": 37.9450,
@@ -1066,7 +1398,11 @@
     "name": "Yimpas Shopping Center",
     "country": "Turkmenistan",
     "city": "Ashgabat",
-    "category": ["shopping", "supermarket", "modern"],
+    "category": [
+      "shopping",
+      "supermarket",
+      "modern"
+    ],
     "duration": 1.5,
     "price": 0,
     "lat": 37.9520,
@@ -1079,7 +1415,11 @@
     "name": "Ashgabat Tennis Complex",
     "country": "Turkmenistan",
     "city": "Ashgabat",
-    "category": ["active", "tennis", "sports"],
+    "category": [
+      "active",
+      "tennis",
+      "sports"
+    ],
     "duration": 1.5,
     "price": 10,
     "lat": 37.9400,
@@ -1092,7 +1432,11 @@
     "name": "Olympic Complex",
     "country": "Turkmenistan",
     "city": "Ashgabat",
-    "category": ["active", "stadium", "fitness"],
+    "category": [
+      "active",
+      "stadium",
+      "fitness"
+    ],
     "duration": 2,
     "price": 5,
     "lat": 37.9350,
@@ -1105,7 +1449,11 @@
     "name": "Kopetdag Mountains",
     "country": "Turkmenistan",
     "city": "Ashgabat",
-    "category": ["active", "hiking", "mountains"],
+    "category": [
+      "active",
+      "hiking",
+      "mountains"
+    ],
     "duration": 4,
     "price": 15,
     "lat": 38.0000,
@@ -1118,7 +1466,11 @@
     "name": "Ashgabat Cycling Routes",
     "country": "Turkmenistan",
     "city": "Ashgabat",
-    "category": ["active", "cycling", "urban"],
+    "category": [
+      "active",
+      "cycling",
+      "urban"
+    ],
     "duration": 2,
     "price": 5,
     "lat": 37.9500,
@@ -1131,7 +1483,11 @@
     "name": "Independence Monument",
     "country": "Turkmenistan",
     "city": "Ashgabat",
-    "category": ["cultural", "monument", "central"],
+    "category": [
+      "cultural",
+      "monument",
+      "central"
+    ],
     "duration": 1,
     "price": 0,
     "lat": 37.9417,
@@ -1144,7 +1500,11 @@
     "name": "Neutrality Monument",
     "country": "Turkmenistan",
     "city": "Ashgabat",
-    "category": ["cultural", "monument", "symbol"],
+    "category": [
+      "cultural",
+      "monument",
+      "symbol"
+    ],
     "duration": 0.75,
     "price": 0,
     "lat": 37.9400,
@@ -1157,7 +1517,11 @@
     "name": "National Museum of Turkmenistan",
     "country": "Turkmenistan",
     "city": "Ashgabat",
-    "category": ["cultural", "museum", "history"],
+    "category": [
+      "cultural",
+      "museum",
+      "history"
+    ],
     "duration": 2.5,
     "price": 5,
     "lat": 37.9300,
@@ -1170,7 +1534,11 @@
     "name": "Turkmen Carpet Museum",
     "country": "Turkmenistan",
     "city": "Ashgabat",
-    "category": ["cultural", "museum", "carpets"],
+    "category": [
+      "cultural",
+      "museum",
+      "carpets"
+    ],
     "duration": 1.5,
     "price": 4,
     "lat": 37.9350,
@@ -1183,7 +1551,11 @@
     "name": "Ancient Nisa",
     "country": "Turkmenistan",
     "city": "Ashgabat",
-    "category": ["cultural", "unesco", "ruins"],
+    "category": [
+      "cultural",
+      "unesco",
+      "ruins"
+    ],
     "duration": 3,
     "price": 10,
     "lat": 37.8833,
@@ -1196,7 +1568,11 @@
     "name": "Kow Ata Underground Lake",
     "country": "Turkmenistan",
     "city": "Ashgabat",
-    "category": ["relax", "cave", "swimming"],
+    "category": [
+      "relax",
+      "cave",
+      "swimming"
+    ],
     "duration": 3,
     "price": 15,
     "lat": 37.6667,
@@ -1209,7 +1585,11 @@
     "name": "Yyldyz Hotel",
     "country": "Turkmenistan",
     "city": "Ashgabat",
-    "category": ["relax", "hotel", "spa"],
+    "category": [
+      "relax",
+      "hotel",
+      "spa"
+    ],
     "duration": 2,
     "price": 30,
     "lat": 37.9480,
@@ -1222,7 +1602,11 @@
     "name": "Oguzkent Hotel",
     "country": "Turkmenistan",
     "city": "Ashgabat",
-    "category": ["relax", "hotel", "wellness"],
+    "category": [
+      "relax",
+      "hotel",
+      "wellness"
+    ],
     "duration": 2,
     "price": 25,
     "lat": 37.9460,
@@ -1235,7 +1619,11 @@
     "name": "Ashgabat Botanical Garden",
     "country": "Turkmenistan",
     "city": "Ashgabat",
-    "category": ["relax", "garden", "nature"],
+    "category": [
+      "relax",
+      "garden",
+      "nature"
+    ],
     "duration": 2,
     "price": 2,
     "lat": 37.9200,
@@ -1248,7 +1636,11 @@
     "name": "Alem Cultural Center",
     "country": "Turkmenistan",
     "city": "Ashgabat",
-    "category": ["fun", "cultural", "entertainment"],
+    "category": [
+      "fun",
+      "cultural",
+      "entertainment"
+    ],
     "duration": 3,
     "price": 15,
     "lat": 37.9550,
@@ -1261,7 +1653,11 @@
     "name": "Ashgabat City Life Venues",
     "country": "Turkmenistan",
     "city": "Ashgabat",
-    "category": ["fun", "entertainment", "games"],
+    "category": [
+      "fun",
+      "entertainment",
+      "games"
+    ],
     "duration": 2.5,
     "price": 10,
     "lat": 37.9470,
@@ -1274,7 +1670,11 @@
     "name": "Hotel Karaoke Lounges",
     "country": "Turkmenistan",
     "city": "Ashgabat",
-    "category": ["fun", "karaoke", "nightlife"],
+    "category": [
+      "fun",
+      "karaoke",
+      "nightlife"
+    ],
     "duration": 2,
     "price": 12,
     "lat": 37.9490,
@@ -1287,19 +1687,28 @@
     "name": "Hotel Rooftop Lounges",
     "country": "Turkmenistan",
     "city": "Ashgabat",
-    "category": ["fun", "rooftop", "nightlife"],
+    "category": [
+      "fun",
+      "rooftop",
+      "nightlife"
+    ],
     "duration": 2.5,
     "price": 20,
     "lat": 37.9510,
     "lng": 58.3930,
     "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?w=400",
     "description": "Skyline views from marble-clad hotel rooftops."
-  },{
+  },
+  {
     "id": 101,
     "name": "Kenar Bazaar",
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
-    "category": ["shopping", "bazaar", "local"],
+    "category": [
+      "shopping",
+      "bazaar",
+      "local"
+    ],
     "duration": 2,
     "price": 0,
     "lat": 40.0167,
@@ -1312,7 +1721,11 @@
     "name": "Turkmenbashi Central Market",
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
-    "category": ["shopping", "market", "central"],
+    "category": [
+      "shopping",
+      "market",
+      "central"
+    ],
     "duration": 1.5,
     "price": 0,
     "lat": 40.0200,
@@ -1325,7 +1738,11 @@
     "name": "Avaza Resort Shopping Streets",
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
-    "category": ["shopping", "resort", "luxury"],
+    "category": [
+      "shopping",
+      "resort",
+      "luxury"
+    ],
     "duration": 1.5,
     "price": 5,
     "lat": 40.0333,
@@ -1338,7 +1755,11 @@
     "name": "Caspian Seafood Market",
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
-    "category": ["shopping", "seafood", "fresh"],
+    "category": [
+      "shopping",
+      "seafood",
+      "fresh"
+    ],
     "duration": 1,
     "price": 0,
     "lat": 40.0180,
@@ -1351,7 +1772,11 @@
     "name": "Avaza Coastline Souvenir Shops",
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
-    "category": ["shopping", "souvenirs", "beach"],
+    "category": [
+      "shopping",
+      "souvenirs",
+      "beach"
+    ],
     "duration": 0.75,
     "price": 3,
     "lat": 40.0350,
@@ -1364,7 +1789,11 @@
     "name": "Avaza National Tourist Zone",
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
-    "category": ["active", "cycling", "sports"],
+    "category": [
+      "active",
+      "cycling",
+      "sports"
+    ],
     "duration": 2.5,
     "price": 0,
     "lat": 40.0333,
@@ -1377,7 +1806,11 @@
     "name": "Turkmenbashi Yacht Club",
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
-    "category": ["active", "yachting", "water"],
+    "category": [
+      "active",
+      "yachting",
+      "water"
+    ],
     "duration": 2,
     "price": 20,
     "lat": 40.0220,
@@ -1390,7 +1823,11 @@
     "name": "Caspian Sea Promenade",
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
-    "category": ["active", "walking", "scenic"],
+    "category": [
+      "active",
+      "walking",
+      "scenic"
+    ],
     "duration": 1.5,
     "price": 0,
     "lat": 40.0200,
@@ -1403,7 +1840,11 @@
     "name": "Avaza Beach Volleyball Courts",
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
-    "category": ["active", "volleyball", "beach"],
+    "category": [
+      "active",
+      "volleyball",
+      "beach"
+    ],
     "duration": 1,
     "price": 0,
     "lat": 40.0350,
@@ -1416,7 +1857,11 @@
     "name": "Avaza Cycling Paths",
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
-    "category": ["active", "cycling", "resort"],
+    "category": [
+      "active",
+      "cycling",
+      "resort"
+    ],
     "duration": 2,
     "price": 5,
     "lat": 40.0320,
@@ -1429,7 +1874,11 @@
     "name": "Turkmenbashi History Museum",
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
-    "category": ["cultural", "history", "museum"],
+    "category": [
+      "cultural",
+      "history",
+      "museum"
+    ],
     "duration": 1.5,
     "price": 3,
     "lat": 40.0190,
@@ -1442,7 +1891,11 @@
     "name": "Avaza Congress Center",
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
-    "category": ["cultural", "architecture", "modern"],
+    "category": [
+      "cultural",
+      "architecture",
+      "modern"
+    ],
     "duration": 1,
     "price": 0,
     "lat": 40.0310,
@@ -1455,7 +1908,11 @@
     "name": "Turkmenbashi Port Observation",
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
-    "category": ["cultural", "port", "maritime"],
+    "category": [
+      "cultural",
+      "port",
+      "maritime"
+    ],
     "duration": 1,
     "price": 0,
     "lat": 40.0150,
@@ -1468,7 +1925,11 @@
     "name": "Caspian Waterfront Monuments",
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
-    "category": ["cultural", "monuments", "scenic"],
+    "category": [
+      "cultural",
+      "monuments",
+      "scenic"
+    ],
     "duration": 1,
     "price": 0,
     "lat": 40.0230,
@@ -1481,7 +1942,11 @@
     "name": "Yelken Yacht Club Hotel",
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
-    "category": ["relax", "spa", "beach"],
+    "category": [
+      "relax",
+      "spa",
+      "beach"
+    ],
     "duration": 2.5,
     "price": 30,
     "lat": 40.0340,
@@ -1494,7 +1959,11 @@
     "name": "Avaza Beach",
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
-    "category": ["relax", "beach", "sunbathing"],
+    "category": [
+      "relax",
+      "beach",
+      "sunbathing"
+    ],
     "duration": 3,
     "price": 0,
     "lat": 40.0360,
@@ -1507,7 +1976,11 @@
     "name": "Avaza Resort Hotel Spas",
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
-    "category": ["relax", "spa", "wellness"],
+    "category": [
+      "relax",
+      "spa",
+      "wellness"
+    ],
     "duration": 2,
     "price": 35,
     "lat": 40.0330,
@@ -1520,7 +1993,11 @@
     "name": "Avaza Seaside Tea Houses",
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
-    "category": ["relax", "tea", "cultural"],
+    "category": [
+      "relax",
+      "tea",
+      "cultural"
+    ],
     "duration": 1,
     "price": 4,
     "lat": 40.0240,
@@ -1533,7 +2010,11 @@
     "name": "Avaza Aquapark",
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
-    "category": ["fun", "waterpark", "family"],
+    "category": [
+      "fun",
+      "waterpark",
+      "family"
+    ],
     "duration": 3,
     "price": 15,
     "lat": 40.0320,
@@ -1546,7 +2027,11 @@
     "name": "Avaza Beach Clubs",
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
-    "category": ["fun", "beach", "music"],
+    "category": [
+      "fun",
+      "beach",
+      "music"
+    ],
     "duration": 3,
     "price": 20,
     "lat": 40.0350,
@@ -1559,7 +2044,11 @@
     "name": "Avaza Hotel Karaoke Lounges",
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
-    "category": ["fun", "karaoke", "nightlife"],
+    "category": [
+      "fun",
+      "karaoke",
+      "nightlife"
+    ],
     "duration": 2,
     "price": 10,
     "lat": 40.0330,
@@ -1572,19 +2061,28 @@
     "name": "Avaza Night Restaurants",
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
-    "category": ["fun", "nightlife", "music"],
+    "category": [
+      "fun",
+      "nightlife",
+      "music"
+    ],
     "duration": 3,
     "price": 25,
     "lat": 40.0340,
     "lng": 53.0180,
     "image": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400",
     "description": "Live music dining with seafront ambiance."
-  },{
+  },
+  {
     "id": 123,
     "name": "Mary Bazaar",
     "country": "Turkmenistan",
     "city": "Mary",
-    "category": ["shopping", "bazaar", "traditional"],
+    "category": [
+      "shopping",
+      "bazaar",
+      "traditional"
+    ],
     "duration": 2,
     "price": 0,
     "lat": 37.5933,
@@ -1597,7 +2095,11 @@
     "name": "Mary Central Market",
     "country": "Turkmenistan",
     "city": "Mary",
-    "category": ["shopping", "market", "central"],
+    "category": [
+      "shopping",
+      "market",
+      "central"
+    ],
     "duration": 1.5,
     "price": 0,
     "lat": 37.5950,
@@ -1610,7 +2112,11 @@
     "name": "Carpet & Textile Stalls",
     "country": "Turkmenistan",
     "city": "Mary",
-    "category": ["shopping", "carpets", "textiles"],
+    "category": [
+      "shopping",
+      "carpets",
+      "textiles"
+    ],
     "duration": 1,
     "price": 5,
     "lat": 37.5940,
@@ -1623,7 +2129,11 @@
     "name": "Mary Airport Area Walk",
     "country": "Turkmenistan",
     "city": "Mary",
-    "category": ["active", "walking", "airport"],
+    "category": [
+      "active",
+      "walking",
+      "airport"
+    ],
     "duration": 1,
     "price": 0,
     "lat": 37.6047,
@@ -1636,7 +2146,11 @@
     "name": "Mary Railway Station",
     "country": "Turkmenistan",
     "city": "Mary",
-    "category": ["active", "walking", "station"],
+    "category": [
+      "active",
+      "walking",
+      "station"
+    ],
     "duration": 1,
     "price": 0,
     "lat": 37.5900,
@@ -1649,7 +2163,11 @@
     "name": "Murghab River Area",
     "country": "Turkmenistan",
     "city": "Mary",
-    "category": ["active", "walking", "river"],
+    "category": [
+      "active",
+      "walking",
+      "river"
+    ],
     "duration": 2,
     "price": 0,
     "lat": 37.5800,
@@ -1662,7 +2180,11 @@
     "name": "Merv Archaeological Zone Trip",
     "country": "Turkmenistan",
     "city": "Mary",
-    "category": ["active", "roadtrip", "unesco"],
+    "category": [
+      "active",
+      "roadtrip",
+      "unesco"
+    ],
     "duration": 4,
     "price": 20,
     "lat": 37.6617,
@@ -1675,7 +2197,11 @@
     "name": "Ancient Merv",
     "country": "Turkmenistan",
     "city": "Mary",
-    "category": ["cultural", "unesco", "ruins"],
+    "category": [
+      "cultural",
+      "unesco",
+      "ruins"
+    ],
     "duration": 3.5,
     "price": 10,
     "lat": 37.6617,
@@ -1688,7 +2214,11 @@
     "name": "Sultan Sanjar Mausoleum",
     "country": "Turkmenistan",
     "city": "Mary",
-    "category": ["cultural", "mausoleum", "architecture"],
+    "category": [
+      "cultural",
+      "mausoleum",
+      "architecture"
+    ],
     "duration": 1.5,
     "price": 5,
     "lat": 37.6667,
@@ -1701,7 +2231,11 @@
     "name": "Gyaur Kala",
     "country": "Turkmenistan",
     "city": "Mary",
-    "category": ["cultural", "fortress", "ancient"],
+    "category": [
+      "cultural",
+      "fortress",
+      "ancient"
+    ],
     "duration": 1.5,
     "price": 3,
     "lat": 37.6600,
@@ -1714,7 +2248,11 @@
     "name": "Erk Kala",
     "country": "Turkmenistan",
     "city": "Mary",
-    "category": ["cultural", "citadel", "unesco"],
+    "category": [
+      "cultural",
+      "citadel",
+      "unesco"
+    ],
     "duration": 1,
     "price": 3,
     "lat": 37.6630,
@@ -1727,7 +2265,11 @@
     "name": "Mary History Museum",
     "country": "Turkmenistan",
     "city": "Mary",
-    "category": ["cultural", "museum", "history"],
+    "category": [
+      "cultural",
+      "museum",
+      "history"
+    ],
     "duration": 1.5,
     "price": 4,
     "lat": 37.5920,
@@ -1740,7 +2282,11 @@
     "name": "Mary Bazaar Tea Houses",
     "country": "Turkmenistan",
     "city": "Mary",
-    "category": ["relax", "tea", "traditional"],
+    "category": [
+      "relax",
+      "tea",
+      "traditional"
+    ],
     "duration": 1,
     "price": 3,
     "lat": 37.5935,
@@ -1753,7 +2299,11 @@
     "name": "Mary Hotel Relaxation Areas",
     "country": "Turkmenistan",
     "city": "Mary",
-    "category": ["relax", "hotel", "lounge"],
+    "category": [
+      "relax",
+      "hotel",
+      "lounge"
+    ],
     "duration": 1.5,
     "price": 15,
     "lat": 37.5960,
@@ -1766,7 +2316,11 @@
     "name": "Murghab River Banks",
     "country": "Turkmenistan",
     "city": "Mary",
-    "category": ["relax", "river", "nature"],
+    "category": [
+      "relax",
+      "river",
+      "nature"
+    ],
     "duration": 2,
     "price": 0,
     "lat": 37.5800,
@@ -1779,7 +2333,11 @@
     "name": "Mary Hammam Bathhouses",
     "country": "Turkmenistan",
     "city": "Mary",
-    "category": ["relax", "hammam", "traditional"],
+    "category": [
+      "relax",
+      "hammam",
+      "traditional"
+    ],
     "duration": 1.5,
     "price": 12,
     "lat": 37.5910,
@@ -1792,7 +2350,11 @@
     "name": "Restaurant Yyldyz",
     "country": "Turkmenistan",
     "city": "Mary",
-    "category": ["fun", "restaurant", "live"],
+    "category": [
+      "fun",
+      "restaurant",
+      "live"
+    ],
     "duration": 2,
     "price": 15,
     "lat": 37.5970,
@@ -1805,7 +2367,11 @@
     "name": "City Center Music Cafés",
     "country": "Turkmenistan",
     "city": "Mary",
-    "category": ["fun", "cafe", "music"],
+    "category": [
+      "fun",
+      "cafe",
+      "music"
+    ],
     "duration": 2,
     "price": 8,
     "lat": 37.5945,
@@ -1818,7 +2384,11 @@
     "name": "Mary Hotel Karaoke",
     "country": "Turkmenistan",
     "city": "Mary",
-    "category": ["fun", "karaoke", "nightlife"],
+    "category": [
+      "fun",
+      "karaoke",
+      "nightlife"
+    ],
     "duration": 2,
     "price": 10,
     "lat": 37.5960,
@@ -1831,19 +2401,28 @@
     "name": "Mary Cultural Performance Hall",
     "country": "Turkmenistan",
     "city": "Mary",
-    "category": ["fun", "cultural", "shows"],
+    "category": [
+      "fun",
+      "cultural",
+      "shows"
+    ],
     "duration": 2,
     "price": 12,
     "lat": 37.5925,
     "lng": 61.8375,
     "image": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400",
     "description": "Local folk music and dance performances."
-  },{
+  },
+  {
     "id": 143,
     "name": "Dashoguz Bazaar",
     "country": "Turkmenistan",
     "city": "Dashoguz",
-    "category": ["shopping", "bazaar", "traditional"],
+    "category": [
+      "shopping",
+      "bazaar",
+      "traditional"
+    ],
     "duration": 2,
     "price": 0,
     "lat": 41.8433,
@@ -1856,7 +2435,11 @@
     "name": "Taze Bazaar",
     "country": "Turkmenistan",
     "city": "Dashoguz",
-    "category": ["shopping", "market", "fresh"],
+    "category": [
+      "shopping",
+      "market",
+      "fresh"
+    ],
     "duration": 1.5,
     "price": 0,
     "lat": 41.8450,
@@ -1869,7 +2452,11 @@
     "name": "Dashoguz Stadium",
     "country": "Turkmenistan",
     "city": "Dashoguz",
-    "category": ["active", "stadium", "sports"],
+    "category": [
+      "active",
+      "stadium",
+      "sports"
+    ],
     "duration": 2,
     "price": 5,
     "lat": 41.8400,
@@ -1882,7 +2469,11 @@
     "name": "Dashoguz Airport",
     "country": "Turkmenistan",
     "city": "Dashoguz",
-    "category": ["active", "walking", "airport"],
+    "category": [
+      "active",
+      "walking",
+      "airport"
+    ],
     "duration": 1,
     "price": 0,
     "lat": 41.7650,
@@ -1895,7 +2486,11 @@
     "name": "Kunya-Urgench Road Route",
     "country": "Turkmenistan",
     "city": "Dashoguz",
-    "category": ["active", "roadtrip", "unesco"],
+    "category": [
+      "active",
+      "roadtrip",
+      "unesco"
+    ],
     "duration": 3,
     "price": 15,
     "lat": 42.3167,
@@ -1908,7 +2503,11 @@
     "name": "Kunya-Urgench",
     "country": "Turkmenistan",
     "city": "Dashoguz",
-    "category": ["cultural", "unesco", "ruins"],
+    "category": [
+      "cultural",
+      "unesco",
+      "ruins"
+    ],
     "duration": 3,
     "price": 10,
     "lat": 42.3167,
@@ -1921,7 +2520,11 @@
     "name": "Kutlug Timur Minaret",
     "country": "Turkmenistan",
     "city": "Dashoguz",
-    "category": ["cultural", "minaret", "architecture"],
+    "category": [
+      "cultural",
+      "minaret",
+      "architecture"
+    ],
     "duration": 1,
     "price": 3,
     "lat": 42.3150,
@@ -1934,7 +2537,11 @@
     "name": "Turabek Khanum Mausoleum",
     "country": "Turkmenistan",
     "city": "Dashoguz",
-    "category": ["cultural", "mausoleum", "portal"],
+    "category": [
+      "cultural",
+      "mausoleum",
+      "portal"
+    ],
     "duration": 1,
     "price": 3,
     "lat": 42.3170,
@@ -1947,7 +2554,11 @@
     "name": "Dashoguz Regional Museum",
     "country": "Turkmenistan",
     "city": "Dashoguz",
-    "category": ["cultural", "museum", "history"],
+    "category": [
+      "cultural",
+      "museum",
+      "history"
+    ],
     "duration": 1.5,
     "price": 4,
     "lat": 41.8440,
@@ -1960,7 +2571,11 @@
     "name": "Dashoguz Hotel",
     "country": "Turkmenistan",
     "city": "Dashoguz",
-    "category": ["relax", "hotel", "lounge"],
+    "category": [
+      "relax",
+      "hotel",
+      "lounge"
+    ],
     "duration": 1.5,
     "price": 15,
     "lat": 41.8460,
@@ -1973,7 +2588,11 @@
     "name": "Uzboy Hotel",
     "country": "Turkmenistan",
     "city": "Dashoguz",
-    "category": ["relax", "hotel", "spa"],
+    "category": [
+      "relax",
+      "hotel",
+      "spa"
+    ],
     "duration": 2,
     "price": 20,
     "lat": 41.8420,
@@ -1986,7 +2605,11 @@
     "name": "Ahalteke Tea House",
     "country": "Turkmenistan",
     "city": "Dashoguz",
-    "category": ["relax", "tea", "traditional"],
+    "category": [
+      "relax",
+      "tea",
+      "traditional"
+    ],
     "duration": 1,
     "price": 4,
     "lat": 41.8435,
@@ -1999,7 +2622,11 @@
     "name": "Restaurant Shabat",
     "country": "Turkmenistan",
     "city": "Dashoguz",
-    "category": ["fun", "restaurant", "live"],
+    "category": [
+      "fun",
+      "restaurant",
+      "live"
+    ],
     "duration": 2,
     "price": 15,
     "lat": 41.8470,
@@ -2012,7 +2639,11 @@
     "name": "Restaurant Altyn Asyr",
     "country": "Turkmenistan",
     "city": "Dashoguz",
-    "category": ["fun", "restaurant", "music"],
+    "category": [
+      "fun",
+      "restaurant",
+      "music"
+    ],
     "duration": 2.5,
     "price": 18,
     "lat": 41.8455,
@@ -2025,7 +2656,11 @@
     "name": "Hotel Karaoke Rooms",
     "country": "Turkmenistan",
     "city": "Dashoguz",
-    "category": ["fun", "karaoke", "nightlife"],
+    "category": [
+      "fun",
+      "karaoke",
+      "nightlife"
+    ],
     "duration": 2,
     "price": 10,
     "lat": 41.8460,
@@ -2038,12 +2673,3374 @@
     "name": "Cultural Event Hall",
     "country": "Turkmenistan",
     "city": "Dashoguz",
-    "category": ["fun", "cultural", "performances"],
+    "category": [
+      "fun",
+      "cultural",
+      "performances"
+    ],
     "duration": 2,
     "price": 12,
     "lat": 41.8445,
     "lng": 59.9665,
     "image": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400",
     "description": "Local folk music and dance performances."
+  },
+  {
+    "id": 159,
+    "name": "Mehrgon Bazaar",
+    "country": "Tadjikistan",
+    "city": "Dushanbe",
+    "category": [
+      "shopping"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 38.556,
+    "lng": 68.764,
+    "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400",
+    "description": "A lively market in Dushanbe where visitors can browse local goods, produce, and everyday items."
+  },
+  {
+    "id": 160,
+    "name": "Korvon Bazaar",
+    "country": "Tadjikistan",
+    "city": "Dushanbe",
+    "category": [
+      "shopping"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 38.52,
+    "lng": 68.75,
+    "image": "https://images.unsplash.com/photo-1521334884684-d80222895322?w=400",
+    "description": "A popular bazaar known for affordable shopping, local products, and a busy atmosphere."
+  },
+  {
+    "id": 161,
+    "name": "Dushanbe Mall",
+    "country": "Tadjikistan",
+    "city": "Dushanbe",
+    "category": [
+      "shopping"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 38.56,
+    "lng": 68.78,
+    "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400",
+    "description": "A modern shopping center with stores, dining options, and a comfortable indoor environment."
+  },
+  {
+    "id": 162,
+    "name": "Central Republican Stadium",
+    "country": "Tadjikistan",
+    "city": "Dushanbe",
+    "category": [
+      "active"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 38.55,
+    "lng": 68.78,
+    "image": "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=400",
+    "description": "A major sports venue in Dushanbe used for football matches and large events."
+  },
+  {
+    "id": 163,
+    "name": "Varzob Valley",
+    "country": "Tadjikistan",
+    "city": "Dushanbe",
+    "category": [
+      "active",
+      "scenic"
+    ],
+    "duration": 4,
+    "price": 0,
+    "lat": 38.72,
+    "lng": 68.82,
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400",
+    "description": "A scenic mountain valley near Dushanbe, popular for nature trips, walks, and outdoor relaxation."
+  },
+  {
+    "id": 164,
+    "name": "Dushanbe International Airport",
+    "country": "Tadjikistan",
+    "city": "Dushanbe",
+    "category": [
+      "active"
+    ],
+    "duration": 1,
+    "price": 0,
+    "lat": 38.54,
+    "lng": 68.82,
+    "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=400",
+    "description": "The main airport serving Dushanbe and the surrounding region."
+  },
+  {
+    "id": 165,
+    "name": "Rudaki Avenue",
+    "country": "Tadjikistan",
+    "city": "Dushanbe",
+    "category": [
+      "active",
+      "walk",
+      "scenic"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 38.57,
+    "lng": 68.78,
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=400",
+    "description": "A central boulevard in Dushanbe ideal for walking, sightseeing, and enjoying the city atmosphere."
+  },
+  {
+    "id": 166,
+    "name": "Rudaki Park",
+    "country": "Tadjikistan",
+    "city": "Dushanbe",
+    "category": [
+      "cultural",
+      "walk",
+      "scenic"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 38.57,
+    "lng": 68.79,
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400",
+    "description": "A popular city park with fountains, greenery, and space for peaceful walks."
+  },
+  {
+    "id": 167,
+    "name": "National Museum of Tajikistan",
+    "country": "Tadjikistan",
+    "city": "Dushanbe",
+    "category": [
+      "cultural"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 38.58,
+    "lng": 68.8,
+    "image": "https://images.unsplash.com/photo-1566127444979-b4d2aef498fc?w=400",
+    "description": "A major museum showcasing Tajikistan's history, culture, and national heritage."
+  },
+  {
+    "id": 168,
+    "name": "Ismaili Centre Dushanbe",
+    "country": "Tadjikistan",
+    "city": "Dushanbe",
+    "category": [
+      "cultural"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 38.57,
+    "lng": 68.79,
+    "image": "https://images.unsplash.com/photo-1524824267900-2e7f0f5e6d0f?w=400",
+    "description": "An elegant cultural and community center known for its architecture and peaceful setting."
+  },
+  {
+    "id": 169,
+    "name": "Navruz Palace",
+    "country": "Tadjikistan",
+    "city": "Dushanbe",
+    "category": [
+      "cultural"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 38.56,
+    "lng": 68.77,
+    "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=400",
+    "description": "A grand palace used for ceremonies, cultural events, and official receptions."
+  },
+  {
+    "id": 170,
+    "name": "Flagpole of Dushanbe",
+    "country": "Tadjikistan",
+    "city": "Dushanbe",
+    "category": [
+      "cultural",
+      "scenic"
+    ],
+    "duration": 0.5,
+    "price": 0,
+    "lat": 38.57,
+    "lng": 68.78,
+    "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?w=400",
+    "description": "One of the city's iconic landmarks and a popular stop for sightseeing."
+  },
+  {
+    "id": 171,
+    "name": "Somoni Monument",
+    "country": "Tadjikistan",
+    "city": "Dushanbe",
+    "category": [
+      "cultural",
+      "scenic"
+    ],
+    "duration": 0.5,
+    "price": 0,
+    "lat": 38.57,
+    "lng": 68.79,
+    "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=400",
+    "description": "A famous monument honoring Ismoil Somoni, an important national symbol of Tajikistan."
+  },
+  {
+    "id": 172,
+    "name": "Rohat Teahouse",
+    "country": "Tadjikistan",
+    "city": "Dushanbe",
+    "category": [
+      "relax",
+      "food"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 38.56,
+    "lng": 68.78,
+    "image": "https://images.unsplash.com/photo-1506368249639-73a05d6f6488?w=400",
+    "description": "A classic place to relax, have tea, and enjoy traditional Tajik hospitality."
+  },
+  {
+    "id": 173,
+    "name": "Hyatt Regency Dushanbe",
+    "country": "Tadjikistan",
+    "city": "Dushanbe",
+    "category": [
+      "relax",
+      "luxury"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 38.57,
+    "lng": 68.78,
+    "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=400",
+    "description": "A luxury hotel offering comfortable spaces, dining, and leisure facilities."
+  },
+  {
+    "id": 174,
+    "name": "Hilton Dushanbe",
+    "country": "Tadjikistan",
+    "city": "Dushanbe",
+    "category": [
+      "relax",
+      "luxury"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 38.58,
+    "lng": 68.79,
+    "image": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=400",
+    "description": "A premium hotel known for upscale relaxation, dining, and city views."
+  },
+  {
+    "id": 175,
+    "name": "Botanical Garden Dushanbe",
+    "country": "Tadjikistan",
+    "city": "Dushanbe",
+    "category": [
+      "relax",
+      "scenic"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 38.59,
+    "lng": 68.8,
+    "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=400",
+    "description": "A peaceful green space for walking, relaxing, and enjoying plants and nature."
+  },
+  {
+    "id": 176,
+    "name": "Bukhara Restaurant Dushanbe",
+    "country": "Tadjikistan",
+    "city": "Dushanbe",
+    "category": [
+      "fun",
+      "food",
+      "nightlife"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 38.56,
+    "lng": 68.78,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400",
+    "description": "A restaurant with a lively atmosphere for dining and evening outings."
+  },
+  {
+    "id": 177,
+    "name": "Segafredo Zanetti Espresso Dushanbe",
+    "country": "Tadjikistan",
+    "city": "Dushanbe",
+    "category": [
+      "fun",
+      "coffee",
+      "social"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 38.57,
+    "lng": 68.78,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=400",
+    "description": "A stylish café for coffee, social time, and casual gatherings."
+  },
+  {
+    "id": 178,
+    "name": "Opera & Ballet Theatre of Tajikistan",
+    "country": "Tadjikistan",
+    "city": "Dushanbe",
+    "category": [
+      "cultural",
+      "fun"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 38.57,
+    "lng": 68.79,
+    "image": "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=400",
+    "description": "A leading venue for opera, ballet, and performing arts in Dushanbe."
+  },
+  {
+    "id": 179,
+    "name": "Hotel lounge bars (Hyatt / Hilton Dushanbe)",
+    "country": "Tadjikistan",
+    "city": "Dushanbe",
+    "category": [
+      "fun",
+      "nightlife",
+      "relax"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 38.57,
+    "lng": 68.79,
+    "image": "https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=400",
+    "description": "Elegant lounge bars for drinks, conversation, and a relaxed evening atmosphere."
+  },
+  {
+    "id": 180,
+    "name": "Panjshanbe Bazaar",
+    "country": "Tadjikistan",
+    "city": "Khujand",
+    "category": [
+      "shopping"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 40.289,
+    "lng": 69.619,
+    "image": "https://images.unsplash.com/photo-1506617420156-8e4536971650?w=400",
+    "description": "A vibrant traditional bazaar where visitors can shop for local produce, snacks, and everyday goods."
+  },
+  {
+    "id": 181,
+    "name": "Somoni Bazaar",
+    "country": "Tadjikistan",
+    "city": "Khujand",
+    "category": [
+      "shopping"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 40.285,
+    "lng": 69.62,
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400",
+    "description": "A busy market offering clothing, household items, and local products in the heart of the city."
+  },
+  {
+    "id": 182,
+    "name": "Khujand Central Market",
+    "country": "Tadjikistan",
+    "city": "Khujand",
+    "category": [
+      "shopping"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 40.287,
+    "lng": 69.617,
+    "image": "https://images.unsplash.com/photo-1481437156560-3205f6a55735?w=400",
+    "description": "A central shopping spot known for its active atmosphere and variety of goods."
+  },
+  {
+    "id": 183,
+    "name": "Syr Darya River Promenade",
+    "country": "Tadjikistan",
+    "city": "Khujand",
+    "category": [
+      "active",
+      "walk",
+      "scenic"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 40.29,
+    "lng": 69.61,
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400",
+    "description": "A pleasant riverside promenade ideal for walking, cycling, and enjoying views of the river."
+  },
+  {
+    "id": 184,
+    "name": "Khujand Stadium",
+    "country": "Tadjikistan",
+    "city": "Khujand",
+    "category": [
+      "active"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 40.283,
+    "lng": 69.623,
+    "image": "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=400",
+    "description": "A major sports venue used for football matches and local events."
+  },
+  {
+    "id": 185,
+    "name": "Kamoli Khujandi Park",
+    "country": "Tadjikistan",
+    "city": "Khujand",
+    "category": [
+      "active",
+      "walk",
+      "scenic"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 40.286,
+    "lng": 69.618,
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=400",
+    "description": "A green city park for strolling, relaxing, and enjoying outdoor space."
+  },
+  {
+    "id": 186,
+    "name": "Khujand Fortress",
+    "country": "Tadjikistan",
+    "city": "Khujand",
+    "category": [
+      "cultural"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 40.287,
+    "lng": 69.62,
+    "image": "https://images.unsplash.com/photo-1528127269322-539801943592?w=400",
+    "description": "A historic fortress offering insight into the city's long and important past."
+  },
+  {
+    "id": 187,
+    "name": "Sheikh Muslihiddin Mausoleum",
+    "country": "Tadjikistan",
+    "city": "Khujand",
+    "category": [
+      "cultural"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 40.289,
+    "lng": 69.615,
+    "image": "https://images.unsplash.com/photo-1506898667541-e85e7b33d14d?w=400",
+    "description": "A respected religious and historical site in Khujand."
+  },
+  {
+    "id": 188,
+    "name": "Arbob Palace",
+    "country": "Tadjikistan",
+    "city": "Khujand",
+    "category": [
+      "cultural"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 40.33,
+    "lng": 69.68,
+    "image": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?w=400",
+    "description": "A notable palace known for its architecture and historical significance."
+  },
+  {
+    "id": 189,
+    "name": "Sughd Historical Museum",
+    "country": "Tadjikistan",
+    "city": "Khujand",
+    "category": [
+      "cultural"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 40.289,
+    "lng": 69.62,
+    "image": "https://images.unsplash.com/photo-1566127444979-b4d2aef498fc?w=400",
+    "description": "A museum presenting the history, culture, and heritage of the Sughd region."
+  },
+  {
+    "id": 190,
+    "name": "Parliament Palace Hotel",
+    "country": "Tadjikistan",
+    "city": "Khujand",
+    "category": [
+      "relax",
+      "luxury"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 40.287,
+    "lng": 69.618,
+    "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=400",
+    "description": "A comfortable hotel for relaxation, dining, and city stays."
+  },
+  {
+    "id": 191,
+    "name": "Sugdiyon Hotel",
+    "country": "Tadjikistan",
+    "city": "Khujand",
+    "category": [
+      "relax",
+      "luxury"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 40.284,
+    "lng": 69.622,
+    "image": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=400",
+    "description": "A hotel offering a relaxed stay with dining and leisure facilities."
+  },
+  {
+    "id": 192,
+    "name": "Kamoli Khujandi Tea Houses",
+    "country": "Tadjikistan",
+    "city": "Khujand",
+    "category": [
+      "relax",
+      "food"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 40.286,
+    "lng": 69.617,
+    "image": "https://images.unsplash.com/photo-1506368249639-73a05d6f6488?w=400",
+    "description": "Traditional tea houses where visitors can rest and enjoy local hospitality."
+  },
+  {
+    "id": 193,
+    "name": "Syr Darya Riverside Cafés",
+    "country": "Tadjikistan",
+    "city": "Khujand",
+    "category": [
+      "relax",
+      "food",
+      "scenic"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 40.29,
+    "lng": 69.61,
+    "image": "https://images.unsplash.com/photo-1498804103079-a6351b050096?w=400",
+    "description": "Casual cafés along the river with pleasant views and a relaxed atmosphere."
+  },
+  {
+    "id": 194,
+    "name": "Somoni Lounge Restaurant",
+    "country": "Tadjikistan",
+    "city": "Khujand",
+    "category": [
+      "fun",
+      "food",
+      "nightlife"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 40.287,
+    "lng": 69.62,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400",
+    "description": "A lively place for dining and spending a fun evening out."
+  },
+  {
+    "id": 195,
+    "name": "Cafe Sharbat Khujand",
+    "country": "Tadjikistan",
+    "city": "Khujand",
+    "category": [
+      "fun",
+      "coffee",
+      "social"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 40.285,
+    "lng": 69.619,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=400",
+    "description": "A casual café for coffee, conversation, and relaxed social time."
+  },
+  {
+    "id": 196,
+    "name": "Hotel karaoke lounges (Sugdiyon / Parliament Hotel)",
+    "country": "Tadjikistan",
+    "city": "Khujand",
+    "category": [
+      "fun",
+      "nightlife",
+      "music"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 40.286,
+    "lng": 69.62,
+    "image": "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=400",
+    "description": "Karaoke lounges inside hotels where visitors can enjoy music and entertainment."
+  },
+  {
+    "id": 197,
+    "name": "Kulob Central Bazaar",
+    "country": "Tadjikistan",
+    "city": "Kulob",
+    "category": [
+      "shopping"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 37.91,
+    "lng": 69.78,
+    "image": "https://images.unsplash.com/photo-1506617420156-8e4536971650?w=400",
+    "description": "A busy central market where visitors can shop for local produce, goods, and everyday items."
+  },
+  {
+    "id": 198,
+    "name": "Sakhovat Market",
+    "country": "Tadjikistan",
+    "city": "Kulob",
+    "category": [
+      "shopping"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 37.91,
+    "lng": 69.79,
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400",
+    "description": "A neighborhood market with a lively atmosphere and a wide range of local products."
+  },
+  {
+    "id": 199,
+    "name": "Shohmansur Mini Market",
+    "country": "Tadjikistan",
+    "city": "Kulob",
+    "category": [
+      "shopping"
+    ],
+    "duration": 1,
+    "price": 0,
+    "lat": 37.9,
+    "lng": 69.79,
+    "image": "https://images.unsplash.com/photo-1481437156560-3205f6a55735?w=400",
+    "description": "A convenient small market for quick shopping and daily essentials."
+  },
+  {
+    "id": 200,
+    "name": "Yakhsu River promenade",
+    "country": "Tadjikistan",
+    "city": "Kulob",
+    "category": [
+      "active",
+      "walk",
+      "scenic"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 37.92,
+    "lng": 69.77,
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400",
+    "description": "A scenic riverside walkway ideal for relaxing strolls and enjoying nature."
+  },
+  {
+    "id": 201,
+    "name": "Kulob Stadium",
+    "country": "Tadjikistan",
+    "city": "Kulob",
+    "category": [
+      "active"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 37.91,
+    "lng": 69.79,
+    "image": "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=400",
+    "description": "A local sports venue used for football matches and community events."
+  },
+  {
+    "id": 202,
+    "name": "Victory Park Kulob",
+    "country": "Tadjikistan",
+    "city": "Kulob",
+    "category": [
+      "active",
+      "walk",
+      "scenic"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 37.92,
+    "lng": 69.78,
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=400",
+    "description": "A pleasant city park for walking, relaxing, and enjoying open green space."
+  },
+  {
+    "id": 203,
+    "name": "Mir Sayyid Ali Hamadani Mausoleum",
+    "country": "Tadjikistan",
+    "city": "Kulob",
+    "category": [
+      "cultural"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 37.91,
+    "lng": 69.78,
+    "image": "https://images.unsplash.com/photo-1506898667541-e85e7b33d14d?w=400",
+    "description": "A significant historical and religious site honoring the famous scholar and saint."
+  },
+  {
+    "id": 204,
+    "name": "Kulob Historical Museum",
+    "country": "Tadjikistan",
+    "city": "Kulob",
+    "category": [
+      "cultural"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 37.91,
+    "lng": 69.79,
+    "image": "https://images.unsplash.com/photo-1566127444979-b4d2aef498fc?w=400",
+    "description": "A museum showcasing the history, heritage, and culture of Kulob and the surrounding region."
+  },
+  {
+    "id": 205,
+    "name": "Ancient Kulob Fortress Ruins",
+    "country": "Tadjikistan",
+    "city": "Kulob",
+    "category": [
+      "cultural",
+      "scenic"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 37.92,
+    "lng": 69.78,
+    "image": "https://images.unsplash.com/photo-1528127269322-539801943592?w=400",
+    "description": "Historic fortress remains that offer a glimpse into Kulob's old defensive structures."
+  },
+  {
+    "id": 206,
+    "name": "Khatlon Hotel",
+    "country": "Tadjikistan",
+    "city": "Kulob",
+    "category": [
+      "relax",
+      "luxury"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 37.91,
+    "lng": 69.79,
+    "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=400",
+    "description": "A comfortable hotel for resting, dining, and enjoying a calm stay."
+  },
+  {
+    "id": 207,
+    "name": "Hotel Kulob",
+    "country": "Tadjikistan",
+    "city": "Kulob",
+    "category": [
+      "relax",
+      "luxury"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 37.9,
+    "lng": 69.78,
+    "image": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=400",
+    "description": "A hotel offering a relaxed environment with accommodation and leisure options."
+  },
+  {
+    "id": 208,
+    "name": "Local chaikhanas near Mir Sayyid Ali Hamadani Mausoleum",
+    "country": "Tadjikistan",
+    "city": "Kulob",
+    "category": [
+      "relax",
+      "food"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 37.91,
+    "lng": 69.78,
+    "image": "https://images.unsplash.com/photo-1506368249639-73a05d6f6488?w=400",
+    "description": "Traditional tea houses where visitors can rest and enjoy local tea and hospitality."
+  },
+  {
+    "id": 209,
+    "name": "Yakhsu riverside cafés",
+    "country": "Tadjikistan",
+    "city": "Kulob",
+    "category": [
+      "relax",
+      "food",
+      "scenic"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 37.92,
+    "lng": 69.77,
+    "image": "https://images.unsplash.com/photo-1498804103079-a6351b050096?w=400",
+    "description": "Casual cafés along the river offering drinks, snacks, and a peaceful atmosphere."
+  },
+  {
+    "id": 210,
+    "name": "Restaurant Shabnam",
+    "country": "Tadjikistan",
+    "city": "Kulob",
+    "category": [
+      "fun",
+      "food",
+      "nightlife"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 37.91,
+    "lng": 69.79,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400",
+    "description": "A lively restaurant for dining and spending an enjoyable evening."
+  },
+  {
+    "id": 211,
+    "name": "Cafe Sitora",
+    "country": "Tadjikistan",
+    "city": "Kulob",
+    "category": [
+      "fun",
+      "coffee",
+      "social"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 37.9,
+    "lng": 69.78,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=400",
+    "description": "A casual café for coffee, conversation, and relaxed social time."
+  },
+  {
+    "id": 212,
+    "name": "Hotel lounges (Khatlon / Kulob Hotel)",
+    "country": "Tadjikistan",
+    "city": "Kulob",
+    "category": [
+      "fun",
+      "nightlife",
+      "relax"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 37.91,
+    "lng": 69.79,
+    "image": "https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=400",
+    "description": "Comfortable hotel lounges for drinks, conversation, and a relaxed evening."
+  },
+  {
+    "id": 213,
+    "name": "Khorog Central Bazaar",
+    "country": "Tadjikistan",
+    "city": "Khorog",
+    "category": [
+      "shopping"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 37.49,
+    "lng": 71.55,
+    "image": "https://images.unsplash.com/photo-1506617420156-8e4536971650?w=400",
+    "description": "A central market where visitors can shop for fresh produce, daily goods, and local products."
+  },
+  {
+    "id": 214,
+    "name": "Pamir Bazaar",
+    "country": "Tadjikistan",
+    "city": "Khorog",
+    "category": [
+      "shopping"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 37.49,
+    "lng": 71.56,
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400",
+    "description": "A lively bazaar offering local goods, foods, and a glimpse of everyday life in Khorog."
+  },
+  {
+    "id": 215,
+    "name": "Local handicraft shops (Pamir souvenirs, wool products)",
+    "country": "Tadjikistan",
+    "city": "Khorog",
+    "category": [
+      "shopping"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 37.49,
+    "lng": 71.55,
+    "image": "https://images.unsplash.com/photo-1481437156560-3205f6a55735?w=400",
+    "description": "Small shops selling Pamir souvenirs, handmade crafts, and wool products."
+  },
+  {
+    "id": 216,
+    "name": "Gunt River riverside walks",
+    "country": "Tadjikistan",
+    "city": "Khorog",
+    "category": [
+      "active",
+      "walk",
+      "scenic"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 37.49,
+    "lng": 71.56,
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400",
+    "description": "Scenic riverside paths ideal for walking and enjoying mountain and river views."
+  },
+  {
+    "id": 217,
+    "name": "Khorog Stadium",
+    "country": "Tadjikistan",
+    "city": "Khorog",
+    "category": [
+      "active"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 37.49,
+    "lng": 71.54,
+    "image": "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=400",
+    "description": "A local sports venue used for matches, training, and community events."
+  },
+  {
+    "id": 218,
+    "name": "Hiking trails in the Pamir Mountains",
+    "country": "Tadjikistan",
+    "city": "Khorog",
+    "category": [
+      "active",
+      "scenic"
+    ],
+    "duration": 4,
+    "price": 0,
+    "lat": 37.47,
+    "lng": 71.55,
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400",
+    "description": "Mountain trails for hiking, nature exploration, and panoramic Pamir scenery."
+  },
+  {
+    "id": 219,
+    "name": "Khorog Regional Museum",
+    "country": "Tadjikistan",
+    "city": "Khorog",
+    "category": [
+      "cultural"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 37.49,
+    "lng": 71.55,
+    "image": "https://images.unsplash.com/photo-1566127444979-b4d2aef498fc?w=400",
+    "description": "A museum highlighting the history, culture, and traditions of the Khorog region."
+  },
+  {
+    "id": 220,
+    "name": "Central Park Khorog",
+    "country": "Tadjikistan",
+    "city": "Khorog",
+    "category": [
+      "cultural",
+      "walk",
+      "scenic"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 37.49,
+    "lng": 71.55,
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=400",
+    "description": "A pleasant city park for relaxed walks, sightseeing, and quiet time outdoors."
+  },
+  {
+    "id": 221,
+    "name": "Ismaili Centre Khorog",
+    "country": "Tadjikistan",
+    "city": "Khorog",
+    "category": [
+      "cultural"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 37.49,
+    "lng": 71.55,
+    "image": "https://images.unsplash.com/photo-1524824267900-2e7f0f5e6d0f?w=400",
+    "description": "A prominent cultural and religious landmark with striking architecture and peaceful grounds."
+  },
+  {
+    "id": 222,
+    "name": "LAL Hotel",
+    "country": "Tadjikistan",
+    "city": "Khorog",
+    "category": [
+      "relax",
+      "luxury"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 37.49,
+    "lng": 71.55,
+    "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=400",
+    "description": "A comfortable place to rest, dine, and enjoy a calm stay in Khorog."
+  },
+  {
+    "id": 223,
+    "name": "Serena Inn Khorog",
+    "country": "Tadjikistan",
+    "city": "Khorog",
+    "category": [
+      "relax",
+      "luxury"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 37.49,
+    "lng": 71.56,
+    "image": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=400",
+    "description": "A relaxing hotel stay with dining and leisure options in a scenic mountain city."
+  },
+  {
+    "id": 224,
+    "name": "Cafés along the Gunt River",
+    "country": "Tadjikistan",
+    "city": "Khorog",
+    "category": [
+      "relax",
+      "food",
+      "scenic"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 37.49,
+    "lng": 71.56,
+    "image": "https://images.unsplash.com/photo-1498804103079-a6351b050096?w=400",
+    "description": "Riverside cafés offering drinks, snacks, and a peaceful setting by the water."
+  },
+  {
+    "id": 225,
+    "name": "Khorog Botanical Garden",
+    "country": "Tadjikistan",
+    "city": "Khorog",
+    "category": [
+      "relax",
+      "scenic"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 37.49,
+    "lng": 71.55,
+    "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=400",
+    "description": "A quiet green space for strolling, relaxing, and enjoying local plant life."
+  },
+  {
+    "id": 226,
+    "name": "Restaurant Delhi Darbar",
+    "country": "Tadjikistan",
+    "city": "Khorog",
+    "category": [
+      "fun",
+      "food",
+      "nightlife"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 37.49,
+    "lng": 71.55,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400",
+    "description": "A lively restaurant for dining and a pleasant evening out."
+  },
+  {
+    "id": 227,
+    "name": "Cafe Bar Khorog",
+    "country": "Tadjikistan",
+    "city": "Khorog",
+    "category": [
+      "fun",
+      "coffee",
+      "social"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 37.49,
+    "lng": 71.55,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=400",
+    "description": "A casual spot for coffee, drinks, and social time."
+  },
+  {
+    "id": 228,
+    "name": "Hotel lounges (Serena Inn / LAL Hotel)",
+    "country": "Tadjikistan",
+    "city": "Khorog",
+    "category": [
+      "fun",
+      "nightlife",
+      "relax"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 37.49,
+    "lng": 71.55,
+    "image": "https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=400",
+    "description": "Comfortable hotel lounges for drinks, conversation, and a relaxed evening atmosphere."
+  },
+  {
+    "id": 229,
+    "name": "Osh Bazaar",
+    "country": "Kyrgystan",
+    "city": "Bishkek",
+    "category": [
+      "shopping"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 42.872,
+    "lng": 74.586,
+    "image": "https://images.unsplash.com/photo-1506617420156-8e4536971650?w=400",
+    "description": "A bustling traditional market where visitors can shop for food, clothing, and local goods."
+  },
+  {
+    "id": 230,
+    "name": "Dordoi Bazaar",
+    "country": "Kyrgystan",
+    "city": "Bishkek",
+    "category": [
+      "shopping"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 42.89,
+    "lng": 74.61,
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400",
+    "description": "One of the largest markets in Bishkek, known for wholesale shopping and a wide variety of goods."
+  },
+  {
+    "id": 231,
+    "name": "Bishkek Park Shopping Center",
+    "country": "Kyrgystan",
+    "city": "Bishkek",
+    "category": [
+      "shopping"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 42.878,
+    "lng": 74.606,
+    "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400",
+    "description": "A modern shopping mall with retail stores, dining options, and entertainment."
+  },
+  {
+    "id": 232,
+    "name": "Asia Mall",
+    "country": "Kyrgystan",
+    "city": "Bishkek",
+    "category": [
+      "shopping"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 42.88,
+    "lng": 74.62,
+    "image": "https://images.unsplash.com/photo-1521334884684-d80222895322?w=400",
+    "description": "A popular shopping center offering stores, food options, and a comfortable indoor experience."
+  },
+  {
+    "id": 233,
+    "name": "Ala-Too Square walks",
+    "country": "Kyrgystan",
+    "city": "Bishkek",
+    "category": [
+      "active",
+      "walk",
+      "scenic"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 42.874,
+    "lng": 74.612,
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400",
+    "description": "A central city square ideal for walking, sightseeing, and enjoying Bishkek's atmosphere."
+  },
+  {
+    "id": 234,
+    "name": "Panfilov Park",
+    "country": "Kyrgystan",
+    "city": "Bishkek",
+    "category": [
+      "active",
+      "walk",
+      "scenic"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 42.875,
+    "lng": 74.604,
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=400",
+    "description": "A green city park for relaxed walks, open-air time, and family outings."
+  },
+  {
+    "id": 235,
+    "name": "Hiking in Ala Archa National Park",
+    "country": "Kyrgystan",
+    "city": "Bishkek",
+    "category": [
+      "active",
+      "scenic"
+    ],
+    "duration": 4,
+    "price": 0,
+    "lat": 42.65,
+    "lng": 74.49,
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400",
+    "description": "A popular mountain area for hiking, nature walks, and dramatic alpine scenery."
+  },
+  {
+    "id": 236,
+    "name": "Spartak Stadium",
+    "country": "Kyrgystan",
+    "city": "Bishkek",
+    "category": [
+      "active"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 42.88,
+    "lng": 74.61,
+    "image": "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=400",
+    "description": "A sports venue used for matches, training, and local athletic events."
+  },
+  {
+    "id": 237,
+    "name": "State History Museum",
+    "country": "Kyrgystan",
+    "city": "Bishkek",
+    "category": [
+      "cultural"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 42.874,
+    "lng": 74.612,
+    "image": "https://images.unsplash.com/photo-1566127444979-b4d2aef498fc?w=400",
+    "description": "A museum presenting Kyrgyzstan's history, culture, and national heritage."
+  },
+  {
+    "id": 238,
+    "name": "Frunze House Museum",
+    "country": "Kyrgystan",
+    "city": "Bishkek",
+    "category": [
+      "cultural"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 42.876,
+    "lng": 74.607,
+    "image": "https://images.unsplash.com/photo-1528127269322-539801943592?w=400",
+    "description": "A museum dedicated to the life and legacy of Mikhail Frunze."
+  },
+  {
+    "id": 239,
+    "name": "Russian Orthodox Holy Resurrection Cathedral",
+    "country": "Kyrgystan",
+    "city": "Bishkek",
+    "category": [
+      "cultural"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 42.877,
+    "lng": 74.6,
+    "image": "https://images.unsplash.com/photo-1506898667541-e85e7b33d14d?w=400",
+    "description": "A notable cathedral known for its architecture and religious significance."
+  },
+  {
+    "id": 240,
+    "name": "Kyrgyz National Philharmonic Hall",
+    "country": "Kyrgystan",
+    "city": "Bishkek",
+    "category": [
+      "cultural",
+      "fun"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 42.873,
+    "lng": 74.614,
+    "image": "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=400",
+    "description": "A major venue for concerts, performances, and cultural events."
+  },
+  {
+    "id": 241,
+    "name": "Novotel Bishkek City Center",
+    "country": "Kyrgystan",
+    "city": "Bishkek",
+    "category": [
+      "relax",
+      "luxury"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 42.875,
+    "lng": 74.61,
+    "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=400",
+    "description": "A comfortable hotel for relaxation, dining, and city-center convenience."
+  },
+  {
+    "id": 242,
+    "name": "Orion Hotel Bishkek",
+    "country": "Kyrgystan",
+    "city": "Bishkek",
+    "category": [
+      "relax",
+      "luxury"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 42.876,
+    "lng": 74.605,
+    "image": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=400",
+    "description": "A premium hotel offering a relaxing stay with upscale amenities."
+  },
+  {
+    "id": 243,
+    "name": "Cafés around Erkindik Boulevard",
+    "country": "Kyrgystan",
+    "city": "Bishkek",
+    "category": [
+      "relax",
+      "food",
+      "scenic"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 42.873,
+    "lng": 74.61,
+    "image": "https://images.unsplash.com/photo-1498804103079-a6351b050096?w=400",
+    "description": "Casual cafés along a pleasant boulevard for coffee, snacks, and people-watching."
+  },
+  {
+    "id": 244,
+    "name": "Tea houses near Panfilov Park",
+    "country": "Kyrgystan",
+    "city": "Bishkek",
+    "category": [
+      "relax",
+      "food"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 42.875,
+    "lng": 74.604,
+    "image": "https://images.unsplash.com/photo-1506368249639-73a05d6f6488?w=400",
+    "description": "Traditional tea houses where visitors can relax and enjoy local hospitality."
+  },
+  {
+    "id": 245,
+    "name": "Save The Ales",
+    "country": "Kyrgystan",
+    "city": "Bishkek",
+    "category": [
+      "fun",
+      "food",
+      "nightlife"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 42.875,
+    "lng": 74.61,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400",
+    "description": "A lively spot for drinks, dining, and an evening out."
+  },
+  {
+    "id": 246,
+    "name": "Metro Pub",
+    "country": "Kyrgystan",
+    "city": "Bishkek",
+    "category": [
+      "fun",
+      "nightlife"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 42.874,
+    "lng": 74.607,
+    "image": "https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=400",
+    "description": "A popular pub for socializing, drinks, and nightlife."
+  },
+  {
+    "id": 247,
+    "name": "No Name Bar",
+    "country": "Kyrgystan",
+    "city": "Bishkek",
+    "category": [
+      "fun",
+      "nightlife"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 42.876,
+    "lng": 74.608,
+    "image": "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=400",
+    "description": "A casual bar for drinks, conversation, and a relaxed night out."
+  },
+  {
+    "id": 248,
+    "name": "Lounge bars near Bishkek Park & city center",
+    "country": "Kyrgystan",
+    "city": "Bishkek",
+    "category": [
+      "fun",
+      "nightlife",
+      "relax"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 42.878,
+    "lng": 74.606,
+    "image": "https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=400",
+    "description": "Stylish lounge bars in the city center for drinks, music, and a comfortable atmosphere."
+  },
+  {
+    "id": 249,
+    "name": "Osh Bazaar",
+    "country": "Kyrgystan",
+    "city": "Osh",
+    "category": [
+      "shopping"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 40.53,
+    "lng": 72.8,
+    "image": "https://images.unsplash.com/photo-1506617420156-8e4536971650?w=400",
+    "description": "A bustling traditional market where visitors can shop for food, clothing, and local goods."
+  },
+  {
+    "id": 250,
+    "name": "Jayma Bazaar",
+    "country": "Kyrgystan",
+    "city": "Osh",
+    "category": [
+      "shopping"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 40.53,
+    "lng": 72.8,
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400",
+    "description": "A lively market known for its wide variety of local products and everyday shopping."
+  },
+  {
+    "id": 251,
+    "name": "Osh City Mall",
+    "country": "Kyrgystan",
+    "city": "Osh",
+    "category": [
+      "shopping"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 40.53,
+    "lng": 72.81,
+    "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400",
+    "description": "A modern shopping center with stores, dining options, and a comfortable indoor environment."
+  },
+  {
+    "id": 252,
+    "name": "Hiking on Sulaiman-Too Mountain",
+    "country": "Kyrgystan",
+    "city": "Osh",
+    "category": [
+      "active",
+      "scenic"
+    ],
+    "duration": 3,
+    "price": 0,
+    "lat": 40.53,
+    "lng": 72.8,
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400",
+    "description": "A popular hill for hiking, panoramic views, and outdoor exploration."
+  },
+  {
+    "id": 253,
+    "name": "Walks around Ak-Buura River",
+    "country": "Kyrgystan",
+    "city": "Osh",
+    "category": [
+      "active",
+      "walk",
+      "scenic"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 40.52,
+    "lng": 72.81,
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400",
+    "description": "A pleasant riverside area ideal for walking and relaxing outdoors."
+  },
+  {
+    "id": 254,
+    "name": "Navoi Park Osh",
+    "country": "Kyrgystan",
+    "city": "Osh",
+    "category": [
+      "active",
+      "walk",
+      "scenic"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 40.53,
+    "lng": 72.8,
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=400",
+    "description": "A green city park for relaxed walks, open-air time, and casual outings."
+  },
+  {
+    "id": 255,
+    "name": "Osh Stadium",
+    "country": "Kyrgystan",
+    "city": "Osh",
+    "category": [
+      "active"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 40.53,
+    "lng": 72.8,
+    "image": "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=400",
+    "description": "A sports venue used for football matches, training, and local events."
+  },
+  {
+    "id": 256,
+    "name": "Sulaiman-Too Museum",
+    "country": "Kyrgystan",
+    "city": "Osh",
+    "category": [
+      "cultural"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 40.53,
+    "lng": 72.8,
+    "image": "https://images.unsplash.com/photo-1566127444979-b4d2aef498fc?w=400",
+    "description": "A museum connected to the cultural and historical significance of Sulaiman-Too."
+  },
+  {
+    "id": 257,
+    "name": "Babur Mausoleum",
+    "country": "Kyrgystan",
+    "city": "Osh",
+    "category": [
+      "cultural"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 40.53,
+    "lng": 72.79,
+    "image": "https://images.unsplash.com/photo-1506898667541-e85e7b33d14d?w=400",
+    "description": "A historic mausoleum associated with Babur and the city's heritage."
+  },
+  {
+    "id": 258,
+    "name": "Ravat Abdullakhan Mosque",
+    "country": "Kyrgystan",
+    "city": "Osh",
+    "category": [
+      "cultural"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 40.53,
+    "lng": 72.8,
+    "image": "https://images.unsplash.com/photo-1524824267900-2e7f0f5e6d0f?w=400",
+    "description": "A notable mosque known for its religious importance and traditional architecture."
+  },
+  {
+    "id": 259,
+    "name": "Jannat Resort Osh",
+    "country": "Kyrgystan",
+    "city": "Osh",
+    "category": [
+      "relax",
+      "luxury"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 40.53,
+    "lng": 72.81,
+    "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=400",
+    "description": "A comfortable resort for relaxation, dining, and a calm stay."
+  },
+  {
+    "id": 260,
+    "name": "Sunrise Osh Hotel",
+    "country": "Kyrgystan",
+    "city": "Osh",
+    "category": [
+      "relax",
+      "luxury"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 40.52,
+    "lng": 72.8,
+    "image": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=400",
+    "description": "A hotel offering a relaxed environment with accommodation and leisure facilities."
+  },
+  {
+    "id": 261,
+    "name": "Riverside cafés along Ak-Buura River",
+    "country": "Kyrgystan",
+    "city": "Osh",
+    "category": [
+      "relax",
+      "food",
+      "scenic"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 40.52,
+    "lng": 72.81,
+    "image": "https://images.unsplash.com/photo-1498804103079-a6351b050096?w=400",
+    "description": "Casual cafés by the river where visitors can enjoy drinks, snacks, and peaceful views."
+  },
+  {
+    "id": 262,
+    "name": "Tea houses near Navoi Park Osh",
+    "country": "Kyrgystan",
+    "city": "Osh",
+    "category": [
+      "relax",
+      "food"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 40.53,
+    "lng": 72.8,
+    "image": "https://images.unsplash.com/photo-1506368249639-73a05d6f6488?w=400",
+    "description": "Traditional tea houses offering local hospitality and a place to unwind."
+  },
+  {
+    "id": 263,
+    "name": "Tsarsky Dvor",
+    "country": "Kyrgystan",
+    "city": "Osh",
+    "category": [
+      "fun",
+      "food",
+      "nightlife"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 40.53,
+    "lng": 72.8,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400",
+    "description": "A lively restaurant for dining and spending an enjoyable evening."
+  },
+  {
+    "id": 264,
+    "name": "Brio Restaurant",
+    "country": "Kyrgystan",
+    "city": "Osh",
+    "category": [
+      "fun",
+      "food",
+      "nightlife"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 40.53,
+    "lng": 72.81,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400",
+    "description": "A restaurant and social spot for dining and a relaxed night out."
+  },
+  {
+    "id": 265,
+    "name": "Cafe Relax Osh",
+    "country": "Kyrgystan",
+    "city": "Osh",
+    "category": [
+      "fun",
+      "coffee",
+      "social"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 40.52,
+    "lng": 72.8,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=400",
+    "description": "A casual café for coffee, conversation, and relaxed social time."
+  },
+  {
+    "id": 266,
+    "name": "Hotel lounges (Jannat / Sunrise)",
+    "country": "Kyrgystan",
+    "city": "Osh",
+    "category": [
+      "fun",
+      "nightlife",
+      "relax"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 40.53,
+    "lng": 72.8,
+    "image": "https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=400",
+    "description": "Comfortable hotel lounges for drinks, conversation, and a relaxed evening atmosphere."
+  },
+  {
+    "id": 267,
+    "name": "Karakol Bazaar",
+    "country": "Kyrgystan",
+    "city": "Karakol",
+    "category": [
+      "shopping"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 42.49,
+    "lng": 78.39,
+    "image": "https://images.unsplash.com/photo-1506617420156-8e4536971650?w=400",
+    "description": "A lively market where visitors can shop for fresh produce, local foods, and everyday goods."
+  },
+  {
+    "id": 268,
+    "name": "Ak-Tilek Bazaar",
+    "country": "Kyrgystan",
+    "city": "Karakol",
+    "category": [
+      "shopping"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 42.49,
+    "lng": 78.4,
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400",
+    "description": "A busy bazaar known for affordable shopping and a wide variety of local goods."
+  },
+  {
+    "id": 269,
+    "name": "Local handicraft shops (felt products, сувениры)",
+    "country": "Kyrgystan",
+    "city": "Karakol",
+    "category": [
+      "shopping"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 42.49,
+    "lng": 78.39,
+    "image": "https://images.unsplash.com/photo-1481437156560-3205f6a55735?w=400",
+    "description": "Small shops selling felt products, souvenirs, and handmade crafts."
+  },
+  {
+    "id": 270,
+    "name": "Skiing at Karakol Ski Base",
+    "country": "Kyrgystan",
+    "city": "Karakol",
+    "category": [
+      "active",
+      "scenic"
+    ],
+    "duration": 4,
+    "price": 0,
+    "lat": 42.39,
+    "lng": 78.44,
+    "image": "https://images.unsplash.com/photo-1515025442898-0689a4c6a4da?w=400",
+    "description": "A popular mountain ski area offering winter sports and alpine scenery."
+  },
+  {
+    "id": 271,
+    "name": "Hiking in Karakol Gorge",
+    "country": "Kyrgystan",
+    "city": "Karakol",
+    "category": [
+      "active",
+      "scenic"
+    ],
+    "duration": 4,
+    "price": 0,
+    "lat": 42.36,
+    "lng": 78.42,
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400",
+    "description": "A scenic mountain area ideal for hiking, nature walks, and outdoor adventures."
+  },
+  {
+    "id": 272,
+    "name": "Trips to Issyk-Kul Lake",
+    "country": "Kyrgystan",
+    "city": "Karakol",
+    "category": [
+      "active",
+      "scenic"
+    ],
+    "duration": 4,
+    "price": 0,
+    "lat": 42.47,
+    "lng": 78.39,
+    "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?w=400",
+    "description": "Scenic trips from Karakol to the famous Issyk-Kul Lake for outdoor relaxation and sightseeing."
+  },
+  {
+    "id": 273,
+    "name": "Walks in Victory Park Karakol",
+    "country": "Kyrgystan",
+    "city": "Karakol",
+    "category": [
+      "active",
+      "walk",
+      "scenic"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 42.49,
+    "lng": 78.39,
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=400",
+    "description": "A pleasant park for walking, relaxing, and enjoying the outdoors."
+  },
+  {
+    "id": 274,
+    "name": "Dungan Mosque Karakol",
+    "country": "Kyrgystan",
+    "city": "Karakol",
+    "category": [
+      "cultural"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 42.49,
+    "lng": 78.39,
+    "image": "https://images.unsplash.com/photo-1524824267900-2e7f0f5e6d0f?w=400",
+    "description": "A distinctive mosque known for its unique architecture and cultural importance."
+  },
+  {
+    "id": 275,
+    "name": "Holy Trinity Cathedral Karakol",
+    "country": "Kyrgystan",
+    "city": "Karakol",
+    "category": [
+      "cultural"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 42.49,
+    "lng": 78.39,
+    "image": "https://images.unsplash.com/photo-1506898667541-e85e7b33d14d?w=400",
+    "description": "A historic cathedral known for its architecture and religious heritage."
+  },
+  {
+    "id": 276,
+    "name": "Przhevalsky Museum",
+    "country": "Kyrgystan",
+    "city": "Karakol",
+    "category": [
+      "cultural"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 42.49,
+    "lng": 78.39,
+    "image": "https://images.unsplash.com/photo-1566127444979-b4d2aef498fc?w=400",
+    "description": "A museum dedicated to the explorer Nikolai Przhevalsky and regional history."
+  },
+  {
+    "id": 277,
+    "name": "Karagat Hotel",
+    "country": "Kyrgystan",
+    "city": "Karakol",
+    "category": [
+      "relax",
+      "luxury"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 42.49,
+    "lng": 78.39,
+    "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=400",
+    "description": "A comfortable hotel for resting, dining, and a relaxed stay."
+  },
+  {
+    "id": 278,
+    "name": "Green Yard Hotel",
+    "country": "Kyrgystan",
+    "city": "Karakol",
+    "category": [
+      "relax",
+      "luxury"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 42.49,
+    "lng": 78.4,
+    "image": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=400",
+    "description": "A hotel offering a relaxed environment with accommodation and leisure facilities."
+  },
+  {
+    "id": 279,
+    "name": "Cafés near Issyk-Kul Lake",
+    "country": "Kyrgystan",
+    "city": "Karakol",
+    "category": [
+      "relax",
+      "food",
+      "scenic"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 42.47,
+    "lng": 78.39,
+    "image": "https://images.unsplash.com/photo-1498804103079-a6351b050096?w=400",
+    "description": "Casual cafés with scenic lake access for drinks, snacks, and quiet time."
+  },
+  {
+    "id": 280,
+    "name": "Cozy guesthouses in the city center",
+    "country": "Kyrgystan",
+    "city": "Karakol",
+    "category": [
+      "relax",
+      "luxury"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 42.49,
+    "lng": 78.39,
+    "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=400",
+    "description": "Small guesthouses offering a comfortable and peaceful stay in central Karakol."
+  },
+  {
+    "id": 281,
+    "name": "Duet Karakol",
+    "country": "Kyrgystan",
+    "city": "Karakol",
+    "category": [
+      "fun",
+      "food",
+      "nightlife"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 42.49,
+    "lng": 78.39,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400",
+    "description": "A lively spot for dining and evening entertainment."
+  },
+  {
+    "id": 282,
+    "name": "Cafe Zarina",
+    "country": "Kyrgystan",
+    "city": "Karakol",
+    "category": [
+      "fun",
+      "coffee",
+      "social"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 42.49,
+    "lng": 78.39,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=400",
+    "description": "A casual café for coffee, conversation, and relaxed social time."
+  },
+  {
+    "id": 283,
+    "name": "Karakol Coffee",
+    "country": "Kyrgystan",
+    "city": "Karakol",
+    "category": [
+      "fun",
+      "coffee",
+      "social"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 42.49,
+    "lng": 78.39,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=400",
+    "description": "A coffee spot for drinks, conversation, and a relaxed atmosphere."
+  },
+  {
+    "id": 284,
+    "name": "Small local bars & hotel lounges",
+    "country": "Kyrgystan",
+    "city": "Karakol",
+    "category": [
+      "fun",
+      "nightlife",
+      "relax"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 42.49,
+    "lng": 78.39,
+    "image": "https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=400",
+    "description": "Small bars and hotel lounges offering drinks, music, and a relaxed evening."
+  },
+  {
+    "id": 285,
+    "name": "Naryn Bazaar",
+    "country": "Kyrgystan",
+    "city": "Naryn",
+    "category": [
+      "shopping"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 41.43,
+    "lng": 75.99,
+    "image": "https://images.unsplash.com/photo-1506617420156-8e4536971650?w=400",
+    "description": "A central market where visitors can shop for local produce, everyday goods, and regional items."
+  },
+  {
+    "id": 286,
+    "name": "Central Market Naryn",
+    "country": "Kyrgystan",
+    "city": "Naryn",
+    "category": [
+      "shopping"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 41.43,
+    "lng": 75.99,
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400",
+    "description": "A busy market for groceries, household basics, and everyday shopping."
+  },
+  {
+    "id": 287,
+    "name": "Small local shops (food, basics, handmade goods)",
+    "country": "Kyrgystan",
+    "city": "Naryn",
+    "category": [
+      "shopping"
+    ],
+    "duration": 1,
+    "price": 0,
+    "lat": 41.43,
+    "lng": 75.99,
+    "image": "https://images.unsplash.com/photo-1481437156560-3205f6a55735?w=400",
+    "description": "Small shops offering food, daily essentials, and handmade local goods."
+  },
+  {
+    "id": 288,
+    "name": "Walks along Naryn River",
+    "country": "Kyrgystan",
+    "city": "Naryn",
+    "category": [
+      "active",
+      "walk",
+      "scenic"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 41.43,
+    "lng": 76.0,
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400",
+    "description": "A peaceful riverside area ideal for walking and enjoying the scenery."
+  },
+  {
+    "id": 289,
+    "name": "Hiking in the Tian Shan Mountains",
+    "country": "Kyrgystan",
+    "city": "Naryn",
+    "category": [
+      "active",
+      "scenic"
+    ],
+    "duration": 4,
+    "price": 0,
+    "lat": 41.4,
+    "lng": 75.98,
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400",
+    "description": "Mountain trails offering hiking, open landscapes, and dramatic alpine views."
+  },
+  {
+    "id": 290,
+    "name": "Trip to Tash Rabat Caravanserai",
+    "country": "Kyrgystan",
+    "city": "Naryn",
+    "category": [
+      "active",
+      "cultural",
+      "scenic"
+    ],
+    "duration": 5,
+    "price": 0,
+    "lat": 41.35,
+    "lng": 75.98,
+    "image": "https://images.unsplash.com/photo-1528127269322-539801943592?w=400",
+    "description": "A historic Silk Road site surrounded by mountain scenery and worth a full-day trip."
+  },
+  {
+    "id": 291,
+    "name": "Naryn Central Stadium",
+    "country": "Kyrgystan",
+    "city": "Naryn",
+    "category": [
+      "active"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 41.43,
+    "lng": 75.99,
+    "image": "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=400",
+    "description": "A local sports venue used for matches, training, and community events."
+  },
+  {
+    "id": 292,
+    "name": "Naryn Regional Museum",
+    "country": "Kyrgystan",
+    "city": "Naryn",
+    "category": [
+      "cultural"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 41.43,
+    "lng": 75.99,
+    "image": "https://images.unsplash.com/photo-1566127444979-b4d2aef498fc?w=400",
+    "description": "A museum showcasing the history, culture, and traditions of the Naryn region."
+  },
+  {
+    "id": 293,
+    "name": "Central Mosque Naryn",
+    "country": "Kyrgystan",
+    "city": "Naryn",
+    "category": [
+      "cultural"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 41.43,
+    "lng": 75.99,
+    "image": "https://images.unsplash.com/photo-1506898667541-e85e7b33d14d?w=400",
+    "description": "A prominent mosque and important religious landmark in the town."
+  },
+  {
+    "id": 294,
+    "name": "Khan Tengri Hotel Naryn",
+    "country": "Kyrgystan",
+    "city": "Naryn",
+    "category": [
+      "relax",
+      "luxury"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 41.43,
+    "lng": 75.99,
+    "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=400",
+    "description": "A comfortable hotel offering relaxation, dining, and a convenient city stay."
+  },
+  {
+    "id": 295,
+    "name": "Grand Khan Tengri Hotel",
+    "country": "Kyrgystan",
+    "city": "Naryn",
+    "category": [
+      "relax",
+      "luxury"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 41.43,
+    "lng": 75.99,
+    "image": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=400",
+    "description": "A hotel providing a calm stay with accommodation and leisure facilities."
+  },
+  {
+    "id": 296,
+    "name": "Riverside cafés along Naryn River",
+    "country": "Kyrgystan",
+    "city": "Naryn",
+    "category": [
+      "relax",
+      "food",
+      "scenic"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 41.43,
+    "lng": 76.0,
+    "image": "https://images.unsplash.com/photo-1498804103079-a6351b050096?w=400",
+    "description": "Casual cafés by the river offering drinks, snacks, and a peaceful atmosphere."
+  },
+  {
+    "id": 297,
+    "name": "Tea houses in the town center",
+    "country": "Kyrgystan",
+    "city": "Naryn",
+    "category": [
+      "relax",
+      "food"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 41.43,
+    "lng": 75.99,
+    "image": "https://images.unsplash.com/photo-1506368249639-73a05d6f6488?w=400",
+    "description": "Traditional tea houses where visitors can rest and enjoy local hospitality."
+  },
+  {
+    "id": 298,
+    "name": "Khan Tengri restaurant lounge",
+    "country": "Kyrgystan",
+    "city": "Naryn",
+    "category": [
+      "fun",
+      "food",
+      "nightlife"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 41.43,
+    "lng": 75.99,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400",
+    "description": "A lounge-style restaurant for dining and an easygoing evening out."
+  },
+  {
+    "id": 299,
+    "name": "Local cafés (limited nightlife)",
+    "country": "Kyrgystan",
+    "city": "Naryn",
+    "category": [
+      "fun",
+      "coffee",
+      "social"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 41.43,
+    "lng": 75.99,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=400",
+    "description": "Small local cafés for coffee, conversation, and a relaxed social atmosphere."
+  },
+  {
+    "id": 300,
+    "name": "Hotel lounges (Khan Tengri / Grand Khan Tengri)",
+    "country": "Kyrgystan",
+    "city": "Naryn",
+    "category": [
+      "fun",
+      "nightlife",
+      "relax"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 41.43,
+    "lng": 75.99,
+    "image": "https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=400",
+    "description": "Relaxed hotel lounges for drinks, conversation, and a quiet evening."
+  },
+  {
+    "id": 301,
+    "name": "Green Bazaar Almaty",
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "category": [
+      "shopping"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 43.26,
+    "lng": 76.93,
+    "image": "https://images.unsplash.com/photo-1506617420156-8e4536971650?w=400",
+    "description": "A famous central market known for fresh produce, spices, local foods, and everyday shopping."
+  },
+  {
+    "id": 302,
+    "name": "Dostyk Plaza",
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "category": [
+      "shopping"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 43.24,
+    "lng": 76.95,
+    "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400",
+    "description": "A modern shopping and entertainment center with international brands, cafés, and leisure spaces."
+  },
+  {
+    "id": 303,
+    "name": "Mega Center Alma-Ata",
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "category": [
+      "shopping"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 43.21,
+    "lng": 76.87,
+    "image": "https://images.unsplash.com/photo-1521334884684-d80222895322?w=400",
+    "description": "A large shopping mall with retail stores, restaurants, and entertainment options."
+  },
+  {
+    "id": 304,
+    "name": "Esentai Mall",
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "category": [
+      "shopping"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 43.22,
+    "lng": 76.93,
+    "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=400",
+    "description": "A luxury shopping center with premium brands, dining, cinema, and spa facilities."
+  },
+  {
+    "id": 305,
+    "name": "Hiking in Ile-Alatau National Park",
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "category": [
+      "active",
+      "scenic"
+    ],
+    "duration": 4,
+    "price": 0,
+    "lat": 43.17,
+    "lng": 76.95,
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400",
+    "description": "A mountain park near Almaty known for hiking trails, alpine views, and fresh air."
+  },
+  {
+    "id": 306,
+    "name": "Cable car to Kok-Tobe Hill",
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "category": [
+      "active",
+      "scenic"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 43.24,
+    "lng": 76.97,
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=400",
+    "description": "A scenic ride up to Kok-Tobe Hill with city views and outdoor attractions."
+  },
+  {
+    "id": 307,
+    "name": "Skating at Medeu Skating Rink",
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "category": [
+      "active"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 43.16,
+    "lng": 77.08,
+    "image": "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=400",
+    "description": "A famous high-altitude skating rink and popular recreation spot."
+  },
+  {
+    "id": 308,
+    "name": "Skiing at Shymbulak Ski Resort",
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "category": [
+      "active",
+      "scenic"
+    ],
+    "duration": 4,
+    "price": 0,
+    "lat": 43.15,
+    "lng": 77.06,
+    "image": "https://images.unsplash.com/photo-1515025442898-0689a4c6a4da?w=400",
+    "description": "A major ski resort near Almaty offering winter sports and mountain scenery."
+  },
+  {
+    "id": 309,
+    "name": "Zenkov Cathedral",
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "category": [
+      "cultural"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 43.256,
+    "lng": 76.955,
+    "image": "https://images.unsplash.com/photo-1506898667541-e85e7b33d14d?w=400",
+    "description": "A colorful wooden cathedral and one of Almaty's best-known landmarks."
+  },
+  {
+    "id": 310,
+    "name": "Central State Museum of Kazakhstan",
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "category": [
+      "cultural"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 43.24,
+    "lng": 76.95,
+    "image": "https://images.unsplash.com/photo-1566127444979-b4d2aef498fc?w=400",
+    "description": "A major museum presenting Kazakhstan's history, archaeology, and culture."
+  },
+  {
+    "id": 311,
+    "name": "Abay Opera House",
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "category": [
+      "cultural",
+      "fun"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 43.25,
+    "lng": 76.95,
+    "image": "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=400",
+    "description": "A historic opera and ballet venue in the heart of the city."
+  },
+  {
+    "id": 312,
+    "name": "Republic Square Almaty",
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "category": [
+      "cultural",
+      "scenic"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 43.23,
+    "lng": 76.94,
+    "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=400",
+    "description": "A central square and important civic landmark in Almaty."
+  },
+  {
+    "id": 313,
+    "name": "Ritz-Carlton Almaty",
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "category": [
+      "relax",
+      "luxury"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 43.22,
+    "lng": 76.93,
+    "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=400",
+    "description": "A luxury hotel offering premium relaxation, dining, and city views."
+  },
+  {
+    "id": 314,
+    "name": "DoubleTree by Hilton Almaty",
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "category": [
+      "relax",
+      "luxury"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 43.24,
+    "lng": 76.96,
+    "image": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=400",
+    "description": "A comfortable hotel with modern amenities for a relaxed stay."
+  },
+  {
+    "id": 315,
+    "name": "Cafés on Arbat Almaty",
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "category": [
+      "relax",
+      "food",
+      "scenic"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 43.25,
+    "lng": 76.94,
+    "image": "https://images.unsplash.com/photo-1498804103079-a6351b050096?w=400",
+    "description": "Casual cafés on the lively pedestrian street, ideal for coffee and people-watching."
+  },
+  {
+    "id": 316,
+    "name": "Walks in Panfilov Park",
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "category": [
+      "relax",
+      "walk",
+      "scenic"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 43.257,
+    "lng": 76.954,
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=400",
+    "description": "A green city park for peaceful walks and a relaxing break from the city."
+  },
+  {
+    "id": 317,
+    "name": "Khan Shatyr Entertainment Center",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "category": [
+      "shopping"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 51.13,
+    "lng": 71.4,
+    "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400",
+    "description": "A major shopping and entertainment complex with stores, dining, and leisure activities."
+  },
+  {
+    "id": 318,
+    "name": "Mega Silk Way",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "category": [
+      "shopping"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 51.09,
+    "lng": 71.42,
+    "image": "https://images.unsplash.com/photo-1521334884684-d80222895322?w=400",
+    "description": "A modern shopping mall near the Expo area with retail, dining, and entertainment."
+  },
+  {
+    "id": 319,
+    "name": "Keruen City Mall",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "category": [
+      "shopping"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 51.12,
+    "lng": 71.43,
+    "image": "https://images.unsplash.com/photo-1506617420156-8e4536971650?w=400",
+    "description": "A popular shopping center offering a range of stores and dining options."
+  },
+  {
+    "id": 320,
+    "name": "Saryarka Shopping Mall",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "category": [
+      "shopping"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 51.16,
+    "lng": 71.44,
+    "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=400",
+    "description": "A shopping mall with retail stores, restaurants, and leisure spaces."
+  },
+  {
+    "id": 321,
+    "name": "Walks along Ishim River",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "category": [
+      "active",
+      "walk",
+      "scenic"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 51.13,
+    "lng": 71.4,
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400",
+    "description": "A pleasant riverside area ideal for walking and enjoying the city views."
+  },
+  {
+    "id": 322,
+    "name": "Astana Arena",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "category": [
+      "active"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 51.1,
+    "lng": 71.43,
+    "image": "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=400",
+    "description": "A major sports venue used for football matches and events."
+  },
+  {
+    "id": 323,
+    "name": "Central Park Astana",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "category": [
+      "active",
+      "walk",
+      "scenic"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 51.12,
+    "lng": 71.39,
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=400",
+    "description": "A green city park for walking, relaxing, and outdoor recreation."
+  },
+  {
+    "id": 324,
+    "name": "Bike rides on riverside paths",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "category": [
+      "active",
+      "scenic"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 51.13,
+    "lng": 71.4,
+    "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?w=400",
+    "description": "Riverside bike paths offering easy riding and views of the Ishim River."
+  },
+  {
+    "id": 325,
+    "name": "Bayterek Tower",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "category": [
+      "cultural",
+      "scenic"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 51.13,
+    "lng": 71.43,
+    "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=400",
+    "description": "An iconic landmark and observation tower in the center of Astana."
+  },
+  {
+    "id": 326,
+    "name": "Hazret Sultan Mosque",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "category": [
+      "cultural"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 51.14,
+    "lng": 71.45,
+    "image": "https://images.unsplash.com/photo-1506898667541-e85e7b33d14d?w=400",
+    "description": "A grand mosque and one of the city's major religious landmarks."
+  },
+  {
+    "id": 327,
+    "name": "National Museum of the Republic of Kazakhstan",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "category": [
+      "cultural"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 51.13,
+    "lng": 71.44,
+    "image": "https://images.unsplash.com/photo-1566127444979-b4d2aef498fc?w=400",
+    "description": "A large museum presenting Kazakhstan's history, culture, and heritage."
+  },
+  {
+    "id": 328,
+    "name": "Palace of Peace and Reconciliation",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "category": [
+      "cultural"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 51.12,
+    "lng": 71.43,
+    "image": "https://images.unsplash.com/photo-1528127269322-539801943592?w=400",
+    "description": "A striking pyramid-shaped building used for cultural and interfaith events."
+  },
+  {
+    "id": 329,
+    "name": "Rixos President Astana",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "category": [
+      "relax",
+      "luxury"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 51.13,
+    "lng": 71.42,
+    "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=400",
+    "description": "A luxury hotel offering comfort, dining, and a premium stay."
+  },
+  {
+    "id": 330,
+    "name": "Hilton Astana",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "category": [
+      "relax",
+      "luxury"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 51.09,
+    "lng": 71.42,
+    "image": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=400",
+    "description": "A modern hotel with relaxed accommodation and upscale amenities."
+  },
+  {
+    "id": 331,
+    "name": "Cafés near Nurjol Boulevard",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "category": [
+      "relax",
+      "food",
+      "scenic"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 51.13,
+    "lng": 71.43,
+    "image": "https://images.unsplash.com/photo-1498804103079-a6351b050096?w=400",
+    "description": "Casual cafés along a central boulevard, ideal for coffee and people-watching."
+  },
+  {
+    "id": 332,
+    "name": "Riverside прогулки along Ishim River",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "category": [
+      "relax",
+      "walk",
+      "scenic"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 51.13,
+    "lng": 71.4,
+    "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=400",
+    "description": "Relaxed riverside strolls with open views and a calm atmosphere."
+  },
+  {
+    "id": 333,
+    "name": "Icon Club Astana",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "category": [
+      "fun",
+      "nightlife"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 51.13,
+    "lng": 71.43,
+    "image": "https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=400",
+    "description": "A nightlife venue for music, dancing, and late-evening entertainment."
+  },
+  {
+    "id": 334,
+    "name": "The Bus Music Pub",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "category": [
+      "fun",
+      "nightlife",
+      "music"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 51.12,
+    "lng": 71.42,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400",
+    "description": "A pub with live music, drinks, and a lively evening atmosphere."
+  },
+  {
+    "id": 335,
+    "name": "Sky Bar Astana",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "category": [
+      "fun",
+      "nightlife",
+      "relax"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 51.13,
+    "lng": 71.43,
+    "image": "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=400",
+    "description": "A stylish bar with drinks, views, and a comfortable lounge setting."
+  },
+  {
+    "id": 336,
+    "name": "Nightclubs around city center & Expo area",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "category": [
+      "fun",
+      "nightlife"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 51.1,
+    "lng": 71.42,
+    "image": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=400",
+    "description": "A nightlife area with clubs and late-evening entertainment near the city center and Expo district."
+  },
+  {
+    "id": 337,
+    "name": "Mega Planet Shymkent",
+    "country": "Kazakhstan",
+    "city": "Shymkent",
+    "category": [
+      "shopping"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 42.32,
+    "lng": 69.59,
+    "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400",
+    "description": "A popular shopping center with stores, dining, and entertainment options."
+  },
+  {
+    "id": 338,
+    "name": "Shymkent Plaza",
+    "country": "Kazakhstan",
+    "city": "Shymkent",
+    "category": [
+      "shopping"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 42.32,
+    "lng": 69.59,
+    "image": "https://images.unsplash.com/photo-1521334884684-d80222895322?w=400",
+    "description": "A major shopping and leisure mall with branded stores, cinema, and food options."
+  },
+  {
+    "id": 339,
+    "name": "Samal Market Shymkent",
+    "country": "Kazakhstan",
+    "city": "Shymkent",
+    "category": [
+      "shopping"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 42.32,
+    "lng": 69.6,
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400",
+    "description": "A busy market offering local products, groceries, and everyday shopping."
+  },
+  {
+    "id": 340,
+    "name": "Upper Bazaar Shymkent",
+    "country": "Kazakhstan",
+    "city": "Shymkent",
+    "category": [
+      "shopping"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 42.32,
+    "lng": 69.58,
+    "image": "https://images.unsplash.com/photo-1506617420156-8e4536971650?w=400",
+    "description": "A lively bazaar known for food, goods, and local market atmosphere."
+  },
+  {
+    "id": 341,
+    "name": "Walks in Abay Park Shymkent",
+    "country": "Kazakhstan",
+    "city": "Shymkent",
+    "category": [
+      "active",
+      "walk",
+      "scenic"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 42.32,
+    "lng": 69.59,
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=400",
+    "description": "A green park ideal for relaxed walks and outdoor time."
+  },
+  {
+    "id": 342,
+    "name": "Shymkent Zoo",
+    "country": "Kazakhstan",
+    "city": "Shymkent",
+    "category": [
+      "active",
+      "scenic"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 42.33,
+    "lng": 69.6,
+    "image": "https://images.unsplash.com/photo-1508817628294-5a453fae1a7f?w=400",
+    "description": "A family-friendly zoo with animals and outdoor paths."
+  },
+  {
+    "id": 343,
+    "name": "Hiking near Sayram-Ugam National Park",
+    "country": "Kazakhstan",
+    "city": "Shymkent",
+    "category": [
+      "active",
+      "scenic"
+    ],
+    "duration": 4,
+    "price": 0,
+    "lat": 42.18,
+    "lng": 69.93,
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400",
+    "description": "A mountain and nature area near Shymkent for hiking and scenery."
+  },
+  {
+    "id": 344,
+    "name": "Kazygurt Mountain",
+    "country": "Kazakhstan",
+    "city": "Shymkent",
+    "category": [
+      "active",
+      "scenic"
+    ],
+    "duration": 4,
+    "price": 0,
+    "lat": 42.14,
+    "lng": 70.33,
+    "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=400",
+    "description": "A scenic mountain destination for outdoor exploration and views."
+  },
+  {
+    "id": 345,
+    "name": "Museum of Victims of Political Repression",
+    "country": "Kazakhstan",
+    "city": "Shymkent",
+    "category": [
+      "cultural"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 42.32,
+    "lng": 69.59,
+    "image": "https://images.unsplash.com/photo-1566127444979-b4d2aef498fc?w=400",
+    "description": "A museum dedicated to remembrance and historical reflection."
+  },
+  {
+    "id": 346,
+    "name": "Ordabasy Square",
+    "country": "Kazakhstan",
+    "city": "Shymkent",
+    "category": [
+      "cultural",
+      "scenic"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 42.32,
+    "lng": 69.59,
+    "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=400",
+    "description": "A central landmark square and an important city gathering place."
+  },
+  {
+    "id": 347,
+    "name": "Regional History Museum Shymkent",
+    "country": "Kazakhstan",
+    "city": "Shymkent",
+    "category": [
+      "cultural"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 42.32,
+    "lng": 69.59,
+    "image": "https://images.unsplash.com/photo-1566127444979-b4d2aef498fc?w=400",
+    "description": "A museum highlighting the history and heritage of the region."
+  },
+  {
+    "id": 348,
+    "name": "Independence Park Shymkent",
+    "country": "Kazakhstan",
+    "city": "Shymkent",
+    "category": [
+      "cultural",
+      "walk",
+      "scenic"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 42.33,
+    "lng": 69.6,
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=400",
+    "description": "A spacious park for walking, relaxing, and enjoying city views."
+  },
+  {
+    "id": 349,
+    "name": "Rixos Khadisha Shymkent",
+    "country": "Kazakhstan",
+    "city": "Shymkent",
+    "category": [
+      "relax",
+      "luxury"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 42.32,
+    "lng": 69.59,
+    "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=400",
+    "description": "A luxury hotel offering comfort, dining, and a premium stay."
+  },
+  {
+    "id": 350,
+    "name": "Canvas Hotel Shymkent",
+    "country": "Kazakhstan",
+    "city": "Shymkent",
+    "category": [
+      "relax",
+      "luxury"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 42.32,
+    "lng": 69.6,
+    "image": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=400",
+    "description": "A comfortable hotel with modern amenities for a relaxed stay."
+  },
+  {
+    "id": 351,
+    "name": "Cafés around Arbat Shymkent",
+    "country": "Kazakhstan",
+    "city": "Shymkent",
+    "category": [
+      "relax",
+      "food",
+      "scenic"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 42.32,
+    "lng": 69.59,
+    "image": "https://images.unsplash.com/photo-1498804103079-a6351b050096?w=400",
+    "description": "Casual cafés along a lively pedestrian area, ideal for coffee and people-watching."
+  },
+  {
+    "id": 352,
+    "name": "Tea houses near Abay Park Shymkent",
+    "country": "Kazakhstan",
+    "city": "Shymkent",
+    "category": [
+      "relax",
+      "food"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 42.32,
+    "lng": 69.59,
+    "image": "https://images.unsplash.com/photo-1506368249639-73a05d6f6488?w=400",
+    "description": "Traditional tea houses offering a calm place to rest and enjoy local hospitality."
+  },
+  {
+    "id": 253,
+    "name": "Turkistan Bazaar",
+    "country": "Kazakhstan",
+    "city": "Turkistan",
+    "category": [
+      "shopping"
+    ],
+    "duration": 2,
+    "price": 0,
+    "lat": 43.30,
+    "lng": 68.25,
+    "image": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400",
+    "description": "Vibrant local market offering fresh produce, spices, and everyday goods in the heart of Turkistan."
+  },
+  {
+    "id": 254,
+    "name": "Keruen Saray",
+    "country": "Kazakhstan",
+    "city": "Turkistan",
+    "category": [
+      "shopping"
+    ],
+    "duration": 1.5,
+    "price": 0,
+    "lat": 43.29,
+    "lng": 68.24,
+    "image": "https://images.unsplash.com/photo-1580912629872-95de612e7597?w=400",
+    "description": "Modern shopping complex with cafes, restaurants, and retail stores for a comfortable outing."
+  },
+  {
+    "id": 255,
+    "name": "Local Souvenir Shops",
+    "country": "Kazakhstan",
+    "city": "Turkistan",
+    "category": [
+      "shopping"
+    ],
+    "duration": 1,
+    "price": 5,
+    "lat": 43.30,
+    "lng": 68.25,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400",
+    "description": "Shops selling traditional crafts, silk textiles, and handmade goods near historical sites."
+  },
+  {
+    "id": 256,
+    "name": "Walks around Keruen Saray Complex",
+    "country": "Kazakhstan",
+    "city": "Turkistan",
+    "category": [
+      "active"
+    ],
+    "duration": 1,
+    "price": 0,
+    "lat": 43.29,
+    "lng": 68.24,
+    "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=400",
+    "description": "Pleasant strolls through the modern complex grounds, combining shopping and leisure."
+  },
+  {
+    "id": 257,
+    "name": "Exploring Ancient Settlement of Turkistan",
+    "country": "Kazakhstan",
+    "city": "Turkistan",
+    "category": [
+      "active"
+    ],
+    "duration": 2.5,
+    "price": 3,
+    "lat": 43.29,
+    "lng": 68.23,
+    "image": "https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=400",
+    "description": "Wander historical ruins and archaeological sites revealing Turkistan's ancient past."
+  },
+  {
+    "id": 258,
+    "name": "Day Trip to Otrar",
+    "country": "Kazakhstan",
+    "city": "Turkistan",
+    "category": [
+      "active"
+    ],
+    "duration": 4,
+    "price": 20,
+    "lat": 42.98,
+    "lng": 68.24,
+    "image": "https://images.unsplash.com/photo-1571942999902-8b6c9a5a8b58?w=400",
+    "description": "Full-day excursion to the nearby ancient city ruins, a UNESCO tentative site."
+  },
+  {
+    "id": 259,
+    "name": "Walks in Central Park Turkistan",
+    "country": "Kazakhstan",
+    "city": "Turkistan",
+    "category": [
+      "active"
+    ],
+    "duration": 1,
+    "price": 0,
+    "lat": 43.30,
+    "lng": 68.26,
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400",
+    "description": "Relaxed прогулки through green spaces and pathways in the city's central park."
+  },
+  {
+    "id": 260,
+    "name": "Mausoleum of Khoja Ahmed Yasawi",
+    "country": "Kazakhstan",
+    "city": "Turkistan",
+    "category": [
+      "cultural"
+    ],
+    "duration": 2,
+    "price": 2,
+    "lat": 43.297,
+    "lng": 68.242,
+    "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400",
+    "description": "UNESCO World Heritage site, a stunning 14th-century mausoleum blending Islamic architecture."
+  },
+  {
+    "id": 261,
+    "name": "Underground Mosque Hilvet",
+    "country": "Kazakhstan",
+    "city": "Turkistan",
+    "category": [
+      "cultural"
+    ],
+    "duration": 1,
+    "price": 1,
+    "lat": 43.297,
+    "lng": 68.243,
+    "image": "https://images.unsplash.com/photo-1600607688991-9f806a8bc5ca?w=400",
+    "description": "Unique subterranean mosque adjacent to the mausoleum, offering spiritual serenity."
+  },
+  {
+    "id": 262,
+    "name": "Turkistan History Museum",
+    "country": "Kazakhstan",
+    "city": "Turkistan",
+    "category": [
+      "cultural"
+    ],
+    "duration": 1.5,
+    "price": 2,
+    "lat": 43.30,
+    "lng": 68.25,
+    "image": "https://images.unsplash.com/photo-1583012597451-50dd7a9e9f3e?w=400",
+    "description": "Exhibits on regional history, artifacts, and Sufi heritage."
+  },
+  {
+    "id": 263,
+    "name": "Eastern Bathhouse Turkistan",
+    "country": "Kazakhstan",
+    "city": "Turkistan",
+    "category": [
+      "cultural"
+    ],
+    "duration": 1,
+    "price": 5,
+    "lat": 43.30,
+    "lng": 68.24,
+    "image": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=400",
+    "description": "Traditional hammam experience reflecting Central Asian bathing customs."
+  },
+  {
+    "id": 264,
+    "name": "Hampton by Hilton Turkistan",
+    "country": "Kazakhstan",
+    "city": "Turkistan",
+    "category": [
+      "relax"
+    ],
+    "duration": 2,
+    "price": 10,
+    "lat": 43.28,
+    "lng": 68.23,
+    "image": "https://images.unsplash.com/photo-1571896349840-0d6f24d82e8f?w=400",
+    "description": "Comfortable hotel with lounge areas for unwinding after sightseeing."
+  },
+  {
+    "id": 265,
+    "name": "Rixos Turkistan",
+    "country": "Kazakhstan",
+    "city": "Turkistan",
+    "category": [
+      "relax"
+    ],
+    "duration": 2,
+    "price": 15,
+    "lat": 43.29,
+    "lng": 68.25,
+    "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=400",
+    "description": "Luxury hotel offering spa services and serene lounges."
+  },
+  {
+    "id": 266,
+    "name": "Cafés inside Keruen Saray",
+    "country": "Kazakhstan",
+    "city": "Turkistan",
+    "category": [
+      "relax",
+      "food"
+    ],
+    "duration": 1.5,
+    "price": 5,
+    "lat": 43.29,
+    "lng": 68.24,
+    "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=400",
+    "description": "Cozy coffee spots like Nomad Space for coffee and light bites."
+  },
+  {
+    "id": 267,
+    "name": "Quiet Walks near Mausoleum of Khoja Ahmed Yasawi",
+    "country": "Kazakhstan",
+    "city": "Turkistan",
+    "category": [
+      "relax"
+    ],
+    "duration": 1,
+    "price": 0,
+    "lat": 43.297,
+    "lng": 68.242,
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400",
+    "description": "Peaceful paths around the mausoleum for reflection and calm."
+  },
+  {
+    "id": 268,
+    "name": "Restaurants & Lounges in Keruen Saray",
+    "country": "Kazakhstan",
+    "city": "Turkistan",
+    "category": [
+      "fun"
+    ],
+    "duration": 2,
+    "price": 10,
+    "lat": 43.29,
+    "lng": 68.24,
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=400",
+    "description": "Dining and lounge options with a lively atmosphere in the complex."
+  },
+  {
+    "id": 269,
+    "name": "Local Cafés",
+    "country": "Kazakhstan",
+    "city": "Turkistan",
+    "category": [
+      "fun",
+      "food"
+    ],
+    "duration": 1.5,
+    "price": 5,
+    "lat": 43.30,
+    "lng": 68.25,
+    "image": "https://images.unsplash.com/photo-1498804103079-a6351b050096?w=400",
+    "description": "Casual local spots for coffee and casual hangs, limited nightlife."
+  },
+  {
+    "id": 270,
+    "name": "Hotel Lounges (Rixos / Hampton)",
+    "country": "Kazakhstan",
+    "city": "Turkistan",
+    "category": [
+      "fun"
+    ],
+    "duration": 2,
+    "price": 10,
+    "lat": 43.29,
+    "lng": 68.24,
+    "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=400",
+    "description": "Relaxed lounges in upscale hotels for evening drinks and ambiance."
   }
 ]
