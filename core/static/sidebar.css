@@ -39,7 +39,7 @@
     right: -500px;
     width: 500px;
     height: 100vh;
-    background-color: #ece9da;
+    background-color: #fff;
     box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
     transition: right 0.3s ease;
     z-index: 1000;
@@ -53,8 +53,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 25px 30px;
-    border-bottom: 2px solid #ece9da;
-    background-color: #ece9da;
+    /* border-bottom: 2px solid #ece9da; */
+    background-color: #ffff;
 }
 .menu-header h2{
     margin: 0;
@@ -168,7 +168,7 @@
     top: 100%;
     display: none;
     position: absolute;
-    background-color: #ece9da;
+    background-color: #fff;
     list-style-type: none;
     border-radius: 20px;
     z-index: 1000;
