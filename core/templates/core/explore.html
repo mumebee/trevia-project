@@ -37,13 +37,95 @@
                 </div>
             </section>
             <section class="second-section">
-                
+            </section>
+            <section class="third-section">
+                <div id="map"></div>
             </section>
         </main>
     </div>
 
     <footer>
     </footer>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=7af13a42-8ae5-4930-8b11-50aa988d021a&lang=uz_UZ" type="text/javascript"></script>
 
+    <script type="text/javascript">
+    
+        ymaps.ready(init);
+    
+       
+    
+        function init() {
+    
+            var myMap = new ymaps.Map("map", {
+    
+                center: [41.2995, 69.2401], // Tashkent
+    
+                zoom: 12,
+    
+                controls: ['zoomControl', 'fullscreenControl']
+    
+            });
+    
+    
+    
+            var myPlacemark;
+    
+    
+    
+            myMap.events.add('click', function (e) {
+    
+                var coords = e.get('coords');
+    
+    
+    
+                // Debugging: This will show in your browser console (F12)
+    
+                console.log("Map clicked at: ", coords);
+    
+    
+    
+                if (myPlacemark) {
+    
+                    myMap.geoObjects.remove(myPlacemark);
+    
+                }
+    
+               
+    
+                // Create the marker
+    
+                myPlacemark = new ymaps.Placemark(coords, {
+    
+                    balloonContent: 'Yetkazib berish nuqtasi'
+    
+                }, {
+    
+                    preset: 'islands#redDotIcon',
+    
+                    draggable: false
+    
+                });
+    
+    
+    
+                myMap.geoObjects.add(myPlacemark);
+    
+    
+    
+                // Save coordinates to the hidden input
+    
+                // Formatting exactly for your Python split(',')
+    
+                var lat = coords[0].toFixed(6);
+    
+                var lng = coords[1].toFixed(6);
+    
+                document.getElementById('location_coords').value = lat + "," + lng;
+    
+            });
+    
+        }
+    
+    </script>
 </body>
 </html>

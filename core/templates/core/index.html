@@ -14,8 +14,7 @@
     <div class="page-wrapper">
         <main class="content-area">
             {% include 'components/header.html' %}
-            <section class="first-section">
-                
+            <section class="first-section">  
                 <div class="pills-container">
                     <div class="text-pill welcome-pill">
                         <h2>SAY HELLO TO TREVIA</h2>
@@ -27,14 +26,95 @@
                 </div>
             </section>
             <section class="second-section">
-                
+                <div class="about-us">
+                    <h1>ABOUT US</h1>
+                </div>
+                <div class="about-container">
+                    <div class="about-text">
+                        <span class="subtitle">OUR STORY</span>
+                        <h1>Your Journey Through the Heart of Asia, Redefined</h1>
+                        <p>
+                            Central Asia is a land of legends, where ancient history meets breathtaking 
+                            landscapes. Yet, planning a trip across the Great Silk Road has often been 
+                            a challenge of logistics and hidden gems. <strong>Trevia</strong> was born 
+                            from a desire to bridge that gap — combining cutting-edge technology with 
+                            authentic local expertise.
+                        </p>
+                        <p>
+                            Whether you are trekking through the peaks of Kyrgyzstan or exploring the 
+                            blue-tiled mosques of Uzbekistan, Trevia acts as your intelligent travel architect 
+                            across five nations. We empower you to build custom roadmaps, providing instant 
+                            estimates on duration and pricing to ensure your adventure is seamless.
+                        </p>
+                        <a href="#" class="cta-button">Start Your Journey</a>
+                    </div>
+            
+                    <div class="about-image">
+                        <img src="../../static/kyrg.jpg" alt="Central Asian Landscape">
+                    </div>
+                </div>
             </section>
-
+            <section class="third-section">
+                <div class="carousel-container">
+                    <div id="carousel-track" class="carousel-track">
+                        </div>
+                    <button class="nav-btn prev" onclick="moveSlide(-1)">&#10094;</button>
+                    <button class="nav-btn next" onclick="moveSlide(1)">&#10095;</button>
+                </div>
+            </section>
         </main>
         <footer class="footer">
-</footer>
+        </footer>
     </div>
+<script>
+let currentIndex = 0;
+const track = document.getElementById('carousel-track');
 
+async function initCarousel() {
+    try {
+        // Path relative to the browser URL or use a hardcoded absolute path if needed
+        const response = await fetch('static/data/countries.json'); 
+        const data = await response.json();
+
+        data.forEach(item => {
+            const slide = document.createElement('div');
+            slide.classList.add('slide');
+            
+            // Note: Since your JSON doesn't have image paths, 
+            // I'm assuming images are named after the country (e.g., uzbekistan.jpg)
+            const imageName = item.country.toLowerCase();
+            
+            slide.innerHTML = `
+                <img src="/static/${imgeName}.jpg" alt="${item.country}">
+                <div class="overlay">
+                    <h2>${item.country}</h2>
+                    <p>${item.about}</p>
+                </div>
+            `;
+            track.appendChild(slide);
+        });
+    } catch (error) {
+        console.error("Error loading JSON:", error);
+    }
+}
+
+function moveSlide(direction) {
+    const slides = document.querySelectorAll('.slide');
+    if (slides.length === 0) return;
+
+    currentIndex += direction;
+
+    if (currentIndex >= slides.length) {
+        currentIndex = 0;
+    } else if (currentIndex < 0) {
+        currentIndex = slides.length - 1;
+    }
+
+    const offset = -currentIndex * 100;
+    track.style.transform = `translateX(${offset}%)`;
+}
+
+initCarousel();
+</script>
 </body>
-
 </html>
