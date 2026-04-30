@@ -2281,6 +2281,5128 @@
           "Limited services."
         ]
       }
+    },{
+    "id": 46,
+    "name": "Yyldyz Hotel",
+    "country": "Turkmenistan",
+    "city": "Ashgabat",
+    "rooms": [
+      {
+        "name": "Standard",
+        "size": "25 m²",
+        "beds": "1 Double bed",
+        "price": 80
+      },
+      {
+        "name": "Deluxe",
+        "size": "35 m²",
+        "beds": "1 King bed",
+        "price": 120
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Yyldyz Restaurant",
+        "menu": [
+          "drinks",
+          "Turkmen cuisine",
+          "breakfast"
+        ],
+        "price": [
+          20000,
+          60000,
+          35000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 37.95,
+      "long": 58.38
+    },
+    "views": {
+      "good": [
+        "Modern facilities in central location.",
+        "Clean and comfortable rooms.",
+        "Good value for business travelers."
+      ],
+      "bad": [
+        "Limited nightlife nearby.",
+        "Basic amenities only."
+      ]
     }
-  ]
+  },
+  {
+    "id": 47,
+    "name": "Nusay Hotel",
+    "country": "Turkmenistan",
+    "city": "Ashgabat",
+    "rooms": [
+      {
+        "name": "Standard",
+        "size": "28 m²",
+        "beds": "1 Queen bed",
+        "price": 90
+      },
+      {
+        "name": "Family Room",
+        "size": "40 m²",
+        "beds": "2 Double beds",
+        "price": 140
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Nusay Café",
+        "menu": [
+          "coffee",
+          "local dishes",
+          "lunch menu"
+        ],
+        "price": [
+          15000,
+          45000,
+          50000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 37.94,
+      "long": 58.39
+    },
+    "views": {
+      "good": [
+        "Welcoming atmosphere.",
+        "Proximal to government buildings.",
+        "Reliable service."
+      ],
+      "bad": [
+        "Smaller property.",
+        "Few entertainment options."
+      ]
+    }
+  },
+  {
+    "id": 48,
+    "name": "Archabil Hotel",
+    "country": "Turkmenistan",
+    "city": "Ashgabat",
+    "rooms": [
+      {
+        "name": "Standard",
+        "size": "30 m²",
+        "beds": "1 Double bed",
+        "price": 100
+      },
+      {
+        "name": "Luxury Suite",
+        "size": "50 m²",
+        "beds": "1 King bed + sofa",
+        "price": 180
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Archabil Dining Hall",
+        "menu": [
+          "international",
+          "national cuisine",
+          "breakfast buffet"
+        ],
+        "price": [
+          30000,
+          70000,
+          40000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 37.93,
+      "long": 58.37
+    },
+    "views": {
+      "good": [
+        "Established hotel with history.",
+        "Spacious accommodations.",
+        "Near major attractions."
+      ],
+      "bad": [
+        "Older infrastructure.",
+        "Renovation needed in areas."
+      ]
+    }
+  },
+  {
+    "id": 49,
+    "name": "Hotel Nebitchi",
+    "country": "Turkmenistan",
+    "city": "Ashgabat",
+    "rooms": [
+      {
+        "name": "Economy",
+        "size": "20 m²",
+        "beds": "1 Single bed",
+        "price": 60
+      },
+      {
+        "name": "Superior",
+        "size": "32 m²",
+        "beds": "1 Queen bed",
+        "price": 110
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Nebitchi Bistro",
+        "menu": [
+          "drinks",
+          "quick bites",
+          "traditional plov"
+        ],
+        "price": [
+          10000,
+          30000,
+          40000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 37.96,
+      "long": 58.40
+    },
+    "views": {
+      "good": [
+        "Budget-friendly option.",
+        "Convenient for short stays.",
+        "Friendly staff."
+      ],
+      "bad": [
+        "Basic facilities.",
+        "Limited room variety."
+      ]
+    }
+  },
+  {
+    "id": 50,
+    "name": "Olimpia Hotel",
+    "country": "Turkmenistan",
+    "city": "Ashgabat",
+    "rooms": [
+      {
+        "name": "Standard",
+        "size": "26 m²",
+        "beds": "1 Double bed",
+        "price": 85
+      },
+      {
+        "name": "Apartment",
+        "size": "45 m²",
+        "beds": "1 King bed + living area",
+        "price": 150
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Olimpia Restaurant",
+        "menu": [
+          "European dishes",
+          "Turkmen specialties",
+          "breakfast"
+        ],
+        "price": [
+          25000,
+          55000,
+          32000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 37.95,
+      "long": 58.41
+    },
+    "views": {
+      "good": [
+        "Well-maintained property.",
+        "Good for families.",
+        "Central access."
+      ],
+      "bad": [
+        "Moderate pricing.",
+        "Standard services."
+      ]
+    }
+  },
+  {
+    "id": 51,
+    "name": "Hotel Rahat",
+    "country": "Turkmenistan",
+    "city": "Ashgabat",
+    "rooms": [
+      {
+        "name": "Comfort",
+        "size": "24 m²",
+        "beds": "1 Queen bed",
+        "price": 75
+      },
+      {
+        "name": "Premium",
+        "size": "38 m²",
+        "beds": "1 King bed",
+        "price": 130
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Rahat Café",
+        "menu": [
+          "tea & coffee",
+          "home-style meals",
+          "dinner menu"
+        ],
+        "price": [
+          12000,
+          40000,
+          60000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 37.94,
+      "long": 58.38
+    },
+    "views": {
+      "good": [
+        "Cozy and relaxed vibe.",
+        "Affordable rates.",
+        "Helpful reception."
+      ],
+      "bad": [
+        "Smaller scale.",
+        "Fewer luxury features."
+      ]
+    }
+  },
+  {
+    "id": 52,
+    "name": "The Grand Turkmen Hotel",
+    "country": "Turkmenistan",
+    "city": "Ashgabat",
+    "rooms": [
+      {
+        "name": "Deluxe",
+        "size": "35 m²",
+        "beds": "1 King bed",
+        "price": 160
+      },
+      {
+        "name": "Presidential Suite",
+        "size": "70 m²",
+        "beds": "1 King + 1 Queen",
+        "price": 300
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Grand Ballroom Restaurant",
+        "menu": [
+          "fine dining",
+          "international fusion",
+          "brunch"
+        ],
+        "price": [
+          50000,
+          100000,
+          45000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 37.93,
+      "long": 58.39
+    },
+    "views": {
+      "good": [
+        "Luxury accommodations.",
+        "Excellent conference facilities.",
+        "Prime city views."
+      ],
+      "bad": [
+        "Higher price point.",
+        "Formal atmosphere."
+      ]
+    }
+  },
+  {
+    "id": 53,
+    "name": "Hotel Ak Altyn",
+    "country": "Turkmenistan",
+    "city": "Ashgabat",
+    "rooms": [
+      {
+        "name": "Standard",
+        "size": "27 m²",
+        "beds": "1 Double bed",
+        "price": 95
+      },
+      {
+        "name": "VIP Room",
+        "size": "42 m²",
+        "beds": "1 King bed",
+        "price": 170
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Ak Altyn Diner",
+        "menu": [
+          "traditional Turkmen",
+          "grilled meats",
+          "breakfast"
+        ],
+        "price": [
+          35000,
+          65000,
+          30000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 37.96,
+      "long": 58.37
+    },
+    "views": {
+      "good": [
+        "Golden-themed elegant design.",
+        "Quality service.",
+        "Strategic location."
+      ],
+      "bad": [
+        "Limited reviews available.",
+        "Seasonal availability."
+      ]
+    }
+  },
+  {
+    "id": 54,
+    "name": "Hotel Ashgabat",
+    "country": "Turkmenistan",
+    "city": "Ashgabat",
+    "rooms": [
+      {
+        "name": "Economy",
+        "size": "22 m²",
+        "beds": "1 Double bed",
+        "price": 70
+      },
+      {
+        "name": "Business",
+        "size": "33 m²",
+        "beds": "1 Queen bed",
+        "price": 115
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Ashgabat Restaurant",
+        "menu": [
+          "local favorites",
+          "continental",
+          "buffet breakfast"
+        ],
+        "price": [
+          25000,
+          55000,
+          35000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 37.95,
+      "long": 58.36
+    },
+    "views": {
+      "good": [
+        "City namesake reliability.",
+        "Central positioning.",
+        "Practical amenities."
+      ],
+      "bad": [
+        "Standard expectations.",
+        "No standout features."
+      ]
+    }
+  },
+  {
+    "id": 55,
+    "name": "Hotel Oguzkent",
+    "country": "Turkmenistan",
+    "city": "Ashgabat",
+    "rooms": [
+      {
+        "name": "Superior",
+        "size": "29 m²",
+        "beds": "1 King bed",
+        "price": 105
+      },
+      {
+        "name": "Executive Suite",
+        "size": "55 m²",
+        "beds": "1 King + sofa bed",
+        "price": 200
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Oguzkent Terrace",
+        "menu": [
+          "panoramic dining",
+          "Turkmen delicacies",
+          "cocktails"
+        ],
+        "price": [
+          40000,
+          80000,
+          25000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 37.94,
+      "long": 58.42
+    },
+    "views": {
+      "good": [
+        "Modern architecture.",
+        "Rooftop dining experience.",
+        "Excellent for events."
+      ],
+      "bad": [
+        "Newer property.",
+        "Premium pricing."
+      ]
+    }
+  }, {
+    "id": 56,
+    "name": "Berkarar Hotel",
+    "country": "Turkmenistan",
+    "city": "Turkmenbashi",
+    "rooms": [
+      {
+        "name": "Standard",
+        "size": "24 m²",
+        "beds": "1 Double bed",
+        "price": 70
+      },
+      {
+        "name": "Sea View",
+        "size": "32 m²",
+        "beds": "1 Queen bed",
+        "price": 110
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Berkarar Café",
+        "menu": [
+          "Caspian seafood",
+          "breakfast",
+          "drinks"
+        ],
+        "price": [
+          45000,
+          28000,
+          15000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 40.02,
+      "long": 52.96
+    },
+    "views": {
+      "good": [
+        "Beachfront location.",
+        "Fresh seafood dining.",
+        "Relaxed Caspian vibe."
+      ],
+      "bad": [
+        "Seasonal availability.",
+        "Limited nightlife."
+      ]
+    }
+  },
+  {
+    "id": 57,
+    "name": "Beyik Yupek Yoly Hotel",
+    "country": "Turkmenistan",
+    "city": "Turkmenbashi",
+    "rooms": [
+      {
+        "name": "Comfort",
+        "size": "26 m²",
+        "beds": "1 Double bed",
+        "price": 75
+      },
+      {
+        "name": "Family Suite",
+        "size": "40 m²",
+        "beds": "2 Queen beds",
+        "price": 130
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Yupek Restaurant",
+        "menu": [
+          "Turkmen dishes",
+          "grilled fish",
+          "breakfast buffet"
+        ],
+        "price": [
+          50000,
+          60000,
+          30000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 40.03,
+      "long": 52.95
+    },
+    "views": {
+      "good": [
+        "Spacious modern rooms.",
+        "Near ferry terminal.",
+        "Family-friendly."
+      ],
+      "bad": [
+        "Away from city center.",
+        "Basic amenities."
+      ]
+    }
+  },
+  {
+    "id": 58,
+    "name": "Carlak Hotel",
+    "country": "Turkmenistan",
+    "city": "Turkmenbashi",
+    "rooms": [
+      {
+        "name": "Economy",
+        "size": "20 m²",
+        "beds": "1 Single bed",
+        "price": 55
+      },
+      {
+        "name": "Superior",
+        "size": "28 m²",
+        "beds": "1 Queen bed",
+        "price": 85
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Carlak Diner",
+        "menu": [
+          "quick meals",
+          "coffee",
+          "local plov"
+        ],
+        "price": [
+          25000,
+          12000,
+          35000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 40.01,
+      "long": 52.97
+    },
+    "views": {
+      "good": [
+        "Budget-friendly.",
+        "Clean and simple.",
+        "Near port area."
+      ],
+      "bad": [
+        "Very basic facilities.",
+        "Small rooms."
+      ]
+    }
+  },
+  {
+    "id": 59,
+    "name": "Hazar Hotel",
+    "country": "Turkmenistan",
+    "city": "Turkmenbashi",
+    "rooms": [
+      {
+        "name": "Standard",
+        "size": "25 m²",
+        "beds": "1 Double bed",
+        "price": 80
+      },
+      {
+        "name": "Deluxe Sea View",
+        "size": "35 m²",
+        "beds": "1 King bed",
+        "price": 125
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Hazar Seaside Restaurant",
+        "menu": [
+          "Caspian specialties",
+          "international",
+          "breakfast"
+        ],
+        "price": [
+          55000,
+          65000,
+          32000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 40.00,
+      "long": 52.95
+    },
+    "views": {
+      "good": [
+        "Excellent sea views.",
+        "Modern facilities.",
+        "Beach access."
+      ],
+      "bad": [
+        "Higher seasonal rates.",
+        "Limited public transport."
+      ]
+    }
+  },
+  {
+    "id": 60,
+    "name": "Deniz Hotel",
+    "country": "Turkmenistan",
+    "city": "Turkmenbashi",
+    "rooms": [
+      {
+        "name": "Standard",
+        "size": "27 m²",
+        "beds": "1 Queen bed",
+        "price": 78
+      },
+      {
+        "name": "Family Room",
+        "size": "42 m²",
+        "beds": "1 King + 1 Single",
+        "price": 135
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Deniz Café",
+        "menu": [
+          "seafood",
+          "Turkmen cuisine",
+          "cocktails"
+        ],
+        "price": [
+          48000,
+          45000,
+          20000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 40.02,
+      "long": 52.94
+    },
+    "views": {
+      "good": [
+        "Coastal location.",
+        "Family oriented.",
+        "Good value."
+      ],
+      "bad": [
+        "Moderate service.",
+        "Away from downtown."
+      ]
+    }
+  },
+  {
+    "id": 61,
+    "name": "Yelken Yacht Club Hotel",
+    "country": "Turkmenistan",
+    "city": "Turkmenbashi",
+    "rooms": [
+      {
+        "name": "Club Room",
+        "size": "30 m²",
+        "beds": "1 Queen bed",
+        "price": 95
+      },
+      {
+        "name": "Yacht Suite",
+        "size": "50 m²",
+        "beds": "1 King bed + sofa",
+        "price": 165
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Yelken Marina Restaurant",
+        "menu": [
+          "yacht club dining",
+          "fresh seafood",
+          "international"
+        ],
+        "price": [
+          70000,
+          85000,
+          60000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 40.04,
+      "long": 52.93
+    },
+    "views": {
+      "good": [
+        "Premium marina location.",
+        "Luxury atmosphere.",
+        "Water sports access."
+      ],
+      "bad": [
+        "Premium pricing.",
+        "Limited room count."
+      ]
+    }
+  },
+  {
+    "id": 62,
+    "name": "Hotel Kervan",
+    "country": "Turkmenistan",
+    "city": "Turkmenbashi",
+    "rooms": [
+      {
+        "name": "Economy",
+        "size": "22 m²",
+        "beds": "1 Double bed",
+        "price": 65
+      },
+      {
+        "name": "Comfort",
+        "size": "29 m²",
+        "beds": "1 Queen bed",
+        "price": 90
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Kervan Restaurant",
+        "menu": [
+          "Silk Road cuisine",
+          "breakfast",
+          "tea house"
+        ],
+        "price": [
+          40000,
+          25000,
+          10000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 40.01,
+      "long": 52.98
+    },
+    "views": {
+      "good": [
+        "Traditional Turkmen style.",
+        "Affordable rates.",
+        "Central location."
+      ],
+      "bad": [
+        "Older property.",
+        "Basic facilities."
+      ]
+    }
+  },
+  {
+    "id": 63,
+    "name": "Serdar Hotel",
+    "country": "Turkmenistan",
+    "city": "Turkmenbashi",
+    "rooms": [
+      {
+        "name": "Standard",
+        "size": "25 m²",
+        "beds": "1 Double bed",
+        "price": 72
+      },
+      {
+        "name": "VIP Room",
+        "size": "38 m²",
+        "beds": "1 King bed",
+        "price": 120
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Serdar Dining",
+        "menu": [
+          "local favorites",
+          "grilled meats",
+          "breakfast"
+        ],
+        "price": [
+          42000,
+          55000,
+          29000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 40.00,
+      "long": 52.97
+    },
+    "views": {
+      "good": [
+        "Reliable service.",
+        "Good location.",
+        "Clean rooms."
+      ],
+      "bad": [
+        "Standard expectations.",
+        "Limited luxury."
+      ]
+    }
+  },
+  {
+    "id": 64,
+    "name": "Hazyna Hotel",
+    "country": "Turkmenistan",
+    "city": "Turkmenbashi",
+    "rooms": [
+      {
+        "name": "Deluxe",
+        "size": "28 m²",
+        "beds": "1 Queen bed",
+        "price": 88
+      },
+      {
+        "name": "Treasure Suite",
+        "size": "45 m²",
+        "beds": "1 King + sofa bed",
+        "price": 145
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Hazyna Restaurant",
+        "menu": [
+          "Caspian delicacies",
+          "traditional Turkmen",
+          "wine selection"
+        ],
+        "price": [
+          60000,
+          50000,
+          30000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 40.03,
+      "long": 52.96
+    },
+    "views": {
+      "good": [
+        "Elegant design.",
+        "Excellent cuisine.",
+        "Sea proximity."
+      ],
+      "bad": [
+        "Moderate capacity.",
+        "Seasonal fluctuations."
+      ]
+    }
+  },
+  {
+    "id": 65,
+    "name": "Hotel Seyrana",
+    "country": "Turkmenistan",
+    "city": "Turkmenbashi",
+    "rooms": [
+      {
+        "name": "Seaview Standard",
+        "size": "26 m²",
+        "beds": "1 Double bed",
+        "price": 82
+      },
+      {
+        "name": "Panoramic Suite",
+        "size": "40 m²",
+        "beds": "1 King bed",
+        "price": 140
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Seyrana Terrace",
+        "menu": [
+          "panoramic dining",
+          "seafood",
+          "cocktails"
+        ],
+        "price": [
+          65000,
+          70000,
+          25000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 40.02,
+      "long": 52.95
+    },
+    "views": {
+      "good": [
+        "Stunning sea views.",
+        "Rooftop dining.",
+        "Modern comfort."
+      ],
+      "bad": [
+        "Premium pricing.",
+        "Limited parking."
+      ]
+    }
+  }, {
+    "id": 66,
+    "name": "Margush Hotel",
+    "country": "Turkmenistan",
+    "city": "Mary",
+    "rooms": [
+      {
+        "name": "Standard",
+        "size": "25 m²",
+        "beds": "1 Double bed",
+        "price": 65
+      },
+      {
+        "name": "Deluxe",
+        "size": "35 m²",
+        "beds": "1 Queen bed",
+        "price": 95
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Margush Restaurant",
+        "menu": [
+          "Turkmen cuisine",
+          "grilled meats",
+          "breakfast"
+        ],
+        "price": [
+          40000,
+          50000,
+          25000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 37.59,
+      "long": 61.83
+    },
+    "views": {
+      "good": [
+        "Modern facilities.",
+        "Central Mary location.",
+        "Good value."
+      ],
+      "bad": [
+        "Limited entertainment.",
+        "Basic amenities."
+      ]
+    }
+  },
+  {
+    "id": 67,
+    "name": "Hotel Mary",
+    "country": "Turkmenistan",
+    "city": "Mary",
+    "rooms": [
+      {
+        "name": "Economy",
+        "size": "22 m²",
+        "beds": "1 Single bed",
+        "price": 55
+      },
+      {
+        "name": "Comfort",
+        "size": "28 m²",
+        "beds": "1 Double bed",
+        "price": 75
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Mary Dining Hall",
+        "menu": [
+          "local dishes",
+          "plov",
+          "breakfast buffet"
+        ],
+        "price": [
+          35000,
+          40000,
+          22000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 37.60,
+      "long": 61.84
+    },
+    "views": {
+      "good": [
+        "City center location.",
+        "Reliable service.",
+        "Affordable rates."
+      ],
+      "bad": [
+        "Older infrastructure.",
+        "Standard comfort."
+      ]
+    }
+  },
+  {
+    "id": 68,
+    "name": "Motel Rahat",
+    "country": "Turkmenistan",
+    "city": "Mary",
+    "rooms": [
+      {
+        "name": "Basic Room",
+        "size": "20 m²",
+        "beds": "1 Double bed",
+        "price": 50
+      },
+      {
+        "name": "Family Room",
+        "size": "32 m²",
+        "beds": "2 Single beds",
+        "price": 80
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Rahat Café",
+        "menu": [
+          "quick meals",
+          "tea & coffee",
+          "sandwiches"
+        ],
+        "price": [
+          25000,
+          10000,
+          20000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 37.58,
+      "long": 61.82
+    },
+    "views": {
+      "good": [
+        "Budget motel option.",
+        "Clean and simple.",
+        "Near highways."
+      ],
+      "bad": [
+        "Very basic facilities.",
+        "Limited services."
+      ]
+    }
+  },
+  {
+    "id": 69,
+    "name": "Hotel Margush",
+    "country": "Turkmenistan",
+    "city": "Mary",
+    "rooms": [
+      {
+        "name": "Standard",
+        "size": "26 m²",
+        "beds": "1 Queen bed",
+        "price": 68
+      },
+      {
+        "name": "Superior",
+        "size": "38 m²",
+        "beds": "1 King bed",
+        "price": 105
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Margush Diner",
+        "menu": [
+          "Mary specialties",
+          "international",
+          "breakfast"
+        ],
+        "price": [
+          42000,
+          55000,
+          28000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 37.59,
+      "long": 61.85
+    },
+    "views": {
+      "good": [
+        "Well-located property.",
+        "Comfortable rooms.",
+        "Friendly staff."
+      ],
+      "bad": [
+        "Moderate facilities.",
+        "Few luxury features."
+      ]
+    }
+  }, {
+    "id": 70,
+    "name": "Diyarbekir Hotel",
+    "country": "Turkmenistan",
+    "city": "Dashoguz",
+    "rooms": [
+      {
+        "name": "Standard",
+        "size": "24 m²",
+        "beds": "1 Double bed",
+        "price": 62
+      },
+      {
+        "name": "Deluxe",
+        "size": "34 m²",
+        "beds": "1 Queen bed",
+        "price": 92
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Diyarbekir Restaurant",
+        "menu": [
+          "Turkmen cuisine",
+          "grilled meats",
+          "breakfast"
+        ],
+        "price": [
+          38000,
+          48000,
+          24000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 41.84,
+      "long": 59.96
+    },
+    "views": {
+      "good": [
+        "Central location.",
+        "Clean comfortable rooms.",
+        "Good value for money."
+      ],
+      "bad": [
+        "Basic amenities.",
+        "Limited nightlife."
+      ]
+    }
+  },
+  {
+    "id": 71,
+    "name": "L'Erik Hotel",
+    "country": "Turkmenistan",
+    "city": "Dashoguz",
+    "rooms": [
+      {
+        "name": "Comfort",
+        "size": "26 m²",
+        "beds": "1 Double bed",
+        "price": 68
+      },
+      {
+        "name": "Family Room",
+        "size": "40 m²",
+        "beds": "2 Queen beds",
+        "price": 110
+      }
+    ],
+    "food": [
+      {
+        "place_name": "L'Erik Café",
+        "menu": [
+          "European dishes",
+          "local specialties",
+          "breakfast buffet"
+        ],
+        "price": [
+          45000,
+          42000,
+          26000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 41.83,
+      "long": 59.97
+    },
+    "views": {
+      "good": [
+        "Modern European style.",
+        "Family friendly.",
+        "Reliable service."
+      ],
+      "bad": [
+        "Moderate pricing.",
+        "Smaller property."
+      ]
+    }
+  },
+  {
+    "id": 72,
+    "name": "Uzboý Oteli",
+    "country": "Turkmenistan",
+    "city": "Dashoguz",
+    "rooms": [
+      {
+        "name": "Economy",
+        "size": "22 m²",
+        "beds": "1 Single bed",
+        "price": 58
+      },
+      {
+        "name": "Superior",
+        "size": "30 m²",
+        "beds": "1 Queen bed",
+        "price": 85
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Uzboý Diner",
+        "menu": [
+          "traditional plov",
+          "quick meals",
+          "tea & coffee"
+        ],
+        "price": [
+          35000,
+          28000,
+          12000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 41.85,
+      "long": 59.95
+    },
+    "views": {
+      "good": [
+        "Budget option.",
+        "Near regional attractions.",
+        "Simple and clean."
+      ],
+      "bad": [
+        "Very basic facilities.",
+        "Limited room choices."
+      ]
+    }
+  },
+  {
+    "id": 73,
+    "name": "Hotel Şabat",
+    "country": "Turkmenistan",
+    "city": "Dashoguz",
+    "rooms": [
+      {
+        "name": "Standard",
+        "size": "25 m²",
+        "beds": "1 Double bed",
+        "price": 65
+      },
+      {
+        "name": "VIP Room",
+        "size": "36 m²",
+        "beds": "1 King bed",
+        "price": 98
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Şabat Restaurant",
+        "menu": [
+          "Dashoguz specialties",
+          "international",
+          "breakfast"
+        ],
+        "price": [
+          40000,
+          52000,
+          25000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 41.84,
+      "long": 59.98
+    },
+    "views": {
+      "good": [
+        "Strategic city location.",
+        "Comfortable accommodations.",
+        "Friendly staff."
+      ],
+      "bad": [
+        "Standard services.",
+        "Few luxury features."
+      ]
+    }
+  },
+  {
+    "id": 74,
+    "name": "Dashoguz Hotel",
+    "country": "Turkmenistan",
+    "city": "Dashoguz",
+    "rooms": [
+      {
+        "name": "Economy",
+        "size": "23 m²",
+        "beds": "1 Double bed",
+        "price": 60
+      },
+      {
+        "name": "Business Room",
+        "size": "32 m²",
+        "beds": "1 Queen bed",
+        "price": 88
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Dashoguz Dining",
+        "menu": [
+          "local cuisine",
+          "continental breakfast",
+          "business lunch"
+        ],
+        "price": [
+          38000,
+          24000,
+          45000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 41.82,
+      "long": 59.96
+    },
+    "views": {
+      "good": [
+        "City namesake reliability.",
+        "Central positioning.",
+        "Practical for travelers."
+      ],
+      "bad": [
+        "Older property.",
+        "Basic expectations."
+      ]
+    }
+  },{
+    "id": 75,
+    "name": "Hilton Dushanbe",
+    "country": "Tajikistan",
+    "city": "Dushanbe",
+    "rooms": [
+      {
+        "name": "Superior Room",
+        "size": "32 m²",
+        "beds": "1 King bed",
+        "price": 150
+      },
+      {
+        "name": "Executive Suite",
+        "size": "55 m²",
+        "beds": "1 King + living area",
+        "price": 280
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Hilton Garden Restaurant",
+        "menu": [
+          "international cuisine",
+          "Tajik specialties",
+          "breakfast buffet"
+        ],
+        "price": [
+          80000,
+          65000,
+          45000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 38.56,
+      "long": 68.78
+    },
+    "views": {
+      "good": [
+        "Luxury international standards.",
+        "Excellent business facilities.",
+        "Prime city center location."
+      ],
+      "bad": [
+        "Premium pricing.",
+        "Formal atmosphere."
+      ]
+    }
+  },
+  {
+    "id": 76,
+    "name": "The Rumi Hotel & Residences",
+    "country": "Tajikistan",
+    "city": "Dushanbe",
+    "rooms": [
+      {
+        "name": "Classic Room",
+        "size": "28 m²",
+        "beds": "1 Queen bed",
+        "price": 120
+      },
+      {
+        "name": "Residence Suite",
+        "size": "65 m²",
+        "beds": "1 King + kitchenette",
+        "price": 250
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Rumi Terrace Restaurant",
+        "menu": [
+          "Persian fusion",
+          "Central Asian dishes",
+          "cocktails"
+        ],
+        "price": [
+          70000,
+          60000,
+          30000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 38.57,
+      "long": 68.77
+    },
+    "views": {
+      "good": [
+        "Elegant design.",
+        "Long-stay friendly.",
+        "Rooftop dining."
+      ],
+      "bad": [
+        "Higher rates.",
+        "Limited budget options."
+      ]
+    }
+  },
+  {
+    "id": 77,
+    "name": "Crowne Plaza Dushanbe by IHG",
+    "country": "Tajikistan",
+    "city": "Dushanbe",
+    "rooms": [
+      {
+        "name": "Superior",
+        "size": "30 m²",
+        "beds": "1 Double bed",
+        "price": 135
+      },
+      {
+        "name": "Club Suite",
+        "size": "50 m²",
+        "beds": "1 King + lounge access",
+        "price": 240
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Crowne Plaza Kitchen",
+        "menu": [
+          "global cuisine",
+          "Tajik favorites",
+          "executive breakfast"
+        ],
+        "price": [
+          75000,
+          62000,
+          42000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 38.55,
+      "long": 68.79
+    },
+    "views": {
+      "good": [
+        "IHG reliability.",
+        "Excellent conference facilities.",
+        "Central business district."
+      ],
+      "bad": [
+        "Corporate feel.",
+        "Expensive extras."
+      ]
+    }
+  },
+  {
+    "id": 78,
+    "name": "Hotel Shumon",
+    "country": "Tajikistan",
+    "city": "Dushanbe",
+    "rooms": [
+      {
+        "name": "Standard",
+        "size": "25 m²",
+        "beds": "1 Double bed",
+        "price": 85
+      },
+      {
+        "name": "Deluxe",
+        "size": "38 m²",
+        "beds": "1 Queen bed",
+        "price": 125
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Shumon Restaurant",
+        "menu": [
+          "Tajik cuisine",
+          "grilled meats",
+          "breakfast"
+        ],
+        "price": [
+          50000,
+          55000,
+          28000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 38.58,
+      "long": 68.76
+    },
+    "views": {
+      "good": [
+        "Good value.",
+        "Clean comfortable rooms.",
+        "Friendly service."
+      ],
+      "bad": [
+        "Basic facilities.",
+        "Away from main attractions."
+      ]
+    }
+  },
+  {
+    "id": 79,
+    "name": "Baland Hotel",
+    "country": "Tajikistan",
+    "city": "Dushanbe",
+    "rooms": [
+      {
+        "name": "Economy",
+        "size": "22 m²",
+        "beds": "1 Single bed",
+        "price": 65
+      },
+      {
+        "name": "Comfort",
+        "size": "30 m²",
+        "beds": "1 Double bed",
+        "price": 95
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Baland Café",
+        "menu": [
+          "local dishes",
+          "plov",
+          "tea & coffee"
+        ],
+        "price": [
+          40000,
+          35000,
+          15000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 38.56,
+      "long": 68.80
+    },
+    "views": {
+      "good": [
+        "Budget-friendly.",
+        "Central location.",
+        "Simple reliable."
+      ],
+      "bad": [
+        "Very basic amenities.",
+        "Small rooms."
+      ]
+    }
+  },
+  {
+    "id": 80,
+    "name": "Soro Hotel",
+    "country": "Tajikistan",
+    "city": "Dushanbe",
+    "rooms": [
+      {
+        "name": "Standard",
+        "size": "26 m²",
+        "beds": "1 Queen bed",
+        "price": 78
+      },
+      {
+        "name": "Family Room",
+        "size": "42 m²",
+        "beds": "2 Double beds",
+        "price": 130
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Soro Dining",
+        "menu": [
+          "Tajik specialties",
+          "international",
+          "breakfast"
+        ],
+        "price": [
+          45000,
+          52000,
+          30000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 38.59,
+      "long": 68.75
+    },
+    "views": {
+      "good": [
+        "Family oriented.",
+        "Good value.",
+        "Clean property."
+      ],
+      "bad": [
+        "Moderate services.",
+        "Standard design."
+      ]
+    }
+  },
+  {
+    "id": 81,
+    "name": "Hostel Hello Dushanbe",
+    "country": "Tajikistan",
+    "city": "Dushanbe",
+    "rooms": [
+      {
+        "name": "Dorm Bed",
+        "size": "6 m² per bed",
+        "beds": "Bunk bed",
+        "price": 15
+      },
+      {
+        "name": "Private Room",
+        "size": "20 m²",
+        "beds": "1 Double bed",
+        "price": 45
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Hello Kitchen",
+        "menu": [
+          "backpacker meals",
+          "coffee",
+          "self-catering"
+        ],
+        "price": [
+          20000,
+          10000,
+          25000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 38.60,
+      "long": 68.78
+    },
+    "views": {
+      "good": [
+        "Backpacker favorite.",
+        "Social atmosphere.",
+        "Very affordable."
+      ],
+      "bad": [
+        "Shared facilities.",
+        "Basic comfort."
+      ]
+    }
+  },
+  {
+    "id": 82,
+    "name": "Safir Business Hotel",
+    "country": "Tajikistan",
+    "city": "Dushanbe",
+    "rooms": [
+      {
+        "name": "Business Standard",
+        "size": "28 m²",
+        "beds": "1 Queen bed",
+        "price": 100
+      },
+      {
+        "name": "Executive Room",
+        "size": "40 m²",
+        "beds": "1 King bed",
+        "price": 160
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Safir Business Lounge",
+        "menu": [
+          "business lunch",
+          "international",
+          "continental breakfast"
+        ],
+        "price": [
+          55000,
+          60000,
+          35000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 38.54,
+      "long": 68.77
+    },
+    "views": {
+      "good": [
+        "Business traveler focused.",
+        "Modern facilities.",
+        "Central location."
+      ],
+      "bad": [
+        "Corporate atmosphere.",
+        "Higher pricing."
+      ]
+    }
+  },
+  {
+    "id": 83,
+    "name": "Hotel Sharq",
+    "country": "Tajikistan",
+    "city": "Dushanbe",
+    "rooms": [
+      {
+        "name": "Standard",
+        "size": "24 m²",
+        "beds": "1 Double bed",
+        "price": 70
+      },
+      {
+        "name": "Superior",
+        "size": "36 m²",
+        "beds": "1 Queen bed",
+        "price": 110
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Sharq Restaurant",
+        "menu": [
+          "Eastern cuisine",
+          "Tajik dishes",
+          "breakfast"
+        ],
+        "price": [
+          42000,
+          48000,
+          26000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 38.57,
+      "long": 68.79
+    },
+    "views": {
+      "good": [
+        "Traditional Eastern style.",
+        "Good value.",
+        "Clean rooms."
+      ],
+      "bad": [
+        "Older property.",
+        "Basic services."
+      ]
+    }
+  },
+  {
+    "id": 84,
+    "name": "Hotel Firuz",
+    "country": "Tajikistan",
+    "city": "Dushanbe",
+    "rooms": [
+      {
+        "name": "Economy",
+        "size": "21 m²",
+        "beds": "1 Single bed",
+        "price": 60
+      },
+      {
+        "name": "Comfort Room",
+        "size": "29 m²",
+        "beds": "1 Double bed",
+        "price": 90
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Firuz Café",
+        "menu": [
+          "quick meals",
+          "local food",
+          "tea service"
+        ],
+        "price": [
+          35000,
+          40000,
+          15000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 38.55,
+      "long": 68.81
+    },
+    "views": {
+      "good": [
+        "Budget option.",
+        "Convenient location.",
+        "Simple reliable."
+      ],
+      "bad": [
+        "Very basic.",
+        "Limited amenities."
+      ]
+    }
+  },
+  {
+    "id": 85,
+    "name": "Kangurt Grand Hotel",
+    "country": "Tajikistan",
+    "city": "Dushanbe",
+    "rooms": [
+      {
+        "name": "Deluxe",
+        "size": "33 m²",
+        "beds": "1 King bed",
+        "price": 115
+      },
+      {
+        "name": "Grand Suite",
+        "size": "48 m²",
+        "beds": "1 King + sofa bed",
+        "price": 200
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Kangurt Ballroom",
+        "menu": [
+          "banquet dining",
+          "Tajik cuisine",
+          "cocktails"
+        ],
+        "price": [
+          65000,
+          58000,
+          28000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 38.58,
+      "long": 68.74
+    },
+    "views": {
+      "good": [
+        "Spacious elegant rooms.",
+        "Event facilities.",
+        "Good service."
+      ],
+      "bad": [
+        "Location slightly out.",
+        "Premium pricing."
+      ]
+    }
+  },{
+    "id": 86,
+    "name": "Armon Apart Hotel",
+    "country": "Tajikistan",
+    "city": "Khujand",
+    "rooms": [
+      {
+        "name": "Apartment Studio",
+        "size": "35 m²",
+        "beds": "1 Queen bed",
+        "price": 75
+      },
+      {
+        "name": "Family Apartment",
+        "size": "50 m²",
+        "beds": "1 King + sofa bed",
+        "price": 120
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Armon Kitchen",
+        "menu": [
+          "self-catering",
+          "breakfast delivery",
+          "coffee"
+        ],
+        "price": [
+          0,
+          25000,
+          12000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 40.28,
+      "long": 69.62
+    },
+    "views": {
+      "good": [
+        "Apartment-style comfort.",
+        "Kitchen facilities.",
+        "Long-stay friendly."
+      ],
+      "bad": [
+        "Limited on-site dining.",
+        "Basic hotel services."
+      ]
+    }
+  },
+  {
+    "id": 87,
+    "name": "Sugdiyon Hotel",
+    "country": "Tajikistan",
+    "city": "Khujand",
+    "rooms": [
+      {
+        "name": "Standard",
+        "size": "26 m²",
+        "beds": "1 Double bed",
+        "price": 70
+      },
+      {
+        "name": "Deluxe",
+        "size": "38 m²",
+        "beds": "1 Queen bed",
+        "price": 105
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Sugdiyon Restaurant",
+        "menu": [
+          "Sughd cuisine",
+          "plov",
+          "breakfast"
+        ],
+        "price": [
+          45000,
+          38000,
+          26000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 40.29,
+      "long": 69.61
+    },
+    "views": {
+      "good": [
+        "Traditional Sugd hospitality.",
+        "Central Khujand location.",
+        "Good value."
+      ],
+      "bad": [
+        "Older facilities.",
+        "Standard comfort."
+      ]
+    }
+  },
+  {
+    "id": 88,
+    "name": "Hostel Sharq 21",
+    "country": "Tajikistan",
+    "city": "Khujand",
+    "rooms": [
+      {
+        "name": "Dorm Bed",
+        "size": "7 m² per bed",
+        "beds": "Bunk bed",
+        "price": 12
+      },
+      {
+        "name": "Private Twin",
+        "size": "18 m²",
+        "beds": "2 Single beds",
+        "price": 35
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Sharq Common Kitchen",
+        "menu": [
+          "self-cooking",
+          "tea & coffee",
+          "simple breakfast"
+        ],
+        "price": [
+          0,
+          8000,
+          15000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 40.27,
+      "long": 69.63
+    },
+    "views": {
+      "good": [
+        "Backpacker favorite.",
+        "Social atmosphere.",
+        "Very cheap."
+      ],
+      "bad": [
+        "Shared bathrooms.",
+        "Basic facilities."
+      ]
+    }
+  },
+  {
+    "id": 89,
+    "name": "Hotel Firuz",
+    "country": "Tajikistan",
+    "city": "Khujand",
+    "rooms": [
+      {
+        "name": "Economy",
+        "size": "20 m²",
+        "beds": "1 Single bed",
+        "price": 55
+      },
+      {
+        "name": "Standard",
+        "size": "28 m²",
+        "beds": "1 Double bed",
+        "price": 80
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Firuz Café",
+        "menu": [
+          "quick meals",
+          "local dishes",
+          "tea service"
+        ],
+        "price": [
+          30000,
+          35000,
+          12000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 40.28,
+      "long": 69.60
+    },
+    "views": {
+      "good": [
+        "Budget-friendly.",
+        "Clean simple rooms.",
+        "Near bazaar."
+      ],
+      "bad": [
+        "Very basic amenities.",
+        "Small property."
+      ]
+    }
+  },
+  {
+    "id": 90,
+    "name": "Khotel Kheson",
+    "country": "Tajikistan",
+    "city": "Khujand",
+    "rooms": [
+      {
+        "name": "Comfort",
+        "size": "24 m²",
+        "beds": "1 Queen bed",
+        "price": 65
+      },
+      {
+        "name": "Family Room",
+        "size": "36 m²",
+        "beds": "2 Double beds",
+        "price": 100
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Kheson Diner",
+        "menu": [
+          "Khujand specialties",
+          "grilled meats",
+          "breakfast"
+        ],
+        "price": [
+          40000,
+          45000,
+          24000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 40.30,
+      "long": 69.62
+    },
+    "views": {
+      "good": [
+        "Family oriented.",
+        "Good location.",
+        "Reliable service."
+      ],
+      "bad": [
+        "Moderate facilities.",
+        "Standard expectations."
+      ]
+    }
+  },{
+    "id": 91,
+    "name": "Sari Khosor Resort",
+    "country": "Tajikistan",
+    "city": "Kulob",
+    "rooms": [
+      {
+        "name": "Mountain View Room",
+        "size": "30 m²",
+        "beds": "1 Queen bed",
+        "price": 85
+      },
+      {
+        "name": "Resort Bungalow",
+        "size": "45 m²",
+        "beds": "1 King bed",
+        "price": 140
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Sari Khosor Restaurant",
+        "menu": [
+          "Tajik mountain cuisine",
+          "grilled meats",
+          "breakfast buffet"
+        ],
+        "price": [
+          50000,
+          55000,
+          30000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 38.25,
+      "long": 69.78
+    },
+    "views": {
+      "good": [
+        "Scenic mountain location.",
+        "Nature resort atmosphere.",
+        "Spacious accommodations."
+      ],
+      "bad": [
+        "Remote from city center.",
+        "Seasonal access."
+      ]
+    }
+  },
+  {
+    "id": 92,
+    "name": "Kulob Hotel",
+    "country": "Tajikistan",
+    "city": "Kulob",
+    "rooms": [
+      {
+        "name": "Standard",
+        "size": "25 m²",
+        "beds": "1 Double bed",
+        "price": 65
+      },
+      {
+        "name": "Superior",
+        "size": "35 m²",
+        "beds": "1 Queen bed",
+        "price": 95
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Kulob Dining Hall",
+        "menu": [
+          "Kulob specialties",
+          "plov",
+          "breakfast"
+        ],
+        "price": [
+          42000,
+          38000,
+          26000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 38.26,
+      "long": 69.77
+    },
+    "views": {
+      "good": [
+        "City center location.",
+        "Reliable service.",
+        "Good value."
+      ],
+      "bad": [
+        "Older infrastructure.",
+        "Basic facilities."
+      ]
+    }
+  },
+  {
+    "id": 93,
+    "name": "PuliSangin Hotel",
+    "country": "Tajikistan",
+    "city": "Kulob",
+    "rooms": [
+      {
+        "name": "Economy",
+        "size": "22 m²",
+        "beds": "1 Single bed",
+        "price": 55
+      },
+      {
+        "name": "Comfort Room",
+        "size": "28 m²",
+        "beds": "1 Double bed",
+        "price": 78
+      }
+    ],
+    "food": [
+      {
+        "place_name": "PuliSangin Café",
+        "menu": [
+          "local dishes",
+          "quick meals",
+          "tea & coffee"
+        ],
+        "price": [
+          35000,
+          28000,
+          12000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 38.24,
+      "long": 69.79
+    },
+    "views": {
+      "good": [
+        "Budget-friendly.",
+        "Clean simple rooms.",
+        "Near local markets."
+      ],
+      "bad": [
+        "Very basic amenities.",
+        "Small property."
+      ]
+    }
+  },
+  {
+    "id": 94,
+    "name": "Tohir Hotel",
+    "country": "Tajikistan",
+    "city": "Kulob",
+    "rooms": [
+      {
+        "name": "Standard",
+        "size": "24 m²",
+        "beds": "1 Queen bed",
+        "price": 68
+      },
+      {
+        "name": "Family Room",
+        "size": "40 m²",
+        "beds": "2 Double beds",
+        "price": 110
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Tohir Restaurant",
+        "menu": [
+          "Kulob cuisine",
+          "grilled meats",
+          "breakfast"
+        ],
+        "price": [
+          40000,
+          48000,
+          25000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 38.27,
+      "long": 69.76
+    },
+    "views": {
+      "good": [
+        "Family oriented.",
+        "Good location.",
+        "Friendly staff."
+      ],
+      "bad": [
+        "Moderate facilities.",
+        "Standard comfort."
+      ]
+    }
+  }, {
+    "id": 95,
+    "name": "Pamir Lodge",
+    "country": "Tajikistan",
+    "city": "Khorog",
+    "rooms": [
+      {
+        "name": "Mountain View Room",
+        "size": "25 m²",
+        "beds": "1 Double bed",
+        "price": 60
+      },
+      {
+        "name": "Pamir Suite",
+        "size": "38 m²",
+        "beds": "1 Queen bed",
+        "price": 95
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Pamir Kitchen",
+        "menu": [
+          "Pamiri cuisine",
+          "mountain herbs",
+          "breakfast"
+        ],
+        "price": [
+          35000,
+          40000,
+          22000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 39.43,
+      "long": 71.57
+    },
+    "views": {
+      "good": [
+        "Authentic Pamiri hospitality.",
+        "Stunning mountain views.",
+        "Cozy traditional style."
+      ],
+      "bad": [
+        "Basic modern amenities.",
+        "Remote location."
+      ]
+    }
+  },
+  {
+    "id": 96,
+    "name": "Khorog Serena Inn",
+    "country": "Tajikistan",
+    "city": "Khorog",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "28 m²",
+        "beds": "1 Queen bed",
+        "price": 85
+      },
+      {
+        "name": "Pamir View Suite",
+        "size": "45 m²",
+        "beds": "1 King bed",
+        "price": 140
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Serena Restaurant",
+        "menu": [
+          "Central Asian cuisine",
+          "international dishes",
+          "breakfast buffet"
+        ],
+        "price": [
+          50000,
+          55000,
+          32000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 39.44,
+      "long": 71.56
+    },
+    "views": {
+      "good": [
+        "High-quality service.",
+        "Comfortable accommodations.",
+        "Prime Khorog location."
+      ],
+      "bad": [
+        "Higher pricing.",
+        "Limited capacity."
+      ]
+    }
+  },
+  {
+    "id": 97,
+    "name": "Lal Hotel",
+    "country": "Tajikistan",
+    "city": "Khorog",
+    "rooms": [
+      {
+        "name": "Economy",
+        "size": "22 m²",
+        "beds": "1 Single bed",
+        "price": 45
+      },
+      {
+        "name": "Comfort Room",
+        "size": "30 m²",
+        "beds": "1 Double bed",
+        "price": 75
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Lal Café",
+        "menu": [
+          "local dishes",
+          "plov",
+          "tea & coffee"
+        ],
+        "price": [
+          30000,
+          35000,
+          12000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 39.42,
+      "long": 71.58
+    },
+    "views": {
+      "good": [
+        "Budget-friendly.",
+        "Clean simple rooms.",
+        "Near university area."
+      ],
+      "bad": [
+        "Very basic facilities.",
+        "Small property."
+      ]
+    }
+  },
+  {
+    "id": 98,
+    "name": "Pamir Alibaba Hotel",
+    "country": "Tajikistan",
+    "city": "Khorog",
+    "rooms": [
+      {
+        "name": "Standard",
+        "size": "26 m²",
+        "beds": "1 Queen bed",
+        "price": 68
+      },
+      {
+        "name": "Family Room",
+        "size": "40 m²",
+        "beds": "2 Double beds",
+        "price": 110
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Alibaba Diner",
+        "menu": [
+          "Pamiri specialties",
+          "grilled meats",
+          "breakfast"
+        ],
+        "price": [
+          42000,
+          48000,
+          26000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 39.43,
+      "long": 71.55
+    },
+    "views": {
+      "good": [
+        "Family oriented.",
+        "Good value.",
+        "Friendly service."
+      ],
+      "bad": [
+        "Moderate facilities.",
+        "Standard comfort."
+      ]
+    }
+  },
+  {
+    "id": 99,
+    "name": "Pamir Palace Hotel",
+    "country": "Tajikistan",
+    "city": "Khorog",
+    "rooms": [
+      {
+        "name": "Deluxe Room",
+        "size": "32 m²",
+        "beds": "1 King bed",
+        "price": 90
+      },
+      {
+        "name": "Royal Suite",
+        "size": "50 m²",
+        "beds": "1 King + sofa bed",
+        "price": 160
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Pamir Palace Restaurant",
+        "menu": [
+          "fine Pamiri dining",
+          "international cuisine",
+          "cocktails"
+        ],
+        "price": [
+          60000,
+          65000,
+          28000
+        ]
+      }
+    ],
+    "location": {
+      "lat": 39.45,
+      "long": 71.57
+    },
+    "views": {
+      "good": [
+        "Best accommodations in Khorog.",
+        "Elegant design.",
+        "Mountain panorama views."
+      ],
+      "bad": [
+        "Premium pricing.",
+        "Limited availability."
+      ]
+    }
+  },{
+    "id": 100,
+    "name": "Urban Hotel",
+    "country": "Kyrgyzstan",
+    "city": "Bishkek",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "25 m²",
+        "beds": "1 Queen bed",
+        "price": 70
+      },
+      {
+        "name": "Deluxe Room",
+        "size": "35 m²",
+        "beds": "1 King bed",
+        "price": 100
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Urban Café",
+        "menu": ["breakfast buffet", "European dishes", "coffee"],
+        "price": [800, 1200, 300]
+      }
+    ],
+    "location": {
+      "lat": 42.8746,
+      "long": 74.5698
+    },
+    "views": {
+      "good": [
+        "Modern design.",
+        "Central location.",
+        "Good value for money."
+      ],
+      "bad": [
+        "Limited facilities.",
+        "Small rooms."
+      ]
+    }
+  },
+  {
+    "id": 101,
+    "name": "Oasis Residence",
+    "country": "Kyrgyzstan",
+    "city": "Bishkek",
+    "rooms": [
+      {
+        "name": "Studio",
+        "size": "30 m²",
+        "beds": "1 Queen bed",
+        "price": 80
+      },
+      {
+        "name": "Apartment Suite",
+        "size": "55 m²",
+        "beds": "1 King bed",
+        "price": 130
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Oasis Restaurant",
+        "menu": ["local cuisine", "grill dishes", "desserts"],
+        "price": [900, 1500, 600]
+      }
+    ],
+    "location": {
+      "lat": 42.8725,
+      "long": 74.5855
+    },
+    "views": {
+      "good": [
+        "Spacious rooms.",
+        "Quiet environment.",
+        "Friendly staff."
+      ],
+      "bad": [
+        "Not very central.",
+        "Limited breakfast options."
+      ]
+    }
+  },
+  {
+    "id": 102,
+    "name": "Plaza Hotel",
+    "country": "Kyrgyzstan",
+    "city": "Bishkek",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "28 m²",
+        "beds": "1 King bed",
+        "price": 110
+      },
+      {
+        "name": "Suite",
+        "size": "60 m²",
+        "beds": "1 King bed",
+        "price": 180
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Plaza Restaurant",
+        "menu": ["international cuisine", "steaks", "wine"],
+        "price": [1200, 2000, 1500]
+      }
+    ],
+    "location": {
+      "lat": 42.8760,
+      "long": 74.6030
+    },
+    "views": {
+      "good": [
+        "Luxury feel.",
+        "Great spa and pool.",
+        "Central location."
+      ],
+      "bad": [
+        "Higher price range.",
+        "Busy during peak season."
+      ]
+    }
+  },
+  {
+    "id": 103,
+    "name": "Golden Dragon Hotel & Spa",
+    "country": "Kyrgyzstan",
+    "city": "Bishkek",
+    "rooms": [
+      {
+        "name": "Deluxe Room",
+        "size": "35 m²",
+        "beds": "1 King bed",
+        "price": 120
+      },
+      {
+        "name": "Executive Suite",
+        "size": "70 m²",
+        "beds": "1 King bed",
+        "price": 200
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Golden Dragon Restaurant",
+        "menu": ["Chinese cuisine", "Asian fusion", "seafood"],
+        "price": [1500, 1800, 2200]
+      }
+    ],
+    "location": {
+      "lat": 42.8705,
+      "long": 74.5902
+    },
+    "views": {
+      "good": [
+        "Excellent Asian restaurant.",
+        "Spa facilities.",
+        "Quiet area."
+      ],
+      "bad": [
+        "Slightly far from center.",
+        "Older interior."
+      ]
+    }
+  },
+  {
+    "id": 104,
+    "name": "Dosman Hotel",
+    "country": "Kyrgyzstan",
+    "city": "Bishkek",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "22 m²",
+        "beds": "1 Double bed",
+        "price": 60
+      },
+      {
+        "name": "Family Room",
+        "size": "40 m²",
+        "beds": "2 Double beds",
+        "price": 90
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Dosman Café",
+        "menu": ["local dishes", "soups", "tea"],
+        "price": [500, 700, 200]
+      }
+    ],
+    "location": {
+      "lat": 42.8689,
+      "long": 74.5800
+    },
+    "views": {
+      "good": [
+        "Affordable prices.",
+        "Good for families.",
+        "Simple and clean."
+      ],
+      "bad": [
+        "Basic amenities.",
+        "Not very modern."
+      ]
+    }
+  },
+  {
+    "id": 105,
+    "name": "Futuro Hotel",
+    "country": "Kyrgyzstan",
+    "city": "Bishkek",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "24 m²",
+        "beds": "1 Queen bed",
+        "price": 75
+      },
+      {
+        "name": "Superior Room",
+        "size": "32 m²",
+        "beds": "1 King bed",
+        "price": 110
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Futuro Dining",
+        "menu": ["European cuisine", "breakfast", "coffee"],
+        "price": [800, 1000, 300]
+      }
+    ],
+    "location": {
+      "lat": 42.8755,
+      "long": 74.5950
+    },
+    "views": {
+      "good": [
+        "Modern style.",
+        "Clean rooms.",
+        "Good service."
+      ],
+      "bad": [
+        "Limited facilities.",
+        "Small lobby."
+      ]
+    }
+  },
+  {
+    "id": 106,
+    "name": "Hyatt Regency Bishkek",
+    "country": "Kyrgyzstan",
+    "city": "Bishkek",
+    "rooms": [
+      {
+        "name": "King Room",
+        "size": "38 m²",
+        "beds": "1 King bed",
+        "price": 220
+      },
+      {
+        "name": "Executive Suite",
+        "size": "80 m²",
+        "beds": "1 King bed",
+        "price": 400
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Croatia Restaurant",
+        "menu": ["fine dining", "European cuisine", "wine"],
+        "price": [2000, 2500, 1800]
+      }
+    ],
+    "location": {
+      "lat": 42.8790,
+      "long": 74.6065
+    },
+    "views": {
+      "good": [
+        "Luxury experience.",
+        "Excellent service.",
+        "Central location."
+      ],
+      "bad": [
+        "Very expensive.",
+        "Formal atmosphere."
+      ]
+    }
+  },
+  {
+    "id": 107,
+    "name": "Evropa Hotel",
+    "country": "Kyrgyzstan",
+    "city": "Bishkek",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "26 m²",
+        "beds": "1 King bed",
+        "price": 100
+      },
+      {
+        "name": "Suite",
+        "size": "55 m²",
+        "beds": "1 King bed",
+        "price": 160
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Evropa Restaurant",
+        "menu": ["European dishes", "breakfast", "desserts"],
+        "price": [1000, 1200, 500]
+      }
+    ],
+    "location": {
+      "lat": 42.8775,
+      "long": 74.6002
+    },
+    "views": {
+      "good": [
+        "Good location.",
+        "Comfortable rooms.",
+        "Reliable service."
+      ],
+      "bad": [
+        "Slightly outdated.",
+        "Limited menu."
+      ]
+    }
+  },
+  {
+    "id": 108,
+    "name": "Novotel Bishkek City Center",
+    "country": "Kyrgyzstan",
+    "city": "Bishkek",
+    "rooms": [
+      {
+        "name": "Superior Room",
+        "size": "30 m²",
+        "beds": "1 King bed",
+        "price": 140
+      },
+      {
+        "name": "Executive Room",
+        "size": "40 m²",
+        "beds": "1 King bed",
+        "price": 180
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Novotel Restaurant",
+        "menu": ["international cuisine", "buffet", "cocktails"],
+        "price": [1500, 2000, 1200]
+      }
+    ],
+    "location": {
+      "lat": 42.8768,
+      "long": 74.6040
+    },
+    "views": {
+      "good": [
+        "Modern hotel.",
+        "Great amenities.",
+        "Central location."
+      ],
+      "bad": [
+        "Busy hotel.",
+        "Premium prices."
+      ]
+    }
+  },
+  {
+    "id": 109,
+    "name": "Orion Hotel Bishkek",
+    "country": "Kyrgyzstan",
+    "city": "Bishkek",
+    "rooms": [
+      {
+        "name": "Deluxe Room",
+        "size": "36 m²",
+        "beds": "1 King bed",
+        "price": 180
+      },
+      {
+        "name": "Presidential Suite",
+        "size": "100 m²",
+        "beds": "1 King bed",
+        "price": 500
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Symphony Restaurant",
+        "menu": ["fine dining", "European cuisine", "wine"],
+        "price": [2000, 2500, 1800]
+      }
+    ],
+    "location": {
+      "lat": 42.8782,
+      "long": 74.6085
+    },
+    "views": {
+      "good": [
+        "High-end luxury.",
+        "Excellent service.",
+        "Elegant design."
+      ],
+      "bad": [
+        "Expensive.",
+        "Limited availability."
+      ]
+    }
+  },{
+    "id": 110,
+    "name": "Classic Hotel",
+    "country": "Kyrgyzstan",
+    "city": "Osh",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "25 m²",
+        "beds": "1 Double bed",
+        "price": 60
+      },
+      {
+        "name": "Suite",
+        "size": "45 m²",
+        "beds": "1 King bed",
+        "price": 100
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Classic Restaurant",
+        "menu": ["local cuisine", "European dishes", "breakfast"],
+        "price": [500, 800, 300]
+      }
+    ],
+    "location": {
+      "lat": 40.5283,
+      "long": 72.7985
+    },
+    "views": {
+      "good": [
+        "Good central location.",
+        "Clean rooms.",
+        "Affordable."
+      ],
+      "bad": [
+        "Basic amenities.",
+        "Limited service."
+      ]
+    }
+  },
+  {
+    "id": 111,
+    "name": "Rayan Hotel",
+    "country": "Kyrgyzstan",
+    "city": "Osh",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "22 m²",
+        "beds": "1 Double bed",
+        "price": 50
+      },
+      {
+        "name": "Family Room",
+        "size": "40 m²",
+        "beds": "2 Double beds",
+        "price": 80
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Rayan Café",
+        "menu": ["local dishes", "soups", "tea"],
+        "price": [400, 600, 200]
+      }
+    ],
+    "location": {
+      "lat": 40.5300,
+      "long": 72.8000
+    },
+    "views": {
+      "good": [
+        "Budget friendly.",
+        "Friendly staff.",
+        "Quiet place."
+      ],
+      "bad": [
+        "Simple interior.",
+        "Limited facilities."
+      ]
+    }
+  },
+  {
+    "id": 112,
+    "name": "Kaganat Boutique Hotel",
+    "country": "Kyrgyzstan",
+    "city": "Osh",
+    "rooms": [
+      {
+        "name": "Deluxe Room",
+        "size": "30 m²",
+        "beds": "1 King bed",
+        "price": 90
+      },
+      {
+        "name": "Junior Suite",
+        "size": "50 m²",
+        "beds": "1 King bed",
+        "price": 140
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Kaganat Restaurant",
+        "menu": ["fine dining", "local cuisine", "desserts"],
+        "price": [900, 1200, 600]
+      }
+    ],
+    "location": {
+      "lat": 40.5275,
+      "long": 72.7950
+    },
+    "views": {
+      "good": [
+        "Stylish boutique design.",
+        "Comfortable rooms.",
+        "Good service."
+      ],
+      "bad": [
+        "Higher prices.",
+        "Limited availability."
+      ]
+    }
+  },
+  {
+    "id": 113,
+    "name": "Level Hotel",
+    "country": "Kyrgyzstan",
+    "city": "Osh",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "24 m²",
+        "beds": "1 Queen bed",
+        "price": 70
+      },
+      {
+        "name": "Superior Room",
+        "size": "35 m²",
+        "beds": "1 King bed",
+        "price": 110
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Level Dining",
+        "menu": ["European cuisine", "breakfast", "coffee"],
+        "price": [700, 900, 300]
+      }
+    ],
+    "location": {
+      "lat": 40.5290,
+      "long": 72.8020
+    },
+    "views": {
+      "good": [
+        "Modern design.",
+        "Clean rooms.",
+        "Good location."
+      ],
+      "bad": [
+        "Small rooms.",
+        "Limited facilities."
+      ]
+    }
+  },
+  {
+    "id": 114,
+    "name": "Biy Ordo Guest House",
+    "country": "Kyrgyzstan",
+    "city": "Osh",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "20 m²",
+        "beds": "1 Double bed",
+        "price": 40
+      },
+      {
+        "name": "Family Room",
+        "size": "35 m²",
+        "beds": "2 Double beds",
+        "price": 70
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Guest House Kitchen",
+        "menu": ["home-made meals", "local cuisine", "tea"],
+        "price": [400, 500, 150]
+      }
+    ],
+    "location": {
+      "lat": 40.5260,
+      "long": 72.7970
+    },
+    "views": {
+      "good": [
+        "Cozy atmosphere.",
+        "Very affordable.",
+        "Local experience."
+      ],
+      "bad": [
+        "Basic conditions.",
+        "Shared facilities."
+      ]
+    }
+  },
+  {
+    "id": 115,
+    "name": "Hotel Orto Asia",
+    "country": "Kyrgyzstan",
+    "city": "Osh",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "26 m²",
+        "beds": "1 King bed",
+        "price": 80
+      },
+      {
+        "name": "Suite",
+        "size": "55 m²",
+        "beds": "1 King bed",
+        "price": 130
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Orto Asia Restaurant",
+        "menu": ["international cuisine", "local dishes", "breakfast"],
+        "price": [800, 1100, 400]
+      }
+    ],
+    "location": {
+      "lat": 40.5310,
+      "long": 72.8030
+    },
+    "views": {
+      "good": [
+        "Comfortable rooms.",
+        "Good service.",
+        "Nice atmosphere."
+      ],
+      "bad": [
+        "Slightly expensive.",
+        "Limited menu."
+      ]
+    }
+  },
+  {
+    "id": 116,
+    "name": "Lovely Home For You",
+    "country": "Kyrgyzstan",
+    "city": "Osh",
+    "rooms": [
+      {
+        "name": "Private Room",
+        "size": "18 m²",
+        "beds": "1 Double bed",
+        "price": 35
+      },
+      {
+        "name": "Family Room",
+        "size": "30 m²",
+        "beds": "2 Double beds",
+        "price": 60
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Home Kitchen",
+        "menu": ["home cooking", "local meals", "tea"],
+        "price": [300, 400, 100]
+      }
+    ],
+    "location": {
+      "lat": 40.5250,
+      "long": 72.7990
+    },
+    "views": {
+      "good": [
+        "Very affordable.",
+        "Homely atmosphere.",
+        "Friendly hosts."
+      ],
+      "bad": [
+        "Very basic.",
+        "Limited privacy."
+      ]
+    }
+  },
+  {
+    "id": 117,
+    "name": "Konok Hostel",
+    "country": "Kyrgyzstan",
+    "city": "Osh",
+    "rooms": [
+      {
+        "name": "Dorm Room",
+        "size": "20 m²",
+        "beds": "Shared beds",
+        "price": 15
+      },
+      {
+        "name": "Private Room",
+        "size": "18 m²",
+        "beds": "1 Double bed",
+        "price": 40
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Hostel Kitchen",
+        "menu": ["shared kitchen", "snacks", "tea"],
+        "price": [200, 300, 100]
+      }
+    ],
+    "location": {
+      "lat": 40.5288,
+      "long": 72.8015
+    },
+    "views": {
+      "good": [
+        "Very cheap.",
+        "Good for backpackers.",
+        "Social atmosphere."
+      ],
+      "bad": [
+        "Shared facilities.",
+        "Not very comfortable."
+      ]
+    }
+  }, {
+    "id": 118,
+    "name": "Hotel 78 Cafe",
+    "country": "Kyrgyzstan",
+    "city": "Karakol",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "24 m²",
+        "beds": "1 Double bed",
+        "price": 55
+      },
+      {
+        "name": "Deluxe Room",
+        "size": "35 m²",
+        "beds": "1 King bed",
+        "price": 90
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Cafe 78",
+        "menu": ["European cuisine", "breakfast", "coffee"],
+        "price": [500, 700, 250]
+      }
+    ],
+    "location": {
+      "lat": 42.4905,
+      "long": 78.3936
+    },
+    "views": {
+      "good": [
+        "Central location.",
+        "Nice café.",
+        "Good value."
+      ],
+      "bad": [
+        "Limited amenities.",
+        "Small rooms."
+      ]
+    }
+  },
+  {
+    "id": 119,
+    "name": "EniRest",
+    "country": "Kyrgyzstan",
+    "city": "Karakol",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "22 m²",
+        "beds": "1 Double bed",
+        "price": 50
+      },
+      {
+        "name": "Family Room",
+        "size": "38 m²",
+        "beds": "2 Double beds",
+        "price": 80
+      }
+    ],
+    "food": [
+      {
+        "place_name": "EniRest Restaurant",
+        "menu": ["local cuisine", "soups", "tea"],
+        "price": [400, 600, 200]
+      }
+    ],
+    "location": {
+      "lat": 42.4920,
+      "long": 78.3950
+    },
+    "views": {
+      "good": [
+        "Affordable stay.",
+        "Friendly service.",
+        "Quiet area."
+      ],
+      "bad": [
+        "Basic interior.",
+        "Limited facilities."
+      ]
+    }
+  },
+  {
+    "id": 120,
+    "name": "Alakol",
+    "country": "Kyrgyzstan",
+    "city": "Karakol",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "25 m²",
+        "beds": "1 Queen bed",
+        "price": 60
+      },
+      {
+        "name": "Suite",
+        "size": "50 m²",
+        "beds": "1 King bed",
+        "price": 110
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Alakol Restaurant",
+        "menu": ["local dishes", "grill", "desserts"],
+        "price": [600, 900, 400]
+      }
+    ],
+    "location": {
+      "lat": 42.4890,
+      "long": 78.3900
+    },
+    "views": {
+      "good": [
+        "Comfortable rooms.",
+        "Good location.",
+        "Nice atmosphere."
+      ],
+      "bad": [
+        "Average service.",
+        "Limited menu."
+      ]
+    }
+  },
+  {
+    "id": 121,
+    "name": "KbH-Karakol based Hostel",
+    "country": "Kyrgyzstan",
+    "city": "Karakol",
+    "rooms": [
+      {
+        "name": "Dorm Room",
+        "size": "20 m²",
+        "beds": "Shared beds",
+        "price": 12
+      },
+      {
+        "name": "Private Room",
+        "size": "18 m²",
+        "beds": "1 Double bed",
+        "price": 35
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Hostel Kitchen",
+        "menu": ["shared kitchen", "snacks", "tea"],
+        "price": [150, 250, 100]
+      }
+    ],
+    "location": {
+      "lat": 42.4915,
+      "long": 78.3925
+    },
+    "views": {
+      "good": [
+        "Very cheap.",
+        "Backpacker friendly.",
+        "Social vibe."
+      ],
+      "bad": [
+        "Shared facilities.",
+        "Basic comfort."
+      ]
+    }
+  },
+  {
+    "id": 122,
+    "name": "Green Yard Hotel",
+    "country": "Kyrgyzstan",
+    "city": "Karakol",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "26 m²",
+        "beds": "1 King bed",
+        "price": 70
+      },
+      {
+        "name": "Family Room",
+        "size": "40 m²",
+        "beds": "2 Double beds",
+        "price": 100
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Green Yard Restaurant",
+        "menu": ["organic meals", "local cuisine", "breakfast"],
+        "price": [700, 900, 300]
+      }
+    ],
+    "location": {
+      "lat": 42.4880,
+      "long": 78.3945
+    },
+    "views": {
+      "good": [
+        "Green surroundings.",
+        "Peaceful environment.",
+        "Clean rooms."
+      ],
+      "bad": [
+        "Slightly outside center.",
+        "Limited nightlife nearby."
+      ]
+    }
+  },
+  {
+    "id": 123,
+    "name": "Interhouse Karakol",
+    "country": "Kyrgyzstan",
+    "city": "Karakol",
+    "rooms": [
+      {
+        "name": "Dorm Room",
+        "size": "22 m²",
+        "beds": "Shared beds",
+        "price": 15
+      },
+      {
+        "name": "Private Room",
+        "size": "20 m²",
+        "beds": "1 Double bed",
+        "price": 40
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Interhouse Kitchen",
+        "menu": ["shared kitchen", "snacks", "tea"],
+        "price": [200, 300, 100]
+      }
+    ],
+    "location": {
+      "lat": 42.4908,
+      "long": 78.3960
+    },
+    "views": {
+      "good": [
+        "Budget friendly.",
+        "Good for travelers.",
+        "Friendly atmosphere."
+      ],
+      "bad": [
+        "Basic facilities.",
+        "Noise sometimes."
+      ]
+    }
+  },
+  {
+    "id": 124,
+    "name": "Hillside Karakol",
+    "country": "Kyrgyzstan",
+    "city": "Karakol",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "28 m²",
+        "beds": "1 King bed",
+        "price": 80
+      },
+      {
+        "name": "Panorama Room",
+        "size": "40 m²",
+        "beds": "1 King bed",
+        "price": 120
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Hillside Restaurant",
+        "menu": ["international cuisine", "grill", "wine"],
+        "price": [900, 1300, 800]
+      }
+    ],
+    "location": {
+      "lat": 42.4870,
+      "long": 78.3880
+    },
+    "views": {
+      "good": [
+        "Mountain views.",
+        "Quiet location.",
+        "Beautiful scenery."
+      ],
+      "bad": [
+        "Far from center.",
+        "Transport needed."
+      ]
+    } 
+  }, {
+    "id": 125,
+    "name": "Park Hotel Almaty",
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "25 m²",
+        "beds": "1 Queen bed",
+        "price": 90
+      },
+      {
+        "name": "Deluxe Room",
+        "size": "35 m²",
+        "beds": "1 King bed",
+        "price": 140
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Park Restaurant",
+        "menu": ["international cuisine", "breakfast buffet", "coffee"],
+        "price": [1200, 1500, 600]
+      }
+    ],
+    "location": {
+      "lat": 43.2220,
+      "long": 76.8512
+    },
+    "views": {
+      "good": [
+        "Central location.",
+        "Modern rooms.",
+        "Good service."
+      ],
+      "bad": [
+        "Can be noisy.",
+        "Parking limited."
+      ]
+    }
+  },
+  {
+    "id": 126,
+    "name": "Rixos Almaty",
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "rooms": [
+      {
+        "name": "Superior Room",
+        "size": "30 m²",
+        "beds": "1 King bed",
+        "price": 180
+      },
+      {
+        "name": "Executive Suite",
+        "size": "55 m²",
+        "beds": "1 King bed",
+        "price": 320
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Rixos Brasserie",
+        "menu": ["international gourmet", "steak", "desserts"],
+        "price": [2000, 3500, 900]
+      }
+    ],
+    "location": {
+      "lat": 43.2220,
+      "long": 76.8512
+    },
+    "views": {
+      "good": [
+        "Luxury experience.",
+        "Great spa.",
+        "Excellent breakfast."
+      ],
+      "bad": [
+        "Expensive.",
+        "Busy during events."
+      ]
+    }
+  },
+  {
+    "id": 127,
+    "name": "Swissôtel Wellness Resort Alatau Almaty",
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "rooms": [
+      {
+        "name": "Classic Room",
+        "size": "28 m²",
+        "beds": "1 King bed",
+        "price": 160
+      },
+      {
+        "name": "Wellness Suite",
+        "size": "50 m²",
+        "beds": "1 King bed",
+        "price": 300
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Alatau Restaurant",
+        "menu": ["healthy cuisine", "organic dishes", "smoothies"],
+        "price": [1500, 2200, 800]
+      }
+    ],
+    "location": {
+      "lat": 43.2220,
+      "long": 76.8512
+    },
+    "views": {
+      "good": [
+        "Nature surroundings.",
+        "Wellness facilities.",
+        "Peaceful atmosphere."
+      ],
+      "bad": [
+        "Far from city center.",
+        "Need transport."
+      ]
+    }
+  },
+  {
+    "id": 128,
+    "name": "Renion City Hotel",
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "22 m²",
+        "beds": "1 Queen bed",
+        "price": 70
+      },
+      {
+        "name": "Family Room",
+        "size": "38 m²",
+        "beds": "2 Queen beds",
+        "price": 110
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Renion Cafe",
+        "menu": ["local cuisine", "fast food", "tea"],
+        "price": [800, 1000, 400]
+      }
+    ],
+    "location": {
+      "lat": 43.2220,
+      "long": 76.8512
+    },
+    "views": {
+      "good": [
+        "Affordable.",
+        "Good location.",
+        "Friendly staff."
+      ],
+      "bad": [
+        "Basic facilities.",
+        "Small rooms."
+      ]
+    }
+  },
+  {
+    "id": 129,
+    "name": "Kazzhol Park Hotel",
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "rooms": [
+      {
+        "name": "Comfort Room",
+        "size": "26 m²",
+        "beds": "1 King bed",
+        "price": 95
+      },
+      {
+        "name": "Business Suite",
+        "size": "42 m²",
+        "beds": "1 King bed",
+        "price": 160
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Kazzhol Restaurant",
+        "menu": ["european cuisine", "grill", "salads"],
+        "price": [1300, 1800, 700]
+      }
+    ],
+    "location": {
+      "lat": 43.2220,
+      "long": 76.8512
+    },
+    "views": {
+      "good": [
+        "Clean rooms.",
+        "Good breakfast.",
+        "Central access."
+      ],
+      "bad": [
+        "Simple design.",
+        "Average WiFi."
+      ]
+    }
+  },
+  {
+    "id": 130,
+    "name": "Grand Hotel Tien-Shan",
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "27 m²",
+        "beds": "1 Queen bed",
+        "price": 100
+      },
+      {
+        "name": "Luxury Suite",
+        "size": "60 m²",
+        "beds": "1 King bed",
+        "price": 250
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Tien-Shan Restaurant",
+        "menu": ["asian cuisine", "fusion dishes", "wine selection"],
+        "price": [1600, 2400, 900]
+      }
+    ],
+    "location": {
+      "lat": 43.2220,
+      "long": 76.8512
+    },
+    "views": {
+      "good": [
+        "Elegant design.",
+        "Good spa.",
+        "Comfortable rooms."
+      ],
+      "bad": [
+        "Pricey.",
+        "Crowded at times."
+      ]
+    }
+  },
+  {
+    "id": 131,
+    "name": "Hotel Voyage",
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "24 m²",
+        "beds": "1 Queen bed",
+        "price": 75
+      },
+      {
+        "name": "Deluxe Room",
+        "size": "36 m²",
+        "beds": "1 King bed",
+        "price": 120
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Voyage Kitchen",
+        "menu": ["local dishes", "breakfast", "coffee"],
+        "price": [900, 1100, 500]
+      }
+    ],
+    "location": {
+      "lat": 43.2220,
+      "long": 76.8512
+    },
+    "views": {
+      "good": [
+        "Good value.",
+        "Clean rooms.",
+        "Helpful staff."
+      ],
+      "bad": [
+        "Simple facilities.",
+        "Not very modern."
+      ]
+    }
+  },
+  {
+    "id": 132,
+    "name": "Intercontinental Almaty by IHG",
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "rooms": [
+      {
+        "name": "Classic Room",
+        "size": "32 m²",
+        "beds": "1 King bed",
+        "price": 210
+      },
+      {
+        "name": "Presidential Suite",
+        "size": "70 m²",
+        "beds": "1 King bed",
+        "price": 500
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Intercontinental Restaurant",
+        "menu": ["fine dining", "international cuisine", "seafood"],
+        "price": [2500, 4000, 1200]
+      }
+    ],
+    "location": {
+      "lat": 43.2220,
+      "long": 76.8512
+    },
+    "views": {
+      "good": [
+        "Luxury service.",
+        "Great mountain views.",
+        "High-end facilities."
+      ],
+      "bad": [
+        "Very expensive.",
+        "Not budget friendly."
+      ]
+    }
+  },
+  {
+    "id": 133,
+    "name": "Almaty Hotel",
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "23 m²",
+        "beds": "1 Queen bed",
+        "price": 65
+      },
+      {
+        "name": "Superior Room",
+        "size": "34 m²",
+        "beds": "1 King bed",
+        "price": 110
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Almaty Dining Hall",
+        "menu": ["local cuisine", "buffet", "tea"],
+        "price": [800, 1200, 400]
+      }
+    ],
+    "location": {
+      "lat": 43.2220,
+      "long": 76.8512
+    },
+    "views": {
+      "good": [
+        "Good location.",
+        "Affordable.",
+        "Classic style."
+      ],
+      "bad": [
+        "Old building.",
+        "Limited amenities."
+      ]
+    }
+  },
+  {
+    "id": 134,
+    "name": "Royal Park Hotel",
+    "country": "Kazakhstan",
+    "city": "Almaty",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "26 m²",
+        "beds": "1 Queen bed",
+        "price": 85
+      },
+      {
+        "name": "Executive Suite",
+        "size": "45 m²",
+        "beds": "1 King bed",
+        "price": 150
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Royal Park Restaurant",
+        "menu": ["european cuisine", "grill", "desserts"],
+        "price": [1400, 2000, 800]
+      }
+    ],
+    "location": {
+      "lat": 43.2220,
+      "long": 76.8512
+    },
+    "views": {
+      "good": [
+        "Quiet area.",
+        "Nice interior.",
+        "Good service."
+      ],
+      "bad": [
+        "Not central.",
+        "Transport needed."
+      ]
+    }
+  },{
+    "id": 135,
+    "name": "Sheraton Astana Hotel",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "28 m²",
+        "beds": "1 King bed",
+        "price": 140
+      },
+      {
+        "name": "Club Room",
+        "size": "38 m²",
+        "beds": "1 King bed",
+        "price": 220
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Sheraton Restaurant",
+        "menu": ["international cuisine", "buffet", "grill"],
+        "price": [1500, 2000, 900]
+      }
+    ],
+    "location": {
+      "lat": 51.1280,
+      "long": 71.4300
+    },
+    "views": {
+      "good": [
+        "Central business district location.",
+        "Modern rooms.",
+        "Good breakfast."
+      ],
+      "bad": [
+        "Can be busy.",
+        "Higher prices."
+      ]
+    }
+  },
+  {
+    "id": 136,
+    "name": "Rixos President Astana",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "rooms": [
+      {
+        "name": "Deluxe Room",
+        "size": "32 m²",
+        "beds": "1 King bed",
+        "price": 180
+      },
+      {
+        "name": "Executive Suite",
+        "size": "55 m²",
+        "beds": "1 King bed",
+        "price": 320
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Rixos Brasserie",
+        "menu": ["turkish cuisine", "international dishes", "steak"],
+        "price": [2200, 3000, 1200]
+      }
+    ],
+    "location": {
+      "lat": 51.1338,
+      "long": 71.4213
+    },
+    "views": {
+      "good": [
+        "Luxury spa and facilities.",
+        "Great service.",
+        "Central location near landmarks."
+      ],
+      "bad": [
+        "Expensive.",
+        "Can be crowded."
+      ]
+    }
+  },
+  {
+    "id": 137,
+    "name": "The Ritz-Carlton Astana",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "rooms": [
+      {
+        "name": "Deluxe Room",
+        "size": "35 m²",
+        "beds": "1 King bed",
+        "price": 250
+      },
+      {
+        "name": "Luxury Suite",
+        "size": "65 m²",
+        "beds": "1 King bed",
+        "price": 500
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Ritz Dining",
+        "menu": ["fine dining", "international gourmet", "seafood"],
+        "price": [3000, 4500, 1500]
+      }
+    ],
+    "location": {
+      "lat": 51.1300,
+      "long": 71.4200
+    },
+    "views": {
+      "good": [
+        "Ultra luxury experience.",
+        "Excellent city views.",
+        "High-end service."
+      ],
+      "bad": [
+        "Very expensive.",
+        "Not budget friendly."
+      ]
+    }
+  },
+  {
+    "id": 138,
+    "name": "Hilton Garden Inn Astana",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "26 m²",
+        "beds": "1 Queen bed",
+        "price": 110
+      },
+      {
+        "name": "King Room",
+        "size": "30 m²",
+        "beds": "1 King bed",
+        "price": 150
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Garden Grill",
+        "menu": ["international cuisine", "breakfast", "salads"],
+        "price": [1200, 900, 700]
+      }
+    ],
+    "location": {
+      "lat": 51.1285,
+      "long": 71.4305
+    },
+    "views": {
+      "good": [
+        "Good business hotel.",
+        "Clean rooms.",
+        "Reliable service."
+      ],
+      "bad": [
+        "Less luxury feel.",
+        "Simple facilities."
+      ]
+    }
+  },
+  {
+    "id": 139,
+    "name": "The Veil Hotel",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "24 m²",
+        "beds": "1 Queen bed",
+        "price": 95
+      },
+      {
+        "name": "Deluxe Room",
+        "size": "36 m²",
+        "beds": "1 King bed",
+        "price": 140
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Veil Lounge",
+        "menu": ["fusion cuisine", "snacks", "coffee"],
+        "price": [1000, 800, 500]
+      }
+    ],
+    "location": {
+      "lat": 51.1400,
+      "long": 71.4200
+    },
+    "views": {
+      "good": [
+        "Modern design.",
+        "Quiet stay.",
+        "Stylish interiors."
+      ],
+      "bad": [
+        "Not very central.",
+        "Limited facilities."
+      ]
+    }
+  },
+  {
+    "id": 140,
+    "name": "Elite Apart-Hotel",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "rooms": [
+      {
+        "name": "Studio Apartment",
+        "size": "30 m²",
+        "beds": "1 Queen bed",
+        "price": 85
+      },
+      {
+        "name": "Family Apartment",
+        "size": "50 m²",
+        "beds": "2 Queen beds",
+        "price": 130
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Elite Kitchen",
+        "menu": ["home-style food", "breakfast", "tea"],
+        "price": [900, 700, 300]
+      }
+    ],
+    "location": {
+      "lat": 51.1305,
+      "long": 71.4400
+    },
+    "views": {
+      "good": [
+        "Good value for money.",
+        "Spacious rooms.",
+        "Useful for long stays."
+      ],
+      "bad": [
+        "Not luxury.",
+        "Basic hotel services."
+      ]
+    }
+  },
+  {
+    "id": 141,
+    "name": "The St. Regis Astana",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "rooms": [
+      {
+        "name": "Grand Deluxe Room",
+        "size": "40 m²",
+        "beds": "1 King bed",
+        "price": 280
+      },
+      {
+        "name": "Presidential Suite",
+        "size": "80 m²",
+        "beds": "1 King bed",
+        "price": 600
+      }
+    ],
+    "food": [
+      {
+        "place_name": "St. Regis Restaurant",
+        "menu": ["fine dining", "international cuisine", "signature cocktails"],
+        "price": [3500, 5000, 1500]
+      }
+    ],
+    "location": {
+      "lat": 51.1330,
+      "long": 71.4220
+    },
+    "views": {
+      "good": [
+        "Top luxury experience.",
+        "Excellent spa.",
+        "Beautiful design."
+      ],
+      "bad": [
+        "Very expensive.",
+        "Exclusive feel."
+      ]
+    }
+  },
+  {
+    "id": 142,
+    "name": "Jumbaktas Hotel",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "27 m²",
+        "beds": "1 Queen bed",
+        "price": 100
+      },
+      {
+        "name": "Suite",
+        "size": "45 m²",
+        "beds": "1 King bed",
+        "price": 170
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Jumbaktas Cafe",
+        "menu": ["local cuisine", "international dishes", "desserts"],
+        "price": [1100, 1500, 600]
+      }
+    ],
+    "location": {
+      "lat": 51.1308,
+      "long": 71.4250
+    },
+    "views": {
+      "good": [
+        "Nice location.",
+        "Comfortable rooms.",
+        "Good service."
+      ],
+      "bad": [
+        "Slightly old interior.",
+        "Average amenities."
+      ]
+    }
+  },
+  {
+    "id": 143,
+    "name": "Best Western Plus Astana",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "25 m²",
+        "beds": "1 Queen bed",
+        "price": 90
+      },
+      {
+        "name": "Business Room",
+        "size": "35 m²",
+        "beds": "1 King bed",
+        "price": 130
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Best Western Restaurant",
+        "menu": ["international buffet", "breakfast", "coffee"],
+        "price": [1000, 800, 400]
+      }
+    ],
+    "location": {
+      "lat": 51.1295,
+      "long": 71.4280
+    },
+    "views": {
+      "good": [
+        "Good value.",
+        "Clean rooms.",
+        "Convenient location."
+      ],
+      "bad": [
+        "Basic design.",
+        "Not luxury."
+      ]
+    }
+  },
+  {
+    "id": 144,
+    "name": "Wyndham Garden Astana",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "28 m²",
+        "beds": "1 Queen bed",
+        "price": 120
+      },
+      {
+        "name": "Suite",
+        "size": "48 m²",
+        "beds": "1 King bed",
+        "price": 200
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Wyndham Restaurant",
+        "menu": ["international cuisine", "grill", "salads"],
+        "price": [1500, 2000, 800]
+      }
+    ],
+    "location": {
+      "lat": 51.1270,
+      "long": 71.4350
+    },
+    "views": {
+      "good": [
+        "Modern hotel.",
+        "Comfortable stay.",
+        "Good breakfast."
+      ],
+      "bad": [
+        "Can be pricey.",
+        "Average location."
+      ]
+    }
+  },
+  {
+    "id": 145,
+    "name": "Hotel Aykun",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "22 m²",
+        "beds": "1 Queen bed",
+        "price": 60
+      },
+      {
+        "name": "Family Room",
+        "size": "40 m²",
+        "beds": "2 Queen beds",
+        "price": 95
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Aykun Cafe",
+        "menu": ["local food", "breakfast", "tea"],
+        "price": [700, 900, 300]
+      }
+    ],
+    "location": {
+      "lat": 51.1310,
+      "long": 71.4405
+    },
+    "views": {
+      "good": [
+        "Budget friendly.",
+        "Simple but clean.",
+        "Good for short stays."
+      ],
+      "bad": [
+        "Basic facilities.",
+        "Not luxury."
+      ]
+    }
+  }, {
+    "id": 146,
+    "name": "Aidana Plaza Hotel",
+    "country": "Kazakhstan",
+    "city": "Shymkent",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "25 m²",
+        "beds": "1 Queen bed",
+        "price": 85
+      },
+      {
+        "name": "Deluxe Room",
+        "size": "35 m²",
+        "beds": "1 King bed",
+        "price": 130
+      }
+    ],
+    "food": [
+      {
+        "place_name": "April Restaurant",
+        "menu": ["european cuisine", "breakfast buffet", "coffee"],
+        "price": [1200, 1500, 600]
+      }
+    ],
+    "location": {
+      "lat": 42.3410,
+      "long": 69.5900
+    },
+    "views": {
+      "good": [
+        "Central location.",
+        "Modern interior.",
+        "Good service."
+      ],
+      "bad": [
+        "Can be busy.",
+        "Standard rooms are basic."
+      ]
+    }
+  },
+  {
+    "id": 147,
+    "name": "Rixos Khadisha Shymkent",
+    "country": "Kazakhstan",
+    "city": "Shymkent",
+    "rooms": [
+      {
+        "name": "Deluxe Room",
+        "size": "32 m²",
+        "beds": "1 King bed",
+        "price": 180
+      },
+      {
+        "name": "Executive Suite",
+        "size": "60 m²",
+        "beds": "1 King bed",
+        "price": 350
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Rixos Restaurant",
+        "menu": ["international cuisine", "asian dishes", "steak"],
+        "price": [2500, 3200, 1400]
+      }
+    ],
+    "location": {
+      "lat": 42.3200,
+      "long": 69.5900
+    },
+    "views": {
+      "good": [
+        "Luxury hotel in city center.",
+        "Great spa and pool.",
+        "High-end service."
+      ],
+      "bad": [
+        "Expensive.",
+        "Can be crowded."
+      ]
+    }
+  },
+  {
+    "id": 148,
+    "name": "DoubleTree by Hilton Shymkent",
+    "country": "Kazakhstan",
+    "city": "Shymkent",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "28 m²",
+        "beds": "1 Queen bed",
+        "price": 140
+      },
+      {
+        "name": "King Room",
+        "size": "35 m²",
+        "beds": "1 King bed",
+        "price": 180
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Hilton Restaurant",
+        "menu": ["international cuisine", "breakfast", "grill"],
+        "price": [1500, 1200, 900]
+      }
+    ],
+    "location": {
+      "lat": 42.3205,
+      "long": 69.6000
+    },
+    "views": {
+      "good": [
+        "Modern business hotel.",
+        "Clean rooms.",
+        "Good breakfast."
+      ],
+      "bad": [
+        "Less local character.",
+        "Average views."
+      ]
+    }
+  },
+  {
+    "id": 149,
+    "name": "Megapolis Hotel Shymkent",
+    "country": "Kazakhstan",
+    "city": "Shymkent",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "24 m²",
+        "beds": "1 Queen bed",
+        "price": 75
+      },
+      {
+        "name": "Deluxe Room",
+        "size": "36 m²",
+        "beds": "1 King bed",
+        "price": 120
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Megapolis Cafe",
+        "menu": ["local cuisine", "fast food", "tea"],
+        "price": [900, 1100, 400]
+      }
+    ],
+    "location": {
+      "lat": 42.3300,
+      "long": 69.6000
+    },
+    "views": {
+      "good": [
+        "Affordable stay.",
+        "Good location.",
+        "Friendly staff."
+      ],
+      "bad": [
+        "Simple facilities.",
+        "Not luxury."
+      ]
+    }
+  },
+  {
+    "id": 150,
+    "name": "Park Hotel al Bustan",
+    "country": "Kazakhstan",
+    "city": "Shymkent",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "26 m²",
+        "beds": "1 Queen bed",
+        "price": 90
+      },
+      {
+        "name": "Suite",
+        "size": "45 m²",
+        "beds": "1 King bed",
+        "price": 150
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Bustan Restaurant",
+        "menu": ["european cuisine", "grill", "salads"],
+        "price": [1400, 1800, 800]
+      }
+    ],
+    "location": {
+      "lat": 42.3500,
+      "long": 69.6200
+    },
+    "views": {
+      "good": [
+        "Quiet area.",
+        "Comfortable rooms.",
+        "Nice service."
+      ],
+      "bad": [
+        "Not central.",
+        "Limited entertainment nearby."
+      ]
+    }
+  },
+  {
+    "id": 151,
+    "name": "Shymkent Grand Hotel",
+    "country": "Kazakhstan",
+    "city": "Shymkent",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "27 m²",
+        "beds": "1 Queen bed",
+        "price": 95
+      },
+      {
+        "name": "Business Suite",
+        "size": "50 m²",
+        "beds": "1 King bed",
+        "price": 160
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Grand Restaurant",
+        "menu": ["international cuisine", "buffet", "desserts"],
+        "price": [1600, 2000, 700]
+      }
+    ],
+    "location": {
+      "lat": 42.3405,
+      "long": 69.5950
+    },
+    "views": {
+      "good": [
+        "Good business hotel.",
+        "Spacious rooms.",
+        "Central access."
+      ],
+      "bad": [
+        "Slightly old design.",
+        "Average WiFi."
+      ]
+    }
+  },
+  {
+    "id": 152,
+    "name": "Ramada by Wyndham Shymkent",
+    "country": "Kazakhstan",
+    "city": "Shymkent",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "26 m²",
+        "beds": "1 Queen bed",
+        "price": 100
+      },
+      {
+        "name": "Deluxe Room",
+        "size": "38 m²",
+        "beds": "1 King bed",
+        "price": 150
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Ramada Restaurant",
+        "menu": ["international cuisine", "breakfast buffet", "coffee"],
+        "price": [1400, 1600, 600]
+      }
+    ],
+    "location": {
+      "lat": 42.3180,
+      "long": 69.5905
+    },
+    "views": {
+      "good": [
+        "Modern hotel.",
+        "Good facilities.",
+        "Comfortable stay."
+      ],
+      "bad": [
+        "Can be pricey.",
+        "Not very unique."
+      ]
+    }
+  } , {
+    "id": 153,
+    "name": "Boutique Hotel Silk Way",
+    "country": "Kazakhstan",
+    "city": "Turkistan",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "24 m²",
+        "beds": "1 Queen bed",
+        "price": 85
+      },
+      {
+        "name": "Deluxe Room",
+        "size": "36 m²",
+        "beds": "1 King bed",
+        "price": 130
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Silk Way Restaurant",
+        "menu": ["local cuisine", "international dishes", "tea"],
+        "price": [1000, 1400, 500]
+      }
+    ],
+    "location": {
+      "lat": 43.2970,
+      "long": 68.2690
+    },
+    "views": {
+      "good": [
+        "Stylish boutique design.",
+        "Good restaurant on site.",
+        "Quiet and cozy atmosphere."
+      ],
+      "bad": [
+        "Not very large.",
+        "Limited luxury facilities."
+      ]
+    }
+  },
+  {
+    "id": 154,
+    "name": "Golden Ray Hotel",
+    "country": "Kazakhstan",
+    "city": "Turkistan",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "23 m²",
+        "beds": "1 Queen bed",
+        "price": 75
+      },
+      {
+        "name": "Suite",
+        "size": "38 m²",
+        "beds": "1 King bed",
+        "price": 120
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Golden Ray Cafe",
+        "menu": ["breakfast", "local dishes", "coffee"],
+        "price": [800, 1000, 400]
+      }
+    ],
+    "location": {
+      "lat": 43.2900,
+      "long": 68.2700
+    },
+    "views": {
+      "good": [
+        "Good value for money.",
+        "Clean rooms.",
+        "Friendly staff."
+      ],
+      "bad": [
+        "Basic facilities.",
+        "Not very modern."
+      ]
+    }
+  },
+  {
+    "id": 155,
+    "name": "Ramada By Wyndham Turkistan",
+    "country": "Kazakhstan",
+    "city": "Turkistan",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "26 m²",
+        "beds": "1 Queen bed",
+        "price": 110
+      },
+      {
+        "name": "Deluxe Room",
+        "size": "35 m²",
+        "beds": "1 King bed",
+        "price": 160
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Ramada Restaurant",
+        "menu": ["international cuisine", "buffet", "grill"],
+        "price": [1500, 2000, 900]
+      }
+    ],
+    "location": {
+      "lat": 43.2920,
+      "long": 68.2750
+    },
+    "views": {
+      "good": [
+        "Modern chain hotel.",
+        "Good spa and facilities.",
+        "Comfortable rooms."
+      ],
+      "bad": [
+        "Can be expensive.",
+        "Busy during peak season."
+      ]
+    }
+  },
+  {
+    "id": 156,
+    "name": "Royal Grand Hotel",
+    "country": "Kazakhstan",
+    "city": "Turkistan",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "25 m²",
+        "beds": "1 Queen bed",
+        "price": 90
+      },
+      {
+        "name": "Business Suite",
+        "size": "42 m²",
+        "beds": "1 King bed",
+        "price": 140
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Royal Grand Restaurant",
+        "menu": ["international cuisine", "local dishes", "desserts"],
+        "price": [1200, 1600, 600]
+      }
+    ],
+    "location": {
+      "lat": 43.2950,
+      "long": 68.2800
+    },
+    "views": {
+      "good": [
+        "Central location.",
+        "Good service.",
+        "Spacious rooms."
+      ],
+      "bad": [
+        "Some rooms feel basic.",
+        "Average WiFi."
+      ]
+    }
+  },
+  {
+    "id": 157,
+    "name": "Eurasia Hotel",
+    "country": "Kazakhstan",
+    "city": "Turkistan",
+    "rooms": [
+      {
+        "name": "Standard Room",
+        "size": "22 m²",
+        "beds": "1 Queen bed",
+        "price": 70
+      },
+      {
+        "name": "Family Room",
+        "size": "40 m²",
+        "beds": "2 Queen beds",
+        "price": 110
+      }
+    ],
+    "food": [
+      {
+        "place_name": "Eurasia Cafe",
+        "menu": ["local cuisine", "tea", "breakfast"],
+        "price": [700, 900, 300]
+      }
+    ],
+    "location": {
+      "lat": 43.3000,
+      "long": 68.2650
+    },
+    "views": {
+      "good": [
+        "Budget friendly.",
+        "Simple and clean.",
+        "Good for short stays."
+      ],
+      "bad": [
+        "Old style rooms.",
+        "Limited amenities."
+      ]
+    }
+  }
+
+]
 }
