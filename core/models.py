@@ -69,7 +69,7 @@ class SavedPlace(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
 
     # generic linking
-    place_type = models.CharField(max_length=20) # tivity/restaurant/hotel
+    place_type = models.CharField(max_length=20) # activity/restaurant/hotel
     place_id = models.IntegerField()
 
     created_at = models.DateTimeField(auto_now_add=True)
