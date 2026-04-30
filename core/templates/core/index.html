@@ -72,7 +72,6 @@ const track = document.getElementById('carousel-track');
 
 async function initCarousel() {
     try {
-        // Path relative to the browser URL or use a hardcoded absolute path if needed
         const response = await fetch('static/data/countries.json'); 
         const data = await response.json();
 
@@ -80,12 +79,11 @@ async function initCarousel() {
             const slide = document.createElement('div');
             slide.classList.add('slide');
             
-            // Note: Since your JSON doesn't have image paths, 
-            // I'm assuming images are named after the country (e.g., uzbekistan.jpg)
+            //images are named after the country (e.g., uzbekistan.jpg)
             const imageName = item.country.toLowerCase();
             
             slide.innerHTML = `
-                <img src="/static/${imgeName}.jpg" alt="${item.country}">
+                <img src="/static/${imageName}.jpg" alt="${item.country}">
                 <div class="overlay">
                     <h2>${item.country}</h2>
                     <p>${item.about}</p>
