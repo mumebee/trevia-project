@@ -21,9 +21,57 @@
     <div>
         <h3>{{ a.name }}</h3>
         <p>{{ a.city }}, {{ a.country }}</p>
-        <p>{{ a.price }}</p>
+        <p>${{ a.base_price }}</p>
 
-        <a href="#">❤️ Like</a>
-        <a href="#">➕ Add to itinerary</a>
+        <button onclick="likePlace('activity', {{ a.id }})">❤️ Like</button>
+
+        <button onclick="addToItinerary(
+            'activity',
+            {{ a.id }},
+            '{{ a.name|escapejs }}',
+            {{ a.lat }},
+            {{ a.lng }}
+        )">
+            ➕ Add to itinerary
+        </button>
     </div>
 {% endfor %}
+
+<script>
+function likePlace(type, id) {
+    fetch("/like/", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/x-www-form-urlencoded",
+            "X-CSRFToken": getCSRF()
+        },
+        body: `type=${type}&id=${id}`
+    })
+    .then(res => res.json())
+    .then(data => console.log(data));
+}
+
+function addToItinerary(type, id, name, lat, lng) {
+    fetch("/add-to-itinerary/", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+            "X-CSRFToken": getCSRF()
+        },
+        body: JSON.stringify({
+            type, id, name, lat, lng
+        })
+    })
+    .then(res => res.json())
+    .then(data => alert("Added to itinerary"));
+}
+
+function getCSRF() {
+    let cookies = document.cookie.split(';');
+    for (let c of cookies) {
+        if (c.trim().startsWith('csrftoken=')) {
+            return c.split('=')[1];
+        }
+    }
+}
+</script>

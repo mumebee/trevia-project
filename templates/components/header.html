@@ -6,11 +6,16 @@
         <div class="user-dropdown">
             <div class="dropdown-content">
                 {% if user.is_authenticated %}
-                <a class="profile" href="{% url 'profile' %}">Profile</a>
                 <hr>
-                <a href="{% url 'logout' %}" class="logout-item">
-                    <i class="bi bi-box-arrow-right"></i> Logout
-                </a>
+
+                <form action="{% url 'logout' %}" method="post" style="display:inline;">
+                    {% csrf_token %}
+                    <button type="submit" class="logout-item">
+                        <i class="bi bi-box-arrow-right"></i> Logout
+                </button>
+                </form>
+
+
                 {% else %}
                 <a href="{% url 'login' %}">
                     <i class="bi bi-box-arrow-in-right"></i> Sign In
@@ -25,7 +30,6 @@
         <nav>    
             <ul class="nav-links">
                 <li><a href="/">Home</a></li>
-                <li><a href="{% url 'about' %}">About</a></li>
                 <li><a href="{% url 'contacts' %}">Contacts</a></li>
             </ul>
         </nav>
