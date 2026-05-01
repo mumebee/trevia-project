@@ -72,14 +72,14 @@ const track = document.getElementById('carousel-track');
 
 async function initCarousel() {
     try {
-        const response = await fetch('static/data/countries.json'); 
+        // Replace with your actual path if different
+        const response = await fetch('/static/data/countries.json'); 
         const data = await response.json();
 
         data.forEach(item => {
             const slide = document.createElement('div');
             slide.classList.add('slide');
             
-            //images are named after the country (e.g., uzbekistan.jpg)
             const imageName = item.country.toLowerCase();
             
             slide.innerHTML = `

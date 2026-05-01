@@ -196,7 +196,7 @@ header {
 .third-section {
     width: 100%;
     min-height: 100vh;
-    background-color: #01321F;
+    background-color: #ededed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -219,15 +219,21 @@ header {
 
 .slide {
     min-width: 100%;
-    position: relative;
-    height: 700px; /* Adjust height as needed */
+    position: relative; 
+    height: 700px;
+    overflow: hidden;
 }
 
 .slide img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensures image fills the area */
+    object-fit: cover;
     display: block;
+    transition: transform 0.5s ease; /* Slight zoom effect on hover */
+}
+
+.slide:hover img {
+    transform: scale(1.05);
 }
 
 /* Darken Overlay - Initially invisible */
@@ -237,35 +243,42 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0); 
+    background: rgba(1, 50, 31, 0.85); /* Deep green matches your theme */
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 40px;
+    padding: 20px 10%;
+    
+    /* Visibility Controls */
     opacity: 0;
-    transition: all 0.4s ease;
+    visibility: hidden;
+    transition: opacity 0.4s ease, visibility 0.4s ease;
+    z-index: 5;
 }
 
 /* Hover State */
 .slide:hover .overlay {
-    background: rgba(0, 0, 0, 0.7); /* Darkens the image */
-    opacity: 1; /* Shows the text */
+    opacity: 1;
+    visibility: visible;
 }
 
 .overlay h2 {
-    font-size: 2.5rem;
-    margin-bottom: 15px;
-    transform: translateY(20px);
-    transition: transform 0.4s ease;
+    font-family: 'BoldCondensed', sans-serif;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transform: translateY(30px);
+    transition: transform 0.5s ease;
 }
 
 .overlay p {
     font-size: 1.1rem;
     line-height: 1.6;
-    max-width: 80%;
+    max-width: 800px;
     transform: translateY(20px);
     transition: transform 0.4s ease 0.1s;
 }
@@ -274,7 +287,6 @@ header {
 .slide:hover p {
     transform: translateY(0);
 }
-
 /* Navigation Buttons */
 .nav-btn {
     position: absolute;
