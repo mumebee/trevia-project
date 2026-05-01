@@ -1,7 +1,7 @@
 /* ==========HEADER========= */
 /* header.css */
 .main-header {
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(255, 255, 255, 0.471);
     width: 100%;
     max-width: 1200px;
     padding: 10px 20px;
@@ -16,7 +16,60 @@
     margin-bottom: auto;
     margin-top: 15px;
     position: relative;
+    transition: 
+        max-width 0.8s cubic-bezier(0.16, 1, 0.3, 1), /* Increased from 0.6s */
+        margin-right 1.2s cubic-bezier(0.16, 1, 0.3, 1), /* Added this for the side-shift */
+        border-radius 1s ease,
+        background-color 0.8s ease,
+        padding 0.8s ease,
+        box-shadow 0.8s ease,
+        backdrop-filter 0.8s ease; /* Ensure the blur fades in slowly too */
+
+    overflow: hidden; /* Crucial: prevents text from leaking during shrink */
+    white-space: nowrap;
+    backdrop-filter: blur(10px); /* Initial state */
+    -webkit-backdrop-filter: blur(0px);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    pointer-events: all;
 }
+/* Scrolled State */
+.main-header.scrolled {
+    max-width: 80px; /* Shrinks the width to fit just the menu button */
+    margin-right: 20px; /* Aligns it to the right with some padding */
+    border-radius: 25px; /* More circular look */
+    background-color: rgba(255, 255, 255, 0.284); /* More transparent */
+    backdrop-filter: blur(10px); /* The blurry effect */
+    -webkit-backdrop-filter: blur(10px);
+    padding: 10px;
+    justify-content: center; /* Center the remaining button */
+}
+
+/* Hide navigation and search when scrolled */
+.main-header.scrolled .nav-container,
+.main-header.scrolled .search-wrapper {
+    opacity: 0;
+    visibility: hidden;
+    width: 0;
+    margin: 0;
+    padding: 0;
+    pointer-events: none;
+    position: absolute; /* Takes them out of the flow so the header can shrink */
+}
+
+/* Keep the menu button visible and centered */
+.main-header.scrolled .header-right {
+    gap: 0;
+}
+
+.main-header.scrolled .menu-btn {
+    font-size: 35px; /* Slightly smaller for the compact look */
+    margin: 0;
+}
+
+
 .nav-container, .header-right{
     display: flex;
     align-items: center;
@@ -121,7 +174,7 @@
 
 
 /* ==========SEARCH========= */
-.search-wrapper{
+/* .search-wrapper{
     position: relative;
     display: flex;
     align-items: center;
@@ -148,4 +201,4 @@
     position: relative;
     z-index: 101;
     
-}
+} */

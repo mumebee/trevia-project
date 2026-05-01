@@ -31,7 +31,7 @@ header {
 /* 3. Section Adjustment */
 .first-section {
     width: 100%; 
-    min-height: 109vh;
+    min-height: 120vh;
     background-image: url('../../static/trevia_back.png');
     background-size: cover;
     background-position: center;

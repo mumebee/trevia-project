@@ -39,7 +39,7 @@
     right: -500px;
     width: 500px;
     height: 100vh;
-    background-color: #fff;
+    background-color: #ffffffd8;
     box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
     transition: right 0.3s ease;
     z-index: 1000;
@@ -53,8 +53,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 25px 30px;
-    /* border-bottom: 2px solid #ece9da; */
-    background-color: #ffff;
+    background-color: #ffffffd8;
 }
 .menu-header h2{
     margin: 0;
@@ -96,7 +95,7 @@
     border-left: 4px solid transparent;
 }
 .category-link:hover{
-    background-color: #ece9da;
+    background-color: #ffffffd8;
     color: #01321F;
     border-left-color: #01321F;
     padding-left: 35px;
@@ -168,7 +167,7 @@
     top: 100%;
     display: none;
     position: absolute;
-    background-color: #fff;
+    background-color: #ffffffd8;
     list-style-type: none;
     border-radius: 20px;
     z-index: 1000;

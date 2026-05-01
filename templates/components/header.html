@@ -31,12 +31,28 @@
         </nav>
     </div>
         <div class="header-right">
-            <div class="search-wrapper">
+            <!-- <div class="search-wrapper">
                 <input type="text" placeholder="search" class="search-input">
                 <i class="bi bi-search search-icon"></i>
-            </div>
+            </div> -->
             <button id="menu-toggle-btn" class="menu-btn">
                 <i class="bi bi-list"></i>
             </button>
         </div>
 </header>
+<script>
+    let isScrolled = false;
+
+window.addEventListener('scroll', () => {
+    const scrollTop = window.scrollY;
+    
+    // Only trigger if state actually changes to save performance
+    if (scrollTop > 80 && !isScrolled) {
+        document.querySelector('.main-header').classList.add('scrolled');
+        isScrolled = true;
+    } else if (scrollTop <= 80 && isScrolled) {
+        document.querySelector('.main-header').classList.remove('scrolled');
+        isScrolled = false;
+    }
+});
+</script>
