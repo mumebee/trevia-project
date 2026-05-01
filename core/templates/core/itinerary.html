@@ -1,0 +1,59 @@
+<h1>Your Itinerary</h1>
+
+<ul>
+{% for p in itinerary %}
+    <li>{{ p.name }}</li>
+{% endfor %}
+</ul>
+
+<button onclick="generateRoute()">Generate Route</button>
+
+<div id="map" style="width:100%; height:500px;"></div>
+
+<script src="https://api-maps.yandex.ru/2.1/?apikey=YOUR_API_KEY&lang=en_US"></script>
+
+<script>
+let itinerary = {{ itinerary|safe }};
+
+ymaps.ready(init);
+
+let map;
+
+function init() {
+    map = new ymaps.Map("map", {
+        center: [41.2995, 69.2401],
+        zoom: 5
+    });
+
+    // show markers
+    itinerary.forEach(p => {
+        let placemark = new ymaps.Placemark([p.lat, p.lng], {
+            balloonContent: p.name
+        }, {
+            preset: 'islands#darkGreenIcon'
+        });
+
+        map.geoObjects.add(placemark);
+    });
+}
+
+function generateRoute() {
+    if (itinerary.length < 2) {
+        alert("Add at least 2 places");
+        return;
+    }
+
+    let points = itinerary.map(p => [p.lat, p.lng]);
+
+    ymaps.route(points).then(route => {
+        route.getPaths().options.set({
+            strokeColor: '#006400',
+            opacity: 0.9,
+            strokeWidth: 5
+        });
+
+        map.geoObjects.add(route);
+        map.setBounds(route.getBounds());
+    });
+}
+</script>

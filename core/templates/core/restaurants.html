@@ -18,3 +18,38 @@
         <p>{{ r.price }}</p>
     </div>
 {% endfor %}
+
+
+<script>
+function likePlace(type, id) {
+    fetch("/like/", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/x-www-form-urlencoded",
+            "X-CSRFToken": getCSRF()
+        },
+        body: `type=${type}&id=${id}`
+    })
+    .then(res => res.json())
+    .then(data => console.log(data));
+}
+
+function addToItinerary(type, id, name, lat, lng) {
+    fetch("/add-to-itinerary/", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+            "X-CSRFToken": getCSRF()
+        },
+        body: JSON.stringify({
+            type, id, name, lat, lng
+        })
+    })
+    .then(res => res.json())
+    .then(data => alert("Added to itinerary"));
+}
+
+function getCSRF() {
+    return document.cookie.split('csrftoken=')[1];
+}
+</script>
