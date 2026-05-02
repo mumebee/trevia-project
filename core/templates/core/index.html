@@ -50,7 +50,7 @@
                     </div>
             
                     <div class="about-image">
-                        <img src="../../static/kyrg.jpg" alt="Central Asian Landscape">
+                        <img src="{% static 'kyrg.jpg' %}" alt="Central Asian Landscape">
                     </div>
                 </div>
             </section>
@@ -72,25 +72,27 @@ const track = document.getElementById('carousel-track');
 
 async function initCarousel() {
     try {
-        // Replace with your actual path if different
-        const response = await fetch('/static/data/countries.json'); 
+        const response = await fetch('/static/data/countries.json');
         const data = await response.json();
+
+        track.innerHTML = '';
 
         data.forEach(item => {
             const slide = document.createElement('div');
             slide.classList.add('slide');
-            
-            const imageName = item.country.toLowerCase();
-            
             slide.innerHTML = `
-                <img src="/static/${imageName}.jpg" alt="${item.country}">
-                <div class="overlay">
-                    <h2>${item.country}</h2>
-                    <p>${item.about}</p>
+                <img src="${item.image}" alt="${item.country}">
+                <div class="overlay-carousel">
+                    <div class="overlay-content">
+                        <h2>${item.country}</h2>
+                        <p>${item.about}</p>
+                    </div>
                 </div>
             `;
             track.appendChild(slide);
         });
+
+        console.log("Trevia Carousel Loaded Successfully");
     } catch (error) {
         console.error("Error loading JSON:", error);
     }
@@ -102,14 +104,14 @@ function moveSlide(direction) {
 
     currentIndex += direction;
 
-    if (currentIndex >= slides.length) {
-        currentIndex = 0;
-    } else if (currentIndex < 0) {
-        currentIndex = slides.length - 1;
-    }
+    if (currentIndex >= slides.length) currentIndex = 0;
+    else if (currentIndex < 0) currentIndex = slides.length - 1;
 
-    const offset = -currentIndex * 100;
-    track.style.transform = `translateX(${offset}%)`;
+    // Scroll the TRACK, not the page
+    track.scrollTo({
+        left: currentIndex * track.clientWidth,
+        behavior: 'smooth'
+    });
 }
 
 initCarousel();
