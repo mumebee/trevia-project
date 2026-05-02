@@ -20,9 +20,9 @@ def import_activities():
             name=item["name"],
             country=item["country"],
             city=item["city"],
-            category=item.get("category", ["general"])[0],
+            category=item.get("category", []),
             duration=item.get("duration", 1),
-            base_price=item.get("price", 0),
+            price=item.get("price", 0),
             lat=item["lat"],
             lng=item["lng"],
             image=item["image"],
@@ -33,17 +33,18 @@ def import_activities():
 
 # RESTAURANTS
 def import_restaurants():
-    data = load_json("restaurants.json")
+    data = load_json("restaurants.json") or []
 
     for item in data:
-        avg_price = sum(item["menu"].values()) / len(item["menu"])
+        menu = item.get("menu", {})
+        avg_price = sum(menu.values()) / len(menu) if menu else 0
 
         Restaurant.objects.create(
             name=item["name"],
             country=item["country"],
             city=item["city"],
             cuisine_type=item.get("cuisine_type", ""),
-            base_price=avg_price,
+            price=avg_price,
             lat=item["lat"],
             lng=item["lng"],
             image=item["image"],
@@ -53,19 +54,21 @@ def import_restaurants():
 
 # HOTELS
 def import_hotels():
-    data = load_json("hotels.json")["hotels"]
+    raw_data = load_json("hotels.json")
+    data = raw_data.get("hotels", []) if raw_data else []
 
     for item in data:
-        min_price = min(room["price"] for room in item.get("rooms", []))
+        rooms = item.get("rooms", [])
+        min_price = min(room["price"] for room in rooms) if rooms else item.get("price", 0)
 
         Hotel.objects.create(
             name=item["name"],
             country=item["country"],
             city=item["city"],
             stars=3,
-            base_price=min_price,
-            lat=item["location"]["lat"],
-            lng=item["location"]["long"],
+            price=min_price,
+            lat=item.get("location", {}).get("lat", 0),
+            lng=item.get("location", {}).get("lng", item.get("location", {}).get("long", 0)),
             image="https://via.placeholder.com/300",
             rooms=item.get("rooms", []),
             food=item.get("food", []),
