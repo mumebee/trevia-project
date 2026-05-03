@@ -1,77 +1,98 @@
-<h1>Activities</h1>
+{% load static %}
+<html lang="en">
 
-<form method="GET">
-    <input name="country" placeholder="Country">
-    <input name="city" placeholder="City">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 
-    <input name="min_price" type="number" placeholder="Min price">
-    <input name="max_price" type="number" placeholder="Max price">
+    <link rel="stylesheet" href="{% static 'header.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'activities.css' %}">
+</head>
 
-    <label><input type="checkbox" name="tags" value="history"> History</label>
-    <label><input type="checkbox" name="tags" value="nature"> Nature</label>
-    <label><input type="checkbox" name="tags" value="food"> Food</label>
-
-    <button type="submit">Filter</button>
-</form>
-
-<hr>
+<body>
+    {% include 'components/header.html' %}
 
 
-{% for a in activities %}
-    <div>
-        <h3>{{ a.name }}</h3>
-        <p>{{ a.city }}, {{ a.country }}</p>
-        <p>${{ a.base_price }}</p>
+    <main>
 
-        <button onclick="likePlace('activity', {{ a.id }})">❤️ Like</button>
+        <div class="page_name">
+            <span>ACTIVITIES</span>
+            <p>Take time to enjoy little happy moments in your life</p>
+        </div>
 
-        <button onclick="addToItinerary(
-            'activity',
-            {{ a.id }},
-            '{{ a.name|escapejs }}',
-            {{ a.lat }},
-            {{ a.lng }}
-        )">
-            ➕ Add to itinerary
-        </button>
-    </div>
-{% endfor %}
+        <form method="GET" class="filtering_form">
+            <div>
+                <input name="country" placeholder=" Country" class="input_block">
+                <input name="city" placeholder=" City" class="input_block">
 
-<script>
-function likePlace(type, id) {
-    fetch("/like/", {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/x-www-form-urlencoded",
-            "X-CSRFToken": getCSRF()
-        },
-        body: `type=${type}&id=${id}`
-    })
-    .then(res => res.json())
-    .then(data => console.log(data));
-}
+                <input name="min_price" type="number" placeholder=" Min price" class="input_block">
+                <input name="max_price" type="number" placeholder=" Max price" class="input_block">
 
-function addToItinerary(type, id, name, lat, lng) {
-    fetch("/add-to-itinerary/", {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json",
-            "X-CSRFToken": getCSRF()
-        },
-        body: JSON.stringify({
-            type, id, name, lat, lng
+                <label><input type="checkbox" name="tags" value="history"> History</label>
+                <label><input type="checkbox" name="tags" value="nature"> Nature</label>
+                <label><input type="checkbox" name="tags" value="food"> Food</label>
+            </div>
+
+            <button type="submit">Filter</button>
+        </form>
+        <div class="container_activities">
+                <h1></h1>
+
+
+        </div>
+        <!--         
+
+        {% for a in activities %}
+
+
+
+        {% endfor %} -->
+
+        <script src="/core/static/kari.js"></script>
+</body>
+
+</html>
+
+
+
+<!-- <script>
+    function likePlace(type, id) {
+        fetch("/like/", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/x-www-form-urlencoded",
+                "X-CSRFToken": getCSRF()
+            },
+            body: `type=${type}&id=${id}`
         })
-    })
-    .then(res => res.json())
-    .then(data => alert("Added to itinerary"));
-}
+            .then(res => res.json())
+            .then(data => console.log(data));
+    }
 
-function getCSRF() {
-    let cookies = document.cookie.split(';');
-    for (let c of cookies) {
-        if (c.trim().startsWith('csrftoken=')) {
-            return c.split('=')[1];
+    function addToItinerary(type, id, name, lat, lng) {
+        fetch("/add-to-itinerary/", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "X-CSRFToken": getCSRF()
+            },
+            body: JSON.stringify({
+                type, id, name, lat, lng
+            })
+        })
+            .then(res => res.json())
+            .then(data => alert("Added to itinerary"));
+    }
+
+    function getCSRF() {
+        let cookies = document.cookie.split(';');
+        for (let c of cookies) {
+            if (c.trim().startsWith('csrftoken=')) {
+                return c.split('=')[1];
+            }
         }
     }
-}
-</script>
+</script> -->

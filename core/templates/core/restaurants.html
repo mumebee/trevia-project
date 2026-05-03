@@ -1,55 +1,68 @@
-<h1>Restaurants</h1>
+<html lang="en">
 
-<form method="GET">
-    <input name="country" placeholder="Country">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
 
-    <input name="min_price" type="number" placeholder="Min price">
-    <input name="max_price" type="number" placeholder="Max price">
+<body>
+    {% for r in restaurants %}
+    <h1>Restaurants</h1>
 
-    <button type="submit">Filter</button>
-</form>
+    <form method="GET">
+        <input name="country" placeholder="Country">
 
-<hr>
+        <input name="min_price" type="number" placeholder="Min price">
+        <input name="max_price" type="number" placeholder="Max price">
 
-{% for r in restaurants %}
+        <button type="submit">Filter</button>
+    </form>
+
+    <hr>
+
+
     <div>
         <h3>{{ r.name }}</h3>
         <p>{{ r.cuisine_type }}</p>
         <p>{{ r.price }}</p>
     </div>
-{% endfor %}
+    {% endfor %}
 
+</body>
+
+</html>
 
 <script>
-function likePlace(type, id) {
-    fetch("/like/", {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/x-www-form-urlencoded",
-            "X-CSRFToken": getCSRF()
-        },
-        body: `type=${type}&id=${id}`
-    })
-    .then(res => res.json())
-    .then(data => console.log(data));
-}
-
-function addToItinerary(type, id, name, lat, lng) {
-    fetch("/add-to-itinerary/", {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json",
-            "X-CSRFToken": getCSRF()
-        },
-        body: JSON.stringify({
-            type, id, name, lat, lng
+    function likePlace(type, id) {
+        fetch("/like/", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/x-www-form-urlencoded",
+                "X-CSRFToken": getCSRF()
+            },
+            body: `type=${type}&id=${id}`
         })
-    })
-    .then(res => res.json())
-    .then(data => alert("Added to itinerary"));
-}
+            .then(res => res.json())
+            .then(data => console.log(data));
+    }
 
-function getCSRF() {
-    return document.cookie.split('csrftoken=')[1];
-}
+    function addToItinerary(type, id, name, lat, lng) {
+        fetch("/add-to-itinerary/", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "X-CSRFToken": getCSRF()
+            },
+            body: JSON.stringify({
+                type, id, name, lat, lng
+            })
+        })
+            .then(res => res.json())
+            .then(data => alert("Added to itinerary"));
+    }
+
+    function getCSRF() {
+        return document.cookie.split('csrftoken=')[1];
+    }
 </script>

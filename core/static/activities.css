@@ -1,0 +1,64 @@
+.page_name {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 250px;
+    justify-content: center;
+
+    background-image: url('../../static/trevia_back.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: 'BoldCondensed';
+    src: url('../../static/Brice Bold Condensed.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.page_name span {
+    font-family: 'BoldCondensed';
+    font-size: 120px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.page_name p {
+    font-family: 'BoldCondensed';
+    font-size: 45px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.filtering_form {
+    height: 10vh;
+    background-color: #01321F;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+
+}
+
+.input_block {
+    height: 50px;
+    width: 290px;
+    border-radius: 11px;
+    border: solid 1px #012a1a;
+    font-size: 18px;
+
+}
+
+.filtering_form button {
+    height: 50px;
+    width: 200px;
+    border-radius: 11px;
+    border: solid 1px #012a1a;
+    background-color: #ffe176;
+    font-size: 18px;
+}
