@@ -5,19 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
     <link rel="stylesheet" href="{% static 'header.css' %}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{% static 'activities.css' %}">
 </head>
 
 <body>
     {% include 'components/header.html' %}
 
-
     <main>
-
         <div class="page_name">
             <span>ACTIVITIES</span>
             <p>Take time to enjoy little happy moments in your life</p>
@@ -27,56 +23,58 @@
             <div>
                 <input name="country" placeholder=" Country" class="input_block">
                 <input name="city" placeholder=" City" class="input_block">
-
                 <input name="min_price" type="number" placeholder=" Min price" class="input_block">
                 <input name="max_price" type="number" placeholder=" Max price" class="input_block">
-
                 <label><input type="checkbox" name="tags" value="history"> History</label>
                 <label><input type="checkbox" name="tags" value="nature"> Nature</label>
                 <label><input type="checkbox" name="tags" value="food"> Food</label>
             </div>
-
             <button type="submit">Filter</button>
         </form>
-        <hr>
+
         <div class="container_activities">
 
-            <div class="coutry_activities">
-                <h1>Uzbekistan</h1>
+            {% for country, country_activities in activities_by_country %}
+            <div class="country_section">
+                <h1>{{ country }}</h1>
 
-              <div class="activities">
+                <div class="carousel_wrapper">
+                    <button class="carousel_btn prev" onclick="scroll_left(this)">&#8592;</button>
 
-                  <div class="activity">
-                    <span class="activity_name">{a.name}</span>
-                    <span class="activity_country">{a.country}</span>
-                    <span class="activity_city">{a.city}</span>
-                </div>
-                 <div class="activity">
-                    <span class="activity_name">{a.name}</span>
-                    <span class="activity_country">{a.country}</span>
-                    <span class="activity_city">{a.city}</span>
-                </div>
-                 <div class="activity">
-                    <span class="activity_name">{a.name}</span>
-                    <span class="activity_country">{a.country}</span>
-                    <span class="activity_city">{a.city}</span>
-                </div>
+                    <div class="activities_carousel">
+                        {% for a in country_activities %}
+                        <div class="activity">
+                            <img src="{{ a.image }}" alt="{{ a.name }}">
+                            <div class="activity_description">
+                                <span class="activity_name">{{ a.name }}</span>
+                                <span class="activity_city">{{ a.city }}</span>
+                                <span class="activity_price">
+                                    {% if a.price == 0 %} Free {% else %} ${{ a.price }} {% endif %}
+                                </span>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
 
-              </div>
+                    <button class="carousel_btn next" onclick="scroll_right(this)">&#8594;</button>
+                </div>
             </div>
+            {% endfor %}
 
         </div>
-           
+    </main>
 
-        
-
- <!--  {% for a in activities %} -->
-
-        <!-- {% endfor %}  -->
-
-        <script src="/core/static/kari.js"></script>
+    <script>
+        function scroll_left(btn) {
+            const carousel = btn.nextElementSibling;
+            carousel.scrollBy({ left: -600, behavior: 'smooth' });
+        }
+        function scroll_right(btn) {
+            const carousel = btn.previousElementSibling;
+            carousel.scrollBy({ left: 600, behavior: 'smooth' });
+        }
+    </script>
 </body>
-
 </html>
 
 
