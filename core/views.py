@@ -63,8 +63,23 @@ def activities_view(request):
         "params": params,
         "selected_categories": params.getlist("category")
     })
+    # country thing 
+def activities_view(request):
+    engine = FilterEngine()
+    qs = Activity.objects.all()
+    activities = engine.filter_queryset(qs, request.GET)
 
+    activities_by_country = {}
+    for a in activities:
+        if a.country not in activities_by_country:
+            activities_by_country[a.country] = []
+        activities_by_country[a.country].append(a)
 
+    return render(request, "core/activities.html", {
+        "activities_by_country": activities_by_country.items(),
+    })
+    
+    #country thing finished
 def restaurants_view(request):
     engine = FilterEngine()
 
