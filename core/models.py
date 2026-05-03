@@ -10,7 +10,7 @@ class BasePlace(models.Model):
     lat = models.FloatField()
     lng = models.FloatField()
 
-    base_price = models.FloatField(default=0)
+    price = models.FloatField(default=0)
     rating = models.FloatField(null=True, blank=True)
 
     image = models.URLField()
@@ -31,18 +31,18 @@ class BasePlace(models.Model):
         return [t.strip() for t in self.tags.split(",") if t.strip()]
 
     def get_price(self):
-        return self.base_price
+        return self.price
 
     def __str__(self):
         return self.name
 
 
 class Activity(BasePlace):
-    category = models.CharField(max_length=100)
+    category = models.JSONField(default=list)
     duration = models.FloatField(default=1)
 
     def display_card(self):
-        return f"{self.name} | {self.duration}h | ${self.base_price}"
+        return f"{self.name} | {self.duration}h | ${self.price}"
 
 
 
@@ -51,7 +51,7 @@ class Restaurant(BasePlace):
     menu = models.JSONField(default=dict)
 
     def display_card(self):
-        return f"{self.name} ({self.cuisine_type}) | ${self.base_price}"
+        return f"{self.name} ({self.cuisine_type}) | ${self.price}"
 
 
 class Hotel(BasePlace):
@@ -64,8 +64,8 @@ class Hotel(BasePlace):
 
     def get_min_room_price(self):
         if not self.rooms:
-            return self.base_price
-        return min(room.get("price", self.base_price) for room in self.rooms)
+            return self.price
+        return min(room.get("price", self.price) for room in self.rooms)
 
     def display_card(self):
         return f"{self.name} ⭐{self.stars} | from ${self.get_min_room_price()}"
