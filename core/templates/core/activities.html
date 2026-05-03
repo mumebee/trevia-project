@@ -28,6 +28,27 @@
                 <label><input type="checkbox" name="tags" value="history"> History</label>
                 <label><input type="checkbox" name="tags" value="nature"> Nature</label>
                 <label><input type="checkbox" name="tags" value="food"> Food</label>
+            <div class="filter_container">
+                <div class="filter_group">
+                    <p>Countries:</p>
+                    {% for c in countries %}
+                    <label><input type="checkbox" name="country" value="{{ c }}" {% if c in selected_countries %}checked{% endif %}> {{ c }}</label>
+                    {% endfor %}
+                </div>
+
+                <div class="filter_group">
+                    <p>Cities:</p>
+                    {% for city in cities %}
+                    <label><input type="checkbox" name="city" value="{{ city }}" {% if city in selected_cities %}checked{% endif %}> {{ city }}</label>
+                    {% endfor %}
+                </div>
+
+                <div class="filter_group">
+                    <p>Categories:</p>
+                    {% for cat in categories %}
+                    <label><input type="checkbox" name="category" value="{{ cat }}" {% if cat in selected_categories %}checked{% endif %}> {{ cat|title }}</label>
+                    {% endfor %}
+                </div>
             </div>
             <button type="submit">Filter</button>
         </form>
