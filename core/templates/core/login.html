@@ -14,18 +14,30 @@
         
         <main class="content-area">
             {% include 'components/header.html' %}
-            <div class="log-container"><h1 class="log-text">Login</h1>
-                <form method="post" class="log-form">
-                    {% csrf_token %}
-                    {% for field in form %}
-                        <div class="form-group">
-                            <label class="input-name" for="{{ field.id_for_label }}">{{ field.label }}</label>
-                            {{ field }}
+            <section class="first-section">
+                <div class="log-container"><h1 class="log-text">Login</h1>
+                    <form method="post" class="log-form">
+                        {% csrf_token %}
+                        {% if form.non_field_errors %}
+                        <div class="error-banner">
+                            {% for error in form.non_field_errors %}
+                            <p>{{ error }}</p>
+                            {% endfor %}
                         </div>
-                    {% endfor %}
-                    <button type="submit" class="submit-btn">Submit</button>
-                </form>
-            </div>
+                        {% endif %}
+                        {% for field in form %}
+                            <div class="form-group">
+                                <label class="input-name" for="{{ field.id_for_label }}">{{ field.label }}</label>
+                                {{ field }}
+                                
+                            </div>
+                        {% endfor %}
+                        <button type="submit" class="submit-btn">Submit</button>
+                        
+                    </form>
+                    
+                </div>
+            </section>
         </main>
     </div>
 

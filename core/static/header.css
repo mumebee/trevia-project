@@ -37,14 +37,14 @@
 }
 /* Scrolled State */
 .main-header.scrolled {
-    max-width: 80px; /* Shrinks the width to fit just the menu button */
-    margin-right: 20px; /* Aligns it to the right with some padding */
-    border-radius: 25px; /* More circular look */
-    background-color: rgba(255, 255, 255, 0.284); /* More transparent */
-    backdrop-filter: blur(10px); /* The blurry effect */
+    max-width: 80px;
+    margin-right: 20px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.284);
+    backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     padding: 10px;
-    justify-content: center; /* Center the remaining button */
+    justify-content: center;
 }
 
 /* Hide navigation and search when scrolled */
@@ -56,19 +56,16 @@
     margin: 0;
     padding: 0;
     pointer-events: none;
-    position: absolute; /* Takes them out of the flow so the header can shrink */
+    position: absolute;
 }
 
-/* Keep the menu button visible and centered */
 .main-header.scrolled .header-right {
     gap: 0;
 }
-
 .main-header.scrolled .menu-btn {
-    font-size: 35px; /* Slightly smaller for the compact look */
+    font-size: 35px;
     margin: 0;
 }
-
 
 .nav-container, .header-right{
     display: flex;

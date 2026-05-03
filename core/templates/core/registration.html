@@ -11,43 +11,45 @@
 </head>
 <body>
         <div class="page-wrapper">
-            {% include 'components/header.html' %}
-            
             <main class="content-area">
-                <div class="reg-container"> <h1 class="reg-text">Registration</h1>
-                    <h4 class="reg-subtext">Already have an account? <a class="to-login" href="{% url 'login' %}">Login</a></h4>
-                    <form method="post" class="reg-form">
-                        {% csrf_token %}
-                        {% if form.non_field_errors %}
-                        <div class="error-banner">
-                            {% for error in form.non_field_errors %}
-                            <p>{{ error }}</p>
-                            {% endfor %}
-                        </div>
-                        {% endif %}
-
-                        {% for field in form %}
-                            <div class="form-group">
-                                <label class="input-name" for="{{ field.id_for_label }}">{{ field.label }}</label>
-                                {{ field }}
-                                {% if field.errors %}
-                                <div class="failed-errors">
-                                    {% for error in field.errors %}
-                                    <p class="error-msg">
-                                        <i class="bi bi-exclamation-circle"></i> {{ error }}
-                                    </p>
-                                    {% endfor %}
-                                </div>
-                                {% endif %}
+                {% include 'components/header.html' %}
+                <section class="first-section">
+                    <div class="reg-container"> <h1 class="reg-text">Registration</h1>
+                        <h4 class="reg-subtext">Already have an account? <a class="to-login" href="{% url 'login' %}">Login</a></h4>
+                        <form method="post" class="reg-form">
+                            {% csrf_token %}
+                            {% if form.non_field_errors %}
+                            <div class="error-banner">
+                                {% for error in form.non_field_errors %}
+                                <p>{{ error }}</p>
+                                {% endfor %}
                             </div>
-                        {% endfor %}
-                        <button type="submit" class="submit-btn">Submit</button>
-                    </form>
-                </div>
+                            {% endif %}
+
+                            {% for field in form %}
+                                <div class="form-group">
+                                    <label class="input-name" for="{{ field.id_for_label }}">{{ field.label }}</label>
+                                    {{ field }}
+                                    {% if field.errors %}
+                                    <div class="failed-errors">
+                                        {% for error in field.errors %}
+                                        <p class="error-msg">
+                                            <i class="bi bi-exclamation-circle"></i> {{ error }}
+                                        </p>
+                                        {% endfor %}
+                                    </div>
+                                    {% endif %}
+                                </div>
+                            {% endfor %}
+                            <button type="submit" class="submit-btn">Submit</button>
+                        </form>
+                    </div>
+                </section>
             </main>
+        <footer class="footer">
+</footer>   
         </div>
 
-<footer class="footer">
-</footer>
+
 </body>
 </html>

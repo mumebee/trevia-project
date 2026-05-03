@@ -207,20 +207,29 @@ header {
 .carousel_wrapper {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 0px;
 }
 .activities_carousel {
     display: flex;
-    gap: 20px;
-    overflow-x: hidden;
+    gap: 15px;
+    overflow-x: scroll;        /* was hidden */
     scroll-behavior: smooth;
     flex: 1;
     min-width: 0;
+    align-items: flex-start;
+    scrollbar-width: none;     /* hides scrollbar in Firefox */
+}
+
+.activities_carousel::-webkit-scrollbar {
+    display: none;             /* hides scrollbar in Chrome/Edge */
 }
 /* ========== ACTIVITY CARD ========== */
 .activity {
     height: 310px;
+    max-height: 310px;
     min-width: 260px;
+    width: 280px;        /* add this — fixed width, no stretching */
+    max-width: 280px;    /* add this */
     border: solid 2px #012a1a;
     border-radius: 18px;
     display: flex;
@@ -228,10 +237,16 @@ header {
     flex-shrink: 0;
     overflow: hidden;
 }
+
 .activity img {
     height: 180px;
+    min-height: 180px;
+    max-height: 180px;
     width: 100%;
     object-fit: cover;
+    object-position: center;
+    display: block;
+    flex-shrink: 0;
 }
 .activity_name {
     font-size: 20px;
@@ -239,7 +254,7 @@ header {
     color: #01321F;
 }
 .activity_city {
-    font-size: 13px;
+    font-size: 20px;
     color: #555;
 }
 .activity_price {
@@ -261,7 +276,7 @@ header {
     flex-direction: column;
     padding: 10px 12px;
     font-family: 'BoldCondensed';
-    gap: 10px;
+    gap: 5px;
 }
 .activity_row {
     display: flex;

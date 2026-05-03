@@ -3,41 +3,75 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
     background-color: #01321F;
-    display: flex;
-    flex-direction: column; /* Stack header and content vertically */
-    align-items: center;
-    min-height: 100vh;
-    padding: 2rem;
+    margin: 0;
 }
+header {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    pointer-events: none;
+}
+@font-face {
+    font-family: 'BoldCondensed';
+    src: url('../../static/Brice Bold Condensed.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 .page-wrapper {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    position: relative;
+}
+.content-area{
+    width: 100%;
 }
 
-.content-area {
-    width: 100%;
-    max-width: 1200px;
+.first-section {
+    width: 100%; 
+    min-height: 120vh;
+    background-image: url('../../static/log1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     display: flex;
     justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -100px;
+    padding-top: 160px;
+    padding-bottom: 60px;     /* add this */
+    height: auto; 
 }
-
+.first-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(1, 50, 31, 0.45);
+    z-index: 0;
+}
 /* Containers */
 .reg-container{
     width: 100%;
     max-width: 550px;
-    background-color: #f7f3e8;
+    /* background-color: #f7f3e8; */
     border-radius: 50px;
     margin: 70px auto;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     padding: 40px;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.284);
+    backdrop-filter: blur(10px);
 }
 
 .reg-text{

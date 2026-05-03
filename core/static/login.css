@@ -3,32 +3,63 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
     background-color: #01321F;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-    padding: 2rem;
-    background-image: url('../../static/log1.jpg');
+    margin: 0;
 }
+header {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    pointer-events: none;
+}
+@font-face {
+    font-family: 'BoldCondensed';
+    src: url('../../static/Brice Bold Condensed.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 .page-wrapper {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    position: relative;
+}
+.content-area{
+    width: 100%;
 }
 
-.content-area {
-    width: 100%;
-    max-width: 1200px;
+/* ========== FIRST SECTION ========== */
+.first-section {
+    width: 100%; 
+    min-height: 118vh;
+    background-image: url('../../static/log1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     display: flex;
     justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -160px;
+    padding-top: 100px;
 }
+.first-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(1, 50, 31, 0.45);
+    z-index: 0;
+}
+
 
 /* Containers */
 .log-container{
@@ -39,6 +70,9 @@ body {
     margin: 70px auto;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     padding: 40px;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.284);
+    backdrop-filter: blur(10px);
 }
 
 .log-text {
@@ -47,6 +81,7 @@ body {
     margin-bottom: 30px;
     font-size: 36px;
     font-weight: 700;
+
 }
 
 /* Form Styling */
@@ -72,7 +107,36 @@ input.form-control {
     background: white;
     outline: none;
 }
-
+input.form-control:focus {
+    border-color: #0a583a;           /* green accent on focus */
+    box-shadow: 0 0 0 3px rgba(10, 88, 58, 0.15);
+}
+/* --- Error Styling --- */
+.form-group input:has(+ .failed-errors) {
+    border: 2px solid #420a0a !important;
+    background-color: #fff5f5;
+}
+.field-errors{
+    margin-top: 6px;
+    padding-left: 15px;
+}
+.error-msg{
+    color: #420a0a;
+    font-size: 14px;
+}
+.error-banner{
+    background-color: #fef2f2;
+    border-left: 5px solid #420a0a;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    color: #420a0a;
+    font-weight: 500;
+}
+@keyframes fadeInError {
+    from { opacity: 0; transform: translateY(-5px); }
+    to { opacity: 1; transform: translateY(0); }
+}
 .submit-btn {
     width: 100%;
     max-width: 300px;
