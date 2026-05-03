@@ -6,8 +6,7 @@
     "city": "Tashkent",
     "category": [
       "shopping",
-      "mall",
-      "modern"
+      "entertainment"
     ],
     "duration": 2,
     "price": 0,
@@ -23,7 +22,6 @@
     "city": "Tashkent",
     "category": [
       "shopping",
-      "mall",
       "entertainment"
     ],
     "duration": 2.5,
@@ -40,8 +38,7 @@
     "city": "Tashkent",
     "category": [
       "shopping",
-      "boutique",
-      "luxury"
+      "entertainment"
     ],
     "duration": 1.5,
     "price": 0,
@@ -57,8 +54,9 @@
     "city": "Tashkent",
     "category": [
       "shopping",
-      "luxury",
-      "dining"
+      "food & dining",
+      "café",
+      "entertainment"
     ],
     "duration": 1.5,
     "price": 0,
@@ -91,8 +89,8 @@
     "city": "Tashkent",
     "category": [
       "shopping",
-      "local",
-      "produce"
+      "bazaar",
+      "traditional"
     ],
     "duration": 1.5,
     "price": 0,
@@ -107,8 +105,6 @@
     "country": "Uzbekistan",
     "city": "Tashkent",
     "category": [
-      "active",
-      "tennis",
       "sports"
     ],
     "duration": 1.5,
@@ -124,9 +120,7 @@
     "country": "Uzbekistan",
     "city": "Tashkent",
     "category": [
-      "active",
-      "pilates",
-      "fitness"
+      "sports"
     ],
     "duration": 1,
     "price": 15,
@@ -141,9 +135,7 @@
     "country": "Uzbekistan",
     "city": "Tashkent",
     "category": [
-      "active",
-      "pilates",
-      "studio"
+      "sports"
     ],
     "duration": 1,
     "price": 12,
@@ -158,9 +150,7 @@
     "country": "Uzbekistan",
     "city": "Tashkent",
     "category": [
-      "active",
-      "stadium",
-      "football"
+      "sports"
     ],
     "duration": 2,
     "price": 5,
@@ -175,9 +165,9 @@
     "country": "Uzbekistan",
     "city": "Tashkent",
     "category": [
-      "active",
       "hiking",
-      "mountains"
+      "nature",
+      "mountain"
     ],
     "duration": 4,
     "price": 10,
@@ -192,9 +182,7 @@
     "country": "Uzbekistan",
     "city": "Tashkent",
     "category": [
-      "active",
-      "climbing",
-      "gym"
+      "sports"
     ],
     "duration": 1.5,
     "price": 8,
@@ -209,9 +197,10 @@
     "country": "Uzbekistan",
     "city": "Tashkent",
     "category": [
-      "cultural",
-      "islamic",
-      "architecture"
+      "history & culture",
+      "traditional",
+      "architecture",
+      "walking"
     ],
     "duration": 1.5,
     "price": 2,
@@ -226,9 +215,9 @@
     "country": "Uzbekistan",
     "city": "Tashkent",
     "category": [
-      "cultural",
-      "history",
-      "museum"
+      "history & culture",
+      "walking",
+      "architecture"
     ],
     "duration": 1.5,
     "price": 3,
@@ -243,9 +232,8 @@
     "country": "Uzbekistan",
     "city": "Tashkent",
     "category": [
-      "cultural",
-      "theatre",
-      "opera"
+      "history & culture",
+      "art & performance"
     ],
     "duration": 2.5,
     "price": 10,
@@ -260,9 +248,8 @@
     "country": "Uzbekistan",
     "city": "Tashkent",
     "category": [
-      "cultural",
-      "museum",
-      "history"
+      "walking",
+      "history & culture"
     ],
     "duration": 2,
     "price": 3,
@@ -277,9 +264,7 @@
     "country": "Uzbekistan",
     "city": "Tashkent",
     "category": [
-      "relax",
-      "spa",
-      "massage"
+      "spa"
     ],
     "duration": 1.5,
     "price": 25,
@@ -294,8 +279,6 @@
     "country": "Uzbekistan",
     "city": "Tashkent",
     "category": [
-      "relax",
-      "hotel",
       "spa"
     ],
     "duration": 2,
@@ -311,9 +294,7 @@
     "country": "Uzbekistan",
     "city": "Tashkent",
     "category": [
-      "relax",
-      "spa",
-      "wellness"
+      "spa"
     ],
     "duration": 1.5,
     "price": 30,
@@ -328,9 +309,12 @@
     "country": "Uzbekistan",
     "city": "Tashkent",
     "category": [
-      "fun",
-      "amusement",
-      "family"
+      "entertainment",
+      "walking",
+      "food & dining",
+      "café",
+      "nightlife",
+      "shopping"
     ],
     "duration": 3,
     "price": 10,
@@ -345,9 +329,7 @@
     "country": "Uzbekistan",
     "city": "Tashkent",
     "category": [
-      "fun",
-      "virtual",
-      "reality"
+      "entertainment"
     ],
     "duration": 1.5,
     "price": 12,
@@ -362,9 +344,8 @@
     "country": "Uzbekistan",
     "city": "Tashkent",
     "category": [
-      "fun",
-      "nightclub",
-      "party"
+      "entertainment",
+      "nightlife"
     ],
     "duration": 3,
     "price": 10,
@@ -379,8 +360,8 @@
     "country": "Uzbekistan",
     "city": "Tashkent",
     "category": [
-      "fun",
-      "bar",
+      "entertainment",
+      "food & dining",
       "nightlife"
     ],
     "duration": 2,
@@ -396,9 +377,9 @@
     "country": "Uzbekistan",
     "city": "Tashkent",
     "category": [
-      "fun",
-      "bar",
-      "lounge"
+      "entertainment",
+      "food & dining",
+      "nightlife"
     ],
     "duration": 2,
     "price": 10,
@@ -413,8 +394,9 @@
     "country": "Uzbekistan",
     "city": "Tashkent",
     "category": [
-      "fun",
-      "rooftop",
+      "entertainment",
+      "bar",
+      "food & dining",
       "nightlife"
     ],
     "duration": 2.5,
@@ -430,9 +412,9 @@
     "country": "Uzbekistan",
     "city": "Tashkent",
     "category": [
-      "active",
-      "walk",
-      "scenic"
+      "walking",
+      "nature",
+      "water"
     ],
     "duration": 1.5,
     "price": 0,
@@ -465,8 +447,7 @@
     "city": "Samarkand",
     "category": [
       "shopping",
-      "mall",
-      "family"
+      "entertainment"
     ],
     "duration": 2,
     "price": 0,
@@ -482,8 +463,8 @@
     "city": "Samarkand",
     "category": [
       "shopping",
-      "souvenirs",
-      "silk"
+      "traditional",
+      "history & culture"
     ],
     "duration": 1.5,
     "price": 0,
@@ -499,8 +480,8 @@
     "city": "Samarkand",
     "category": [
       "shopping",
-      "local",
-      "market"
+      "traditional",
+      "bazaar"
     ],
     "duration": 1.5,
     "price": 0,
@@ -515,8 +496,7 @@
     "country": "Uzbekistan",
     "city": "Samarkand",
     "category": [
-      "active",
-      "rowing",
+      "sports",
       "water"
     ],
     "duration": 1.5,
@@ -532,8 +512,6 @@
     "country": "Uzbekistan",
     "city": "Samarkand",
     "category": [
-      "active",
-      "tennis",
       "sports"
     ],
     "duration": 1.5,
@@ -549,9 +527,7 @@
     "country": "Uzbekistan",
     "city": "Samarkand",
     "category": [
-      "active",
-      "fitness",
-      "gym"
+      "sports"
     ],
     "duration": 1,
     "price": 15,
@@ -566,9 +542,8 @@
     "country": "Uzbekistan",
     "city": "Samarkand",
     "category": [
-      "active",
-      "cycling",
-      "tourist"
+      "sports",
+      "nature"
     ],
     "duration": 2,
     "price": 5,
@@ -579,13 +554,13 @@
   },
   {
     "id": 35,
-    "name": "Registan",
+    "name": "Registan Square",
     "country": "Uzbekistan",
     "city": "Samarkand",
     "category": [
-      "cultural",
+      "history & culture",
       "architecture",
-      "unesco"
+      "walking"
     ],
     "duration": 2,
     "price": 5,
@@ -600,9 +575,9 @@
     "country": "Uzbekistan",
     "city": "Samarkand",
     "category": [
-      "cultural",
-      "necropolis",
-      "mausoleums"
+      "history & culture",
+      "walking",
+      "architecture"
     ],
     "duration": 1.5,
     "price": 3,
@@ -617,9 +592,9 @@
     "country": "Uzbekistan",
     "city": "Samarkand",
     "category": [
-      "cultural",
-      "mausoleum",
-      "timur"
+      "history & culture",
+      "architecture",
+      "walking"
     ],
     "duration": 1,
     "price": 3,
@@ -634,8 +609,8 @@
     "country": "Uzbekistan",
     "city": "Samarkand",
     "category": [
-      "cultural",
-      "mosque",
+      "history & culture",
+      "traditional",
       "architecture"
     ],
     "duration": 1,
@@ -651,9 +626,7 @@
     "country": "Uzbekistan",
     "city": "Samarkand",
     "category": [
-      "relax",
-      "spa",
-      "luxury"
+      "spa"
     ],
     "duration": 2,
     "price": 40,
@@ -668,9 +641,7 @@
     "country": "Uzbekistan",
     "city": "Samarkand",
     "category": [
-      "relax",
-      "hotel",
-      "wellness"
+      "spa"
     ],
     "duration": 1.5,
     "price": 35,
@@ -685,9 +656,10 @@
     "country": "Uzbekistan",
     "city": "Samarkand",
     "category": [
-      "relax",
-      "tea",
-      "traditional"
+      "history & culture",
+      "café",
+      "food & dining",
+      "walking"
     ],
     "duration": 1,
     "price": 5,
@@ -702,8 +674,7 @@
     "country": "Uzbekistan",
     "city": "Samarkand",
     "category": [
-      "fun",
-      "lounge",
+      "entertainment",
       "nightlife"
     ],
     "duration": 2,
@@ -719,9 +690,9 @@
     "country": "Uzbekistan",
     "city": "Samarkand",
     "category": [
-      "fun",
-      "rooftop",
-      "views"
+      "entertainment",
+      "bar",
+      "art & performance"
     ],
     "duration": 2.5,
     "price": 15,
@@ -736,9 +707,7 @@
     "country": "Uzbekistan",
     "city": "Samarkand",
     "category": [
-      "fun",
-      "entertainment",
-      "family"
+      "entertainment"
     ],
     "duration": 2,
     "price": 8,
@@ -754,8 +723,8 @@
     "city": "Khiva",
     "category": [
       "shopping",
-      "artisan",
-      "crafts"
+      "traditional",
+      "history & culture"
     ],
     "duration": 1.5,
     "price": 5,
@@ -788,8 +757,7 @@
     "city": "Khiva",
     "category": [
       "shopping",
-      "carpets",
-      "silk"
+      "traditional"
     ],
     "duration": 1,
     "price": 10,
@@ -805,8 +773,7 @@
     "city": "Khiva",
     "category": [
       "shopping",
-      "woodwork",
-      "craft"
+      "traditional"
     ],
     "duration": 1,
     "price": 5,
@@ -821,9 +788,8 @@
     "country": "Uzbekistan",
     "city": "Khiva",
     "category": [
-      "active",
       "walking",
-      "unesco"
+      "nature"
     ],
     "duration": 2.5,
     "price": 0,
@@ -838,9 +804,7 @@
     "country": "Uzbekistan",
     "city": "Khiva",
     "category": [
-      "active",
-      "fitness",
-      "gym"
+      "sports"
     ],
     "duration": 1,
     "price": 10,
@@ -855,9 +819,9 @@
     "country": "Uzbekistan",
     "city": "Khiva",
     "category": [
-      "active",
+      "history & culture",
       "hiking",
-      "ancient"
+      "architecture"
     ],
     "duration": 4,
     "price": 25,
@@ -872,9 +836,9 @@
     "country": "Uzbekistan",
     "city": "Khiva",
     "category": [
-      "cultural",
-      "unesco",
-      "architecture"
+      "history & culture",
+      "architecture",
+      "walking"
     ],
     "duration": 3,
     "price": 5,
@@ -889,8 +853,7 @@
     "country": "Uzbekistan",
     "city": "Khiva",
     "category": [
-      "cultural",
-      "minaret",
+      "history & culture",
       "architecture"
     ],
     "duration": 0.75,
@@ -906,9 +869,9 @@
     "country": "Uzbekistan",
     "city": "Khiva",
     "category": [
-      "cultural",
-      "fortress",
-      "museum"
+      "history & culture",
+      "architecture",
+      "walking"
     ],
     "duration": 1.5,
     "price": 3,
@@ -923,9 +886,10 @@
     "country": "Uzbekistan",
     "city": "Khiva",
     "category": [
-      "cultural",
-      "mosque",
-      "pillars"
+      "history & culture",
+      "traditional",
+      "architecture",
+      "walking"
     ],
     "duration": 1,
     "price": 2,
@@ -940,9 +904,9 @@
     "country": "Uzbekistan",
     "city": "Khiva",
     "category": [
-      "relax",
-      "hotel",
-      "pool"
+      "water",
+      "spa",
+      "swimming"
     ],
     "duration": 2,
     "price": 20,
@@ -957,9 +921,9 @@
     "country": "Uzbekistan",
     "city": "Khiva",
     "category": [
-      "relax",
-      "cafe",
-      "views"
+      "café",
+      "architecture",
+      "food & dining"
     ],
     "duration": 1,
     "price": 5,
@@ -974,7 +938,7 @@
     "country": "Uzbekistan",
     "city": "Khiva",
     "category": [
-      "relax",
+      "spa",
       "hammam",
       "traditional"
     ],
@@ -991,9 +955,10 @@
     "country": "Uzbekistan",
     "city": "Khiva",
     "category": [
-      "fun",
-      "rooftop",
-      "nightlife"
+      "entertainment",
+      "bar",
+      "nightlife",
+      "art & performance"
     ],
     "duration": 2,
     "price": 8,
@@ -1008,9 +973,7 @@
     "country": "Uzbekistan",
     "city": "Khiva",
     "category": [
-      "fun",
-      "bowling",
-      "family"
+      "entertainment"
     ],
     "duration": 1.5,
     "price": 10,
@@ -1025,9 +988,10 @@
     "country": "Uzbekistan",
     "city": "Khiva",
     "category": [
-      "fun",
-      "cultural",
-      "shows"
+      "entertainment",
+      "history & culture",
+      "art & performance",
+      "traditional"
     ],
     "duration": 2,
     "price": 12,
@@ -1043,8 +1007,10 @@
     "city": "Bukhara",
     "category": [
       "shopping",
-      "historical",
-      "silk"
+      "history & culture",
+      "bazaar",
+      "traditional",
+      "architecture"
     ],
     "duration": 1.5,
     "price": 0,
@@ -1077,8 +1043,7 @@
     "city": "Bukhara",
     "category": [
       "shopping",
-      "souvenirs",
-      "pond"
+      "water"
     ],
     "duration": 1.5,
     "price": 0,
@@ -1094,8 +1059,8 @@
     "city": "Bukhara",
     "category": [
       "shopping",
-      "fashion",
-      "wool"
+      "traditional",
+      "history & culture"
     ],
     "duration": 1,
     "price": 10,
@@ -1110,9 +1075,7 @@
     "country": "Uzbekistan",
     "city": "Bukhara",
     "category": [
-      "active",
-      "fitness",
-      "gym"
+      "sports"
     ],
     "duration": 1,
     "price": 12,
@@ -1127,8 +1090,6 @@
     "country": "Uzbekistan",
     "city": "Bukhara",
     "category": [
-      "active",
-      "tennis",
       "sports"
     ],
     "duration": 1.5,
@@ -1144,9 +1105,9 @@
     "country": "Uzbekistan",
     "city": "Bukhara",
     "category": [
-      "active",
+      "architecture",
       "walking",
-      "unesco"
+      "history & culture"
     ],
     "duration": 3,
     "price": 0,
@@ -1161,9 +1122,9 @@
     "country": "Uzbekistan",
     "city": "Bukhara",
     "category": [
-      "cultural",
-      "minaret",
-      "mosque"
+      "history & culture",
+      "architecture",
+      "walking"
     ],
     "duration": 2,
     "price": 4,
@@ -1178,9 +1139,9 @@
     "country": "Uzbekistan",
     "city": "Bukhara",
     "category": [
-      "cultural",
-      "fortress",
-      "museum"
+      "history & culture",
+      "architecture",
+      "walking"
     ],
     "duration": 1.5,
     "price": 4,
@@ -1195,8 +1156,8 @@
     "country": "Uzbekistan",
     "city": "Bukhara",
     "category": [
-      "cultural",
-      "mausoleum",
+      "history & culture",
+      "walking",
       "architecture"
     ],
     "duration": 1,
@@ -1212,9 +1173,9 @@
     "country": "Uzbekistan",
     "city": "Bukhara",
     "category": [
-      "cultural",
-      "minaret",
-      "unique"
+      "history & culture",
+      "architecture",
+      "walking"
     ],
     "duration": 0.75,
     "price": 2,
@@ -1229,8 +1190,8 @@
     "country": "Uzbekistan",
     "city": "Bukhara",
     "category": [
-      "relax",
-      "hammam",
+      "spa",
+      "history & culture",
       "traditional"
     ],
     "duration": 1.5,
@@ -1246,8 +1207,7 @@
     "country": "Uzbekistan",
     "city": "Bukhara",
     "category": [
-      "relax",
-      "hotel",
+      "water",
       "spa"
     ],
     "duration": 2,
@@ -1263,9 +1223,9 @@
     "country": "Uzbekistan",
     "city": "Bukhara",
     "category": [
-      "relax",
-      "tea",
-      "pond"
+      "nature",
+      "café",
+      "water"
     ],
     "duration": 1,
     "price": 5,
@@ -1280,9 +1240,9 @@
     "country": "Uzbekistan",
     "city": "Bukhara",
     "category": [
-      "fun",
-      "wine",
-      "historical"
+      "entertainment",
+      "food & dining",
+      "history & culture"
     ],
     "duration": 2,
     "price": 12,
@@ -1297,9 +1257,9 @@
     "country": "Uzbekistan",
     "city": "Bukhara",
     "category": [
-      "fun",
-      "rooftop",
-      "views"
+      "entertainment",
+      "bar",
+      "nightlife"
     ],
     "duration": 2.5,
     "price": 15,
@@ -1314,9 +1274,9 @@
     "country": "Uzbekistan",
     "city": "Bukhara",
     "category": [
-      "fun",
-      "folk",
-      "performance"
+      "entertainment",
+      "history & culture",
+      "art & performance"
     ],
     "duration": 1.5,
     "price": 10,
@@ -1332,8 +1292,7 @@
     "city": "Ashgabat",
     "category": [
       "shopping",
-      "modern",
-      "luxury"
+      "entertainment"
     ],
     "duration": 2,
     "price": 0,
@@ -1366,8 +1325,8 @@
     "city": "Ashgabat",
     "category": [
       "shopping",
-      "local",
-      "produce"
+      "bazaar",
+      "traditional"
     ],
     "duration": 1.5,
     "price": 0,
@@ -1383,7 +1342,6 @@
     "city": "Ashgabat",
     "category": [
       "shopping",
-      "mall",
       "entertainment"
     ],
     "duration": 2,
@@ -1400,8 +1358,7 @@
     "city": "Ashgabat",
     "category": [
       "shopping",
-      "supermarket",
-      "modern"
+      "traditional"
     ],
     "duration": 1.5,
     "price": 0,
@@ -1416,8 +1373,6 @@
     "country": "Turkmenistan",
     "city": "Ashgabat",
     "category": [
-      "active",
-      "tennis",
       "sports"
     ],
     "duration": 1.5,
@@ -1433,9 +1388,7 @@
     "country": "Turkmenistan",
     "city": "Ashgabat",
     "category": [
-      "active",
-      "stadium",
-      "fitness"
+      "sports"
     ],
     "duration": 2,
     "price": 5,
@@ -1450,9 +1403,10 @@
     "country": "Turkmenistan",
     "city": "Ashgabat",
     "category": [
-      "active",
+      "mountain",
       "hiking",
-      "mountains"
+      "nature",
+      "walking"
     ],
     "duration": 4,
     "price": 15,
@@ -1467,9 +1421,8 @@
     "country": "Turkmenistan",
     "city": "Ashgabat",
     "category": [
-      "active",
-      "cycling",
-      "urban"
+      "sports",
+      "nature"
     ],
     "duration": 2,
     "price": 5,
@@ -1484,9 +1437,8 @@
     "country": "Turkmenistan",
     "city": "Ashgabat",
     "category": [
-      "cultural",
-      "monument",
-      "central"
+      "history & culture",
+      "architecture"
     ],
     "duration": 1,
     "price": 0,
@@ -1501,9 +1453,8 @@
     "country": "Turkmenistan",
     "city": "Ashgabat",
     "category": [
-      "cultural",
-      "monument",
-      "symbol"
+      "history & culture",
+      "architecture"
     ],
     "duration": 0.75,
     "price": 0,
@@ -1518,9 +1469,8 @@
     "country": "Turkmenistan",
     "city": "Ashgabat",
     "category": [
-      "cultural",
-      "museum",
-      "history"
+      "walking",
+      "history & culture"
     ],
     "duration": 2.5,
     "price": 5,
@@ -1535,9 +1485,9 @@
     "country": "Turkmenistan",
     "city": "Ashgabat",
     "category": [
-      "cultural",
-      "museum",
-      "carpets"
+      "history & culture",
+      "walking",
+      "traditional"
     ],
     "duration": 1.5,
     "price": 4,
@@ -1552,9 +1502,9 @@
     "country": "Turkmenistan",
     "city": "Ashgabat",
     "category": [
-      "cultural",
-      "unesco",
-      "ruins"
+      "history & culture",
+      "walking",
+      "architecture"
     ],
     "duration": 3,
     "price": 10,
@@ -1569,8 +1519,8 @@
     "country": "Turkmenistan",
     "city": "Ashgabat",
     "category": [
-      "relax",
-      "cave",
+      "water",
+      "nature",
       "swimming"
     ],
     "duration": 3,
@@ -1586,8 +1536,6 @@
     "country": "Turkmenistan",
     "city": "Ashgabat",
     "category": [
-      "relax",
-      "hotel",
       "spa"
     ],
     "duration": 2,
@@ -1603,9 +1551,7 @@
     "country": "Turkmenistan",
     "city": "Ashgabat",
     "category": [
-      "relax",
-      "hotel",
-      "wellness"
+      "spa"
     ],
     "duration": 2,
     "price": 25,
@@ -1620,8 +1566,7 @@
     "country": "Turkmenistan",
     "city": "Ashgabat",
     "category": [
-      "relax",
-      "garden",
+      "walking",
       "nature"
     ],
     "duration": 2,
@@ -1637,8 +1582,8 @@
     "country": "Turkmenistan",
     "city": "Ashgabat",
     "category": [
-      "fun",
-      "cultural",
+      "entertainment",
+      "history & culture",
       "entertainment"
     ],
     "duration": 3,
@@ -1654,9 +1599,7 @@
     "country": "Turkmenistan",
     "city": "Ashgabat",
     "category": [
-      "fun",
-      "entertainment",
-      "games"
+      "entertainment"
     ],
     "duration": 2.5,
     "price": 10,
@@ -1671,8 +1614,7 @@
     "country": "Turkmenistan",
     "city": "Ashgabat",
     "category": [
-      "fun",
-      "karaoke",
+      "entertainment",
       "nightlife"
     ],
     "duration": 2,
@@ -1688,8 +1630,8 @@
     "country": "Turkmenistan",
     "city": "Ashgabat",
     "category": [
-      "fun",
-      "rooftop",
+      "entertainment",
+      "architecture",
       "nightlife"
     ],
     "duration": 2.5,
@@ -1707,7 +1649,7 @@
     "category": [
       "shopping",
       "bazaar",
-      "local"
+      "traditional"
     ],
     "duration": 2,
     "price": 0,
@@ -1723,8 +1665,7 @@
     "city": "Turkmenbashi",
     "category": [
       "shopping",
-      "market",
-      "central"
+      "traditional"
     ],
     "duration": 1.5,
     "price": 0,
@@ -1740,8 +1681,7 @@
     "city": "Turkmenbashi",
     "category": [
       "shopping",
-      "resort",
-      "luxury"
+      "entertainment"
     ],
     "duration": 1.5,
     "price": 5,
@@ -1757,8 +1697,8 @@
     "city": "Turkmenbashi",
     "category": [
       "shopping",
-      "seafood",
-      "fresh"
+      "food & dining",
+      "traditional"
     ],
     "duration": 1,
     "price": 0,
@@ -1774,8 +1714,7 @@
     "city": "Turkmenbashi",
     "category": [
       "shopping",
-      "souvenirs",
-      "beach"
+      "nature"
     ],
     "duration": 0.75,
     "price": 3,
@@ -1790,8 +1729,7 @@
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
     "category": [
-      "active",
-      "cycling",
+      "nature",
       "sports"
     ],
     "duration": 2.5,
@@ -1807,8 +1745,7 @@
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
     "category": [
-      "active",
-      "yachting",
+      "nature",
       "water"
     ],
     "duration": 2,
@@ -1824,9 +1761,9 @@
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
     "category": [
-      "active",
       "walking",
-      "scenic"
+      "water",
+      "nature"
     ],
     "duration": 1.5,
     "price": 0,
@@ -1841,9 +1778,9 @@
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
     "category": [
-      "active",
-      "volleyball",
-      "beach"
+      "sports",
+      "water",
+      "nature"
     ],
     "duration": 1,
     "price": 0,
@@ -1858,9 +1795,8 @@
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
     "category": [
-      "active",
-      "cycling",
-      "resort"
+      "sports",
+      "nature"
     ],
     "duration": 2,
     "price": 5,
@@ -1875,9 +1811,7 @@
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
     "category": [
-      "cultural",
-      "history",
-      "museum"
+      "history & culture"
     ],
     "duration": 1.5,
     "price": 3,
@@ -1892,9 +1826,9 @@
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
     "category": [
-      "cultural",
+      "history & culture",
       "architecture",
-      "modern"
+      "entertainment"
     ],
     "duration": 1,
     "price": 0,
@@ -1909,9 +1843,10 @@
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
     "category": [
-      "cultural",
-      "port",
-      "maritime"
+      "history & culture",
+      "water",
+      "traditional",
+      "nature"
     ],
     "duration": 1,
     "price": 0,
@@ -1926,9 +1861,9 @@
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
     "category": [
-      "cultural",
-      "monuments",
-      "scenic"
+      "history & culture",
+      "architecture",
+      "nature"
     ],
     "duration": 1,
     "price": 0,
@@ -1943,9 +1878,10 @@
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
     "category": [
-      "relax",
       "spa",
-      "beach"
+      "swimming",
+      "nature",
+      "water"
     ],
     "duration": 2.5,
     "price": 30,
@@ -1960,9 +1896,9 @@
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
     "category": [
-      "relax",
-      "beach",
-      "sunbathing"
+      "sports",
+      "nature",
+      "swimming"
     ],
     "duration": 3,
     "price": 0,
@@ -1977,9 +1913,7 @@
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
     "category": [
-      "relax",
-      "spa",
-      "wellness"
+      "spa"
     ],
     "duration": 2,
     "price": 35,
@@ -1994,9 +1928,11 @@
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
     "category": [
-      "relax",
-      "tea",
-      "cultural"
+      "water",
+      "nature",
+      "café",
+      "food & dining",
+      "history & culture"
     ],
     "duration": 1,
     "price": 4,
@@ -2011,9 +1947,9 @@
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
     "category": [
-      "fun",
-      "waterpark",
-      "family"
+      "entertainment",
+      "swimming",
+      "water"
     ],
     "duration": 3,
     "price": 15,
@@ -2028,9 +1964,9 @@
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
     "category": [
-      "fun",
-      "beach",
-      "music"
+      "entertainment",
+      "nature",
+      "art & performance"
     ],
     "duration": 3,
     "price": 20,
@@ -2045,8 +1981,7 @@
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
     "category": [
-      "fun",
-      "karaoke",
+      "entertainment",
       "nightlife"
     ],
     "duration": 2,
@@ -2062,9 +1997,9 @@
     "country": "Turkmenistan",
     "city": "Turkmenbashi",
     "category": [
-      "fun",
+      "entertainment",
       "nightlife",
-      "music"
+      "art & performance"
     ],
     "duration": 3,
     "price": 25,
@@ -2097,8 +2032,7 @@
     "city": "Mary",
     "category": [
       "shopping",
-      "market",
-      "central"
+      "traditional"
     ],
     "duration": 1.5,
     "price": 0,
@@ -2114,8 +2048,7 @@
     "city": "Mary",
     "category": [
       "shopping",
-      "carpets",
-      "textiles"
+      "traditional"
     ],
     "duration": 1,
     "price": 5,
@@ -2130,9 +2063,7 @@
     "country": "Turkmenistan",
     "city": "Mary",
     "category": [
-      "active",
-      "walking",
-      "airport"
+      "walking"
     ],
     "duration": 1,
     "price": 0,
@@ -2147,9 +2078,9 @@
     "country": "Turkmenistan",
     "city": "Mary",
     "category": [
-      "active",
+      "history & culture",
       "walking",
-      "station"
+      "architecture"
     ],
     "duration": 1,
     "price": 0,
@@ -2164,9 +2095,9 @@
     "country": "Turkmenistan",
     "city": "Mary",
     "category": [
-      "active",
+      "water",
       "walking",
-      "river"
+      "nature"
     ],
     "duration": 2,
     "price": 0,
@@ -2181,9 +2112,8 @@
     "country": "Turkmenistan",
     "city": "Mary",
     "category": [
-      "active",
-      "roadtrip",
-      "unesco"
+      "history & culture",
+      "walking"
     ],
     "duration": 4,
     "price": 20,
@@ -2198,9 +2128,9 @@
     "country": "Turkmenistan",
     "city": "Mary",
     "category": [
-      "cultural",
-      "unesco",
-      "ruins"
+      "history & culture",
+      "architecture",
+      "walking"
     ],
     "duration": 3.5,
     "price": 10,
@@ -2215,8 +2145,7 @@
     "country": "Turkmenistan",
     "city": "Mary",
     "category": [
-      "cultural",
-      "mausoleum",
+      "history & culture",
       "architecture"
     ],
     "duration": 1.5,
@@ -2232,9 +2161,8 @@
     "country": "Turkmenistan",
     "city": "Mary",
     "category": [
-      "cultural",
-      "fortress",
-      "ancient"
+      "history & culture",
+      "architecture"
     ],
     "duration": 1.5,
     "price": 3,
@@ -2249,9 +2177,9 @@
     "country": "Turkmenistan",
     "city": "Mary",
     "category": [
-      "cultural",
-      "citadel",
-      "unesco"
+      "history & culture",
+      "architecture",
+      "walking"
     ],
     "duration": 1,
     "price": 3,
@@ -2266,9 +2194,7 @@
     "country": "Turkmenistan",
     "city": "Mary",
     "category": [
-      "cultural",
-      "museum",
-      "history"
+      "history & culture"
     ],
     "duration": 1.5,
     "price": 4,
@@ -2283,9 +2209,9 @@
     "country": "Turkmenistan",
     "city": "Mary",
     "category": [
-      "relax",
-      "tea",
-      "traditional"
+      "walking",
+      "café",
+      "bazaar"
     ],
     "duration": 1,
     "price": 3,
@@ -2300,9 +2226,9 @@
     "country": "Turkmenistan",
     "city": "Mary",
     "category": [
-      "relax",
-      "hotel",
-      "lounge"
+      "spa",
+      "sports",
+      "nightlife"
     ],
     "duration": 1.5,
     "price": 15,
@@ -2317,9 +2243,10 @@
     "country": "Turkmenistan",
     "city": "Mary",
     "category": [
-      "relax",
-      "river",
-      "nature"
+      "nature",
+      "walking",
+      "food & dining",
+      "water"
     ],
     "duration": 2,
     "price": 0,
@@ -2334,8 +2261,8 @@
     "country": "Turkmenistan",
     "city": "Mary",
     "category": [
-      "relax",
       "hammam",
+      "spa",
       "traditional"
     ],
     "duration": 1.5,
@@ -2351,9 +2278,10 @@
     "country": "Turkmenistan",
     "city": "Mary",
     "category": [
-      "fun",
-      "restaurant",
-      "live"
+      "entertainment",
+      "food & dining",
+      "art & performance",
+      "nightlife"
     ],
     "duration": 2,
     "price": 15,
@@ -2368,9 +2296,9 @@
     "country": "Turkmenistan",
     "city": "Mary",
     "category": [
-      "fun",
-      "cafe",
-      "music"
+      "entertainment",
+      "café",
+      "art & performance"
     ],
     "duration": 2,
     "price": 8,
@@ -2385,8 +2313,7 @@
     "country": "Turkmenistan",
     "city": "Mary",
     "category": [
-      "fun",
-      "karaoke",
+      "entertainment",
       "nightlife"
     ],
     "duration": 2,
@@ -2402,9 +2329,9 @@
     "country": "Turkmenistan",
     "city": "Mary",
     "category": [
-      "fun",
-      "cultural",
-      "shows"
+      "entertainment",
+      "history & culture",
+      "art & performance"
     ],
     "duration": 2,
     "price": 12,
@@ -2437,8 +2364,7 @@
     "city": "Dashoguz",
     "category": [
       "shopping",
-      "market",
-      "fresh"
+      "bazaar"
     ],
     "duration": 1.5,
     "price": 0,
@@ -2453,8 +2379,6 @@
     "country": "Turkmenistan",
     "city": "Dashoguz",
     "category": [
-      "active",
-      "stadium",
       "sports"
     ],
     "duration": 2,
@@ -2470,9 +2394,8 @@
     "country": "Turkmenistan",
     "city": "Dashoguz",
     "category": [
-      "active",
       "walking",
-      "airport"
+      "architecture"
     ],
     "duration": 1,
     "price": 0,
@@ -2487,9 +2410,8 @@
     "country": "Turkmenistan",
     "city": "Dashoguz",
     "category": [
-      "active",
-      "roadtrip",
-      "unesco"
+      "traditional",
+      "history & culture"
     ],
     "duration": 3,
     "price": 15,
@@ -2504,9 +2426,9 @@
     "country": "Turkmenistan",
     "city": "Dashoguz",
     "category": [
-      "cultural",
-      "unesco",
-      "ruins"
+      "history & culture",
+      "architecture",
+      "walking"
     ],
     "duration": 3,
     "price": 10,
@@ -2521,8 +2443,7 @@
     "country": "Turkmenistan",
     "city": "Dashoguz",
     "category": [
-      "cultural",
-      "minaret",
+      "history & culture",
       "architecture"
     ],
     "duration": 1,
@@ -2538,9 +2459,9 @@
     "country": "Turkmenistan",
     "city": "Dashoguz",
     "category": [
-      "cultural",
-      "mausoleum",
-      "portal"
+      "history & culture",
+      "architecture",
+      "walking"
     ],
     "duration": 1,
     "price": 3,
@@ -2555,9 +2476,8 @@
     "country": "Turkmenistan",
     "city": "Dashoguz",
     "category": [
-      "cultural",
-      "museum",
-      "history"
+      "history & culture",
+      "walking"
     ],
     "duration": 1.5,
     "price": 4,
@@ -2572,9 +2492,8 @@
     "country": "Turkmenistan",
     "city": "Dashoguz",
     "category": [
-      "relax",
-      "hotel",
-      "lounge"
+      "entertainment",
+      "nightlife"
     ],
     "duration": 1.5,
     "price": 15,
@@ -2589,8 +2508,7 @@
     "country": "Turkmenistan",
     "city": "Dashoguz",
     "category": [
-      "relax",
-      "hotel",
+      "entertainment",
       "spa"
     ],
     "duration": 2,
@@ -2606,8 +2524,8 @@
     "country": "Turkmenistan",
     "city": "Dashoguz",
     "category": [
-      "relax",
-      "tea",
+      "food & dining",
+      "café",
       "traditional"
     ],
     "duration": 1,
@@ -2623,9 +2541,10 @@
     "country": "Turkmenistan",
     "city": "Dashoguz",
     "category": [
-      "fun",
-      "restaurant",
-      "live"
+      "entertainment",
+      "food & dining",
+      "art & performance",
+      "nightlife"
     ],
     "duration": 2,
     "price": 15,
@@ -2640,9 +2559,9 @@
     "country": "Turkmenistan",
     "city": "Dashoguz",
     "category": [
-      "fun",
-      "restaurant",
-      "music"
+      "entertainment",
+      "food & dining",
+      "art & performance"
     ],
     "duration": 2.5,
     "price": 18,
@@ -2657,8 +2576,7 @@
     "country": "Turkmenistan",
     "city": "Dashoguz",
     "category": [
-      "fun",
-      "karaoke",
+      "entertainment",
       "nightlife"
     ],
     "duration": 2,
@@ -2674,9 +2592,9 @@
     "country": "Turkmenistan",
     "city": "Dashoguz",
     "category": [
-      "fun",
-      "cultural",
-      "performances"
+      "entertainment",
+      "history & culture",
+      "art & performance"
     ],
     "duration": 2,
     "price": 12,
@@ -2736,7 +2654,7 @@
     "country": "Tadjikistan",
     "city": "Dushanbe",
     "category": [
-      "active"
+      "sports"
     ],
     "duration": 1.5,
     "price": 0,
@@ -2751,8 +2669,8 @@
     "country": "Tadjikistan",
     "city": "Dushanbe",
     "category": [
-      "active",
-      "scenic"
+      "walking",
+      "nature"
     ],
     "duration": 4,
     "price": 0,
@@ -2767,7 +2685,8 @@
     "country": "Tadjikistan",
     "city": "Dushanbe",
     "category": [
-      "active"
+      "walking",
+      "café"
     ],
     "duration": 1,
     "price": 0,
@@ -2782,9 +2701,8 @@
     "country": "Tadjikistan",
     "city": "Dushanbe",
     "category": [
-      "active",
-      "walk",
-      "scenic"
+      "walking",
+      "architecture"
     ],
     "duration": 1.5,
     "price": 0,
@@ -2799,9 +2717,9 @@
     "country": "Tadjikistan",
     "city": "Dushanbe",
     "category": [
-      "cultural",
-      "walk",
-      "scenic"
+      "history & culture",
+      "walking",
+      "nature"
     ],
     "duration": 1.5,
     "price": 0,
@@ -2816,7 +2734,8 @@
     "country": "Tadjikistan",
     "city": "Dushanbe",
     "category": [
-      "cultural"
+      "history & culture",
+      "walking"
     ],
     "duration": 2,
     "price": 0,
@@ -2831,7 +2750,7 @@
     "country": "Tadjikistan",
     "city": "Dushanbe",
     "category": [
-      "cultural"
+      "history & culture"
     ],
     "duration": 1.5,
     "price": 0,
@@ -2846,7 +2765,7 @@
     "country": "Tadjikistan",
     "city": "Dushanbe",
     "category": [
-      "cultural"
+      "history & culture"
     ],
     "duration": 2,
     "price": 0,
@@ -2861,8 +2780,8 @@
     "country": "Tadjikistan",
     "city": "Dushanbe",
     "category": [
-      "cultural",
-      "scenic"
+      "history & culture",
+      "walking"
     ],
     "duration": 0.5,
     "price": 0,
@@ -2877,8 +2796,8 @@
     "country": "Tadjikistan",
     "city": "Dushanbe",
     "category": [
-      "cultural",
-      "scenic"
+      "history & culture",
+      "architecture"
     ],
     "duration": 0.5,
     "price": 0,
@@ -2893,8 +2812,8 @@
     "country": "Tadjikistan",
     "city": "Dushanbe",
     "category": [
-      "relax",
-      "food"
+      "café",
+      "food & dining"
     ],
     "duration": 1.5,
     "price": 0,
@@ -2909,8 +2828,9 @@
     "country": "Tadjikistan",
     "city": "Dushanbe",
     "category": [
-      "relax",
-      "luxury"
+      "food & dining",
+      "entertainment",
+      "spa"
     ],
     "duration": 2,
     "price": 0,
@@ -2925,8 +2845,9 @@
     "country": "Tadjikistan",
     "city": "Dushanbe",
     "category": [
-      "relax",
-      "luxury"
+      "food & dining",
+      "entertainment",
+      "spa"
     ],
     "duration": 2,
     "price": 0,
@@ -2941,8 +2862,8 @@
     "country": "Tadjikistan",
     "city": "Dushanbe",
     "category": [
-      "relax",
-      "scenic"
+      "walking",
+      "nature"
     ],
     "duration": 2,
     "price": 0,
@@ -2957,8 +2878,8 @@
     "country": "Tadjikistan",
     "city": "Dushanbe",
     "category": [
-      "fun",
-      "food",
+      "entertainment",
+      "food & dining",
       "nightlife"
     ],
     "duration": 2,
@@ -2974,9 +2895,8 @@
     "country": "Tadjikistan",
     "city": "Dushanbe",
     "category": [
-      "fun",
-      "coffee",
-      "social"
+      "café",
+      "entertainment"
     ],
     "duration": 1.5,
     "price": 0,
@@ -2991,8 +2911,8 @@
     "country": "Tadjikistan",
     "city": "Dushanbe",
     "category": [
-      "cultural",
-      "fun"
+      "history & culture",
+      "entertainment"
     ],
     "duration": 2,
     "price": 0,
@@ -3007,9 +2927,9 @@
     "country": "Tadjikistan",
     "city": "Dushanbe",
     "category": [
-      "fun",
+      "entertainment",
       "nightlife",
-      "relax"
+      "bar"
     ],
     "duration": 2,
     "price": 0,
@@ -3069,9 +2989,9 @@
     "country": "Tadjikistan",
     "city": "Khujand",
     "category": [
-      "active",
-      "walk",
-      "scenic"
+      "nature",
+      "walking",
+      "water"
     ],
     "duration": 1.5,
     "price": 0,
@@ -3086,7 +3006,7 @@
     "country": "Tadjikistan",
     "city": "Khujand",
     "category": [
-      "active"
+      "sports"
     ],
     "duration": 1.5,
     "price": 0,
@@ -3101,9 +3021,8 @@
     "country": "Tadjikistan",
     "city": "Khujand",
     "category": [
-      "active",
-      "walk",
-      "scenic"
+      "walking",
+      "nature"
     ],
     "duration": 1.5,
     "price": 0,
@@ -3118,7 +3037,7 @@
     "country": "Tadjikistan",
     "city": "Khujand",
     "category": [
-      "cultural"
+      "history & culture"
     ],
     "duration": 2,
     "price": 0,
@@ -3133,7 +3052,7 @@
     "country": "Tadjikistan",
     "city": "Khujand",
     "category": [
-      "cultural"
+      "history & culture"
     ],
     "duration": 1.5,
     "price": 0,
@@ -3148,7 +3067,7 @@
     "country": "Tadjikistan",
     "city": "Khujand",
     "category": [
-      "cultural"
+      "history & culture"
     ],
     "duration": 2,
     "price": 0,
@@ -3163,7 +3082,8 @@
     "country": "Tadjikistan",
     "city": "Khujand",
     "category": [
-      "cultural"
+      "history & culture",
+      "walking"
     ],
     "duration": 2,
     "price": 0,
@@ -3178,8 +3098,8 @@
     "country": "Tadjikistan",
     "city": "Khujand",
     "category": [
-      "relax",
-      "luxury"
+      "entertainment",
+      "food & dining"
     ],
     "duration": 2,
     "price": 0,
@@ -3194,8 +3114,9 @@
     "country": "Tadjikistan",
     "city": "Khujand",
     "category": [
-      "relax",
-      "luxury"
+      "food & dining",
+      "café",
+      "entertainment"
     ],
     "duration": 2,
     "price": 0,
@@ -3210,8 +3131,9 @@
     "country": "Tadjikistan",
     "city": "Khujand",
     "category": [
-      "relax",
-      "food"
+      "café",
+      "food & dining",
+      "traditional"
     ],
     "duration": 1.5,
     "price": 0,
@@ -3226,9 +3148,10 @@
     "country": "Tadjikistan",
     "city": "Khujand",
     "category": [
-      "relax",
-      "food",
-      "scenic"
+      "walking",
+      "café",
+      "food & dining",
+      "water"
     ],
     "duration": 1.5,
     "price": 0,
@@ -3243,8 +3166,8 @@
     "country": "Tadjikistan",
     "city": "Khujand",
     "category": [
-      "fun",
-      "food",
+      "entertainment",
+      "food & dining",
       "nightlife"
     ],
     "duration": 2,
@@ -3260,9 +3183,9 @@
     "country": "Tadjikistan",
     "city": "Khujand",
     "category": [
-      "fun",
-      "coffee",
-      "social"
+      "entertainment",
+      "café",
+      "food & dining"
     ],
     "duration": 1.5,
     "price": 0,
@@ -3277,9 +3200,9 @@
     "country": "Tadjikistan",
     "city": "Khujand",
     "category": [
-      "fun",
+      "entertainment",
       "nightlife",
-      "music"
+      "art & performance"
     ],
     "duration": 2,
     "price": 0,
@@ -3339,9 +3262,9 @@
     "country": "Tadjikistan",
     "city": "Kulob",
     "category": [
-      "active",
-      "walk",
-      "scenic"
+      "walking",
+      "nature",
+      "water"
     ],
     "duration": 1.5,
     "price": 0,
@@ -3356,7 +3279,7 @@
     "country": "Tadjikistan",
     "city": "Kulob",
     "category": [
-      "active"
+      "sports"
     ],
     "duration": 1.5,
     "price": 0,
@@ -3371,9 +3294,8 @@
     "country": "Tadjikistan",
     "city": "Kulob",
     "category": [
-      "active",
-      "walk",
-      "scenic"
+      "walking",
+      "nature"
     ],
     "duration": 1.5,
     "price": 0,
@@ -3388,7 +3310,7 @@
     "country": "Tadjikistan",
     "city": "Kulob",
     "category": [
-      "cultural"
+      "history & culture"
     ],
     "duration": 1.5,
     "price": 0,
@@ -3403,7 +3325,8 @@
     "country": "Tadjikistan",
     "city": "Kulob",
     "category": [
-      "cultural"
+      "history & culture",
+      "walking"
     ],
     "duration": 2,
     "price": 0,
@@ -3418,8 +3341,9 @@
     "country": "Tadjikistan",
     "city": "Kulob",
     "category": [
-      "cultural",
-      "scenic"
+      "history & culture",
+      "architecture",
+      "water"
     ],
     "duration": 1.5,
     "price": 0,
@@ -3434,8 +3358,7 @@
     "country": "Tadjikistan",
     "city": "Kulob",
     "category": [
-      "relax",
-      "luxury"
+      "food & dining"
     ],
     "duration": 2,
     "price": 0,
@@ -3450,8 +3373,8 @@
     "country": "Tadjikistan",
     "city": "Kulob",
     "category": [
-      "relax",
-      "luxury"
+      "food & dining",
+      "entertainment"
     ],
     "duration": 2,
     "price": 0,
@@ -3466,8 +3389,12 @@
     "country": "Tadjikistan",
     "city": "Kulob",
     "category": [
-      "relax",
-      "food"
+      "café",
+      "food & dining",
+      "walking",
+      "traditional",
+      "history & culture",
+      "architecture"
     ],
     "duration": 1.5,
     "price": 0,
@@ -3482,9 +3409,9 @@
     "country": "Tadjikistan",
     "city": "Kulob",
     "category": [
-      "relax",
-      "food",
-      "scenic"
+      "walking",
+      "food & dining",
+      "café"
     ],
     "duration": 1.5,
     "price": 0,
@@ -3499,8 +3426,8 @@
     "country": "Tadjikistan",
     "city": "Kulob",
     "category": [
-      "fun",
-      "food",
+      "entertainment",
+      "food & dining",
       "nightlife"
     ],
     "duration": 2,
@@ -3516,9 +3443,8 @@
     "country": "Tadjikistan",
     "city": "Kulob",
     "category": [
-      "fun",
-      "coffee",
-      "social"
+      "entertainment",
+      "café"
     ],
     "duration": 1.5,
     "price": 0,
@@ -3533,9 +3459,10 @@
     "country": "Tadjikistan",
     "city": "Kulob",
     "category": [
-      "fun",
+      "entertainment",
       "nightlife",
-      "relax"
+      "café",
+      "food & dining"
     ],
     "duration": 2,
     "price": 0,
@@ -3580,7 +3507,9 @@
     "country": "Tadjikistan",
     "city": "Khorog",
     "category": [
-      "shopping"
+      "shopping",
+      "traditional",
+      "history & culture"
     ],
     "duration": 1.5,
     "price": 0,
@@ -3595,9 +3524,9 @@
     "country": "Tadjikistan",
     "city": "Khorog",
     "category": [
-      "active",
-      "walk",
-      "scenic"
+      "walking",
+      "nature",
+      "water"
     ],
     "duration": 1.5,
     "price": 0,
@@ -3612,7 +3541,7 @@
     "country": "Tadjikistan",
     "city": "Khorog",
     "category": [
-      "active"
+      "sports"
     ],
     "duration": 1.5,
     "price": 0,
@@ -3627,8 +3556,9 @@
     "country": "Tadjikistan",
     "city": "Khorog",
     "category": [
-      "active",
-      "scenic"
+      "nature",
+      "hiking",
+      "mountain"
     ],
     "duration": 4,
     "price": 0,
@@ -3643,7 +3573,8 @@
     "country": "Tadjikistan",
     "city": "Khorog",
     "category": [
-      "cultural"
+      "history & culture",
+      "walking"
     ],
     "duration": 2,
     "price": 0,
@@ -3658,9 +3589,9 @@
     "country": "Tadjikistan",
     "city": "Khorog",
     "category": [
-      "cultural",
-      "walk",
-      "scenic"
+      "history & culture",
+      "walking",
+      "nature"
     ],
     "duration": 1.5,
     "price": 0,
@@ -3675,7 +3606,7 @@
     "country": "Tadjikistan",
     "city": "Khorog",
     "category": [
-      "cultural"
+      "history & culture"
     ],
     "duration": 1.5,
     "price": 0,
@@ -3690,8 +3621,7 @@
     "country": "Tadjikistan",
     "city": "Khorog",
     "category": [
-      "relax",
-      "luxury"
+      "food & dining"
     ],
     "duration": 2,
     "price": 0,
@@ -3706,8 +3636,9 @@
     "country": "Tadjikistan",
     "city": "Khorog",
     "category": [
-      "relax",
-      "luxury"
+      "entertainment",
+      "food & dining",
+      "nightlife"
     ],
     "duration": 2,
     "price": 0,
@@ -3722,9 +3653,11 @@
     "country": "Tadjikistan",
     "city": "Khorog",
     "category": [
-      "relax",
-      "food",
-      "scenic"
+      "water",
+      "nature",
+      "walking",
+      "food & dining",
+      "café"
     ],
     "duration": 1.5,
     "price": 0,
@@ -3739,8 +3672,8 @@
     "country": "Tadjikistan",
     "city": "Khorog",
     "category": [
-      "relax",
-      "scenic"
+      "nature",
+      "walking"
     ],
     "duration": 2,
     "price": 0,
@@ -3755,8 +3688,8 @@
     "country": "Tadjikistan",
     "city": "Khorog",
     "category": [
-      "fun",
-      "food",
+      "entertainment",
+      "food & dining",
       "nightlife"
     ],
     "duration": 2,
@@ -3772,9 +3705,9 @@
     "country": "Tadjikistan",
     "city": "Khorog",
     "category": [
-      "fun",
-      "coffee",
-      "social"
+      "entertainment",
+      "café",
+      "food & dining"
     ],
     "duration": 1.5,
     "price": 0,
@@ -3789,9 +3722,8 @@
     "country": "Tadjikistan",
     "city": "Khorog",
     "category": [
-      "fun",
-      "nightlife",
-      "relax"
+      "entertainment",
+      "nightlife"
     ],
     "duration": 2,
     "price": 0,
@@ -3821,7 +3753,9 @@
     "country": "Kyrgyzstan",
     "city": "Bishkek",
     "category": [
-      "shopping"
+      "shopping",
+      "bazaar",
+      "traditional"
     ],
     "duration": 2,
     "price": 0,
@@ -3836,7 +3770,9 @@
     "country": "Kyrgyzstan",
     "city": "Bishkek",
     "category": [
-      "shopping"
+      "shopping",
+      "entertainment",
+      "food & dining"
     ],
     "duration": 1.5,
     "price": 0,
@@ -3851,7 +3787,8 @@
     "country": "Kyrgyzstan",
     "city": "Bishkek",
     "category": [
-      "shopping"
+      "shopping",
+      "entertainment"
     ],
     "duration": 1.5,
     "price": 0,
@@ -3866,9 +3803,8 @@
     "country": "Kyrgyzstan",
     "city": "Bishkek",
     "category": [
-      "active",
-      "walk",
-      "scenic"
+      "walking",
+      "nature"
     ],
     "duration": 1.5,
     "price": 0,
@@ -3883,9 +3819,8 @@
     "country": "Kyrgyzstan",
     "city": "Bishkek",
     "category": [
-      "active",
-      "walk",
-      "scenic"
+      "walking",
+      "nature"
     ],
     "duration": 1.5,
     "price": 0,
@@ -3900,8 +3835,9 @@
     "country": "Kyrgyzstan",
     "city": "Bishkek",
     "category": [
-      "active",
-      "scenic"
+      "nature",
+      "sports",
+      "hiking"
     ],
     "duration": 4,
     "price": 0,
@@ -3916,7 +3852,7 @@
     "country": "Kyrgyzstan",
     "city": "Bishkek",
     "category": [
-      "active"
+      "sports"
     ],
     "duration": 1.5,
     "price": 0,
@@ -3931,7 +3867,8 @@
     "country": "Kyrgyzstan",
     "city": "Bishkek",
     "category": [
-      "cultural"
+      "history & culture",
+      "walking"
     ],
     "duration": 2,
     "price": 0,
@@ -3946,7 +3883,8 @@
     "country": "Kyrgyzstan",
     "city": "Bishkek",
     "category": [
-      "cultural"
+      "history & culture",
+      "walking"
     ],
     "duration": 1.5,
     "price": 0,
@@ -3961,7 +3899,8 @@
     "country": "Kyrgyzstan",
     "city": "Bishkek",
     "category": [
-      "cultural"
+      "history & culture",
+      "architecture"
     ],
     "duration": 1.5,
     "price": 0,
@@ -3976,8 +3915,8 @@
     "country": "Kyrgyzstan",
     "city": "Bishkek",
     "category": [
-      "cultural",
-      "fun"
+      "history & culture",
+      "entertainment"
     ],
     "duration": 2,
     "price": 0,
@@ -3992,8 +3931,9 @@
     "country": "Kyrgyzstan",
     "city": "Bishkek",
     "category": [
-      "relax",
-      "luxury"
+      "food & dining",
+      "walking",
+      "shopping"
     ],
     "duration": 2,
     "price": 0,
@@ -4008,8 +3948,7 @@
     "country": "Kyrgyzstan",
     "city": "Bishkek",
     "category": [
-      "relax",
-      "luxury"
+      "food & dining"
     ],
     "duration": 2,
     "price": 0,
@@ -4024,9 +3963,9 @@
     "country": "Kyrgyzstan",
     "city": "Bishkek",
     "category": [
-      "relax",
-      "food",
-      "scenic"
+      "walking",
+      "food & dining",
+      "café"
     ],
     "duration": 1.5,
     "price": 0,
@@ -4041,8 +3980,9 @@
     "country": "Kyrgyzstan",
     "city": "Bishkek",
     "category": [
-      "relax",
-      "food"
+      "café",
+      "food & dining",
+      "walking"
     ],
     "duration": 1.5,
     "price": 0,
@@ -4057,8 +3997,8 @@
     "country": "Kyrgyzstan",
     "city": "Bishkek",
     "category": [
-      "fun",
-      "food",
+      "entertainment",
+      "food & dining",
       "nightlife"
     ],
     "duration": 2,
@@ -4074,8 +4014,11 @@
     "country": "Kyrgyzstan",
     "city": "Bishkek",
     "category": [
-      "fun",
-      "nightlife"
+      "entertainment",
+      "nightlife",
+      "bar",
+      "food & dining",
+      "walking"
     ],
     "duration": 2,
     "price": 0,
@@ -4090,7 +4033,7 @@
     "country": "Kyrgyzstan",
     "city": "Bishkek",
     "category": [
-      "fun",
+      "entertainment",
       "nightlife"
     ],
     "duration": 2,
@@ -4106,9 +4049,11 @@
     "country": "Kyrgyzstan",
     "city": "Bishkek",
     "category": [
-      "fun",
+      "entertainment",
       "nightlife",
-      "relax"
+      "bar",
+      "walking",
+      "food & dining"
     ],
     "duration": 2,
     "price": 0,
@@ -4168,8 +4113,9 @@
     "country": "Kyrgyzstan",
     "city": "Osh",
     "category": [
-      "active",
-      "scenic"
+      "hiking",
+      "mountain",
+      "nature"
     ],
     "duration": 3,
     "price": 0,
@@ -4184,9 +4130,9 @@
     "country": "Kyrgyzstan",
     "city": "Osh",
     "category": [
-      "active",
-      "walk",
-      "scenic"
+      "walking",
+      "nature",
+      "water"
     ],
     "duration": 1.5,
     "price": 0,
@@ -4201,9 +4147,9 @@
     "country": "Kyrgyzstan",
     "city": "Osh",
     "category": [
-      "active",
-      "walk",
-      "scenic"
+      "food & dining",
+      "walking",
+      "nature"
     ],
     "duration": 1.5,
     "price": 0,
@@ -4218,7 +4164,7 @@
     "country": "Kyrgyzstan",
     "city": "Osh",
     "category": [
-      "active"
+      "sports"
     ],
     "duration": 1.5,
     "price": 0,
@@ -4233,7 +4179,8 @@
     "country": "Kyrgyzstan",
     "city": "Osh",
     "category": [
-      "cultural"
+      "history & culture",
+      "walking"
     ],
     "duration": 2,
     "price": 0,
@@ -4248,7 +4195,7 @@
     "country": "Kyrgyzstan",
     "city": "Osh",
     "category": [
-      "cultural"
+      "history & culture"
     ],
     "duration": 1.5,
     "price": 0,
@@ -4263,7 +4210,7 @@
     "country": "Kyrgyzstan",
     "city": "Osh",
     "category": [
-      "cultural"
+      "history & culture"
     ],
     "duration": 1.5,
     "price": 0,
@@ -4278,8 +4225,8 @@
     "country": "Kyrgyzstan",
     "city": "Osh",
     "category": [
-      "relax",
-      "luxury"
+      "entertainment",
+      "food & dining"
     ],
     "duration": 2,
     "price": 0,
@@ -4294,8 +4241,8 @@
     "country": "Kyrgyzstan",
     "city": "Osh",
     "category": [
-      "relax",
-      "luxury"
+      "entertainment",
+      "nightlife"
     ],
     "duration": 2,
     "price": 0,
@@ -4310,9 +4257,11 @@
     "country": "Kyrgyzstan",
     "city": "Osh",
     "category": [
-      "relax",
-      "food",
-      "scenic"
+      "café",
+      "walking",
+      "food & dining",
+      "nature",
+      "water"
     ],
     "duration": 1.5,
     "price": 0,
@@ -4327,8 +4276,9 @@
     "country": "Kyrgyzstan",
     "city": "Osh",
     "category": [
-      "relax",
-      "food"
+      "café",
+      "food & dining",
+      "walking"
     ],
     "duration": 1.5,
     "price": 0,
@@ -4343,8 +4293,8 @@
     "country": "Kyrgyzstan",
     "city": "Osh",
     "category": [
-      "fun",
-      "food",
+      "entertainment",
+      "food & dining",
       "nightlife"
     ],
     "duration": 2,
@@ -4360,8 +4310,8 @@
     "country": "Kyrgyzstan",
     "city": "Osh",
     "category": [
-      "fun",
-      "food",
+      "entertainment",
+      "food & dining",
       "nightlife"
     ],
     "duration": 2,
@@ -4377,9 +4327,8 @@
     "country": "Kyrgyzstan",
     "city": "Osh",
     "category": [
-      "fun",
-      "coffee",
-      "social"
+      "entertainment",
+      "café"
     ],
     "duration": 1.5,
     "price": 0,
@@ -4394,9 +4343,9 @@
     "country": "Kyrgyzstan",
     "city": "Osh",
     "category": [
-      "fun",
+      "entertainment",
       "nightlife",
-      "relax"
+      "bar"
     ],
     "duration": 2,
     "price": 0,
@@ -4437,11 +4386,18 @@
   },
   {
     "id": 269,
+<<<<<<< HEAD
     "name": "Local handicraft shops (felt products, сувениры)",
     "country": "Kyrgyzstan",
+=======
+    "name": "Local handicraft shops (felt products, souvenirs)",
+    "country": "Kyrgystan",
+>>>>>>> 796611f12e78e044af84db4093199438598adebf
     "city": "Karakol",
     "category": [
-      "shopping"
+      "shopping",
+      "history & culture",
+      "traditional"
     ],
     "duration": 1.5,
     "price": 0,
@@ -4456,8 +4412,9 @@
     "country": "Kyrgyzstan",
     "city": "Karakol",
     "category": [
-      "active",
-      "scenic"
+      "nature",
+      "mountain",
+      "sports"
     ],
     "duration": 4,
     "price": 0,
@@ -4472,8 +4429,8 @@
     "country": "Kyrgyzstan",
     "city": "Karakol",
     "category": [
-      "active",
-      "scenic"
+      "nature",
+      "hiking"
     ],
     "duration": 4,
     "price": 0,
@@ -4488,8 +4445,9 @@
     "country": "Kyrgyzstan",
     "city": "Karakol",
     "category": [
-      "active",
-      "scenic"
+      "nature",
+      "water",
+      "walking"
     ],
     "duration": 4,
     "price": 0,
@@ -4504,9 +4462,9 @@
     "country": "Kyrgyzstan",
     "city": "Karakol",
     "category": [
-      "active",
-      "walk",
-      "scenic"
+      "walking",
+      "nature",
+      "history & culture"
     ],
     "duration": 1.5,
     "price": 0,
@@ -4521,7 +4479,7 @@
     "country": "Kyrgyzstan",
     "city": "Karakol",
     "category": [
-      "cultural"
+      "history & culture"
     ],
     "duration": 1.5,
     "price": 0,
@@ -4536,7 +4494,7 @@
     "country": "Kyrgyzstan",
     "city": "Karakol",
     "category": [
-      "cultural"
+      "history & culture"
     ],
     "duration": 1.5,
     "price": 0,
@@ -4551,7 +4509,8 @@
     "country": "Kyrgyzstan",
     "city": "Karakol",
     "category": [
-      "cultural"
+      "history & culture",
+      "walking"
     ],
     "duration": 2,
     "price": 0,
@@ -4566,8 +4525,8 @@
     "country": "Kyrgyzstan",
     "city": "Karakol",
     "category": [
-      "relax",
-      "luxury"
+      "food & dining",
+      "entertainment"
     ],
     "duration": 2,
     "price": 0,
@@ -4582,8 +4541,8 @@
     "country": "Kyrgyzstan",
     "city": "Karakol",
     "category": [
-      "relax",
-      "luxury"
+      "food & dining",
+      "entertainment"
     ],
     "duration": 2,
     "price": 0,
@@ -4598,9 +4557,11 @@
     "country": "Kyrgyzstan",
     "city": "Karakol",
     "category": [
-      "relax",
-      "food",
-      "scenic"
+      "café",
+      "walking",
+      "food & dining",
+      "nature",
+      "water"
     ],
     "duration": 1.5,
     "price": 0,
@@ -4615,8 +4576,8 @@
     "country": "Kyrgyzstan",
     "city": "Karakol",
     "category": [
-      "relax",
-      "luxury"
+      "traditional",
+      "walking"
     ],
     "duration": 2,
     "price": 0,
@@ -4631,8 +4592,8 @@
     "country": "Kyrgyzstan",
     "city": "Karakol",
     "category": [
-      "fun",
-      "food",
+      "entertainment",
+      "food & dining",
       "nightlife"
     ],
     "duration": 2,
@@ -4648,9 +4609,8 @@
     "country": "Kyrgyzstan",
     "city": "Karakol",
     "category": [
-      "fun",
-      "coffee",
-      "social"
+      "entertainment",
+      "café"
     ],
     "duration": 1.5,
     "price": 0,
@@ -4665,9 +4625,8 @@
     "country": "Kyrgyzstan",
     "city": "Karakol",
     "category": [
-      "fun",
-      "coffee",
-      "social"
+      "entertainment",
+      "café"
     ],
     "duration": 1.5,
     "price": 0,
@@ -4682,9 +4641,10 @@
     "country": "Kyrgyzstan",
     "city": "Karakol",
     "category": [
-      "fun",
+      "entertainment",
       "nightlife",
-      "relax"
+      "bar",
+      "walking"
     ],
     "duration": 2,
     "price": 0,
@@ -4744,9 +4704,9 @@
     "country": "Kyrgyzstan",
     "city": "Naryn",
     "category": [
-      "active",
-      "walk",
-      "scenic"
+      "walking",
+      "water",
+      "nature"
     ],
     "duration": 1.5,
     "price": 0,
@@ -4761,8 +4721,9 @@
     "country": "Kyrgyzstan",
     "city": "Naryn",
     "category": [
-      "active",
-      "scenic"
+      "hiking",
+      "nature",
+      "mountain"
     ],
     "duration": 4,
     "price": 0,
@@ -4777,9 +4738,10 @@
     "country": "Kyrgyzstan",
     "city": "Naryn",
     "category": [
-      "active",
-      "cultural",
-      "scenic"
+      "walking",
+      "nature",
+      "history & culture",
+      "architecture"
     ],
     "duration": 5,
     "price": 0,
@@ -4794,7 +4756,7 @@
     "country": "Kyrgyzstan",
     "city": "Naryn",
     "category": [
-      "active"
+      "sports"
     ],
     "duration": 1.5,
     "price": 0,
@@ -4809,7 +4771,8 @@
     "country": "Kyrgyzstan",
     "city": "Naryn",
     "category": [
-      "cultural"
+      "history & culture",
+      "walking"
     ],
     "duration": 2,
     "price": 0,
@@ -4824,7 +4787,10 @@
     "country": "Kyrgyzstan",
     "city": "Naryn",
     "category": [
-      "cultural"
+      "history & culture",
+      "architecture",
+      "walking",
+      "traditional"
     ],
     "duration": 1.5,
     "price": 0,
@@ -4839,8 +4805,9 @@
     "country": "Kyrgyzstan",
     "city": "Naryn",
     "category": [
-      "relax",
-      "luxury"
+      "entertainment",
+      "food & dining",
+      "spa"
     ],
     "duration": 2,
     "price": 0,
@@ -4855,8 +4822,8 @@
     "country": "Kyrgyzstan",
     "city": "Naryn",
     "category": [
-      "relax",
-      "luxury"
+      "spa",
+      "entertainment"
     ],
     "duration": 2,
     "price": 0,
@@ -4871,9 +4838,11 @@
     "country": "Kyrgyzstan",
     "city": "Naryn",
     "category": [
-      "relax",
-      "food",
-      "scenic"
+      "café",
+      "food & dining",
+      "water",
+      "walking",
+      "nature"
     ],
     "duration": 1.5,
     "price": 0,
@@ -4888,8 +4857,8 @@
     "country": "Kyrgyzstan",
     "city": "Naryn",
     "category": [
-      "relax",
-      "food"
+      "café",
+      "food & dining"
     ],
     "duration": 1.5,
     "price": 0,
@@ -4904,8 +4873,8 @@
     "country": "Kyrgyzstan",
     "city": "Naryn",
     "category": [
-      "fun",
-      "food",
+      "entertainment",
+      "food & dining",
       "nightlife"
     ],
     "duration": 2,
@@ -4921,9 +4890,9 @@
     "country": "Kyrgyzstan",
     "city": "Naryn",
     "category": [
-      "fun",
-      "coffee",
-      "social"
+      "entertainment",
+      "café",
+      "food & dining"
     ],
     "duration": 1.5,
     "price": 0,
@@ -4938,9 +4907,9 @@
     "country": "Kyrgyzstan",
     "city": "Naryn",
     "category": [
-      "fun",
+      "entertainment",
       "nightlife",
-      "relax"
+      "bar"
     ],
     "duration": 2,
     "price": 0,
@@ -5015,8 +4984,8 @@
     "country": "Kazakhstan",
     "city": "Almaty",
     "category": [
-      "active",
-      "scenic"
+      "nature",
+      "hiking"
     ],
     "duration": 4,
     "price": 0,
@@ -5031,8 +5000,8 @@
     "country": "Kazakhstan",
     "city": "Almaty",
     "category": [
-      "active",
-      "scenic"
+      "walking",
+      "nature"
     ],
     "duration": 2,
     "price": 0,
@@ -5047,7 +5016,7 @@
     "country": "Kazakhstan",
     "city": "Almaty",
     "category": [
-      "active"
+      "sports"
     ],
     "duration": 2,
     "price": 0,
@@ -5062,8 +5031,9 @@
     "country": "Kazakhstan",
     "city": "Almaty",
     "category": [
-      "active",
-      "scenic"
+      "mountain",
+      "nature",
+      "sports"
     ],
     "duration": 4,
     "price": 0,
@@ -5078,7 +5048,7 @@
     "country": "Kazakhstan",
     "city": "Almaty",
     "category": [
-      "cultural"
+      "history & culture"
     ],
     "duration": 1.5,
     "price": 0,
@@ -5093,7 +5063,8 @@
     "country": "Kazakhstan",
     "city": "Almaty",
     "category": [
-      "cultural"
+      "history & culture",
+      "walking"
     ],
     "duration": 2,
     "price": 0,
@@ -5108,8 +5079,8 @@
     "country": "Kazakhstan",
     "city": "Almaty",
     "category": [
-      "cultural",
-      "fun"
+      "history & culture",
+      "entertainment"
     ],
     "duration": 2,
     "price": 0,
@@ -5124,8 +5095,9 @@
     "country": "Kazakhstan",
     "city": "Almaty",
     "category": [
-      "cultural",
-      "scenic"
+      "history & culture",
+      "architecture",
+      "nature"
     ],
     "duration": 1.5,
     "price": 0,
@@ -5140,8 +5112,11 @@
     "country": "Kazakhstan",
     "city": "Almaty",
     "category": [
-      "relax",
-      "luxury"
+      "spa",
+      "entertainment",
+      "food & dining",
+      "sports",
+      "swimming"
     ],
     "duration": 2,
     "price": 0,
@@ -5156,8 +5131,8 @@
     "country": "Kazakhstan",
     "city": "Almaty",
     "category": [
-      "relax",
-      "luxury"
+      "food & dining",
+      "entertainment"
     ],
     "duration": 2,
     "price": 0,
@@ -5172,9 +5147,9 @@
     "country": "Kazakhstan",
     "city": "Almaty",
     "category": [
-      "relax",
-      "food",
-      "scenic"
+      "walking",
+      "food & dining",
+      "café"
     ],
     "duration": 1.5,
     "price": 0,
@@ -5189,9 +5164,8 @@
     "country": "Kazakhstan",
     "city": "Almaty",
     "category": [
-      "relax",
-      "walk",
-      "scenic"
+      "walking",
+      "nature"
     ],
     "duration": 1.5,
     "price": 0,
@@ -5266,9 +5240,9 @@
     "country": "Kazakhstan",
     "city": "Astana",
     "category": [
-      "active",
-      "walk",
-      "scenic"
+      "walking",
+      "water",
+      "nature"
     ],
     "duration": 1.5,
     "price": 0,
@@ -5283,7 +5257,7 @@
     "country": "Kazakhstan",
     "city": "Astana",
     "category": [
-      "active"
+      "sports"
     ],
     "duration": 1.5,
     "price": 0,
@@ -5298,9 +5272,8 @@
     "country": "Kazakhstan",
     "city": "Astana",
     "category": [
-      "active",
-      "walk",
-      "scenic"
+      "walking",
+      "nature"
     ],
     "duration": 1.5,
     "price": 0,
@@ -5315,8 +5288,9 @@
     "country": "Kazakhstan",
     "city": "Astana",
     "category": [
-      "active",
-      "scenic"
+      "nature",
+      "water",
+      "sports"
     ],
     "duration": 2,
     "price": 0,
@@ -5331,8 +5305,8 @@
     "country": "Kazakhstan",
     "city": "Astana",
     "category": [
-      "cultural",
-      "scenic"
+      "history & culture",
+      "architecture"
     ],
     "duration": 1.5,
     "price": 0,
@@ -5347,7 +5321,7 @@
     "country": "Kazakhstan",
     "city": "Astana",
     "category": [
-      "cultural"
+      "history & culture"
     ],
     "duration": 1.5,
     "price": 0,
@@ -5362,7 +5336,8 @@
     "country": "Kazakhstan",
     "city": "Astana",
     "category": [
-      "cultural"
+      "history & culture",
+      "walking"
     ],
     "duration": 2,
     "price": 0,
@@ -5377,7 +5352,7 @@
     "country": "Kazakhstan",
     "city": "Astana",
     "category": [
-      "cultural"
+      "history & culture"
     ],
     "duration": 1.5,
     "price": 0,
@@ -5392,8 +5367,8 @@
     "country": "Kazakhstan",
     "city": "Astana",
     "category": [
-      "relax",
-      "luxury"
+      "food & dining",
+      "entertainment"
     ],
     "duration": 2,
     "price": 0,
@@ -5408,8 +5383,8 @@
     "country": "Kazakhstan",
     "city": "Astana",
     "category": [
-      "relax",
-      "luxury"
+      "food & dining",
+      "entertainment"
     ],
     "duration": 2,
     "price": 0,
@@ -5424,9 +5399,8 @@
     "country": "Kazakhstan",
     "city": "Astana",
     "category": [
-      "relax",
-      "food",
-      "scenic"
+      "café",
+      "food & dining"
     ],
     "duration": 1.5,
     "price": 0,
@@ -5437,13 +5411,13 @@
   },
   {
     "id": 332,
-    "name": "Riverside прогулки along Ishim River",
+    "name": "Walk along Ishim River",
     "country": "Kazakhstan",
     "city": "Astana",
     "category": [
-      "relax",
-      "walk",
-      "scenic"
+      "walking",
+      "nature",
+      "water"
     ],
     "duration": 1.5,
     "price": 0,
@@ -5458,7 +5432,7 @@
     "country": "Kazakhstan",
     "city": "Astana",
     "category": [
-      "fun",
+      "entertainment",
       "nightlife"
     ],
     "duration": 2,
@@ -5474,9 +5448,9 @@
     "country": "Kazakhstan",
     "city": "Astana",
     "category": [
-      "fun",
+      "entertainment",
       "nightlife",
-      "music"
+      "art & performance"
     ],
     "duration": 2,
     "price": 0,
@@ -5491,9 +5465,10 @@
     "country": "Kazakhstan",
     "city": "Astana",
     "category": [
-      "fun",
+      "entertainment",
       "nightlife",
-      "relax"
+      "bar",
+      "food & dining"
     ],
     "duration": 2,
     "price": 0,
@@ -5508,7 +5483,7 @@
     "country": "Kazakhstan",
     "city": "Astana",
     "category": [
-      "fun",
+      "entertainment",
       "nightlife"
     ],
     "duration": 2,
@@ -5569,7 +5544,9 @@
     "country": "Kazakhstan",
     "city": "Shymkent",
     "category": [
-      "shopping"
+      "shopping",
+      "traditional",
+      "bazaar"
     ],
     "duration": 2,
     "price": 0,
@@ -5584,9 +5561,8 @@
     "country": "Kazakhstan",
     "city": "Shymkent",
     "category": [
-      "active",
-      "walk",
-      "scenic"
+      "nature",
+      "walking"
     ],
     "duration": 1.5,
     "price": 0,
@@ -5601,8 +5577,8 @@
     "country": "Kazakhstan",
     "city": "Shymkent",
     "category": [
-      "active",
-      "scenic"
+      "nature",
+      "walking"
     ],
     "duration": 2,
     "price": 0,
@@ -5617,8 +5593,8 @@
     "country": "Kazakhstan",
     "city": "Shymkent",
     "category": [
-      "active",
-      "scenic"
+      "nature",
+      "hiking"
     ],
     "duration": 4,
     "price": 0,
@@ -5633,8 +5609,9 @@
     "country": "Kazakhstan",
     "city": "Shymkent",
     "category": [
-      "active",
-      "scenic"
+      "nature",
+      "walking",
+      "hiking"
     ],
     "duration": 4,
     "price": 0,
@@ -5649,7 +5626,8 @@
     "country": "Kazakhstan",
     "city": "Shymkent",
     "category": [
-      "cultural"
+      "history & culture",
+      "walking"
     ],
     "duration": 1.5,
     "price": 0,
@@ -5664,8 +5642,9 @@
     "country": "Kazakhstan",
     "city": "Shymkent",
     "category": [
-      "cultural",
-      "scenic"
+      "history & culture",
+      "nature",
+      "walking"
     ],
     "duration": 1.5,
     "price": 0,
@@ -5680,7 +5659,8 @@
     "country": "Kazakhstan",
     "city": "Shymkent",
     "category": [
-      "cultural"
+      "history & culture",
+      "walking"
     ],
     "duration": 2,
     "price": 0,
@@ -5695,9 +5675,9 @@
     "country": "Kazakhstan",
     "city": "Shymkent",
     "category": [
-      "cultural",
-      "walk",
-      "scenic"
+      "history & culture",
+      "walking",
+      "nature"
     ],
     "duration": 1.5,
     "price": 0,
@@ -5712,8 +5692,8 @@
     "country": "Kazakhstan",
     "city": "Shymkent",
     "category": [
-      "relax",
-      "luxury"
+      "spa",
+      "food & dining"
     ],
     "duration": 2,
     "price": 0,
@@ -5728,8 +5708,7 @@
     "country": "Kazakhstan",
     "city": "Shymkent",
     "category": [
-      "relax",
-      "luxury"
+      "spa"
     ],
     "duration": 2,
     "price": 0,
@@ -5744,9 +5723,9 @@
     "country": "Kazakhstan",
     "city": "Shymkent",
     "category": [
-      "relax",
-      "food",
-      "scenic"
+      "walking",
+      "food & dining",
+      "café"
     ],
     "duration": 1.5,
     "price": 0,
@@ -5761,8 +5740,9 @@
     "country": "Kazakhstan",
     "city": "Shymkent",
     "category": [
-      "relax",
-      "food"
+      "café",
+      "food & dining",
+      "walking"
     ],
     "duration": 1.5,
     "price": 0,
@@ -5777,7 +5757,8 @@
     "country": "Kazakhstan",
     "city": "Turkistan",
     "category": [
-      "shopping"
+      "shopping",
+      "bazaar"
     ],
     "duration": 2,
     "price": 0,
@@ -5822,7 +5803,10 @@
     "country": "Kazakhstan",
     "city": "Turkistan",
     "category": [
-      "active"
+      "walking",
+      "nature",
+      "history & culture",
+      "architecture"
     ],
     "duration": 1,
     "price": 0,
@@ -5837,7 +5821,8 @@
     "country": "Kazakhstan",
     "city": "Turkistan",
     "category": [
-      "active"
+      "walking",
+      "history & culture"
     ],
     "duration": 2.5,
     "price": 3,
@@ -5852,7 +5837,10 @@
     "country": "Kazakhstan",
     "city": "Turkistan",
     "category": [
-      "active"
+      "walking",
+      "history & culture",
+      "nature",
+      "architecture"
     ],
     "duration": 4,
     "price": 20,
@@ -5867,7 +5855,8 @@
     "country": "Kazakhstan",
     "city": "Turkistan",
     "category": [
-      "active"
+      "walking",
+      "nature"
     ],
     "duration": 1,
     "price": 0,
@@ -5882,7 +5871,7 @@
     "country": "Kazakhstan",
     "city": "Turkistan",
     "category": [
-      "cultural"
+      "history & culture"
     ],
     "duration": 2,
     "price": 2,
@@ -5897,7 +5886,7 @@
     "country": "Kazakhstan",
     "city": "Turkistan",
     "category": [
-      "cultural"
+      "history & culture"
     ],
     "duration": 1,
     "price": 1,
@@ -5912,7 +5901,9 @@
     "country": "Kazakhstan",
     "city": "Turkistan",
     "category": [
-      "cultural"
+      "history & culture",
+      "architecture",
+      "walking"
     ],
     "duration": 1.5,
     "price": 2,
@@ -5927,7 +5918,7 @@
     "country": "Kazakhstan",
     "city": "Turkistan",
     "category": [
-      "cultural"
+      "history & culture"
     ],
     "duration": 1,
     "price": 5,
@@ -5942,7 +5933,7 @@
     "country": "Kazakhstan",
     "city": "Turkistan",
     "category": [
-      "relax"
+      "spa"
     ],
     "duration": 2,
     "price": 10,
@@ -5957,7 +5948,7 @@
     "country": "Kazakhstan",
     "city": "Turkistan",
     "category": [
-      "relax"
+      "spa"
     ],
     "duration": 2,
     "price": 15,
@@ -5972,8 +5963,8 @@
     "country": "Kazakhstan",
     "city": "Turkistan",
     "category": [
-      "relax",
-      "food"
+      "café",
+      "food & dining"
     ],
     "duration": 1.5,
     "price": 5,
@@ -5988,7 +5979,10 @@
     "country": "Kazakhstan",
     "city": "Turkistan",
     "category": [
-      "relax"
+      "walking",
+      "nature",
+      "architecture",
+      "history & culture"
     ],
     "duration": 1,
     "price": 0,
@@ -6003,7 +5997,7 @@
     "country": "Kazakhstan",
     "city": "Turkistan",
     "category": [
-      "fun"
+      "entertainment"
     ],
     "duration": 2,
     "price": 10,
@@ -6018,8 +6012,9 @@
     "country": "Kazakhstan",
     "city": "Turkistan",
     "category": [
-      "fun",
-      "food"
+      "entertainment",
+      "café",
+      "food & dining"
     ],
     "duration": 1.5,
     "price": 5,
@@ -6034,7 +6029,7 @@
     "country": "Kazakhstan",
     "city": "Turkistan",
     "category": [
-      "fun"
+      "entertainment"
     ],
     "duration": 2,
     "price": 10,
