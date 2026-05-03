@@ -11,7 +11,16 @@ from .forms import RegistrationForm, LoginForm
 
 # pages
 def index_view(request):
-    return render(request, "core/index.html")
+    form = RegistrationForm(request.POST or None)
+
+    if form.is_valid():
+        form.save()
+        return redirect("/")
+
+    return render(request, "core/index.html", {"form": form})
+
+
+
 
 
 def explore_view(request):
