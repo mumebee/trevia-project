@@ -3,68 +3,175 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="{% static 'header.css' %}">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Activities</title>
     <link rel="stylesheet" href="{% static 'activities.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
 <body>
-    {% include 'components/header.html' %}
-
-    <main>
-        <div class="page_name">
-            <span>ACTIVITIES</span>
-            <p>Take time to enjoy little happy moments in your life</p>
-        </div>
-
-        <form method="GET" class="filtering_form">
-            <div>
-                <input name="country" placeholder=" Country" class="input_block">
-                <input name="city" placeholder=" City" class="input_block">
-                <input name="min_price" type="number" placeholder=" Min price" class="input_block">
-                <input name="max_price" type="number" placeholder=" Max price" class="input_block">
-                <label><input type="checkbox" name="tags" value="history"> History</label>
-                <label><input type="checkbox" name="tags" value="nature"> Nature</label>
-                <label><input type="checkbox" name="tags" value="food"> Food</label>
-            </div>
-            <button type="submit">Filter</button>
-        </form>
-
-        <div class="container_activities">
-
-            {% for country, country_activities in activities_by_country %}
-            <div class="country_section">
-                <h1>{{ country }}</h1>
-
-                <div class="carousel_wrapper">
-                    <button class="carousel_btn prev" onclick="scroll_left(this)">&#8592;</button>
-
-                    <div class="activities_carousel">
-                        {% for a in country_activities %}
-                        <div class="activity">
-                            <img src="{{ a.image }}" alt="{{ a.name }}">
-                            <div class="activity_description">
-                                <span class="activity_name">{{ a.name }}</span>
-                                <span class="activity_city">{{ a.city }}</span>
-                                <span class="activity_price">
-                                    {% if a.price == 0 %} Free {% else %} ${{ a.price }} {% endif %}
-                                </span>
+    <div class="page-wrapper">
+        <main class="content-area">
+            {% include 'components/header.html' %}
+            <section class="first-section">
+                <aside class="sidebar">
+                    <h2 class="sidebar-title">Filter</h2>
+                    <form method="GET" class="filtering_form">
+                        <div class="form-group">
+                            <label>Country</label>
+                            <div class="dropdown_wrapper">
+                                <input name="country" id="country_input" placeholder="e.g. Uzbekistan" class="input_block" autocomplete="off" readonly>
+                                <div class="dropdown_list" id="country_dropdown"></div>
                             </div>
                         </div>
-                        {% endfor %}
+                        <div class="form-group">
+                            <label>City</label>
+                            <div class="dropdown_wrapper">
+                                <input name="city" id="city_input" placeholder="Select country first" class="input_block" autocomplete="off" readonly>
+                                <div class="dropdown_list" id="city_dropdown"></div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Min Price</label>
+                            <input name="min_price" type="number" placeholder="0" class="input_block">
+                        </div>
+                        <div class="form-group">
+                            <label>Max Price</label>
+                            <input name="max_price" type="number" placeholder="999" class="input_block">
+                        </div>
+                        <div class="form-group">
+                            <label>Tags</label>
+                            <div class="tags">
+                                <label class="tag-label"><input type="checkbox" name="tags" value="history"> History</label>
+                                <label class="tag-label"><input type="checkbox" name="tags" value="nature"> Nature</label>
+                                <label class="tag-label"><input type="checkbox" name="tags" value="food"> Food</label>
+                            </div>
+                        </div>
+                        <button type="submit" class="filter-btn">Apply Filters</button>
+                    </form>
+                </aside>
+    
+                <div class="container_activities">
+                    <div class="page_name">
+                        <span>ACTIVITIES</span>
+                        <p>Take time to enjoy little happy moments in your life</p>
                     </div>
-
-                    <button class="carousel_btn next" onclick="scroll_right(this)">&#8594;</button>
+                    {% for country, country_activities in activities_by_country %}
+                    <div class="country_section">
+                        <h1>{{ country }}</h1>
+                        <div class="carousel_wrapper">
+                            <button class="carousel_btn prev" onclick="scroll_left(this)">&#10094;</button>
+                            <div class="activities_carousel">
+                                {% for a in country_activities %}
+                                <div class="activity">
+                                    <img src="{{ a.image }}" alt="{{ a.name }}">
+                                    <div class="activity_description">
+                                        <div class="activity_row">
+                                            <span class="activity_name">{{ a.name }}</span>
+                                            <i class="bi bi-heart"></i>
+                                        </div>
+                                        <span class="activity_city">{{ a.city }}</span>
+                                        <div class="activity_row">
+                                            <span class="activity_price">
+                                                {% if a.price == 0 %} Free {% else %} ${{ a.price }} {% endif %}
+                                            </span>
+                                            <i class="bi bi-plus-square"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                            </div>
+                            <button class="carousel_btn next" onclick="scroll_right(this)">&#10095;</button>
+                        </div>
+                    </div>
+                    {% endfor %}
+    
                 </div>
-            </div>
-            {% endfor %}
-
-        </div>
-    </main>
+            </section>
+        </main>
+    </div>
 
     <script>
+        let activitiesData = [];
+let selectedCountry = null;
+
+async function loadActivities() {
+    const res = await fetch('/static/data/activities.json');
+    activitiesData = await res.json();
+    buildCountryDropdown();
+}
+
+function buildCountryDropdown() {
+    const countries = [...new Set(activitiesData.map(a => a.country))].sort();
+    const dropdown = document.getElementById('country_dropdown');
+    dropdown.innerHTML = '';
+
+    countries.forEach(country => {
+        const item = document.createElement('div');
+        item.className = 'dropdown_item';
+        item.textContent = country;
+        item.addEventListener('click', () => {
+            selectCountry(country);
+        });
+        dropdown.appendChild(item);
+    });
+}
+
+function buildCityDropdown(country) {
+    const cities = [...new Set(
+        activitiesData
+            .filter(a => a.country === country)
+            .map(a => a.city)
+    )].sort();
+
+    const dropdown = document.getElementById('city_dropdown');
+    dropdown.innerHTML = '';
+
+    cities.forEach(city => {
+        const item = document.createElement('div');
+        item.className = 'dropdown_item';
+        item.textContent = city;
+        item.addEventListener('click', () => {
+            document.getElementById('city_input').value = city;
+            dropdown.classList.remove('open');
+        });
+        dropdown.appendChild(item);
+    });
+}
+
+function selectCountry(country) {
+    selectedCountry = country;
+    document.getElementById('country_input').value = country;
+    document.getElementById('country_dropdown').classList.remove('open');
+
+    // reset city
+    const cityInput = document.getElementById('city_input');
+    cityInput.value = '';
+    cityInput.placeholder = 'e.g. Tashkent';
+
+    buildCityDropdown(country);
+}
+
+// toggle open/close
+document.getElementById('country_input').addEventListener('click', () => {
+    document.getElementById('country_dropdown').classList.toggle('open');
+    document.getElementById('city_dropdown').classList.remove('open');
+});
+
+document.getElementById('city_input').addEventListener('click', () => {
+    if (!selectedCountry) return;   // block if no country picked
+    document.getElementById('city_dropdown').classList.toggle('open');
+    document.getElementById('country_dropdown').classList.remove('open');
+});
+
+// close dropdowns on outside click
+document.addEventListener('click', (e) => {
+    if (!e.target.closest('.dropdown_wrapper')) {
+        document.getElementById('country_dropdown').classList.remove('open');
+        document.getElementById('city_dropdown').classList.remove('open');
+    }
+});
+
+loadActivities();
         function scroll_left(btn) {
             const carousel = btn.nextElementSibling;
             carousel.scrollBy({ left: -600, behavior: 'smooth' });
@@ -73,6 +180,23 @@
             const carousel = btn.previousElementSibling;
             carousel.scrollBy({ left: 600, behavior: 'smooth' });
         }
+
+    document.querySelectorAll('.bi-heart, .bi-heart-fill').forEach(icon => {
+        icon.addEventListener('click', () => {
+            icon.classList.toggle('bi-heart');
+            icon.classList.toggle('bi-heart-fill');
+            icon.style.color = icon.classList.contains('bi-heart-fill') ? '#e63946' : '#01321F';
+        });
+    });
+
+    document.querySelectorAll('.bi-plus-square, .bi-plus-square-fill').forEach(icon => {
+        icon.addEventListener('click', () => {
+            icon.classList.toggle('bi-plus-square');
+            icon.classList.toggle('bi-plus-square-fill');
+            icon.style.color = icon.classList.contains('bi-plus-square-fill') ? '#0a583a' : '#01321F';
+        });
+    });
+
     </script>
 </body>
 </html>
