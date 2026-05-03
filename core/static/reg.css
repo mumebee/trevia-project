@@ -35,7 +35,7 @@ body {
     max-width: 550px;
     background-color: #f7f3e8;
     border-radius: 50px;
-    margin: 40px auto;
+    margin: 70px auto;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     padding: 40px;
 }
@@ -87,7 +87,10 @@ input.form-control {
     background: white;
     outline: none;
 }
-
+input.form-control:focus {
+    border-color: #0a583a;           /* green accent on focus */
+    box-shadow: 0 0 0 3px rgba(10, 88, 58, 0.15);
+}
 /* --- Error Styling --- */
 .form-group input:has(+ .failed-errors) {
     border: 2px solid #420a0a !important;
