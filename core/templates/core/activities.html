@@ -1,15 +1,28 @@
 <h1>Activities</h1>
 
 <form method="GET">
-    <input name="country" placeholder="Country">
-    <input name="city" placeholder="City">
+    <input name="q" placeholder="Search..." value="{{ params.q }}">
+    
+    <select name="city">
+        <option value="">All Cities</option>
+        {% for city in cities %}
+            <option value="{{ city }}" {% if params.city == city %}selected{% endif %}>{{ city }}</option>
+        {% endfor %}
+    </select>
 
-    <input name="min_price" type="number" placeholder="Min price">
-    <input name="max_price" type="number" placeholder="Max price">
+    <div class="filter-group">
+        <label>Price Range ($0 - $100):</label>
+        <input name="min_price" type="number" placeholder="Min" value="{{ params.min_price }}">
+        <input name="max_price" type="number" placeholder="Max" value="{{ params.max_price }}">
+    </div>
 
-    <label><input type="checkbox" name="tags" value="history"> History</label>
-    <label><input type="checkbox" name="tags" value="nature"> Nature</label>
-    <label><input type="checkbox" name="tags" value="food"> Food</label>
+    <div class="filter-group">
+        <p>Categories:</p>
+        {% for cat in categories %}
+            <label><input type="checkbox" name="category" value="{{ cat }}" 
+                {% if cat in selected_categories %}checked{% endif %}> {{ cat|title }}</label>
+        {% endfor %}
+    </div>
 
     <button type="submit">Filter</button>
 </form>
@@ -21,7 +34,7 @@
     <div>
         <h3>{{ a.name }}</h3>
         <p>{{ a.city }}, {{ a.country }}</p>
-        <p>${{ a.base_price }}</p>
+        <p>${{ a.price }} ({{ a.duration }}h)</p>
 
         <button onclick="likePlace('activity', {{ a.id }})">❤️ Like</button>
 

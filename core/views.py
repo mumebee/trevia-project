@@ -46,7 +46,23 @@ def activities_view(request):
 
     activities = engine.filter_queryset(qs, params)
 
-    return render(request, "core/activities.html", {"activities": activities})
+    # Dynamically extract unique categories for the filter sidebar
+    raw_categories = Activity.objects.values_list('category', flat=True)
+    unique_categories = set()
+    for cat_list in raw_categories:
+        if isinstance(cat_list, list):
+            unique_categories.update(cat_list)
+            
+    # Extract unique cities for the dropdown
+    cities = Activity.objects.values_list('city', flat=True).distinct().order_by('city')
+
+    return render(request, "core/activities.html", {
+        "activities": activities,
+        "categories": sorted(list(unique_categories)),
+        "cities": cities,
+        "params": params,
+        "selected_categories": params.getlist("category")
+    })
 
 
 def restaurants_view(request):
