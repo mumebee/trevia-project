@@ -11,6 +11,7 @@ urlpatterns = [
     path('explore/activities/', views.activities_view, name='activities'),
     path('explore/restaurants/', views.restaurants_view, name='restaurants'),
     path('explore/hotels/', views.hotels_view, name='hotels'),
+    path('ajax/get-cities/', views.get_cities_ajax, name='get_cities_ajax'),
     path("add-to-itinerary/", views.add_to_itinerary),
     path("itinerary/", views.itinerary_view, name="itinerary"),
     path('like/', views.like_place),

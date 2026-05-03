@@ -5,7 +5,7 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 
 from .models import Activity, Restaurant, Hotel, SavedPlace, Itinerary, ItineraryItem
-from .filters import FilterEngine
+from .filters import ActivityFilterEngine, RestaurantFilterEngine, HotelFilterEngine
 from .forms import RegistrationForm, LoginForm
 
 
@@ -39,12 +39,21 @@ def explore_view(request):
 # FILTERED LISTS
 # =========================
 def activities_view(request):
-    engine = FilterEngine()
-
+    engine = ActivityFilterEngine()
     qs = Activity.objects.all()
     params = request.GET
-
     activities = engine.filter_queryset(qs, params)
+
+    # Get dynamic filter options
+    countries = Activity.objects.values_list('country', flat=True).distinct().order_by('country')
+
+    selected_countries = params.getlist('country')
+    selected_cities = params.getlist('city')
+
+    if selected_countries:
+        cities = Activity.objects.filter(country__in=selected_countries).values_list('city', flat=True).distinct().order_by('city')
+    else:
+        cities = Activity.objects.values_list('city', flat=True).distinct().order_by('city')
 
     # Dynamically extract unique categories for the filter sidebar
     raw_categories = Activity.objects.values_list('category', flat=True)
@@ -52,23 +61,8 @@ def activities_view(request):
     for cat_list in raw_categories:
         if isinstance(cat_list, list):
             unique_categories.update(cat_list)
-            
-    # Extract unique cities for the dropdown
-    cities = Activity.objects.values_list('city', flat=True).distinct().order_by('city')
 
-    return render(request, "core/activities.html", {
-        "activities": activities,
-        "categories": sorted(list(unique_categories)),
-        "cities": cities,
-        "params": params,
-        "selected_categories": params.getlist("category")
-    })
-    # country thing 
-def activities_view(request):
-    engine = FilterEngine()
-    qs = Activity.objects.all()
-    activities = engine.filter_queryset(qs, request.GET)
-
+    # Group current results by country
     activities_by_country = {}
     for a in activities:
         if a.country not in activities_by_country:
@@ -77,11 +71,17 @@ def activities_view(request):
 
     return render(request, "core/activities.html", {
         "activities_by_country": activities_by_country.items(),
+        "categories": sorted(list(unique_categories)),
+        "countries": countries,
+        "cities": cities,
+        "params": params,
+        "selected_tags": params.getlist("tags"),
+        "selected_countries": selected_countries,
+        "selected_cities": selected_cities,
     })
-    
-    #country thing finished
+
 def restaurants_view(request):
-    engine = FilterEngine()
+    engine = RestaurantFilterEngine()
 
     qs = Restaurant.objects.all()
     restaurants = engine.filter_queryset(qs, request.GET)
@@ -90,7 +90,7 @@ def restaurants_view(request):
 
 
 def hotels_view(request):
-    engine = FilterEngine()
+    engine = HotelFilterEngine()
 
     qs = Hotel.objects.all()
     hotels = engine.filter_queryset(qs, request.GET)
@@ -118,6 +118,16 @@ def saved_places_view(request):
     saved = SavedPlace.objects.filter(user=request.user)
 
     return render(request, "core/saved.html", {"saved": saved})
+
+
+# AJAX endpoint for cascading filters
+def get_cities_ajax(request):
+    countries = request.GET.getlist('countries[]')
+    if countries:
+        cities = Activity.objects.filter(country__in=countries).values_list('city', flat=True).distinct().order_by('city')
+    else:
+        cities = Activity.objects.values_list('city', flat=True).distinct().order_by('city')
+    return JsonResponse({'cities': list(cities)})
 
 
 # =========================

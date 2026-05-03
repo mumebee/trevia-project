@@ -15,35 +15,52 @@
             <section class="first-section">
                 <aside class="sidebar">
                     <h2 class="sidebar-title">Filter</h2>
-                    <form method="GET" class="filtering_form">
+                    <form method="GET" class="filtering_form" id="filter-form">
                         <div class="form-group">
-                            <label>Country</label>
-                            <div class="dropdown_wrapper">
-                                <input name="country" id="country_input" placeholder="e.g. Uzbekistan" class="input_block" autocomplete="off" readonly>
-                                <div class="dropdown_list" id="country_dropdown"></div>
+                            <label for="search_query">Search</label>
+                            <input type="text" name="q" id="search_query" placeholder="Search activities..." class="input_block" value="{{ params.q|default_if_none:'' }}">
+                        </div>
+                        <div class="form-group">
+                            <label>Countries</label>
+                            <div class="checkbox-group" id="country-checkboxes">
+                                {% for country in countries %}
+                                <label class="tag-label">
+                                    <input type="checkbox" name="country" value="{{ country }}" {% if country in selected_countries %}checked{% endif %}> {{ country }}
+                                </label>
+                                {% endfor %}
                             </div>
                         </div>
                         <div class="form-group">
-                            <label>City</label>
-                            <div class="dropdown_wrapper">
-                                <input name="city" id="city_input" placeholder="Select country first" class="input_block" autocomplete="off" readonly>
-                                <div class="dropdown_list" id="city_dropdown"></div>
+                            <label>Cities</label>
+                            <div class="checkbox-group" id="city-checkboxes">
+                                {% for city in cities %}
+                                <label class="tag-label">
+                                    <input type="checkbox" name="city" value="{{ city }}" {% if city in selected_cities %}checked{% endif %}> {{ city }}
+                                </label>
+                                {% endfor %}
                             </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Max Duration (hours)</label>
+                            <input name="max_duration" type="number" placeholder="e.g., 2" class="input_block" value="{{ params.max_duration|default_if_none:'' }}">
                         </div>
                         <div class="form-group">
                             <label>Min Price</label>
-                            <input name="min_price" type="number" placeholder="0" class="input_block">
+                            <input name="min_price" type="number" placeholder="0" class="input_block" value="{{ params.min_price }}">
                         </div>
                         <div class="form-group">
                             <label>Max Price</label>
-                            <input name="max_price" type="number" placeholder="999" class="input_block">
+                            <input name="max_price" type="number" placeholder="999" class="input_block" value="{{ params.max_price }}">
                         </div>
                         <div class="form-group">
                             <label>Tags</label>
-                            <div class="tags">
-                                <label class="tag-label"><input type="checkbox" name="tags" value="history"> History</label>
-                                <label class="tag-label"><input type="checkbox" name="tags" value="nature"> Nature</label>
-                                <label class="tag-label"><input type="checkbox" name="tags" value="food"> Food</label>
+                            <div class="tags-container">
+                                {% for cat in categories %}
+                                <label class="tag-pill {% if cat in selected_tags %}active{% endif %}">
+                                    <input type="checkbox" name="tags" value="{{ cat }}" {% if cat in selected_tags %}checked{% endif %} onchange="this.parentElement.classList.toggle('active', this.checked)">
+                                    {{ cat|title }}
+                                </label>
+                                {% endfor %}
                             </div>
                         </div>
                         <button type="submit" class="filter-btn">Apply Filters</button>
@@ -91,87 +108,63 @@
     </div>
 
     <script>
-        let activitiesData = [];
-let selectedCountry = null;
+        document.addEventListener('DOMContentLoaded', function() {
+            const countryCheckboxes = document.querySelectorAll('#country-checkboxes input[type="checkbox"]');
+            const cityCheckboxesContainer = document.getElementById('city-checkboxes');
+            const filterForm = document.getElementById('filter-form');
 
-async function loadActivities() {
-    const res = await fetch('/static/data/activities.json');
-    activitiesData = await res.json();
-    buildCountryDropdown();
-}
+            // Function to fetch and update cities based on selected countries
+            async function updateCitiesDropdown() {
+                const selectedCountries = Array.from(countryCheckboxes)
+                                            .filter(cb => cb.checked)
+                                            .map(cb => cb.value);
+                
+                // Get currently selected cities to re-check them after update
+                const currentlySelectedCities = {{ selected_cities|safe }};
+                // Read currently checked cities from the DOM so we don't lose local changes
+                const currentlyCheckedInDOM = Array.from(cityCheckboxesContainer.querySelectorAll('input:checked'))
+                                                   .map(cb => cb.value);
+                
+                // Fallback to server-side initial selection if DOM is empty (first load)
+                const initialCities = {{ selected_cities|safe }};
+                const citiesToKeep = currentlyCheckedInDOM.length > 0 ? currentlyCheckedInDOM : initialCities;
+                
+                let url = '/ajax/get-cities/';
+                if (selectedCountries.length > 0) {
+                    url += '?' + selectedCountries.map(c => `countries[]=${encodeURIComponent(c)}`).join('&');
+                }
 
-function buildCountryDropdown() {
-    const countries = [...new Set(activitiesData.map(a => a.country))].sort();
-    const dropdown = document.getElementById('country_dropdown');
-    dropdown.innerHTML = '';
+                const response = await fetch(url);
+                const data = await response.json();
 
-    countries.forEach(country => {
-        const item = document.createElement('div');
-        item.className = 'dropdown_item';
-        item.textContent = country;
-        item.addEventListener('click', () => {
-            selectCountry(country);
+                cityCheckboxesContainer.innerHTML = ''; // Clear existing cities
+                data.cities.forEach(city => {
+                    const label = document.createElement('label');
+                    label.className = 'tag-pill';
+                    // Apply the same tag-pill style as countries/tags
+                    label.className = 'tag-pill'; 
+                    const input = document.createElement('input');
+                    input.type = 'checkbox';
+                    input.name = 'city';
+                    input.value = city;
+                    if (currentlySelectedCities.includes(city)) input.checked = true;
+
+                    if (citiesToKeep.includes(city)) {
+                        input.checked = true;
+                        label.classList.add('active');
+                    }
+                    
+                    input.onchange = () => label.classList.toggle('active', input.checked);
+                    label.appendChild(input);
+                    label.appendChild(document.createTextNode(city));
+                    cityCheckboxesContainer.appendChild(label);
+                });
+            }
+
+            countryCheckboxes.forEach(cb => cb.addEventListener('change', updateCitiesDropdown));
+            updateCitiesDropdown(); // Initial call
         });
-        dropdown.appendChild(item);
-    });
-}
 
-function buildCityDropdown(country) {
-    const cities = [...new Set(
-        activitiesData
-            .filter(a => a.country === country)
-            .map(a => a.city)
-    )].sort();
-
-    const dropdown = document.getElementById('city_dropdown');
-    dropdown.innerHTML = '';
-
-    cities.forEach(city => {
-        const item = document.createElement('div');
-        item.className = 'dropdown_item';
-        item.textContent = city;
-        item.addEventListener('click', () => {
-            document.getElementById('city_input').value = city;
-            dropdown.classList.remove('open');
-        });
-        dropdown.appendChild(item);
-    });
-}
-
-function selectCountry(country) {
-    selectedCountry = country;
-    document.getElementById('country_input').value = country;
-    document.getElementById('country_dropdown').classList.remove('open');
-
-    // reset city
-    const cityInput = document.getElementById('city_input');
-    cityInput.value = '';
-    cityInput.placeholder = 'e.g. Tashkent';
-
-    buildCityDropdown(country);
-}
-
-// toggle open/close
-document.getElementById('country_input').addEventListener('click', () => {
-    document.getElementById('country_dropdown').classList.toggle('open');
-    document.getElementById('city_dropdown').classList.remove('open');
-});
-
-document.getElementById('city_input').addEventListener('click', () => {
-    if (!selectedCountry) return;   // block if no country picked
-    document.getElementById('city_dropdown').classList.toggle('open');
-    document.getElementById('country_dropdown').classList.remove('open');
-});
-
-// close dropdowns on outside click
-document.addEventListener('click', (e) => {
-    if (!e.target.closest('.dropdown_wrapper')) {
-        document.getElementById('country_dropdown').classList.remove('open');
-        document.getElementById('city_dropdown').classList.remove('open');
-    }
-});
-
-loadActivities();
         function scroll_left(btn) {
             const carousel = btn.nextElementSibling;
             carousel.scrollBy({ left: -600, behavior: 'smooth' });
