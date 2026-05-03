@@ -4386,13 +4386,8 @@
   },
   {
     "id": 269,
-<<<<<<< HEAD
     "name": "Local handicraft shops (felt products, сувениры)",
     "country": "Kyrgyzstan",
-=======
-    "name": "Local handicraft shops (felt products, souvenirs)",
-    "country": "Kyrgystan",
->>>>>>> 796611f12e78e044af84db4093199438598adebf
     "city": "Karakol",
     "category": [
       "shopping",
