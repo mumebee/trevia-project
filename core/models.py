@@ -79,7 +79,6 @@ class SavedPlace(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
 
 
-
 class Itinerary(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     name = models.CharField(max_length=200)

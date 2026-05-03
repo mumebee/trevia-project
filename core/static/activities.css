@@ -67,7 +67,7 @@ header {
     font-size: 48px;
     color: #ffffff;
     letter-spacing: 2px;
-    border-bottom: 2px solid #ffe176;
+    border-bottom: 2px solid #ffffff;
     padding-bottom: 10px;
 }
 /* ========== FILTERING FORM ========== */
@@ -159,7 +159,7 @@ header {
     cursor: pointer;
 }
 .tag-label input[type="checkbox"] {
-    accent-color: #ffe176;
+    accent-color: #91745c;
     width: 16px;
     height: 16px;
 }
@@ -168,7 +168,7 @@ header {
     height: 48px;
     border-radius: 10px;
     border: none;
-    background-color: #ffe176;
+    background: rgba(255, 255, 255, 0.08);
     font-family: 'BoldCondensed';
     font-size: 22px;
     letter-spacing: 1px;
@@ -177,9 +177,10 @@ header {
     margin-top: 4px;
 }
 .filter-btn:hover {
-    background-color: #ffd700;
+    background: rgba(255, 255, 255, 0.15);
     transform: translateY(-1px);
 }
+
 
 /* ========== MAIN CONTENT ========== */
 .container_activities {
@@ -295,7 +296,7 @@ header {
 }
 .activity_row .bi-heart:hover,
 .activity_row .bi-heart-fill {
-    color: #e63946;
+    color: #a50c6d;
 }
 .activity_row .bi-plus-square:hover,
 .activity_row .bi-plus-square-fill {
@@ -310,14 +311,65 @@ header {
     width: 46px;
     border-radius: 50%;
     border: none;
-    background-color: #ffe176;
+    background-color: #a5b7c5;
     font-size: 20px;
     cursor: pointer;
     flex-shrink: 0;
     transition: background-color 0.2s;
 }
 .carousel_btn:hover {
-    background-color: #ffd700;
+    background-color: #c6d2db;
+}
+
+/* Modern Pill Style for Tags and Filter Items */
+.tags-container, .checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 10px;
+}
+
+.tag-pill {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 6px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 13px;
+    color: #ffffff;
+    transition: all 0.2s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    user-select: none;
+    display: flex;
+    align-items: center;
+}
+
+.tag-pill:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.tag-pill.active {
+    background: #91745c; /* Primary color */
+    border-color: #baa492;
+    color: white;
+    font-weight: 500;
+}
+
+.tag-pill input {
+    display: none; /* Hide the actual checkbox */
+}
+
+/* Sidebar layout tweaks */
+.sidebar {
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.form-group label {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffffff;
+    margin-bottom: 12px;
 }
 
 
