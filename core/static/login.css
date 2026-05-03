@@ -9,10 +9,11 @@ body {
     line-height: 1.6;
     background-color: #01321F;
     display: flex;
-    flex-direction: column; /* Stack header and content vertically */
+    flex-direction: column;
     align-items: center;
     min-height: 100vh;
     padding: 2rem;
+    background-image: url('../../static/log1.jpg');
 }
 
 .page-wrapper {
@@ -33,9 +34,9 @@ body {
 .log-container{
     width: 100%;
     max-width: 550px;
-    background-color: #f7f3e8;
+    /* background-color: #f7f3e8; */
     border-radius: 50px;
-    margin: 40px auto;
+    margin: 70px auto;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     padding: 40px;
 }

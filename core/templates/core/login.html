@@ -10,9 +10,10 @@
 </head>
 <body>
     <div class="page-wrapper">
-        {% include 'components/header.html' %}
+        
         
         <main class="content-area">
+            {% include 'components/header.html' %}
             <div class="log-container"><h1 class="log-text">Login</h1>
                 <form method="post" class="log-form">
                     {% csrf_token %}
