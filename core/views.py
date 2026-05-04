@@ -59,8 +59,11 @@ def activities_view(request):
     raw_categories = Activity.objects.values_list('category', flat=True)
     unique_categories = set()
     for cat_list in raw_categories:
+        # Ensure we only process lists and ignore None/bad data
         if isinstance(cat_list, list):
-            unique_categories.update(cat_list)
+            # Normalize to lowercase and strip whitespace to prevent "Shopping" vs "shopping" duplicates
+            unique_categories.update(str(c).strip().lower() for c in cat_list if c)
+
 
     # Group current results by country
     activities_by_country = {}

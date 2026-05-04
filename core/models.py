@@ -41,6 +41,12 @@ class Activity(BasePlace):
     category = models.JSONField(default=list)
     duration = models.FloatField(default=1)
 
+    def save(self, *args, **kwargs):
+        # Automatically sync the category list to the tags string for filtering
+        if isinstance(self.category, list):
+            self.tags = ",".join(str(cat).strip().lower() for cat in self.category)
+        super().save(*args, **kwargs)
+
     def display_card(self):
         return f"{self.name} | {self.duration}h | ${self.price}"
 
