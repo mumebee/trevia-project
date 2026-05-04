@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     background-color: #01321F;
     font-family: 'Segoe UI', sans-serif;
@@ -11,26 +12,29 @@ body {
 
 /* 2. Header Fix */
 header {
-    position: absolute; 
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1;
     pointer-events: auto;
 }
+
 @font-face {
     font-family: 'BoldCondensed';
     src: url('../../static/Brice Bold Condensed.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
+
 .page-wrapper {
     width: 100%;
     position: relative;
 }
+
 /* ========== FIRST SECTION ========== */
 .first-section {
-    width: 100%; 
+    width: 100%;
     min-height: 120vh;
     background-image: url('../../static/trevia_back.png');
     background-size: cover;
@@ -47,6 +51,7 @@ header {
     padding-top: 140px;
     gap: 40px;
 }
+
 .first-section::before {
     content: '';
     position: absolute;
@@ -61,8 +66,8 @@ header {
 /* 4. The Grid Container */
 .explore-categories {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 25px; 
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
     width: 80%;
     max-width: 1100px;
     margin-left: auto;
@@ -70,15 +75,21 @@ header {
     padding-bottom: 0px;
     z-index: 0;
 }
+
 /* 5. The Boxes */
 .category {
-    min-height: 260px; 
+    min-height: 260px;
+    width: 360px;
     background: rgba(255, 255, 255, 0.08);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 20px;
     transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 5px;
 }
 
 .category:hover {
@@ -86,7 +97,25 @@ header {
     background: rgba(255, 255, 255, 0.12);
 }
 
-.explore-div{
+.category {
+    cursor: pointer;
+    /* Делает курсор «пальчиком» при наведении */
+}
+
+.category img {
+    max-width: 75%;
+    height: 173px;
+    margin: auto;
+}
+
+.category span {
+    /* font-family: 'BoldCondensed'; */
+    font-size: 30px;
+    margin: auto;
+    color: #ffffff;
+}
+
+.explore-div {
     display: flex;
     justify-content: center;
 
@@ -94,7 +123,7 @@ header {
     margin-top: 50px;
 }
 
-.text-explore{
+.text-explore {
     border-radius: 100px;
     font-family: 'BoldCondensed';
     color: #ffffff;
@@ -113,23 +142,144 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 230px;
+}
+
+.insurance_info {
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+
+}
+
+.insurance_info span {
+    font-family: 'BoldCondensed';
+    font-size: 95px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.insurence_text {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.insurence_text p {
+    font-size: 25px;
+}
+
+.insurance_document {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.insurance_info p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.insurance_document img {
+    height: 700px;
+}
+
+/* ========== THIRD SECTION ========== */
+.third-section {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f9f9f9; /* Slightly off-white is easier on the eyes */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+    gap: 60px; /* Reduced gap for better flow */
+}
+
+.t_s_title {
+    font-family: 'BoldCondensed', sans-serif;
+    font-size: clamp(40px, 8vw, 80px); /* Responsive font size */
+    font-weight: 800;
+    color: #01321F;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+.transports_grid {
+    display: grid;
+    /* This makes it responsive: it will automatically drop to fewer columns on smaller screens */
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+    gap: 30px;
+    width: 90%;
+    max-width: 1400px;
+}
+
+.transport {
+    background: #ffffff;
+    border: 1px solid rgba(1, 50, 31, 0.1);
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden; /* Keeps the bottom div corners clean */
+    box-shadow: 0 10px 30px rgba(1, 50, 31, 0.05);
+}
+
+.transport:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(1, 50, 31, 0.15);
+}
+
+.transport img {
+    width: 100%;
+    height: 220px;
+    object-fit: contain; /* Prevents icons from stretching */
+    padding: 40px;
+    filter: invert(14%) sepia(21%) saturate(2803%) hue-rotate(114deg) brightness(91%) contrast(101%); 
+    /* Pro Tip: Instead of pure black/white invert, I used a filter that matches your #01321F green */
+}
+
+.transport_text_div {
+    flex-grow: 1;
+    padding: 25px;
+    background-color: #01321F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.transport_text_div span {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-weight: 300;
 }
 
 
 
-/* ========== THIRD SECTION ========== */
-.third-section {
+/* ========== FIFTH SECTION ========== */
+.fifth-section {
     position: relative;
-    z-index: 9999; /* Выносим всю секцию на самый верх */
+    z-index: 9999;
+    /* Выносим всю секцию на самый верх */
     background-color: #01321F;
     padding: 50px 0;
     width: 100%;
-    min-height: 500px; 
-    display: block; /* Убираем flex на время теста */
+    min-height: 500px;
+    display: block;
+    /* Убираем flex на время теста */
 }
 
 #map {
     width: 100%;
     height: 500px !important;
-    background-color: #333; /* Если карта не загрузится, будет серый блок */
+    background-color: #333;
+    /* Если карта не загрузится, будет серый блок */
 }
