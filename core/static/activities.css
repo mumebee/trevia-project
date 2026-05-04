@@ -27,7 +27,8 @@ header {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-bottom: -25px;
+    margin-bottom: -35px;
+    margin-left: 2;
 }
 .page_name span {
     font-family: 'BoldCondensed';
@@ -53,7 +54,7 @@ header {
     flex-shrink: 0;
     background-color: #012318;
     min-height: 100vh;
-    margin-top: 0px;
+    max-height: 100vh;
     padding: 120px 24px 40px;
     position: sticky;
     top: 0;
@@ -61,6 +62,27 @@ header {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    overflow-y: auto;
+    scrollbar-width: thin;                        /* Firefox */
+    scrollbar-color: #0a583a #012318;             /* Firefox: thumb track */
+}
+
+/* Chrome/Edge */
+.sidebar::-webkit-scrollbar {
+    width: 4px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background: #012318;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: #0a583a;
+    border-radius: 10px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+    background-color: #ffe176;
 }
 .sidebar-title {
     font-family: 'BoldCondensed';
@@ -71,39 +93,6 @@ header {
     padding-bottom: 10px;
 }
 /* ========== FILTERING FORM ========== */
-/* ========== DROPDOWN ========== */
-.dropdown_wrapper {
-    position: relative;
-    width: 100%;
-}
-.dropdown_list {
-    display: none;
-    position: absolute;
-    top: calc(100% + 4px);
-    left: 0;
-    width: 100%;
-    background-color: #012318;
-    border: 1px solid #0a583a;
-    border-radius: 10px;
-    z-index: 100;
-    overflow: hidden;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
-}
-.dropdown_list.open {
-    display: block;
-}
-.dropdown_item {
-    padding: 10px 14px;
-    color: #ffffff;
-    font-size: 15px;
-    cursor: pointer;
-    transition: background 0.15s;
-}
-.dropdown_item:hover {
-    background-color: #0a583a;
-}
-
-
 .filtering_form {
     display: flex;
     flex-direction: column;
@@ -168,7 +157,7 @@ header {
     height: 48px;
     border-radius: 10px;
     border: none;
-    background: rgba(255, 255, 255, 0.08);
+    background: #ffe176;
     font-family: 'BoldCondensed';
     font-size: 22px;
     letter-spacing: 1px;
@@ -177,7 +166,7 @@ header {
     margin-top: 4px;
 }
 .filter-btn:hover {
-    background: rgba(255, 255, 255, 0.15);
+    background: #f7c11e;
     transform: translateY(-1px);
 }
 
@@ -185,7 +174,7 @@ header {
 /* ========== MAIN CONTENT ========== */
 .container_activities {
     flex: 1;
-    padding: 120px 32px 40px;
+    padding: 120px 10px 40px;
     display: flex;
     flex-direction: column;
     gap: 56px;
@@ -316,6 +305,7 @@ header {
     cursor: pointer;
     flex-shrink: 0;
     transition: background-color 0.2s;
+    margin: 5px;
 }
 .carousel_btn:hover {
     background-color: #c6d2db;
@@ -363,14 +353,3 @@ header {
     max-height: 90vh;
     overflow-y: auto;
 }
-
-.form-group label {
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #ffffff;
-    margin-bottom: 12px;
-}
-
-
-

@@ -28,7 +28,7 @@ header {
     width: 100%;
     position: relative;
 }
-/* 3. Section Adjustment */
+/* ========== FIRST SECTION ========== */
 .first-section {
     width: 100%; 
     min-height: 120vh;
@@ -103,6 +103,9 @@ header {
     letter-spacing: 4px;
     z-index: 1;
 }
+
+
+/* ========== SECOND SECTION ========== */
 .second-section {
     width: 100%;
     min-height: 100vh;
@@ -114,7 +117,7 @@ header {
 
 
 
-
+/* ========== THIRD SECTION ========== */
 .third-section {
     position: relative;
     z-index: 9999; /* Выносим всю секцию на самый верх */
