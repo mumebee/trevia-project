@@ -54,6 +54,7 @@ class Activity(BasePlace):
 
 class Restaurant(BasePlace):
     cuisine_type = models.CharField(max_length=100)
+    tags = models.JSONField(default=list)  # add this
     menu = models.JSONField(default=dict)
 
     def display_card(self):
