@@ -24,4 +24,6 @@ urlpatterns = [
     path('registration/', views.registration_view),
     path('login/', views.login_view),
     path('logout/', views.logout_view),
+    # urls.py — add this line
+    path('ajax/get-hotel-cities/', views.get_hotel_cities_ajax, name='get_hotel_cities_ajax')
 ]
