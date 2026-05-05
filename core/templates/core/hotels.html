@@ -40,8 +40,7 @@
                             <div class="checkbox-group" id="city-checkboxes">
                                 {% for city in cities %}
                                 <label class="tag-label">
-                                    <input type="checkbox" name="city" value="{{ city }}" {% if city in selected_cities
-                                        %}checked{% endif %}> {{ city }}
+                                    <input type="checkbox" name="city" value="{{ city }}" {% if city in selected_cities %}checked{% endif %}> {{ city }}
                                 </label>
                                 {% endfor %}
                             </div>
@@ -52,8 +51,7 @@
                             <select name="stars" class="input_block">
                                 <option value="">Any</option>
                                 {% for s in "12345" %}
-                                <option value="{{ s }}" {% if params.stars==s %}selected{% endif %}>{{ s }} ★ & above
-                                </option>
+                                <option value="{{ s }}">{{ s }} ★ & above</option>
                                 {% endfor %}
                             </select>
                         </div>
