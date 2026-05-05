@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     color: #333;
-    font-size: 45px;
+    font-size: 25px;
     cursor: pointer;
     transition: all 0.3s;
     background: none;
@@ -37,7 +37,7 @@
     position: fixed;
     top: 0;
     right: -500px;
-    width: 450px;
+    width: 400px;
     height: 100vh;
     background: #ffffffd2;
     box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
@@ -57,7 +57,7 @@
 }
 .menu-header h2{
     margin: 0;
-    font-size: 36px;
+    font-size: 28px;
     color: #333;
 }
 .close-label{
@@ -75,7 +75,7 @@
 }
 .categories-header{
     padding: 15px 30px;
-    font-size: 32px;
+    font-size: 28px;
     color: #333;
     font-weight: 600;
     display: flex;
@@ -90,17 +90,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 18px 30px;
+    padding: 10px 25px;
     color: #333;
     text-decoration: none;
-    font-size: 32px;
+    font-size: 26px;
     transition: all 0.3s;
     border-left: 4px solid transparent;
 }
-/* .category-link2{
-    align-items: center;
-    justify-content: center;
-} */
+
 .category-link:hover, .category-link2:hover{
     background-color: #ffffff64;
     color: #01321F;
