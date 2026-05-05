@@ -19,18 +19,87 @@
                 </div>
                 <div class="explore-categories">
 
-                    <div class="category"></div>
-                    <div class="category"></div>
-                    <div class="category"></div>
-                    <div class="category"></div>
-                    <div class="category"></div>
-                    <div class="category"></div>
+                    <div class="category">
+                        <img src="/static/activities_icon.png">
+                        <span>ACTIVITIES</span>
+                    </div>
+
+                    <div class="category">
+                        <img src="/static/restaurants_icon.png">
+                        <span>RESTAURANTS</span>
+                    </div>
+                    <div class="category">
+                        <img src="/static/hotels_icon.png">
+                        <span>HOTELS</span>
+                    </div>
+                    <div class="category" onclick="document.getElementById('insurance-section').scrollIntoView({ behavior: 'smooth', block: 'center' })">
+                        <img src="/static/insurance_icon.png">
+                        <span>INSURANCE</span>
+                    </div>
+                    <div class="category" onclick="document.getElementById('transport_section').scrollIntoView({ behavior: 'smooth', block: 'center' })">
+                        <img src="/static/transport_icon.png">
+                        <span>TRANSPORTS</span>
+                    </div>
+                    <div class="category">
+                        <img src="/static/views_icon.png">
+                        <span>VIEWS</span>
+                    </div>
 
                 </div>
             </section>
-            <section class="second-section">
+            <section class="second-section" id="insurance-section">
+                <div class="insurance_info">
+                    <span>Insurance document</span>
+                    <div class="insurence_text">
+                        <p>At Trevia Trip Planner, we believe every journey should be stress-free and secure. That’s why
+                            our travel insurance is designed to give you complete peace of mind, wherever your
+                            adventures take you.</p>
+                        <p>With Trevia insurance, you are protected against unexpected situations such as trip
+                            cancellations, medical emergencies, lost luggage, and travel delays. We work with trusted
+                            partners to ensure fast assistance and reliable coverage when you need it most.</p>
+                        <p>Our goal is simple: to let you focus on enjoying your trip while we take care of the risks.
+                            Whether you’re exploring a new country, planning a family vacation, or traveling for study
+                            or business, Trevia Trip Planner has your back every step of the way.</p>
+                        <p>Safe travels start with smart planning — and Trevia makes it easy.</p>
+                    </div>
+                </div>
+                <div class="insurance_document">
+                    <img src="/static/insurance_paper.webp">
+                </div>
             </section>
-            <section class="third-section">
+            <section class="third-section" id="transport_section">
+                <span class="t_s_title">TRANSPORTS & yandex</span>
+                <div class="transports_grid">
+                    <div class="transport">
+                        <img src="/static/transport_icon.png">
+                        <div class="transport_text_div">
+                            <span>Yandex give you possibily to order an taxi from anywhere</span>
+                        </div>
+                    </div>
+                    <div class="transport">
+                         <img src="/static/bus_icon.png">
+                        <div class="transport_text_div">
+                            <span>Since yandex exist for a very long period , the diversity in transport choice wont live you sad</span>
+                        </div>
+                    </div>
+                    <div class="transport">
+                         <img src="/static/diversity_icon.png">
+                        <div class="transport_text_div">
+                            <span>It is also a system that show you the bus arrival in any of our countries/span>
+                        </div>
+                    </div>
+                    <div class="transport">
+                         <img src="/static/map_icon.png">
+                        <div class="transport_text_div">
+                            <span>Yandex has its own map, the one that we displayed in the bottom of this page</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+             <section class="fourth-section">
+                <span></span>
+            </section>
+            <section class="fifth-section">
                 <div id="map"></div>
             </section>
         </main>
@@ -38,86 +107,88 @@
 
     <footer>
     </footer>
-    <script src="https://api-maps.yandex.ru/2.1/?apikey=7af13a42-8ae5-4930-8b11-50aa988d021a&lang=uz_UZ" type="text/javascript"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=7af13a42-8ae5-4930-8b11-50aa988d021a&lang=uz_UZ"
+        type="text/javascript"></script>
 
     <script type="text/javascript">
-    
+
         ymaps.ready(init);
-    
-       
-    
+
+
+
         function init() {
-    
+
             var myMap = new ymaps.Map("map", {
-    
+
                 center: [41.2995, 69.2401], // Tashkent
-    
+
                 zoom: 12,
-    
+
                 controls: ['zoomControl', 'fullscreenControl']
-    
+
             });
-    
-    
-    
+
+
+
             var myPlacemark;
-    
-    
-    
+
+
+
             myMap.events.add('click', function (e) {
-    
+
                 var coords = e.get('coords');
-    
-    
-    
+
+
+
                 // Debugging: This will show in your browser console (F12)
-    
+
                 console.log("Map clicked at: ", coords);
-    
-    
-    
+
+
+
                 if (myPlacemark) {
-    
+
                     myMap.geoObjects.remove(myPlacemark);
-    
+
                 }
-    
-               
-    
+
+
+
                 // Create the marker
-    
+
                 myPlacemark = new ymaps.Placemark(coords, {
-    
+
                     balloonContent: 'Yetkazib berish nuqtasi'
-    
+
                 }, {
-    
+
                     preset: 'islands#redDotIcon',
-    
+
                     draggable: false
-    
+
                 });
-    
-    
-    
+
+
+
                 myMap.geoObjects.add(myPlacemark);
-    
-    
-    
+
+
+
                 // Save coordinates to the hidden input
-    
+
                 // Formatting exactly for your Python split(',')
-    
+
                 var lat = coords[0].toFixed(6);
-    
+
                 var lng = coords[1].toFixed(6);
-    
+
                 document.getElementById('location_coords').value = lat + "," + lng;
-    
+
             });
-    
+
         }
-    
+
     </script>
 </body>
+
 </html>
