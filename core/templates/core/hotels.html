@@ -1,55 +1,202 @@
-<h1>Hotels</h1>
+{% load static %}
+<html lang="en">
 
-<form method="GET">
-    <input name="country" placeholder="Country">
+<head>
+    <meta charset="UTF-8">
+    <title>Hotels</title>
+    <link rel="stylesheet" href="{% static 'activities.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
-    <input name="min_price" type="number" placeholder="Min price">
-    <input name="max_price" type="number" placeholder="Max price">
+<body>
+    <div class="page-wrapper">
+        <main class="content-area">
+            {% include 'components/header.html' %}
+            <section class="first-section">
+                <aside class="sidebar">
+                    <h2 class="sidebar-title">Filter</h2>
+                    <form method="GET" class="filtering_form" id="filter-form">
 
-    <button type="submit">Filter</button>
-</form>
+                        <div class="form-group">
+                            <label for="search_query">Search</label>
+                            <input type="text" name="q" id="search_query" placeholder="Search hotels..."
+                                class="input_block" value="{{ params.q|default_if_none:'' }}">
+                        </div>
 
-<hr>
+                        <div class="form-group">
+                            <label>Countries</label>
+                            <div class="checkbox-group" id="country-checkboxes">
+                                {% for country in countries %}
+                                <label class="tag-label">
+                                <input type="checkbox" name="country" value="{{ country }}" {% if country in selected_countries %}checked{% endif %}> {{ country }}
+                                </label>
+                                {% endfor %}
+                            </div>
+                        </div>
 
-{% for h in hotels %}
-    <div>
-        <h3>{{ h.name }}</h3>
-        <p>{{ h.city }}, {{ h.country }}</p>
-        <p>{{ h.price }}</p>
+                        <div class="form-group">
+                            <label>Cities</label>
+                            <div class="checkbox-group" id="city-checkboxes">
+                                {% for city in cities %}
+                                <label class="tag-label">
+                                    <input type="checkbox" name="city" value="{{ city }}" {% if city in selected_cities %}checked{% endif %}> {{ city }}
+                                </label>
+                                {% endfor %}
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Min Stars</label>
+                            <select name="stars" class="input_block">
+                                <option value="">Any</option>
+                                {% for s in "12345" %}
+                                <option value="{{ s }}">{{ s }} ★ & above</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Min Price (per night)</label>
+                            <input name="min_price" type="number" placeholder="0" class="input_block"
+                                value="{{ params.min_price|default_if_none:'' }}">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Max Price (per night)</label>
+                            <input name="max_price" type="number" placeholder="9999" class="input_block"
+                                value="{{ params.max_price|default_if_none:'' }}">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Room Type</label>
+                            <input name="room_type" type="text" placeholder="e.g. Suite, King..." class="input_block"
+                                value="{{ params.room_type|default_if_none:'' }}">
+                        </div>
+
+                        <button type="submit" class="filter-btn">Apply Filters</button>
+                    </form>
+                </aside>
+
+                <div class="container_activities">
+                    <div class="page_name">
+                        <span>HOTELS</span>
+                        <p>Find your perfect place to stay</p>
+                    </div>
+
+                    {% for country, country_hotels in hotels_by_country %}
+                    <div class="country_section">
+                        <h1>{{ country }}</h1>
+                        <div class="carousel_wrapper">
+                            <button class="carousel_btn prev" onclick="scroll_left(this)">&#10094;</button>
+                            <div class="activities_carousel">
+                                {% for h in country_hotels %}
+                                <div class="activity">
+                                    <img src="{{ h.image }}" alt="{{ h.name }}">
+                                    <div class="activity_description">
+                                        <div class="activity_row">
+                                            <span class="activity_name">{{ h.name }}</span>
+                                            <i class="bi bi-heart"></i>
+                                        </div>
+                                        <span class="activity_city">
+                                            {{ h.city }}
+                                            &nbsp;
+                                            {% for i in "12345" %}
+                                            {% if forloop.counter <= h.stars %}★{% else %}☆{% endif %} {% endfor %}
+                                                </span>
+                                                <div class="activity_row">
+                                                    <span class="activity_price">
+                                                        from ${{ h.price|floatformat:0 }} / night
+                                                    </span>
+                                                    <i class="bi bi-plus-square"></i>
+                                                </div>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                            </div>
+                            <button class="carousel_btn next" onclick="scroll_right(this)">&#10095;</button>
+                        </div>
+                    </div>
+                    {% endfor %}
+
+                </div>
+            </section>
+        </main>
     </div>
-{% endfor %}
+    <div id="initial-cities-data" data-cities="{{ selected_cities|safe }}" style="display:none"></div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const countryCheckboxes = document.querySelectorAll('#country-checkboxes input[type="checkbox"]');
+            const cityCheckboxesContainer = document.getElementById('city-checkboxes');
 
+            const initialCities = JSON.parse(document.getElementById('initial-cities-data').dataset.cities || '[]');
+            async function updateCitiesDropdown() {
+                const selectedCountries = Array.from(countryCheckboxes)
+                    .filter(cb => cb.checked)
+                    .map(cb => cb.value);
 
-<script>
-function likePlace(type, id) {
-    fetch("/like/", {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/x-www-form-urlencoded",
-            "X-CSRFToken": getCSRF()
-        },
-        body: `type=${type}&id=${id}`
-    })
-    .then(res => res.json())
-    .then(data => console.log(data));
-}
+                const currentlyCheckedInDOM = Array.from(cityCheckboxesContainer.querySelectorAll('input:checked'))
+                    .map(cb => cb.value);
 
-function addToItinerary(type, id, name, lat, lng) {
-    fetch("/add-to-itinerary/", {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json",
-            "X-CSRFToken": getCSRF()
-        },
-        body: JSON.stringify({
-            type, id, name, lat, lng
-        })
-    })
-    .then(res => res.json())
-    .then(data => alert("Added to itinerary"));
-}
+                const citiesToKeep = currentlyCheckedInDOM.length > 0 ? currentlyCheckedInDOM : initialCities;
 
-function getCSRF() {
-    return document.cookie.split('csrftoken=')[1];
-}
-</script>
+                let url = '/ajax/get-hotel-cities/';
+                if (selectedCountries.length > 0) {
+                    url += '?' + selectedCountries.map(c => `countries[]=${encodeURIComponent(c)}`).join('&');
+                }
+
+                const response = await fetch(url);
+                const data = await response.json();
+
+                cityCheckboxesContainer.innerHTML = '';
+                data.cities.forEach(city => {
+                    const label = document.createElement('label');
+                    label.className = 'tag-label';
+                    const input = document.createElement('input');
+                    input.type = 'checkbox';
+                    input.name = 'city';
+                    input.value = city;
+
+                    if (citiesToKeep.includes(city)) {
+                        input.checked = true;
+                    }
+
+                    input.onchange = () => label.classList.toggle('active', input.checked);
+                    label.appendChild(input);
+                    label.appendChild(document.createTextNode(' ' + city));
+                    cityCheckboxesContainer.appendChild(label);
+                });
+            }
+
+            countryCheckboxes.forEach(cb => cb.addEventListener('change', updateCitiesDropdown));
+            updateCitiesDropdown();
+        });
+
+        function scroll_left(btn) {
+            const carousel = btn.nextElementSibling;
+            carousel.scrollBy({ left: -600, behavior: 'smooth' });
+        }
+        function scroll_right(btn) {
+            const carousel = btn.previousElementSibling;
+            carousel.scrollBy({ left: 600, behavior: 'smooth' });
+        }
+
+        document.querySelectorAll('.bi-heart, .bi-heart-fill').forEach(icon => {
+            icon.addEventListener('click', () => {
+                icon.classList.toggle('bi-heart');
+                icon.classList.toggle('bi-heart-fill');
+                icon.style.color = icon.classList.contains('bi-heart-fill') ? '#e63946' : '#01321F';
+            });
+        });
+
+        document.querySelectorAll('.bi-plus-square, .bi-plus-square-fill').forEach(icon => {
+            icon.addEventListener('click', () => {
+                icon.classList.toggle('bi-plus-square');
+                icon.classList.toggle('bi-plus-square-fill');
+                icon.style.color = icon.classList.contains('bi-plus-square-fill') ? '#0a583a' : '#01321F';
+            });
+        });
+    </script>
+</body>
+
+</html>

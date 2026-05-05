@@ -80,10 +80,16 @@ class RestaurantFilterEngine(BaseFilterEngine):
 class HotelFilterEngine(BaseFilterEngine):
     def filter_queryset(self, qs, params):
         qs = self.filter_common(qs, params)
-        
+
+        # Stars filter
         if params.get("stars"):
             try:
                 qs = qs.filter(stars__gte=int(params.get("stars")))
             except ValueError:
                 pass
+
+        # Room type filter (searches inside JSONField)
+        if params.get("room_type"):
+            qs = qs.filter(rooms__icontains=params.get("room_type"))
+
         return qs.distinct()

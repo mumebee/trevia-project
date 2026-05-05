@@ -35,6 +35,7 @@ def explore_view(request):
     })
 
 
+
 # =========================
 # FILTERED LISTS
 # =========================
@@ -144,13 +145,43 @@ def restaurants_view(request):
         "selected_tags": params.getlist("tags"),
     })
 
+
+# def hotels_view(request):
+#     engine = HotelFilterEngine()
+
+#     qs = Hotel.objects.all()
+#     hotels = engine.filter_queryset(qs, request.GET)
+
+#     return render(request, "core/hotels.html", {"hotels": hotels})
 def hotels_view(request):
     engine = HotelFilterEngine()
-
     qs = Hotel.objects.all()
-    hotels = engine.filter_queryset(qs, request.GET)
+    params = request.GET
+    hotels = engine.filter_queryset(qs, params)
 
-    return render(request, "core/hotels.html", {"hotels": hotels})
+    countries = Hotel.objects.values_list('country', flat=True).distinct().order_by('country')
+    selected_countries = params.getlist('country')
+    selected_cities = params.getlist('city')
+
+    if selected_countries:
+        cities = Hotel.objects.filter(country__in=selected_countries).values_list('city', flat=True).distinct().order_by('city')
+    else:
+        cities = Hotel.objects.values_list('city', flat=True).distinct().order_by('city')
+
+    hotels_by_country = {}
+    for h in hotels:
+        if h.country not in hotels_by_country:
+            hotels_by_country[h.country] = []
+        hotels_by_country[h.country].append(h)
+
+    return render(request, "core/hotels.html", {
+        "hotels_by_country": hotels_by_country.items(),
+        "countries": countries,
+        "cities": cities,
+        "params": params,
+        "selected_countries": selected_countries,
+        "selected_cities": selected_cities,
+    })
 
 
 # =========================
@@ -184,6 +215,14 @@ def get_cities_ajax(request):
         cities = Activity.objects.values_list('city', flat=True).distinct().order_by('city')
     return JsonResponse({'cities': list(cities)})
 
+# hotels end point
+def get_hotel_cities_ajax(request):
+    countries = request.GET.getlist('countries[]')
+    if countries:
+        cities = Hotel.objects.filter(country__in=countries).values_list('city', flat=True).distinct().order_by('city')
+    else:
+        cities = Hotel.objects.values_list('city', flat=True).distinct().order_by('city')
+    return JsonResponse({'cities': list(cities)})
 
 # =========================
 # ITINERARY
