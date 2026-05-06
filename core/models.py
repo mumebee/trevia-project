@@ -67,6 +67,7 @@ class Hotel(BasePlace):
     rooms = models.JSONField(default=list)
     food = models.JSONField(default=list)
     reviews = models.JSONField(default=dict)
+    image = models.URLField(blank=True, null=True)
 
     def get_min_room_price(self):
         if not self.rooms:
