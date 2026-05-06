@@ -33,7 +33,7 @@
     },
     "lat": 41.2995,
     "lng": 69.24,
-    "image": "https://avatars.mds.yandex.net/get-altay/12345678/abc123def/orig",
+    "image": "https://jumanji.uz/images/carousel/Fg2iRzai.jpg",
     "cuisine_tags": [
       "fusion"
     ]
@@ -52,7 +52,7 @@
     },
     "lat": 41.311,
     "lng": 69.275,
-    "image": "https://avatars.mds.yandex.net/get-altay/87654321/manana_tashkent/orig",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTklmLYDTWsGjxuivqGfCDR3DYRxqk4iJ2Y1g&s",
     "cuisine_tags": [
       "georgian"
     ]
@@ -71,7 +71,7 @@
     },
     "lat": 41.29,
     "lng": 69.26,
-    "image": "https://avatars.mds.yandex.net/get-altay/45678901/anor_tashkent/orig",
+    "image": "https://avatars.mds.yandex.net/get-altay/15434262/2a000001965de342974376774cce56013d78/L_height",
     "cuisine_tags": [
       "central_asian",
       "uzbek"
@@ -91,7 +91,7 @@
     },
     "lat": 41.305,
     "lng": 69.285,
-    "image": "https://avatars.mds.yandex.net/get-altay/23456789/arisu_tashkent/orig",
+    "image": "https://avatars.mds.yandex.net/get-altay/2799320/2a000001744ae89e773bed95c48df4daee30/L_height",
     "cuisine_tags": [
       "central_asian",
       "uzbek"
@@ -111,7 +111,7 @@
     },
     "lat": 41.315,
     "lng": 69.265,
-    "image": "https://avatars.mds.yandex.net/get-altay/34567890/istanbul_tashkent/orig",
+    "image": "https://avatars.mds.yandex.net/get-altay/13265642/2a0000019640a355b6c3f394482cdb0ab19a/orig",
     "cuisine_tags": [
       "turkish"
     ]
@@ -130,14 +130,14 @@
     },
     "lat": 41.3,
     "lng": 69.27,
-    "image": "https://avatars.mds.yandex.net/get-altay/56789012/tandiriy_tashkent/orig",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPrJipNdJRZ0WtjrkZMmLdSWXe33AtDlqeQQ&s",
     "cuisine_tags": [
       "central_asian",
       "uzbek"
     ]
   },
   {
-    "name": "Южанин",
+    "name": "Ujanin",
     "country": "Uzbekistan",
     "city": "Tashkent",
     "menu": {
@@ -150,7 +150,7 @@
     },
     "lat": 41.31,
     "lng": 69.28,
-    "image": "https://avatars.mds.yandex.net/get-altay/67890123/yuzhanin_tashkent/orig",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/b4/50/1f/caption.jpg?w=900&h=500&s=1",
     "cuisine_tags": [
       "central_asian",
       "uzbek"
@@ -170,7 +170,7 @@
     },
     "lat": 41.32,
     "lng": 69.29,
-    "image": "https://avatars.mds.yandex.net/get-altay/78901234/meatme_tashkent/orig",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/d2/1b/70/caption.jpg?w=900&h=-1&s=1",
     "cuisine_tags": [
       "steak"
     ]
@@ -189,7 +189,7 @@
     },
     "lat": 41.308,
     "lng": 69.278,
-    "image": "https://avatars.mds.yandex.net/get-altay/89012345/uzbekona_tashkent/orig",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/36/a9/ec/the-entrance-area-of.jpg?w=900&h=500&s=1",
     "cuisine_tags": [
       "central_asian",
       "uzbek"
@@ -209,7 +209,7 @@
     },
     "lat": 41.302,
     "lng": 69.272,
-    "image": "https://avatars.mds.yandex.net/get-altay/90123456/ramiz_tashkent/orig",
+    "image": "https://avatars.mds.yandex.net/get-altay/5115998/2a0000018f0603aa22983088cfe3ba03d79a/L_height",
     "cuisine_tags": [
       "turkish"
     ]
@@ -228,7 +228,7 @@
     },
     "lat": 41.318,
     "lng": 69.268,
-    "image": "https://avatars.mds.yandex.net/get-altay/01234567/miramandi_tashkent/orig",
+    "image": "https://d2kihw5e8drjh5.cloudfront.net/eyJidWNrZXQiOiJ1dGEtaW1hZ2VzIiwia2V5IjoicGxhY2VfaW1nL0U4OUlnVkxtUTJXOXdtX19BTUNvMXciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MCwiaGVpZ2h0Ijo2NDAsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsInRvRm9ybWF0IjogIndlYnAifX0=",
     "cuisine_tags": [
       "central_asian",
       "uzbek"
@@ -248,7 +248,7 @@
     },
     "lat": 41.307,
     "lng": 69.281,
-    "image": "https://avatars.mds.yandex.net/get-altay/12345678/afsona_tashkent/orig",
+    "image": "https://www.afisha.uz/uploads/media/2024/11/dfb51d0fcaaf8ddd834fe53d60b3f81c.png",
     "cuisine_tags": [
       "central_asian",
       "uzbek"
@@ -268,7 +268,7 @@
     },
     "lat": 41.309,
     "lng": 69.277,
-    "image": "https://avatars.mds.yandex.net/get-altay/23456789/khiva_tashkent/orig",
+    "image": "https://avatars.mds.yandex.net/get-altay/15544497/2a000001996604a64083cee9ac4f15437e7c/L_height",
     "cuisine_tags": [
       "central_asian",
       "uzbek"
@@ -288,7 +288,7 @@
     },
     "lat": 39.6542,
     "lng": 66.975,
-    "image": "https://avatars.mds.yandex.net/get-altay/11111111/karimbek_samarkand/orig",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo5PquM4TzChsHxoeEEuQrVmhHiGtIVjJTbA&s",
     "cuisine_tags": [
       "central_asian",
       "uzbek"
@@ -308,14 +308,14 @@
     },
     "lat": 39.6505,
     "lng": 66.9851,
-    "image": "https://avatars.mds.yandex.net/get-altay/22222222/samarkand_rest/orig",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgQ_HqZLxG_QhUt_Q7WlrE2uIlPtyv63_FbQ&s",
     "cuisine_tags": [
       "central_asian",
       "uzbek"
     ]
   },
   {
-    "name": "Uyfaytlar",
+    "name": "Ulfaytlar",
     "country": "Uzbekistan",
     "city": "Samarkand",
     "menu": {
@@ -328,7 +328,7 @@
     },
     "lat": 39.6523,
     "lng": 66.9789,
-    "image": "https://avatars.mds.yandex.net/get-altay/33333333/uyfaytlar_samarkand/orig",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdTZP6BGzR2T0VNsX876b__UaJY_LsGE6iKQ&s",
     "cuisine_tags": [
       "central_asian",
       "uzbek"
@@ -348,7 +348,7 @@
     },
     "lat": 39.6487,
     "lng": 66.9824,
-    "image": "https://avatars.mds.yandex.net/get-altay/44444444/valide_samarkand/orig",
+    "image": "https://avatars.mds.yandex.net/get-altay/11374752/2a000001905fb926ee4b09a2ef78637167a7/L_height",
     "cuisine_tags": [
       "central_asian",
       "uzbek"
@@ -368,7 +368,7 @@
     },
     "lat": 39.6601,
     "lng": 66.9702,
-    "image": "https://avatars.mds.yandex.net/get-altay/55555555/sangizar_samarkand/orig",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG_GXe0Fjs7tJpHnlQBIFrCp40cSxN6mkc6Q&s",
     "cuisine_tags": [
       "central_asian",
       "european",
@@ -389,7 +389,7 @@
     },
     "lat": 39.6534,
     "lng": 66.9778,
-    "image": "https://avatars.mds.yandex.net/get-altay/66666666/katana_samarkand/orig",
+    "image": "https://avatars.mds.yandex.net/get-altay/14244043/2a00000192867e460180855b72cf8894acb0/L_height",
     "cuisine_tags": [
       "central_asian",
       "eastern_asian",
@@ -410,7 +410,7 @@
     },
     "lat": 39.6512,
     "lng": 66.9805,
-    "image": "https://avatars.mds.yandex.net/get-altay/77777777/emirhan_samarkand/orig",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/f0/1d/bd/caption.jpg?w=900&h=500&s=1",
     "cuisine_tags": [
       "central_asian",
       "uzbek"
@@ -430,7 +430,7 @@
     },
     "lat": 39.6478,
     "lng": 66.9843,
-    "image": "https://avatars.mds.yandex.net/get-altay/88888888/osh_markazi_samarkand/orig",
+    "image": "https://avatars.mds.yandex.net/get-altay/14092818/2a0000019435e472f656b3a70b9227e4e845/orighttps://avatars.mds.yandex.net/get-altay/14092818/2a0000019435e472f656b3a70b9227e4e845/orig",
     "cuisine_tags": [
       "central_asian",
       "uzbek"
@@ -450,7 +450,7 @@
     },
     "lat": 39.6556,
     "lng": 66.9767,
-    "image": "https://avatars.mds.yandex.net/get-altay/99999999/mone_samarkand/orig",
+    "image": "https://avatars.mds.yandex.net/get-altay/1588111/2a0000016ff04950c88b9a462e094f7e010b/orig",
     "cuisine_tags": [
       "café"
     ]
@@ -469,7 +469,7 @@
     },
     "lat": 39.6499,
     "lng": 66.9812,
-    "image": "https://avatars.mds.yandex.net/get-altay/10101010/menresa_samarkand/orig",
+    "image": "https://avatars.mds.yandex.net/get-altay/16874376/2a0000019b53b7147f256f64a969fe5ac100/orig",
     "cuisine_tags": [
       "central_asian",
       "uzbek"
@@ -489,7 +489,7 @@
     },
     "lat": 39.6521,
     "lng": 66.979,
-    "image": "https://avatars.mds.yandex.net/get-altay/12121212/oldcity_samarkand/orig",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/78/98/4a/old-city.jpg?w=900&h=-1&s=1",
     "cuisine_tags": [
       "central_asian",
       "uzbek"
@@ -509,7 +509,7 @@
     },
     "lat": 39.6508,
     "lng": 66.9836,
-    "image": "https://avatars.mds.yandex.net/get-altay/13131313/avesto_samarkand/orig",
+    "image": "https://avatars.mds.yandex.net/get-altay/5104421/2a0000017fb2d93d61c37d36d6fba0c9827d/L_height",
     "cuisine_tags": [
       "central_asian",
       "uzbek"
@@ -529,7 +529,7 @@
     },
     "lat": 41.3805,
     "lng": 60.354,
-    "image": "https://avatars.mds.yandex.net/get-altay/11112222/terrassa_khiva/orig",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/87/47/1f/terrassa-in-the-evening.jpg?w=900&h=500&s=1https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/87/47/1f/terrassa-in-the-evening.jpg?w=900&h=500&s=1https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/87/47/1f/terrassa-in-the-evening.jpg?w=900&h=500&s=1https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/87/47/1f/terrassa-in-the-evening.jpg?w=900&h=500&s=1",
     "cuisine_tags": [
       "central_asian",
       "uzbek"
@@ -549,7 +549,7 @@
     },
     "lat": 41.3812,
     "lng": 60.3551,
-    "image": "https://avatars.mds.yandex.net/get-altay/22223333/khorezm_art_khiva/orig",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2w1uoP7VkTtcSCbM4fGkvbNSM-7rehEMnBw&s",
     "cuisine_tags": [
       "central_asian",
       "uzbek"
@@ -569,7 +569,7 @@
     },
     "lat": 41.3802,
     "lng": 60.3542,
-    "image": "https://avatars.mds.yandex.net/get-altay/33334444/khiva_moon/orig",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/2a/c2/13/caption.jpg?w=200&h=200&s=1",
     "cuisine_tags": [
       "central_asian",
       "uzbek"
@@ -589,7 +589,7 @@
     },
     "lat": 41.3821,
     "lng": 60.356,
-    "image": "https://avatars.mds.yandex.net/get-altay/44445555/zarafshon_khiva/orig",
+    "image": "https://avatars.mds.yandex.net/get-altay/15183726/2a00000195f7a9439d13d0ea30ab904a76cf/L_height",
     "cuisine_tags": [
       "central_asian",
       "uzbek"
@@ -609,7 +609,7 @@
     },
     "lat": 41.3798,
     "lng": 60.3535,
-    "image": "https://avatars.mds.yandex.net/get-altay/55556666/mirza_bashi_khiva/orig",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE-2a3mFp_itlWSiHuQxOEn9-MCPXmY06ufQ&s",
     "cuisine_tags": [
       "central_asian",
       "uzbek"
@@ -629,7 +629,7 @@
     },
     "lat": 41.3815,
     "lng": 60.3558,
-    "image": "https://avatars.mds.yandex.net/get-altay/66667777/bir_gumbaz_khiva/orig",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/fd/9a/6b/caption.jpg?w=1200&h=1200&s=1",
     "cuisine_tags": [
       "central_asian",
       "uzbek"
@@ -649,7 +649,7 @@
     },
     "lat": 41.3808,
     "lng": 60.3547,
-    "image": "https://avatars.mds.yandex.net/get-altay/77778888/malika_kheivak/orig",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/a1/33/c6/malika-kheivak-restaurant.jpg?w=900&h=500&s=1",
     "cuisine_tags": [
       "central_asian",
       "uzbek"
@@ -669,7 +669,7 @@
     },
     "lat": 41.3824,
     "lng": 60.3562,
-    "image": "https://avatars.mds.yandex.net/get-altay/88889999/zarafshan_chaikhana/orig",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/17/fd/27/caption.jpg?w=1200&h=1200&s=1",
     "cuisine_tags": [
       "central_asian",
       "uzbek"
@@ -689,7 +689,7 @@
     },
     "lat": 41.3795,
     "lng": 60.3532,
-    "image": "https://avatars.mds.yandex.net/get-altay/99990000/yasavul_boshis/orig",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcmE-1Zmc30k0d_Sab_sccG-IxyUs80wSVjg&s",
     "cuisine_tags": [
       "central_asian",
       "uzbek"
@@ -709,7 +709,7 @@
     },
     "lat": 41.381,
     "lng": 60.3554,
-    "image": "https://avatars.mds.yandex.net/get-altay/10101011/sultan_khiva/orig",
+    "image": "https://avatars.mds.yandex.net/get-altay/15017195/2a0000019469844aa6a0fd26477c9f79cb48/L_height",
     "cuisine_tags": [
       "central_asian",
       "uzbek"
@@ -729,7 +729,7 @@
     },
     "lat": 39.7743,
     "lng": 64.4268,
-    "image": "https://avatars.mds.yandex.net/get-altay/12121212/joy_gastro_bukhara/orig",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/28/cf/88/39/caption.jpg",
     "cuisine_tags": [
       "central_asian",
       "uzbek"
@@ -749,7 +749,7 @@
     },
     "lat": 39.7712,
     "lng": 64.4289,
-    "image": "https://avatars.mds.yandex.net/get-altay/23232323/ayvan_bukhara/orig",
+    "image": "https://avatars.mds.yandex.net/get-altay/11398069/2a000001912b31ef1460dee2a275677b9aec/orig",
     "cuisine_tags": [
       "central_asian",
       "uzbek"
@@ -769,7 +769,7 @@
     },
     "lat": 39.7735,
     "lng": 64.4256,
-    "image": "https://avatars.mds.yandex.net/get-altay/34343434/zolotaya_bukhara/orig",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwMhF0WDeMUTBb03BDEZ0iLSQp0jPF_wyEvA&s",
     "cuisine_tags": [
       "central_asian",
       "uzbek"
@@ -789,7 +789,7 @@
     },
     "lat": 39.7751,
     "lng": 64.4272,
-    "image": "https://avatars.mds.yandex.net/get-altay/45454545/zaytoon_bukhara/orig",
+    "image": "https://avatars.mds.yandex.net/get-altay/16329243/2a0000019d956598ef2d1258ddc39cd96428/L_height",
     "cuisine_tags": [
       "middle_eastern"
     ]
@@ -808,7 +808,7 @@
     },
     "lat": 39.7708,
     "lng": 64.4295,
-    "image": "https://avatars.mds.yandex.net/get-altay/56565656/old_bukhara/orig",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_x7vMwqLlJDh61a6YYvMebD7CGivE_cVe7w&s",
     "cuisine_tags": [
       "central_asian",
       "uzbek"
@@ -828,7 +828,7 @@
     },
     "lat": 39.7724,
     "lng": 64.4261,
-    "image": "https://avatars.mds.yandex.net/get-altay/67676767/labi_hovuz/orig",
+    "image": "https://avatars.mds.yandex.net/get-altay/67676767/labi_hovuz/orighttps://avatars.mds.yandex.net/get-altay/10647561/2a0000018abdb87d5307178830764be0dc57/L_height",
     "cuisine_tags": [
       "central_asian",
       "uzbek"
@@ -848,7 +848,7 @@
     },
     "lat": 39.7748,
     "lng": 64.4249,
-    "image": "https://avatars.mds.yandex.net/get-altay/78787878/plov_center_bukhara/orig",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvMhJga1jN3zVuAzEAIXpLhOLAeptUXG6UNQ&s",
     "cuisine_tags": [
       "central_asian",
       "uzbek"
@@ -868,7 +868,7 @@
     },
     "lat": 39.7762,
     "lng": 64.4237,
-    "image": "https://avatars.mds.yandex.net/get-altay/89898989/garten_bukhara/orig",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/3f/1f/2c/garten-sun-view.jpg?w=900&h=500&s=1",
     "cuisine_tags": [
       "central_asian",
       "european",
@@ -889,7 +889,7 @@
     },
     "lat": 39.7695,
     "lng": 64.4301,
-    "image": "https://avatars.mds.yandex.net/get-altay/90909090/besh_qozon_bukhara/orig",
+    "image": "https://avatars.mds.yandex.net/get-altay/13757584/2a00000191f3b4d63ee2db433029ccb0bfba/L_height",
     "cuisine_tags": [
       "central_asian",
       "uzbek"
@@ -909,7 +909,7 @@
     },
     "lat": 39.7739,
     "lng": 64.4254,
-    "image": "https://avatars.mds.yandex.net/get-altay/01010101/minor_somsa_bukhara/orig",
+    "image": "https://avatars.mds.yandex.net/get-altay/11400692/2a000001922e7e9b7734cc48bb812dfe69c9/orig",
     "cuisine_tags": [
       "central_asian",
       "uzbek"
@@ -929,7 +929,7 @@
     },
     "lat": 37.9412,
     "lng": 58.402,
-    "image": "https://avatars.mds.yandex.net/get-altay/11110000/ammar_ashgabat/orig",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpBjUsTrc_gj5ndC2_Mpt2CDpuPKKedU7hVw&s",
     "cuisine_tags": [
       "central_asian",
       "turkmen"
@@ -949,7 +949,7 @@
     },
     "lat": 37.9421,
     "lng": 58.4035,
-    "image": "https://avatars.mds.yandex.net/get-altay/22220000/sha_coffee_ashgabat/orig",
+    "image": "https://avatars.mds.yandex.net/get-altay/1363707/2a00000162d7e305344fd2e38eeeada32644/L_height",
     "cuisine_tags": [
       "café"
     ]
@@ -968,7 +968,7 @@
     },
     "lat": 37.9408,
     "lng": 58.4042,
-    "image": "https://avatars.mds.yandex.net/get-altay/33330000/alpet_steakhouse/orig",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/1c/d3/69/61/alpet-steakhouse.jpg",
     "cuisine_tags": [
       "steak"
     ]
@@ -987,7 +987,7 @@
     },
     "lat": 37.943,
     "lng": 58.4018,
-    "image": "https://avatars.mds.yandex.net/get-altay/44440000/hezzet_ashgabat/orig",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ-A0AdNSarYHBm17_wGHhroE_miwKEQJudQ&s",
     "cuisine_tags": [
       "central_asian",
       "turkmen"
@@ -1007,7 +1007,7 @@
     },
     "lat": 37.9418,
     "lng": 58.4028,
-    "image": "https://avatars.mds.yandex.net/get-altay/55550000/evos_ashgabat/orig",
+    "image": "https://www.afisha.uz/uploads/media/2022/09/950ff823bb837aad5e6abe45fe025aa7.jpg",
     "cuisine_tags": [
       "fast_food"
     ]
@@ -1026,7 +1026,7 @@
     },
     "lat": 37.9445,
     "lng": 58.4005,
-    "image": "https://avatars.mds.yandex.net/get-altay/66660000/kopetdag_project/orig",
+    "image": "https://sun9-48.userapi.com/s/v1/ig1/oyf8p_Fp51_uQBTBfwYxayJw-pkqQXAwJylq7l-yKzPaLrkzUU-l1CEBItbyuqDE8-QGQKcK.jpg?quality=96&as=32x21,48x32,72x48,108x72,160x106,240x160,360x240,480x319,540x359,640x426,720x479,1080x719,1280x852,1440x958,2048x1363&from=bu&cs=640x0",
     "cuisine_tags": [
       "central_asian",
       "turkmen"
@@ -1704,7 +1704,7 @@
   },
   {
     "name": "Al Sham Restaurant",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Dushanbe",
     "menu": {
       "shawarma": 45000,
@@ -1723,7 +1723,7 @@
   },
   {
     "name": "Segafredo in Dushanbe",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Dushanbe",
     "menu": {
       "espresso": 28000,
@@ -1744,7 +1744,7 @@
   },
   {
     "name": "Traktir",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Dushanbe",
     "menu": {
       "qurutob": 42000,
@@ -1764,7 +1764,7 @@
   },
   {
     "name": "Bella Pizza & Pasta",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Dushanbe",
     "menu": {
       "margherita": 52000,
@@ -1784,7 +1784,7 @@
   },
   {
     "name": "Iskender",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Dushanbe",
     "menu": {
       "iskender_kebab": 65000,
@@ -1803,7 +1803,7 @@
   },
   {
     "name": "Coffee Moose Plaza",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Dushanbe",
     "menu": {
       "flat_white": 32000,
@@ -1822,7 +1822,7 @@
   },
   {
     "name": "Delhi Darbar Dushanbe",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Dushanbe",
     "menu": {
       "butter_chicken": 68000,
@@ -1841,7 +1841,7 @@
   },
   {
     "name": "Salsa Restaurant",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Dushanbe",
     "menu": {
       "tacos": 48000,
@@ -1860,7 +1860,7 @@
   },
   {
     "name": "Qurutobkhonai Olim",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Dushanbe",
     "menu": {
       "qurutob": 38000,
@@ -1880,7 +1880,7 @@
   },
   {
     "name": "Buhora",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Dushanbe",
     "menu": {
       "buhora_plov": 52000,
@@ -1900,7 +1900,7 @@
   },
   {
     "name": "Restaurant Adibon",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Khujand",
     "menu": {
       "khujand_plov": 45000,
@@ -1920,7 +1920,7 @@
   },
   {
     "name": "Restaurant Omar Khayam",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Khujand",
     "menu": {
       "khayam_plov": 48000,
@@ -1940,7 +1940,7 @@
   },
   {
     "name": "TajBurger",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Khujand",
     "menu": {
       "taj_burger": 38000,
@@ -1959,7 +1959,7 @@
   },
   {
     "name": "Turkish cafe - Saray",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Khujand",
     "menu": {
       "doner": 45000,
@@ -1978,7 +1978,7 @@
   },
   {
     "name": "Restoran Bakhtiyor",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Khujand",
     "menu": {
       "bakhtiyor_plov": 46000,
@@ -1998,7 +1998,7 @@
   },
   {
     "name": "Kafe Ravshan",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Khujand",
     "menu": {
       "ravshan_plov": 44000,
@@ -2017,7 +2017,7 @@
   },
   {
     "name": "Restoran Parlament",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Khujand",
     "menu": {
       "parlament_plov": 52000,
@@ -2036,7 +2036,7 @@
   },
   {
     "name": "Kafe Nematjon",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Khujand",
     "menu": {
       "nematjon_plov": 45000,
@@ -2056,7 +2056,7 @@
   },
   {
     "name": "Shohona restaurant",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Khujand",
     "menu": {
       "shohona_plov": 48000,
@@ -2076,7 +2076,7 @@
   },
   {
     "name": "Bogi Firdavs",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Khujand",
     "menu": {
       "firdavs_plov": 47000,
@@ -2096,7 +2096,7 @@
   },
   {
     "name": "Choykhonai Istaravshan",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Kulob",
     "menu": {
       "qurutob": 38000,
@@ -2116,7 +2116,7 @@
   },
   {
     "name": "Kulob Restaurant",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Kulob",
     "menu": {
       "kulob_plov": 48000,
@@ -2136,7 +2136,7 @@
   },
   {
     "name": "Somon Restaurant",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Kulob",
     "menu": {
       "somon_plov": 47000,
@@ -2156,7 +2156,7 @@
   },
   {
     "name": "Kafe Kulob",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Kulob",
     "menu": {
       "kulob_shashlik": 58000,
@@ -2175,7 +2175,7 @@
   },
   {
     "name": "Navruz Cafe",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Kulob",
     "menu": {
       "navruz_plov": 45000,
@@ -2194,7 +2194,7 @@
   },
   {
     "name": "Oshkhona Kulob",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Kulob",
     "menu": {
       "kulob_osh": 42000,
@@ -2214,7 +2214,7 @@
   },
   {
     "name": "Nuri Vakhsh",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Kulob",
     "menu": {
       "vakhsh_plov": 49000,
@@ -2234,7 +2234,7 @@
   },
   {
     "name": "Zarafshon Cafe",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Kulob",
     "menu": {
       "zarafshon_plov": 46000,
@@ -2253,7 +2253,7 @@
   },
   {
     "name": "Vatan Restaurant",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Kulob",
     "menu": {
       "vatan_plov": 52000,
@@ -2273,7 +2273,7 @@
   },
   {
     "name": "Sugdiyon",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Kulob",
     "menu": {
       "sugdiyon_plov": 48000,
@@ -2293,7 +2293,7 @@
   },
   {
     "name": "Delhi Darbar",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Khorog",
     "menu": {
       "butter_chicken": 68000,
@@ -2312,7 +2312,7 @@
   },
   {
     "name": "Chor Bogh",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Khorog",
     "menu": {
       "chicken_dumplings": 45000,
@@ -2332,7 +2332,7 @@
   },
   {
     "name": "Khorog Fried Chicken",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Khorog",
     "menu": {
       "fried_chicken": 42000,
@@ -2351,7 +2351,7 @@
   },
   {
     "name": "World of Cuisines",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Khorog",
     "menu": {
       "pizza": 58000,
@@ -2370,7 +2370,7 @@
   },
   {
     "name": "Serena Inn",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Khorog",
     "menu": {
       "pamir_plov": 52000,
@@ -2389,7 +2389,7 @@
   },
   {
     "name": "Kurutob",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Khorog",
     "menu": {
       "classic_qurutob": 38000,
@@ -2409,7 +2409,7 @@
   },
   {
     "name": "Cafe Pamir",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Khorog",
     "menu": {
       "pamir_plov": 45000,
@@ -2428,7 +2428,7 @@
   },
   {
     "name": "Dushanbe Cafe",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Khorog",
     "menu": {
       "dushanbe_plov": 47000,
@@ -2447,7 +2447,7 @@
   },
   {
     "name": "Rohat Restaurant",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Khorog",
     "menu": {
       "rohat_plov": 51000,
@@ -2467,7 +2467,7 @@
   },
   {
     "name": "Pamir Lounge",
-    "country": "Tajikistan",
+    "country": "Tadjikistan",
     "city": "Khorog",
     "menu": {
       "pamir_lounge_plov": 49000,

@@ -52,25 +52,31 @@ class ActivityFilterEngine(BaseFilterEngine):
 
         return qs.distinct()
 
+
 class RestaurantFilterEngine(BaseFilterEngine):
     def filter_queryset(self, qs, params):
         qs = self.filter_common(qs, params)
-        
-        if params.get("cuisine"):
-            qs = qs.filter(cuisine_type__icontains=params.get("cuisine"))
-            
+
+        selected_tags = params.getlist("tags")
+        if selected_tags:
+            tag_queries = Q()
+            for tag in selected_tags:
+                clean_tag = tag.strip().lower()
+                # Use the 'tags' field instead of 'cuisine_tags'
+                tag_queries |= Q(tags__icontains=clean_tag)
+            qs = qs.filter(tag_queries)
+
         return qs.distinct()
 
-# class HotelFilterEngine(BaseFilterEngine):
+# class RestaurantFilterEngine(BaseFilterEngine):
 #     def filter_queryset(self, qs, params):
 #         qs = self.filter_common(qs, params)
         
-#         if params.get("stars"):
-#             try:
-#                 qs = qs.filter(stars__gte=int(params.get("stars")))
-#             except ValueError:
-#                 pass
+#         if params.get("cuisine"):
+#             qs = qs.filter(cuisine_type__icontains=params.get("cuisine"))
+            
 #         return qs.distinct()
+
 class HotelFilterEngine(BaseFilterEngine):
     def filter_queryset(self, qs, params):
         qs = self.filter_common(qs, params)

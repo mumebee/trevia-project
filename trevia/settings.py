@@ -125,4 +125,8 @@ STATICFILES_DIRS = [
 MEDIA_URL = 'media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 AUTH_PASSWORD_VALIDATORS = []
+
+# Custom Login/Logout Redirect URLs
+LOGIN_URL = '/login/'
+LOGIN_REDIRECT_URL = '/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'

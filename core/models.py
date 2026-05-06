@@ -54,6 +54,7 @@ class Activity(BasePlace):
 
 class Restaurant(BasePlace):
     cuisine_type = models.CharField(max_length=100)
+    tags = models.JSONField(default=list)  # add this
     menu = models.JSONField(default=dict)
 
     def display_card(self):
@@ -102,7 +103,11 @@ class ItineraryItem(models.Model):
     itinerary = models.ForeignKey(Itinerary, on_delete=models.CASCADE)
     place_type = models.CharField(max_length=20)
     place_id = models.IntegerField()
-    order = models.IntegerField()
+    order = models.IntegerField(default=0) # Added default
+    created_at = models.DateTimeField(auto_now_add=True) # Added for ordering
+
+    class Meta:
+        ordering = ['order', 'created_at'] # Ensure consistent ordering
 
     def __str__(self):
         return f"{self.place_type}:{self.place_id} -> {self.itinerary.name}"

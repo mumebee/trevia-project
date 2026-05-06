@@ -1,4 +1,246 @@
+{% load static %}
 <html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurants</title>
+    <link rel="stylesheet" href="{% static 'activities.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="page-wrapper">
+        <main class="content-area">
+            {% include 'components/header.html' %}
+            <section class="first-section">
+                <aside class="sidebar">
+                    <h2 class="sidebar-title">Filter</h2>
+                    <form method="GET" class="filtering_form" id="filter-form">
+                        <!-- Search -->
+                        <div class="form-group">
+                            <label for="search_query">Search</label>
+                            <input type="text" name="q" id="search_query" placeholder="Search restaurants..." class="input_block" value="{{ params.q|default_if_none:'' }}">
+                        </div>
+
+                        <!-- Countries -->
+                        <div class="form-group">
+                            <label>Countries</label>
+                            <div class="checkbox-group" id="country-checkboxes">
+                                {% for country in countries %}
+                                <label class="tag-label">
+                                    <input type="checkbox" name="country" value="{{ country }}" {% if country in selected_countries %}checked{% endif %}> {{ country }}
+                                </label>
+                                {% endfor %}
+                            </div>
+                        </div>
+
+                        <!-- Cities -->
+                        <div class="form-group">
+                            <label>Cities</label>
+                            <div class="checkbox-group" id="city-checkboxes">
+                                {% for city in cities %}
+                                <label class="tag-label">
+                                    <input type="checkbox" name="city" value="{{ city }}" {% if city in selected_cities %}checked{% endif %}> {{ city }}
+                                </label>
+                                {% endfor %}
+                            </div>
+                        </div>
+
+                        <!-- Price Filter -->
+                        <div class="form-group">
+                            <label>Min Price</label>
+                            <input name="min_price" type="number" placeholder="0" class="input_block" value="{{ params.min_price }}">
+                        </div>
+                        <div class="form-group">
+                            <label>Max Price</label>
+                            <input name="max_price" type="number" placeholder="999" class="input_block" value="{{ params.max_price }}">
+                        </div>
+
+                        <!-- Cuisine Tags (Updated to use 'cuisines' variable) -->
+                        <div class="form-group">
+                            <label>Cuisine Types</label>
+                            <div class="tags-container">
+                                {% for cat in cuisines %}
+                                <label class="tag-pill {% if cat in selected_tags %}active{% endif %}">
+                                    <input type="checkbox" name="tags" value="{{ cat }}" {% if cat in selected_tags %}checked{% endif %} onchange="this.parentElement.classList.toggle('active', this.checked)">
+                                    {{ cat|title }}
+                                </label>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        <button type="submit" class="filter-btn">Apply Filters</button>
+                    </form>
+                </aside>
+    
+                <div class="container_activities">
+                    <div class="page_name">
+                        <span>RESTAURANTS</span>
+                        <p>Discover the best flavors and culinary traditions</p>
+                    </div>
+
+                    <!-- Loop through restaurants grouped by country -->
+                    {% for country, country_items in restaurants_by_country %}
+                    <div class="country_section">
+                        <h1>{{ country }}</h1>
+                        <div class="carousel_wrapper">
+                            <button class="carousel_btn prev" onclick="scroll_left(this)">&#10094;</button>
+                            <div class="activities_carousel">
+                                {% for r in country_items %}
+                                <div class="activity">
+                                    <img src="{{ r.image }}" alt="{{ r.name }}">
+                                    <div class="activity_description">
+                                        <div class="activity_row">
+                                            <span class="activity_name">{{ r.name }}</span>
+                                            <i class="bi bi-heart"></i>
+                                        </div>
+                                        <span class="activity_city">{{ r.city }}</span>
+                                        <div class="activity_row">
+                                            <span class="activity_price">
+                                                {% if r.price == 0 %} Free {% else %} ${{ r.price }} {% endif %}
+                                            </span>
+                                            <i class="bi bi-plus-square"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                            </div>
+                            <button class="carousel_btn next" onclick="scroll_right(this)">&#10095;</button>
+                        </div>
+                    </div>
+                    {% empty %}
+                    <p>No restaurants found matching your criteria.</p>
+                    {% endfor %}
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const countryCheckboxes = document.querySelectorAll('#country-checkboxes input[type="checkbox"]');
+            const cityCheckboxesContainer = document.getElementById('city-checkboxes');
+
+            async function updateCitiesDropdown() {
+                const selectedCountries = Array.from(countryCheckboxes)
+                                            .filter(cb => cb.checked)
+                                            .map(cb => cb.value);
+                
+                // Server-side selection passed to JS
+                const initialSelectedCities = {{ selected_cities|safe }};
+                
+                let url = '/ajax/get-cities/';
+                if (selectedCountries.length > 0) {
+                    url += '?' + selectedCountries.map(c => `countries[]=${encodeURIComponent(c)}`).join('&');
+                }
+
+                try {
+                    const response = await fetch(url);
+                    const data = await response.json();
+
+                    cityCheckboxesContainer.innerHTML = ''; 
+                    data.cities.forEach(city => {
+                        const label = document.createElement('label');
+                        label.className = 'tag-label'; // Changed to match your sidebar style
+                        
+                        const input = document.createElement('input');
+                        input.type = 'checkbox';
+                        input.name = 'city';
+                        input.value = city;
+                        
+                        if (initialSelectedCities.includes(city)) {
+                            input.checked = true;
+                        }
+
+                        label.appendChild(input);
+                        label.appendChild(document.createTextNode(' ' + city));
+                        cityCheckboxesContainer.appendChild(label);
+                    });
+                } catch (error) {
+                    console.error("Error fetching cities:", error);
+                }
+            }
+
+            countryCheckboxes.forEach(cb => cb.addEventListener('change', updateCitiesDropdown));
+            // Only update on load if countries are already checked (to preserve initial state)
+            if (Array.from(countryCheckboxes).some(cb => cb.checked)) {
+                updateCitiesDropdown();
+            }
+        });
+
+        // Carousel Functions
+        function scroll_left(btn) {
+            const carousel = btn.nextElementSibling;
+            carousel.scrollBy({ left: -600, behavior: 'smooth' });
+        }
+        function scroll_right(btn) {
+            const carousel = btn.previousElementSibling;
+            carousel.scrollBy({ left: 600, behavior: 'smooth' });
+        }
+
+        // Heart & Plus Interactions
+        document.addEventListener('click', (e) => {
+            if (e.target.classList.contains('bi-heart') || e.target.classList.contains('bi-heart-fill')) {
+                const icon = e.target;
+                icon.classList.toggle('bi-heart');
+                icon.classList.toggle('bi-heart-fill');
+                icon.style.color = icon.classList.contains('bi-heart-fill') ? '#e63946' : '';
+            }
+            if (e.target.classList.contains('bi-plus-square') || e.target.classList.contains('bi-plus-square-fill')) {
+                const icon = e.target;
+                icon.classList.toggle('bi-plus-square');
+                icon.classList.toggle('bi-plus-square-fill');
+                icon.style.color = icon.classList.contains('bi-plus-square-fill') ? '#0a583a' : '';
+            }
+        });
+    </script>
+</body>
+</html>
+
+
+<!-- <script>
+    function likePlace(type, id) {
+        fetch("/like/", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/x-www-form-urlencoded",
+                "X-CSRFToken": getCSRF()
+            },
+            body: type=${type}&id=${id}
+        })
+            .then(res => res.json())
+            .then(data => console.log(data));
+    }
+
+    function addToItinerary(type, id, name, lat, lng) {
+        fetch("/add-to-itinerary/", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "X-CSRFToken": getCSRF()
+            },
+            body: JSON.stringify({
+                type, id, name, lat, lng
+            })
+        })
+            .then(res => res.json())
+            .then(data => alert("Added to itinerary"));
+    }
+
+    function getCSRF() {
+        let cookies = document.cookie.split(';');
+        for (let c of cookies) {
+            if (c.trim().startsWith('csrftoken=')) {
+                return c.split('=')[1];
+            }
+        }
+    }
+</script> -->
+
+
+
+
+
+<!-- <html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -65,4 +307,4 @@
     function getCSRF() {
         return document.cookie.split('csrftoken=')[1];
     }
-</script>
+</script> -->
