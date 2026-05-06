@@ -167,7 +167,8 @@ def hotels_view(request):
         cities = Hotel.objects.filter(country__in=selected_countries).values_list('city', flat=True).distinct().order_by('city')
     else:
         cities = Hotel.objects.values_list('city', flat=True).distinct().order_by('city')
-
+    
+    
     hotels_by_country = {}
     for h in hotels:
         if h.country not in hotels_by_country:
