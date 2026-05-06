@@ -1,59 +1,335 @@
-<h1>Your Itinerary</h1>
+{% load static %}
+<link rel="stylesheet" href="{% static 'activities.css' %}">
+<style>
+    body { background: #012318; padding: 40px; color: white; }
+    .itin-card { background: #01321F; padding: 20px; border-radius: 20px; margin-bottom: 40px; border: 1px solid #0a583a; }
+    .itin-map { width: 100%; height: 350px; border-radius: 15px; margin-top: 15px; }
+    .itin-items { display: flex; flex-wrap: wrap; gap: 15px; padding: 20px 0; }
+    .itin-item-card { background: white; color: #01321F; padding: 10px; border-radius: 12px; display: flex; align-items: center; gap: 12px; width: 300px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+    .itin-item-card img { width: 60px; height: 60px; border-radius: 8px; object-fit: cover; }
+    .itin-item-info { display: flex; flex-direction: column; }
+    .item-tag { background: #ffe176; color: #01321F; padding: 5px 15px; border-radius: 15px; font-weight: bold; }
+    .schedule-grid { display: grid; grid-template-columns: 100px 1fr; gap: 10px; margin-top: 10px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 10px; align-items: center; }
+    .time-slot { color: #ffe176; font-weight: bold; }
+    .gen-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.9); z-index: 2000; display: none; flex-direction: column; justify-content: center; align-items: center; padding: 20px;}
+</style>
 
-<ul>
-{% for p in itinerary %}
-    <li>{{ p.name }}</li>
+<h1>My Trip Architect</h1>
+
+{% for itin in itineraries %} {# Loop through each itinerary for the user #}
+<div class="itin-card">
+    <div class="activity_row">
+        <h2>{{ itin.name }}</h2>
+        <div style="display: flex; gap: 10px;">
+            <button onclick="startGenerator({{ itin.id }}, {{ itin.items|safe }})" class="filter-btn" style="width: auto; padding: 0 20px;">Generate Optimized Plan</button>
+            <button onclick="deleteEntireTrip({{ itin.id }})" class="cancel-btn" style="width: auto; padding: 0 20px; border-color: #e63946; color: #e63946;"> {# Delete Trip Button #}
+                <i class="bi bi-trash"></i> Delete Trip
+            </button>
+        </div>
+    </div>
+    
+    <div class="itin-items">
+        {% for item in itin.items %}
+            <div class="itin-item-card">
+                <img src="{{ item.image }}" alt="{{ item.name }}" onerror="this.onerror=null;this.src='{% static 'images/default_activity.jpg' %}';"> {# Fallback image #}
+                <div class="itin-item-info">
+                    <strong style="font-size: 16px;">{{ item.name }}</strong>
+                    <span style="font-size: 13px; opacity: 0.7;"><i class="bi bi-geo-alt"></i> {{ item.city }}</span>
+                    <span class="badge" style="background: #01321F; color: white; width: fit-content; font-size: 10px; padding: 2px 6px; border-radius: 4px; margin-top: 4px;">{{ item.type|upper }}</span>
+                    <button onclick="removeItem({{ item.id }})" style="background: none; border: none; color: #e63946; font-size: 12px; cursor: pointer; text-align: left; padding: 0; margin-top: 5px;">Remove Item</button> {# Remove Item Button #}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+    <div id="map-{{ itin.id }}" class="itin-map"></div>
+    <div id="schedule-{{ itin.id }}"></div>
+</div>
+{% empty %}
+<p>No trips yet. Go to <a href="{% url 'activities' %}">Activities</a> and click +</p>
 {% endfor %}
-</ul>
 
-<button onclick="generateRoute()">Generate Route</button>
+<!-- Question Overlay -->
+<div id="gen-overlay" class="gen-overlay">
+    <h2 id="gen-title">Trip Parameters</h2>
+    <p>How many days is this trip?</p>
+    <input type="number" id="gen-days" value="1" class="input_block" style="max-width: 200px;">
+    <p>Starting time each day? (e.g. 09:00)</p>
+    <input type="time" id="gen-start" value="09:00" class="input_block" style="max-width: 200px;">
+    <div class="modal-btns">
+        <button onclick="runOptimization()" class="filter-btn">Solve Path</button>
+        <button onclick="document.getElementById('gen-overlay').style.display='none'" class="cancel-btn">Cancel</button>
+    </div>
+</div>
 
-<div id="map" style="width:100%; height:500px;"></div>
-
-<script src="https://api-maps.yandex.ru/2.1/?apikey=YOUR_API_KEY&lang=en_US"></script>
+<script src="https://api-maps.yandex.ru/2.1/?apikey=7af13a42-8ae5-4930-8b11-50aa988d021a&lang=en_US"></script>
 
 <script>
-let itinerary = {{ itinerary|safe }};
+    const YANDEX_API_KEY = "7af13a42-8ae5-4930-8b11-50aa988d021a"; // Define your API key here
+    
+    // Global storage for map instances and geocoded items
+    let mapInstances = {}; // Stores Yandex Map objects
+    let geocodedItineraryItems = {}; // Stores items with their accurate geocoded coordinates
 
-ymaps.ready(init);
-
-let map;
-
-function init() {
-    map = new ymaps.Map("map", {
-        center: [41.2995, 69.2401],
-        zoom: 5
-    });
-
-    // show markers
-    itinerary.forEach(p => {
-        let placemark = new ymaps.Placemark([p.lat, p.lng], {
-            balloonContent: p.name
-        }, {
-            preset: 'islands#darkGreenIcon'
-        });
-
-        map.geoObjects.add(placemark);
-    });
-}
-
-function generateRoute() {
-    if (itinerary.length < 2) {
-        alert("Add at least 2 places");
-        return;
+    // --- Delete Functions ---
+    async function removeItem(itemId) {
+        if(!confirm("Remove this place from your trip?")) return;
+        try {
+            const response = await fetch(`/itinerary/remove-item/${itemId}/`, { 
+                method: 'POST', 
+                headers: { 'X-CSRFToken': '{{ csrf_token }}' } 
+            });
+            if (response.ok) {
+                window.location.reload(); // Reload to reflect changes
+            } else {
+                const errorData = await response.json();
+                alert(`Error removing item: ${errorData.message || 'Something went wrong.'}`);
+            }
+        } catch (e) {
+            alert("Network error during item removal.");
+            console.error("Remove item network error:", e);
+        }
     }
 
-    let points = itinerary.map(p => [p.lat, p.lng]);
+    async function deleteEntireTrip(itinId) {
+        if(!confirm("Are you sure? This trip will be permanently deleted.")) return;
+        try {
+            const response = await fetch(`/itinerary/delete/${itinId}/`, { 
+                method: 'POST', 
+                headers: { 'X-CSRFToken': '{{ csrf_token }}' } 
+            });
+            if (response.ok) {
+                window.location.reload(); // Reload to reflect changes
+            } else {
+                const errorData = await response.json();
+                alert(`Error deleting trip: ${errorData.message || 'Something went wrong.'}`);
+            }
+        } catch (e) {
+            alert("Network error during trip deletion.");
+            console.error("Delete trip network error:", e);
+        }
+    }
 
-    ymaps.route(points).then(route => {
-        route.getPaths().options.set({
-            strokeColor: '#006400',
-            opacity: 0.9,
-            strokeWidth: 5
+    // --- Initial Map Loading and Geocoding ---
+    ymaps.ready(() => {
+    ymaps.ready(async () => { // Make the outer ymaps.ready callback async
+        const itineraries = {{ itineraries|safe }};
+
+        itineraries.forEach(async (itin) => {
+        for (const itin of itineraries) { // Use for...of loop to ensure sequential processing and proper await
+            const mapDiv = document.getElementById(`map-${itin.id}`);
+            if (!mapDiv || itin.items.length === 0) return;
+
+            // Initialize map with a placeholder center (first item's approximate location)
+            const map = new ymaps.Map(mapDiv, {
+                center: [itin.items[0].lat, itin.items[0].lng],
+                zoom: 9,
+                controls: ['zoomControl', 'fullscreenControl', 'rulerControl']
+            });
+            mapInstances[itin.id] = map;
+            geocodedItineraryItems[itin.id] = [];
+
+            // Geocode all items for this specific map concurrently
+            const geocodePromises = itin.items.map(async (item) => {
+                try {
+                    const query = `${item.name}, ${item.city}, ${item.country}`;
+                    const res = await ymaps.geocode(query, { results: 1 });
+                    const firstGeoObject = res.geoObjects.get(0);
+
+                    if (firstGeoObject) {
+                        const coords = firstGeoObject.geometry.getCoordinates();
+                        item.geocoded_lat = coords[0];
+                        item.geocoded_lng = coords[1];
+
+                        const placemark = new ymaps.Placemark(coords, {
+                            balloonContent: `<strong>${item.name}</strong><br>${item.city}<br><small>Verified by Yandex</small>`,
+                            iconContent: item.name.substring(0, 1)
+                        }, { preset: 'islands#darkGreenIcon' });
+                        map.geoObjects.add(placemark);
+                    } else {
+                        item.geocoded_lat = item.lat;
+                        item.geocoded_lng = item.lng;
+                        map.geoObjects.add(new ymaps.Placemark([item.lat, item.lng], {
+                            balloonContent: `<strong>${item.name}</strong><br>${item.city}<br><small>Approximate Location</small>`,
+                            iconContent: '?'
+                        }, { preset: 'islands#redDotIcon' }));
+                    }
+                } catch (e) {
+                    console.error("Geocoding error:", e);
+                }
+            });
+
+            await Promise.all(geocodePromises);
+            geocodedItineraryItems[itin.id] = itin.items;
+
+            if (map.geoObjects.getCount() > 0) map.setBounds(map.geoObjects.getBounds(), { checkZoomRange: true });
+        });
+    });
+
+    let currentItinId = null;
+    let currentItems = [];
+
+    // Function to start the generator modal
+    function startGenerator(id, items) {
+        currentItinId = id;
+        // Prioritize geocoded coordinates stored in memory
+        currentItems = geocodedItineraryItems[id] || items.map(i => ({
+            ...i, geocoded_lat: i.lat, geocoded_lng: i.lng
+        }));
+        document.getElementById('gen-overlay').style.display = 'flex';
+    }
+
+    // Function to run the optimization and display the route/schedule
+    async function runOptimization() {
+        const days = parseInt(document.getElementById('gen-days').value);
+        const startTimeStr = document.getElementById('gen-start').value;
+        
+        document.getElementById('gen-overlay').style.display = 'none';
+        
+        const map = mapInstances[currentItinId]; 
+        if (!map) {
+            alert("Map for this trip is still loading. Please wait a second!");
+        const map = mapInstances[currentItinId];
+        if (!map || !currentItems || currentItems.length === 0) {
+            alert("Map or itinerary items not ready. Please try again.");
+            return;
+        }
+
+        map.geoObjects.removeAll();
+
+        const scheduleDiv = document.getElementById(`schedule-${currentItinId}`);
+        scheduleDiv.innerHTML = '<h3>Generating Optimized Plan...</h3><p>This might take a moment.</p>';
+
+        currentItems.forEach(item => {
+            const placemark = new ymaps.Placemark([item.geocoded_lat || item.lat, item.geocoded_lng || item.lng], {
+        currentItems.forEach(item => { // Re-add placemarks using the geocoded data
+            const coords = [item.geocoded_lat || item.lat, item.geocoded_lng || item.lng];
+            const placemark = new ymaps.Placemark(coords, {
+                balloonContent: `<strong>${item.name}</strong><br>${item.city}<br>${item.description}`,
+                iconContent: item.name.substring(0, 1)
+            }, { preset: 'islands#darkGreenIcon' });
+            }, { preset: item.geocoded_lat ? 'islands#darkGreenIcon' : 'islands#redDotIcon' });
+            map.geoObjects.add(placemark);
         });
 
-        map.geoObjects.add(route);
-        map.setBounds(route.getBounds());
-    });
-}
+        ymaps.ready(async () => { 
+            const waypointsForRoute = currentItems.map(item => [item.geocoded_lat || item.lat, item.geocoded_lng || item.lng]);
+            const randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+            
+            if (waypointsForRoute.length < 2) {
+            if (waypointsForRoute.length < 2) { // Need at least two points for a route
+                scheduleDiv.innerHTML = '<h3>Your Itinerary:</h3><p>Add more items to generate a route!</p>';
+                return;
+            }
+
+            // Pass original item ID with waypoints for reliable re-matching after optimization
+            const waypointsWithProperties = currentItems.map(item => ({ point: [item.geocoded_lat || item.lat, item.geocoded_lng || item.lng], properties: { originalItemId: item.id } }));
+
+            try {
+                const route = await ymaps.route(waypointsForRoute, {
+                const route = await ymaps.route(waypointsWithProperties, { // Use waypoints with properties
+                    mapStateAutoApply: true,
+                    multiRoute: true, 
+                    multiRoute: true, // This is the key for optimization
+                    routingMode: 'auto'
+                }, {
+                    routeStrokeColor: randomColor,
+                    routeStrokeWidth: 5
+                });
+                map.geoObjects.add(route); 
+                map.geoObjects.add(route);
+                
+                const optimizedRoutePoints = route.getWayPoints();
+                const optimizedRoutePoints = route.getWayPoints(); // These are now in the optimized order
+                let scheduleHtml = `<h3 style="color:${randomColor}">Optimized Roadmap:</h3>`;
+                let currentTime = new Date();
+                const [startHour, startMinute] = startTimeStr.split(':').map(Number);
+                currentTime.setHours(startHour, startMinute, 0);
+
+                let lastLocation = null;
+                let lunchAdded = false;
+                let dinnerAdded = false;
+                let dayCounter = 1;
+
+                scheduleHtml += `<h4 style="margin-top:25px; color: #ffe176; border-bottom: 1px solid #ffe176; padding-bottom: 5px;">Day ${dayCounter}</h4>`;
+
+                optimizedRoutePoints.each((point, idx) => {
+                    const pointCoords = point.geometry.getCoordinates();
+                    const originalItem = currentItems.find(i => 
+                        Math.abs((i.geocoded_lat || i.lat) - pointCoords[0]) < 0.0001 && 
+                        Math.abs((i.geocoded_lng || i.lng) - pointCoords[1]) < 0.0001
+                    ) || currentItems[idx];
+                    // Retrieve original item using the ID passed in properties for reliable re-matching
+                    const originalItemId = point.properties.get('originalItemId');
+                    const originalItem = currentItems.find(i => i.id === originalItemId);
+
+                    if (!originalItem) { // This should ideally not happen if IDs are unique
+                        console.warn("Could not find original item for optimized waypoint:", point);
+                        return;
+                    }
+                    
+                    // --- Multi-Day Logic ---
+                    if (currentTime.getHours() >= 22) {
+                        dayCounter++;
+                        currentTime.setHours(startHour, startMinute, 0);
+                        lunchAdded = false;
+                        dinnerAdded = false;
+                        scheduleHtml += `<h4 style="margin-top:25px; color: #ffe176; border-bottom: 1px solid #ffe176; padding-bottom: 5px;">Day ${dayCounter}</h4>`;
+                    }
+
+                    // --- Travel Logic (Inter-city/Country) ---
+                    if (lastLocation && (lastLocation.city !== originalItem.city || lastLocation.country !== originalItem.country)) {
+                        scheduleHtml += `
+                            <div class="schedule-grid" style="border-left: 4px solid #ffffff66; padding-left: 15px; opacity: 0.7; margin-bottom: 10px;">
+                                <div class="time-slot">${currentTime.getHours().toString().padStart(2,'0')}:${currentTime.getMinutes().toString().padStart(2,'0')}</div>
+                                <div><i class="bi bi-train-front"></i> <em>Travel to ${originalItem.city} (Train/Flight)</em></div>
+                            </div>`;
+                        currentTime.setHours(currentTime.getHours() + 3); // Allocate 3 hours for travel
+                    }
+
+                    // --- Intelligent Meal Allocation ---
+                    if (originalItem.type === 'restaurant') {
+                        if (currentTime.getHours() < 15) lunchAdded = true;
+                        else dinnerAdded = true;
+                    } else {
+                        if (!lunchAdded && currentTime.getHours() >= 12 && currentTime.getHours() <= 14) {
+                            scheduleHtml += `
+                                <div class="schedule-grid" style="border-left: 4px solid #ffe176; padding-left: 15px; margin-bottom: 10px;">
+                                    <div class="time-slot">${currentTime.getHours().toString().padStart(2,'0')}:${currentTime.getMinutes().toString().padStart(2,'0')}</div>
+                                    <div><i class="bi bi-egg-fried"></i> <strong>Lunch Break</strong></div>
+                                </div>`;
+                            currentTime.setHours(currentTime.getHours() + 1);
+                            lunchAdded = true;
+                        }
+
+                        if (!dinnerAdded && currentTime.getHours() >= 18) {
+                            scheduleHtml += `
+                                <div class="schedule-grid" style="border-left: 4px solid #ffe176; padding-left: 15px; margin-bottom: 10px;">
+                                    <div class="time-slot">${currentTime.getHours().toString().padStart(2,'0')}:${currentTime.getMinutes().toString().padStart(2,'0')}</div>
+                                    <div><i class="bi bi-cup-hot"></i> <strong>Dinner Break</strong></div>
+                                </div>`;
+                            currentTime.setHours(currentTime.getHours() + 1);
+                            dinnerAdded = true;
+                        }
+                    }
+
+                    // --- Activity Slot ---
+                    scheduleHtml += `
+                        <div class="schedule-grid" style="border-left: 4px solid ${randomColor}; padding-left: 15px; margin-bottom: 10px;">
+                            <div class="time-slot">${currentTime.getHours().toString().padStart(2,'0')}:${currentTime.getMinutes().toString().padStart(2,'0')}</div>
+                            <div><strong>${originalItem.name}</strong> <small style="opacity:0.6">(${originalItem.city})</small></div>
+                        </div>`;
+                    
+                    currentTime.setHours(currentTime.getHours() + 2); // Standard 2-hour duration
+                    lastLocation = { city: originalItem.city, country: originalItem.country };
+                });
+                scheduleDiv.innerHTML = scheduleHtml;
+                map.setBounds(route.getBounds());
+
+            } catch (error) {
+                scheduleDiv.innerHTML = `<h3>Error generating route:</h3><p>${error.message || 'Could not calculate route.'}</p>`;
+                console.error("Route generation failed:", error);
+            }
+        });
+    }
 </script>

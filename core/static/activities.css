@@ -281,16 +281,23 @@ header {
     flex-shrink: 0;
 }
 .activity_row i:hover {
-    transform: scale(1.15);
+    transform: scale(1.2);
 }
-.activity_row .bi-heart:hover,
-.activity_row .bi-heart-fill {
-    color: #a50c6d;
+.heart-icon, .plus-icon { color: #01321F; transition: all 0.3s; }
+.heart-icon:hover, .heart-icon.active { color: #e63946 !important; }
+.plus-icon:hover { color: #0a583a; }
+
+/* Modal Styles */
+.modal-overlay {
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0,0,0,0.7); z-index: 1000; display: flex; justify-content: center; align-items: center;
 }
-.activity_row .bi-plus-square:hover,
-.activity_row .bi-plus-square-fill {
-    color: #0a583a;
+.modal-content {
+    background: #012318; padding: 30px; border-radius: 20px; width: 400px; color: white;
+    border: 1px solid #ffe176;
 }
+.modal-btns { display: flex; gap: 10px; margin-top: 20px; }
+.cancel-btn { background: transparent; border: 1px solid #ffe176; color: white; flex: 1; padding: 10px; border-radius: 10px; cursor: pointer;}
 
 
 

@@ -23,9 +23,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
     path('', include('core.urls')),
-
-    # auth routes
-    path('login/', core_views.login_view, name='login'),
-    path('register/', core_views.registration_view, name='registration'),
-    path('logout/', core_views.logout_view, name='logout'),
 ]
