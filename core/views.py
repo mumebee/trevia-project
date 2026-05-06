@@ -4,9 +4,11 @@ from django.contrib.auth import authenticate, login, logout
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 
-from .models import Activity, Restaurant, Hotel, SavedPlace, Itinerary, ItineraryItem
+from .models import Activity, Restaurant, Hotel, SavedPlace, Itinerary, ItineraryItem, LikedPlace
 from .filters import ActivityFilterEngine, RestaurantFilterEngine, HotelFilterEngine
 from .forms import RegistrationForm, LoginForm
+
+from django.views.decorators.http import require_POST
 
 
 # pages
@@ -40,6 +42,25 @@ def explore_view(request):
 # FILTERED LISTS
 # =========================
 def activities_view(request):
+    liked_ids = set()
+    if request.user.is_authenticated:
+        liked_ids = set(
+            LikedPlace.objects.filter(
+                user=request.user,
+                place_type='activity'
+            ).values_list('place_id', flat=True)
+        )
+
+    itin_ids = set()
+    if request.user.is_authenticated:
+        itin_ids = set(
+            ItineraryItem.objects.filter(
+                itinerary__user=request.user,
+                place_type='activity'
+            ).values_list('place_id', flat=True)
+        )
+
+
     engine = ActivityFilterEngine()
     qs = Activity.objects.all()
     params = request.GET
@@ -82,9 +103,29 @@ def activities_view(request):
         "selected_tags": params.getlist("tags"),
         "selected_countries": selected_countries,
         "selected_cities": selected_cities,
+        "liked_ids": liked_ids,
+        "itin_ids": itin_ids
     })
 
 def restaurants_view(request):
+    liked_ids = set()
+    if request.user.is_authenticated:
+        liked_ids = set(
+            LikedPlace.objects.filter(
+                user=request.user,
+                place_type='restaurant'
+            ).values_list('place_id', flat=True)
+        )
+
+    itin_ids = set()
+    if request.user.is_authenticated:
+        itin_ids = set(
+            ItineraryItem.objects.filter(
+                itinerary__user=request.user,
+                place_type='restaurant'
+            ).values_list('place_id', flat=True)
+        )
+    
     engine = RestaurantFilterEngine()
     qs = Restaurant.objects.all()
     print("TOTAL:", qs.count())
@@ -143,17 +184,32 @@ def restaurants_view(request):
         "selected_countries": selected_countries,
         "selected_cities": selected_cities, 
         "selected_tags": params.getlist("tags"),
+        "liked_ids": liked_ids,
+        'itin_ids': itin_ids
     })
 
 
-# def hotels_view(request):
-#     engine = HotelFilterEngine()
 
-#     qs = Hotel.objects.all()
-#     hotels = engine.filter_queryset(qs, request.GET)
-
-#     return render(request, "core/hotels.html", {"hotels": hotels})
 def hotels_view(request):
+    liked_ids = set()
+    if request.user.is_authenticated:
+        liked_ids = set(
+            LikedPlace.objects.filter(
+                user=request.user,
+                place_type='hotel'
+            ).values_list('place_id', flat=True)
+        )
+    
+    itin_ids = set()
+    if request.user.is_authenticated:
+        itin_ids = set(
+            ItineraryItem.objects.filter(
+                itinerary__user=request.user,
+                place_type='hotel'
+            ).values_list('place_id', flat=True)
+        )
+
+
     engine = HotelFilterEngine()
     qs = Hotel.objects.all()
     params = request.GET
@@ -182,28 +238,65 @@ def hotels_view(request):
         "params": params,
         "selected_countries": selected_countries,
         "selected_cities": selected_cities,
+        "liked_ids": liked_ids,
+        'itin_ids': itin_ids
     })
 
 
 # =========================
 # LIKE SYSTEM
 # =========================
-def like_place(request):
-    if not request.user.is_authenticated:
-        return JsonResponse({"error": "login_required"}, status=401)
+@login_required
+@require_POST
+def toggle_like(request):
+    data = json.loads(request.body)
+    place_type = data.get('place_type')  # 'activity' | 'restaurant' | 'hotel'
+    place_id = int(data.get('place_id'))
 
-    p_type = request.POST.get("type")
-    p_id = request.POST.get("id")
+    if place_type not in ('activity', 'restaurant', 'hotel'):
+        return JsonResponse({'error': 'invalid type'}, status=400)
 
-    # Toggle Logic: If exists, delete (unlike); else, create (like)
-    existing = SavedPlace.objects.filter(user=request.user, place_type=p_type, place_id=p_id)
-    if existing.exists():
-        existing.delete()
-        return JsonResponse({"status": "unliked"})
-    else:
-        SavedPlace.objects.create(user=request.user, place_type=p_type, place_id=p_id)
-        return JsonResponse({"status": "liked"})
+    obj, created = LikedPlace.objects.get_or_create(
+        user=request.user,
+        place_type=place_type,
+        place_id=place_id,
+    )
 
+    if not created:
+        # Already liked — unlike it
+        obj.delete()
+        return JsonResponse({'liked': False})
+
+    return JsonResponse({'liked': True})
+
+
+@login_required
+def liked_view(request):
+    liked_entries = LikedPlace.objects.filter(user=request.user).order_by('-created_at')
+
+    # Bucket IDs by type
+    ids = {'activity': [], 'restaurant': [], 'hotel': []}
+    for entry in liked_entries:
+        ids[entry.place_type].append(entry.place_id)
+
+    activities  = Activity.objects.filter(id__in=ids['activity'])
+    restaurants = Restaurant.objects.filter(id__in=ids['restaurant'])
+    hotels      = Hotel.objects.filter(id__in=ids['hotel'])
+
+    # Build a liked set for template heart state
+    liked_set = {(e.place_type, e.place_id) for e in liked_entries}
+
+    return render(request, 'core/liked.html', {
+        'activities':  activities,
+        'restaurants': restaurants,
+        'hotels':      hotels,
+        'liked_set':   liked_set,
+    })
+
+
+# =========================
+# ITINERARY
+# =========================
 def get_user_itineraries(request):
     if not request.user.is_authenticated:
         return JsonResponse({"itineraries": []})
@@ -287,6 +380,8 @@ def itinerary_view(request):
                 obj = Activity.objects.filter(id=item.place_id).first()
             elif item.place_type == 'restaurant':
                 obj = Restaurant.objects.filter(id=item.place_id).first()
+            elif item.place_type == 'hotel':
+                obj = Hotel.objects.filter(id=item.place_id).first()
             
             if obj:
                 items.append({
@@ -327,6 +422,11 @@ def delete_itinerary(request, itin_id):
         return JsonResponse({"status": "success"})
     return JsonResponse({"status": "error", "message": "Itinerary not found"}, status=404)
 
+
+
+# =========================
+# LREGISTRATION, LOGIN, LOGOUT
+# =========================
 def registration_view(request):
     form = RegistrationForm(request.POST or None)
 
@@ -353,15 +453,3 @@ def login_view(request):
 def logout_view(request):
     logout(request)
     return redirect("home")
-
-
-
-@login_required
-def profile_view(request):
-    return render(request, "core/profile.html")
-
-def about_view(request):
-    return render(request, "core/about.html")
-
-def contacts_view(request):
-    return render(request, "core/contacts.html")

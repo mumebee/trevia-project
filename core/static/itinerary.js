@@ -1,67 +1,4 @@
-{% load static %}
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <title>My Trip</title>
-    <link rel="stylesheet" href="{% static 'activities.css' %}">
-    <link rel="stylesheet" href="{% static 'itinerary.css' %}">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-
-<h1>My Trip Architect</h1>
-
-{% for itin in itineraries %}
-<div class="itin-card">
-    <div class="activity_row">
-        <h2>{{ itin.name }}</h2>
-        <div style="display: flex; gap: 10px;">
-            <button onclick="startGenerator({{ itin.id }}, {{ itin.items|safe }})" class="filter-btn" style="width: auto; padding: 0 20px;">Generate Optimized Plan</button>
-            <button onclick="deleteEntireTrip({{ itin.id }})" class="cancel-btn" >
-                Delete Trip
-            </button>
-        </div>
-    </div>
-    
-    <div class="itin-items">
-        {% for item in itin.items %}
-            <div class="itin-item-card">
-                <img src="{{ item.image }}" alt="{{ item.name }}" onerror="this.onerror=null;this.src='{% static 'images/default_activity.jpg' %}';">
-                <div class="itin-item-info">
-                    <strong style="font-size: 16px;">{{ item.name }}</strong>
-                    <span style="font-size: 13px; opacity: 0.7;"><i class="bi bi-geo-alt"></i> {{ item.city }}</span>
-                    <span class="badge">{{ item.type|upper }}</span>
-                    <button onclick="removeItem({{ item.id }})" style="background: none; border: none; color: #e63946; font-size: 12px; cursor: pointer; text-align: left; padding: 0; margin-top: 5px;">Remove Item</button>
-                </div>
-            </div>
-        {% endfor %}
-    </div>
-
-    <div id="map-{{ itin.id }}" class="itin-map"></div>
-    <div id="schedule-{{ itin.id }}"></div>
-</div>
-{% empty %}
-<p>No trips yet. Go to <a href="{% url 'activities' %}">Activities</a> and click +</p>
-{% endfor %}
-
-<!-- Question Overlay -->
-<div id="gen-overlay" class="gen-overlay">
-    <h2 id="gen-title">Trip Parameters</h2>
-    <p>How many days is this trip?</p>
-    <input type="number" id="gen-days" value="1" class="input_block" style="max-width: 200px;">
-    <p>Starting time each day? (e.g. 09:00)</p>
-    <input type="time" id="gen-start" value="09:00" class="input_block" style="max-width: 200px;">
-    <div class="modal-btns">
-        <button onclick="runOptimization()" class="filter-btn">Solve Path</button>
-        <button onclick="document.getElementById('gen-overlay').style.display='none'" class="cancel-btn">Cancel</button>
-    </div>
-</div>
-
-<script src="https://api-maps.yandex.ru/2.1/?apikey=7af13a42-8ae5-4930-8b11-50aa988d021a&lang=en_US"></script>
-
-<script>
     const YANDEX_API_KEY = "7af13a42-8ae5-4930-8b11-50aa988d021a"; // Define your API key here
     
     // Global storage for map instances and geocoded items
@@ -307,6 +244,3 @@
             }
         });
     }
-</script>
-</body>
-</html>

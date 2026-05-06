@@ -198,6 +198,7 @@ header {
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     scrollbar-width: none;
+    min-height: 700px;
 }
 .carousel-track::-webkit-scrollbar { display: none; }
 .slide img {
@@ -301,6 +302,8 @@ header {
     justify-content: center;
     align-items: center;
     padding: 40px 20px;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 /* Containers */

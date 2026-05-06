@@ -30,15 +30,18 @@
         <nav>    
             <ul class="nav-links">
                 <li><a href="/">Home</a></li>
-                <li><a href="{% url 'contacts' %}">Contacts</a></li>
+                <li><a href="{% url 'itinerary' %}">My trip</a></li>
             </ul>
         </nav>
     </div>
-        <div class="header-right">
-            <!-- <div class="search-wrapper">
-                <input type="text" placeholder="search" class="search-input">
-                <i class="bi bi-search search-icon"></i>
-            </div> -->
+    <!-- <div class="header-right"> 
+        <a href="{% url 'liked_places' %}"><button class="heart-btn"><i class="bi bi-heart"></i></button></a>
+        <button id="menu-toggle-btn" class="menu-btn">
+            <i class="bi bi-list"></i>
+        </button>
+    </div> -->
+        <div class="header-right"> 
+            </div>
             <button id="menu-toggle-btn" class="menu-btn">
                 <i class="bi bi-list"></i>
             </button>
