@@ -112,11 +112,9 @@
 
     // --- Initial Map Loading and Geocoding ---
     ymaps.ready(() => {
-    ymaps.ready(async () => { // Make the outer ymaps.ready callback async
         const itineraries = {{ itineraries|safe }};
 
         itineraries.forEach(async (itin) => {
-        for (const itin of itineraries) { // Use for...of loop to ensure sequential processing and proper await
             const mapDiv = document.getElementById(`map-${itin.id}`);
             if (!mapDiv || itin.items.length === 0) return;
 
@@ -189,9 +187,6 @@
         const map = mapInstances[currentItinId]; 
         if (!map) {
             alert("Map for this trip is still loading. Please wait a second!");
-        const map = mapInstances[currentItinId];
-        if (!map || !currentItems || currentItems.length === 0) {
-            alert("Map or itinerary items not ready. Please try again.");
             return;
         }
 
@@ -202,13 +197,9 @@
 
         currentItems.forEach(item => {
             const placemark = new ymaps.Placemark([item.geocoded_lat || item.lat, item.geocoded_lng || item.lng], {
-        currentItems.forEach(item => { // Re-add placemarks using the geocoded data
-            const coords = [item.geocoded_lat || item.lat, item.geocoded_lng || item.lng];
-            const placemark = new ymaps.Placemark(coords, {
                 balloonContent: `<strong>${item.name}</strong><br>${item.city}<br>${item.description}`,
                 iconContent: item.name.substring(0, 1)
             }, { preset: 'islands#darkGreenIcon' });
-            }, { preset: item.geocoded_lat ? 'islands#darkGreenIcon' : 'islands#redDotIcon' });
             map.geoObjects.add(placemark);
         });
 
@@ -217,30 +208,22 @@
             const randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
             
             if (waypointsForRoute.length < 2) {
-            if (waypointsForRoute.length < 2) { // Need at least two points for a route
                 scheduleDiv.innerHTML = '<h3>Your Itinerary:</h3><p>Add more items to generate a route!</p>';
                 return;
             }
 
-            // Pass original item ID with waypoints for reliable re-matching after optimization
-            const waypointsWithProperties = currentItems.map(item => ({ point: [item.geocoded_lat || item.lat, item.geocoded_lng || item.lng], properties: { originalItemId: item.id } }));
-
             try {
                 const route = await ymaps.route(waypointsForRoute, {
-                const route = await ymaps.route(waypointsWithProperties, { // Use waypoints with properties
                     mapStateAutoApply: true,
                     multiRoute: true, 
-                    multiRoute: true, // This is the key for optimization
                     routingMode: 'auto'
                 }, {
                     routeStrokeColor: randomColor,
                     routeStrokeWidth: 5
                 });
                 map.geoObjects.add(route); 
-                map.geoObjects.add(route);
                 
                 const optimizedRoutePoints = route.getWayPoints();
-                const optimizedRoutePoints = route.getWayPoints(); // These are now in the optimized order
                 let scheduleHtml = `<h3 style="color:${randomColor}">Optimized Roadmap:</h3>`;
                 let currentTime = new Date();
                 const [startHour, startMinute] = startTimeStr.split(':').map(Number);
@@ -251,22 +234,12 @@
                 let dinnerAdded = false;
                 let dayCounter = 1;
 
-                scheduleHtml += `<h4 style="margin-top:25px; color: #ffe176; border-bottom: 1px solid #ffe176; padding-bottom: 5px;">Day ${dayCounter}</h4>`;
-
                 optimizedRoutePoints.each((point, idx) => {
                     const pointCoords = point.geometry.getCoordinates();
                     const originalItem = currentItems.find(i => 
                         Math.abs((i.geocoded_lat || i.lat) - pointCoords[0]) < 0.0001 && 
                         Math.abs((i.geocoded_lng || i.lng) - pointCoords[1]) < 0.0001
                     ) || currentItems[idx];
-                    // Retrieve original item using the ID passed in properties for reliable re-matching
-                    const originalItemId = point.properties.get('originalItemId');
-                    const originalItem = currentItems.find(i => i.id === originalItemId);
-
-                    if (!originalItem) { // This should ideally not happen if IDs are unique
-                        console.warn("Could not find original item for optimized waypoint:", point);
-                        return;
-                    }
                     
                     // --- Multi-Day Logic ---
                     if (currentTime.getHours() >= 22) {
