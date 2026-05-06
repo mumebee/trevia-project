@@ -233,9 +233,8 @@ def get_hotel_cities_ajax(request):
         cities = Hotel.objects.values_list('city', flat=True).distinct().order_by('city')
     return JsonResponse({'cities': list(cities)})
 
-# =========================
 # ITINERARY
-# =========================
+
 def create_itinerary(request):
     if not request.user.is_authenticated:
         return JsonResponse({"error": "login required"})
