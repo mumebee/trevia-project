@@ -54,6 +54,7 @@ class Activity(BasePlace):
 
 class Restaurant(BasePlace):
     cuisine_type = models.CharField(max_length=100)
+    tags = models.JSONField(default=list)  # add this
     menu = models.JSONField(default=dict)
 
     def display_card(self):
@@ -75,7 +76,11 @@ class Hotel(BasePlace):
 
     def display_card(self):
         return f"{self.name} ⭐{self.stars} | from ${self.get_min_room_price()}"
-
+    # karimaf 
+    def save(self, *args, **kwargs):
+        if self.rooms:
+         self.price = self.get_min_room_price()
+        super().save(*args, **kwargs)
 
 class SavedPlace(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)

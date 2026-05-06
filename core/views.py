@@ -35,6 +35,7 @@ def explore_view(request):
     })
 
 
+
 # =========================
 # FILTERED LISTS
 # =========================
@@ -85,20 +86,102 @@ def activities_view(request):
 
 def restaurants_view(request):
     engine = RestaurantFilterEngine()
-
     qs = Restaurant.objects.all()
-    restaurants = engine.filter_queryset(qs, request.GET)
+    print("TOTAL:", qs.count())
+    params = request.GET
+    
+    # 1. Apply filtering via the Engine
+    # This uses the 'tags' field as identified in your model schema
+    restaurants = engine.filter_queryset(qs, params)
+    print(f"Filtered Count: {restaurants.count()}")
+    for r in restaurants:
+        print(f"Match: {r.name} - {r.country}")
 
-    return render(request, "core/restaurants.html", {"restaurants": restaurants})
+    # 2. Get distinct countries for the filter sidebar
+    countries = Restaurant.objects.values_list('country', flat=True).distinct().order_by('country')
+    
+    # 3. Handle dynamic City filtering based on selected countries
+    selected_countries = [c.strip() for c in params.getlist('country') if c.strip()]
+    selected_cities = [c.strip() for c in params.getlist('city') if c.strip()]
+    
+    if selected_countries:
+        cities = Restaurant.objects.filter(country__in=selected_countries).values_list('city', flat=True).distinct().order_by('city')
+    else:
+        cities = Restaurant.objects.values_list('city', flat=True).distinct().order_by('city')
+
+    # 4. Dynamically extract unique cuisine tags for the sidebar
+    # We check for both list types and string types to prevent empty sidebars
+    raw_tags = Restaurant.objects.values_list('tags', flat=True)
+    unique_cuisines = set()
+    
+    for entry in raw_tags:
+        if not entry:
+            continue
+        
+        # If stored as a true list (JSONField)
+        if isinstance(entry, list):
+            unique_cuisines.update(str(t).strip().lower() for t in entry if t)
+        # If stored as a string (common in SQLite stringified arrays)
+        elif isinstance(entry, str):
+            clean_entry = entry.replace('[', '').replace(']', '').replace('"', '').replace("'", "")
+            tags = clean_entry.split(',')
+            unique_cuisines.update(t.strip().lower() for t in tags if t)
+
+    # 5. Group results by country for the template carousel
+    restaurants_by_country = {}
+    for r in restaurants:
+        if r.country not in restaurants_by_country:
+            restaurants_by_country[r.country] = []
+        restaurants_by_country[r.country].append(r)
+
+    return render(request, "core/restaurants.html", {
+        "restaurants_by_country": restaurants_by_country.items(),
+        "cuisines": sorted(list(unique_cuisines)), 
+        "countries": countries,
+        "cities": cities,
+        "params": params,
+        "selected_countries": selected_countries,
+        "selected_cities": selected_cities, 
+        "selected_tags": params.getlist("tags"),
+    })
 
 
+# def hotels_view(request):
+#     engine = HotelFilterEngine()
+
+#     qs = Hotel.objects.all()
+#     hotels = engine.filter_queryset(qs, request.GET)
+
+#     return render(request, "core/hotels.html", {"hotels": hotels})
 def hotels_view(request):
     engine = HotelFilterEngine()
-
     qs = Hotel.objects.all()
-    hotels = engine.filter_queryset(qs, request.GET)
+    params = request.GET
+    hotels = engine.filter_queryset(qs, params)
 
-    return render(request, "core/hotels.html", {"hotels": hotels})
+    countries = Hotel.objects.values_list('country', flat=True).distinct().order_by('country')
+    selected_countries = params.getlist('country')
+    selected_cities = params.getlist('city')
+
+    if selected_countries:
+        cities = Hotel.objects.filter(country__in=selected_countries).values_list('city', flat=True).distinct().order_by('city')
+    else:
+        cities = Hotel.objects.values_list('city', flat=True).distinct().order_by('city')
+
+    hotels_by_country = {}
+    for h in hotels:
+        if h.country not in hotels_by_country:
+            hotels_by_country[h.country] = []
+        hotels_by_country[h.country].append(h)
+
+    return render(request, "core/hotels.html", {
+        "hotels_by_country": hotels_by_country.items(),
+        "countries": countries,
+        "cities": cities,
+        "params": params,
+        "selected_countries": selected_countries,
+        "selected_cities": selected_cities,
+    })
 
 
 # =========================
@@ -141,6 +224,14 @@ def get_cities_ajax(request):
         cities = Activity.objects.values_list('city', flat=True).distinct().order_by('city')
     return JsonResponse({'cities': list(cities)})
 
+# hotels end point
+def get_hotel_cities_ajax(request):
+    countries = request.GET.getlist('countries[]')
+    if countries:
+        cities = Hotel.objects.filter(country__in=countries).values_list('city', flat=True).distinct().order_by('city')
+    else:
+        cities = Hotel.objects.values_list('city', flat=True).distinct().order_by('city')
+    return JsonResponse({'cities': list(cities)})
 
 # =========================
 # ITINERARY
