@@ -4,7 +4,7 @@
     scroll-margin-top: 9999px;
 }
 .main-header {
-    background: #ffffff63;
+    background: #ffffffda;
     width: 100%;
     max-width: 1200px;
     padding: 10px 20px;
@@ -43,7 +43,7 @@
     max-width: 80px;
     margin-right: 20px;
     border-radius: 30px;
-    background-color: rgba(255, 255, 255, 0.284);
+    background-color: #ffffffda;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     padding: 10px;

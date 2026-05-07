@@ -33,7 +33,7 @@ class BasePlace(models.Model):
     def get_price(self):
         return self.price
 
-    def __str__(self):
+    def str(self):
         return self.name
 
 
@@ -81,7 +81,7 @@ class Hotel(BasePlace):
         return min(room.get("price", self.price) for room in self.rooms)
 
     def display_card(self):
-        return f"{self.name} ⭐{self.stars} | from ${self.get_min_room_price()}"
+        return f"{self.name} ⭐️{self.stars} | from ${self.get_min_room_price()}"
     # karimaf 
     def save(self, *args, **kwargs):
         if self.rooms:
@@ -111,14 +111,14 @@ class LikedPlace(models.Model):
     class Meta:
         unique_together = ('user', 'place_type', 'place_id')
 
-    def __str__(self):
+    def str(self):
         return f"{self.user.username} likes {self.place_type}:{self.place_id}"
 
 class Itinerary(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     name = models.CharField(max_length=200)
 
-    def __str__(self):
+    def str(self):
         return f"{self.name} ({self.user})"
 
 
@@ -128,9 +128,8 @@ class ItineraryItem(models.Model):
     place_id = models.IntegerField()
     order = models.IntegerField(default=0) # Added default
     created_at = models.DateTimeField(auto_now_add=True) # Added for ordering
-
     class Meta:
         ordering = ['order', 'created_at'] # Ensure consistent ordering
 
-    def __str__(self):
+    def str(self):
         return f"{self.place_type}:{self.place_id} -> {self.itinerary.name}"

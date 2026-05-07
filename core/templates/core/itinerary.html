@@ -13,6 +13,7 @@
 {% include 'components/header.html' %}
 
 <div class="itinerary-page-container" style="padding-top: 100px;">
+    
 <h1>My Trip Architect</h1>
 
 {% for itin in itineraries %}
@@ -39,7 +40,7 @@
                 </div>
             </div>
         {% endfor %}
-    </div>c
+    </div>
 
     <div id="map-{{ itin.id }}" class="itin-map"></div>
     <div id="schedule-{{ itin.id }}"></div>

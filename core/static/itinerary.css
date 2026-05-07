@@ -5,12 +5,14 @@ body {
     background: #012318;
     padding: 40px;
     color: white;
-    font-family: 'Inter', sans-serif; /* Recommended for a clean UI */
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
 }
 
 h1 {
     margin-bottom: 30px;
 }
+
 
 /* Trip Card Container */
 .itin-card {
