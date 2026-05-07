@@ -1,0 +1,158 @@
+/* static/itinerary.css */
+
+/* Main Container Styles */
+body {
+    background: #012318;
+    padding: 40px;
+    color: white;
+    font-family: 'Inter', sans-serif; /* Recommended for a clean UI */
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+/* Trip Card Container */
+.itin-card {
+    background: #01321F;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    border: 1px solid #0a583a;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+/* Flex Row for Title and Buttons */
+.activity_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Horizontal Scroll/Flex for Items */
+.itin-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px 0;
+}
+
+/* Individual Place Card */
+.itin-item-card {
+    background: white;
+    color: #01321F;
+    padding: 10px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.itin-item-card:hover {
+    transform: translateY(-3px);
+}
+
+.itin-item-card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.itin-item-info {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Map Styling */
+.itin-map {
+    width: 100%;
+    height: 350px;
+    border-radius: 15px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+/* Optimized Roadmap/Schedule Styles */
+.schedule-grid {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 10px;
+    margin-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 10px;
+    align-items: center;
+}
+
+.time-slot {
+    color: #ffe176;
+    font-weight: bold;
+}
+
+/* Overlay / Modal */
+.gen-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 2000;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* UI Elements */
+.badge {
+    background: #01321F;
+    color: white;
+    width: fit-content;
+    font-size: 10px;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-top: 4px;
+}
+
+.item-tag {
+    background: #ffe176;
+    color: #01321F;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+/* Input styling for the overlay */
+.input_block {
+    margin: 10px 0;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.cancel-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: transparent;
+    border: 1px solid #bb1825;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.cancel-btn:hover {
+    background: #bb1825;
+}
+.filter-btn{
+    padding: 15px;
+}

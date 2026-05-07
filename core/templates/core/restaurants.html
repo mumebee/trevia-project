@@ -9,6 +9,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+    <!-- Itinerary Selection Modal -->
+    <div id="itinerary-modal" class="modal-overlay" style="display:none;">
+        <div class="modal-content">
+            <h3>Add to Trip</h3>
+            <div id="itin-list" class="checkbox-group">
+                <label class="tag-pill" onclick="toggleNewItin(true, this)">
+                    <i class="bi bi-plus-circle"></i> Create New Trip
+                </label>
+                <div id="existing-itins-container" style="display: contents;"></div>
+            </div>
+            <input type="text" id="new-itin-name" placeholder="Enter new trip name..." class="input_block" style="display:none;">
+            <div class="modal-btns">
+                <button onclick="confirmAddToItinerary()" class="filter-btn">Add</button>
+                <button onclick="closeItinModal()" class="cancel-btn">Cancel</button>
+            </div>
+        </div>
+    </div>
+    
     <div class="page-wrapper">
         <main class="content-area">
             {% include 'components/header.html' %}
@@ -91,14 +109,24 @@
                                     <div class="activity_description">
                                         <div class="activity_row">
                                             <span class="activity_name">{{ r.name }}</span>
-                                            <i class="bi bi-heart"></i>
+                                            <i class="bi bi-heart{% if r.id in liked_ids %}-fill{% endif %}"
+                                                data-type="restaurant"
+                                                data-id="{{ r.id }}"
+                                                {% if r.id in liked_ids %}style="color:#e63946"{% endif %}>
+                                            </i>
                                         </div>
                                         <span class="activity_city">{{ r.city }}</span>
                                         <div class="activity_row">
                                             <span class="activity_price">
                                                 {% if r.price == 0 %} Free {% else %} ${{ r.price }} {% endif %}
                                             </span>
-                                            <i class="bi bi-plus-square"></i>
+                                            <i class="bi bi-plus-square{% if r.id in itin_ids %}-fill{% endif %} plus-icon" 
+                                                data-id="{{ r.id }}" 
+                                                data-type="restaurant" 
+                                                data-name="{{ r.name }}" 
+                                                onclick="openItinModal(this)"
+                                                style="{% if r.id in itin_ids %}color: #0a583a;{% endif %}">
+                                            </i>
                                         </div>
                                     </div>
                                 </div>
@@ -115,196 +143,224 @@
         </main>
     </div>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const countryCheckboxes = document.querySelectorAll('#country-checkboxes input[type="checkbox"]');
-            const cityCheckboxesContainer = document.getElementById('city-checkboxes');
-
-            async function updateCitiesDropdown() {
-                const selectedCountries = Array.from(countryCheckboxes)
-                                            .filter(cb => cb.checked)
-                                            .map(cb => cb.value);
-                
-                // Server-side selection passed to JS
-                const initialSelectedCities = {{ selected_cities|safe }};
-                
-                let url = '/ajax/get-cities/';
-                if (selectedCountries.length > 0) {
-                    url += '?' + selectedCountries.map(c => `countries[]=${encodeURIComponent(c)}`).join('&');
-                }
-
-                try {
-                    const response = await fetch(url);
-                    const data = await response.json();
-
-                    cityCheckboxesContainer.innerHTML = ''; 
-                    data.cities.forEach(city => {
-                        const label = document.createElement('label');
-                        label.className = 'tag-label'; // Changed to match your sidebar style
-                        
-                        const input = document.createElement('input');
-                        input.type = 'checkbox';
-                        input.name = 'city';
-                        input.value = city;
-                        
-                        if (initialSelectedCities.includes(city)) {
-                            input.checked = true;
-                        }
-
-                        label.appendChild(input);
-                        label.appendChild(document.createTextNode(' ' + city));
-                        cityCheckboxesContainer.appendChild(label);
-                    });
-                } catch (error) {
-                    console.error("Error fetching cities:", error);
-                }
-            }
-
-            countryCheckboxes.forEach(cb => cb.addEventListener('change', updateCitiesDropdown));
-            // Only update on load if countries are already checked (to preserve initial state)
-            if (Array.from(countryCheckboxes).some(cb => cb.checked)) {
-                updateCitiesDropdown();
-            }
-        });
-
-        // Carousel Functions
-        function scroll_left(btn) {
-            const carousel = btn.nextElementSibling;
-            carousel.scrollBy({ left: -600, behavior: 'smooth' });
-        }
-        function scroll_right(btn) {
-            const carousel = btn.previousElementSibling;
-            carousel.scrollBy({ left: 600, behavior: 'smooth' });
-        }
-
-        // Heart & Plus Interactions
-        document.addEventListener('click', (e) => {
-            if (e.target.classList.contains('bi-heart') || e.target.classList.contains('bi-heart-fill')) {
-                const icon = e.target;
-                icon.classList.toggle('bi-heart');
-                icon.classList.toggle('bi-heart-fill');
-                icon.style.color = icon.classList.contains('bi-heart-fill') ? '#e63946' : '';
-            }
-            if (e.target.classList.contains('bi-plus-square') || e.target.classList.contains('bi-plus-square-fill')) {
-                const icon = e.target;
-                icon.classList.toggle('bi-plus-square');
-                icon.classList.toggle('bi-plus-square-fill');
-                icon.style.color = icon.classList.contains('bi-plus-square-fill') ? '#0a583a' : '';
-            }
-        });
-    </script>
-</body>
-</html>
-
-
-<!-- <script>
-    function likePlace(type, id) {
-        fetch("/like/", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/x-www-form-urlencoded",
-                "X-CSRFToken": getCSRF()
-            },
-            body: type=${type}&id=${id}
-        })
-            .then(res => res.json())
-            .then(data => console.log(data));
-    }
-
-    function addToItinerary(type, id, name, lat, lng) {
-        fetch("/add-to-itinerary/", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                "X-CSRFToken": getCSRF()
-            },
-            body: JSON.stringify({
-                type, id, name, lat, lng
-            })
-        })
-            .then(res => res.json())
-            .then(data => alert("Added to itinerary"));
-    }
-
-    function getCSRF() {
-        let cookies = document.cookie.split(';');
-        for (let c of cookies) {
-            if (c.trim().startsWith('csrftoken=')) {
-                return c.split('=')[1];
-            }
-        }
-    }
-</script> -->
-
-
-
-
-
-<!-- <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-    {% for r in restaurants %}
-    <h1>Restaurants</h1>
-
-    <form method="GET">
-        <input name="country" placeholder="Country">
-
-        <input name="min_price" type="number" placeholder="Min price">
-        <input name="max_price" type="number" placeholder="Max price">
-
-        <button type="submit">Filter</button>
-    </form>
-
-    <hr>
-
-
-    <div>
-        <h3>{{ r.name }}</h3>
-        <p>{{ r.cuisine_type }}</p>
-        <p>{{ r.price }}</p>
-    </div>
-    {% endfor %}
-
-</body>
-
-</html>
-
 <script>
-    function likePlace(type, id) {
-        fetch("/like/", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/x-www-form-urlencoded",
-                "X-CSRFToken": getCSRF()
-            },
-            body: `type=${type}&id=${id}`
-        })
-            .then(res => res.json())
-            .then(data => console.log(data));
+    let activeItem = null;
+    let existingItineraries = {{ existing_itineraries_json|safe|default:"[]" }};
+    document.addEventListener('DOMContentLoaded', function() {
+        const countryCheckboxes = document.querySelectorAll('#country-checkboxes input[type="checkbox"]');
+        const cityCheckboxesContainer = document.getElementById('city-checkboxes');
+        async function updateCitiesDropdown() {
+            const selectedCountries = Array.from(countryCheckboxes)
+                                        .filter(cb => cb.checked)
+                                        .map(cb => cb.value);
+            
+            const currentlyCheckedInDOM = Array.from(cityCheckboxesContainer.querySelectorAll('input:checked'))
+                                               .map(cb => cb.value);
+            // Server-side selection passed to JS
+            const initialSelectedCities = {{ selected_cities|safe }};
+            const citiesToKeep = currentlyCheckedInDOM.length > 0 ? currentlyCheckedInDOM : initialSelectedCities;
+
+            let url = '{% url "get_restaurant_cities_ajax" %}';
+            if (selectedCountries.length > 0) {
+                url += '?' + selectedCountries.map(c => `countries[]=${encodeURIComponent(c)}`).join('&');
+            }
+            try {
+                const response = await fetch(url);
+                const data = await response.json();
+                cityCheckboxesContainer.innerHTML = ''; 
+                data.cities.forEach(city => {
+                    const label = document.createElement('label');
+                    label.className = 'tag-pill'; 
+                    
+                    const input = document.createElement('input');
+                    input.type = 'checkbox';
+                    input.name = 'city';
+                    input.value = city;
+                    
+                    if (citiesToKeep.includes(city)) {
+                        input.checked = true;
+                        label.classList.add('active');
+                    }
+                    input.onchange = () => label.classList.toggle('active', input.checked);
+                    label.appendChild(input);
+                    label.appendChild(document.createTextNode(' ' + city));
+                    cityCheckboxesContainer.appendChild(label);
+                });
+            } catch (error) {
+                console.error("Error fetching cities:", error);
+            }
+        }
+        countryCheckboxes.forEach(cb => cb.addEventListener('change', updateCitiesDropdown));
+        updateCitiesDropdown(); // Initial call
+    });
+        // Carousel Functions
+    function scroll_left(btn) {
+        const carousel = btn.nextElementSibling;
+        carousel.scrollBy({ left: -600, behavior: 'smooth' });
+    }
+    function scroll_right(btn) {
+        const carousel = btn.previousElementSibling;
+        carousel.scrollBy({ left: 600, behavior: 'smooth' });
     }
 
-    function addToItinerary(type, id, name, lat, lng) {
-        fetch("/add-to-itinerary/", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                "X-CSRFToken": getCSRF()
-            },
-            body: JSON.stringify({
-                type, id, name, lat, lng
-            })
-        })
-            .then(res => res.json())
-            .then(data => alert("Added to itinerary"));
+    // Heart & Plus Interactions
+    // Replace the old Heart & Plus Interactions block with this
+    document.addEventListener('click', async (e) => {
+        const icon = e.target;
+
+            // Like toggle — only for card hearts (must have data-type)
+        if ((icon.classList.contains('bi-heart') || icon.classList.contains('bi-heart-fill')) && icon.dataset.type) {
+            e.preventDefault();
+        
+            const placeType = icon.dataset.type;
+            const placeId   = icon.dataset.id;
+        
+            try {
+                const res = await fetch('/ajax/toggle-like/', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'X-CSRFToken': getCookie('csrftoken'),
+                    },
+                    body: JSON.stringify({ place_type: placeType, place_id: placeId }),
+                });
+                const data = await res.json();
+            
+                if (data.liked) {
+                    icon.classList.replace('bi-heart', 'bi-heart-fill');
+                    icon.style.color = '#e63946';
+                } else {
+                    icon.classList.replace('bi-heart-fill', 'bi-heart');
+                    icon.style.color = '';
+                }
+            } catch (err) {
+                console.error('Like toggle failed:', err);
+            }
+        }
+    });
+    function getCookie(name) {
+        const v = document.cookie.match('(^|;) ?' + name + '=([^;]*)(;|$)');
+        return v ? v[2] : null;
     }
 
-    function getCSRF() {
-        return document.cookie.split('csrftoken=')[1];
+    function openItinModal(el) {
+        activeItem = { id: el.dataset.id, type: el.dataset.type, name: el.dataset.name }; // Capture name
+        document.getElementById('itinerary-modal').style.display = 'flex';
+        document.getElementById('new-itin-name').style.display = 'none';
+        document.getElementById('new-itin-name').value = '';
+        fetch('/ajax/get-itineraries/').then(r => r.json()).then(data => {
+            existingItineraries = data.itineraries;
+            const container = document.getElementById('existing-itins-container');
+            container.innerHTML = data.itineraries.map(i => `
+                <label class="tag-pill" onclick="selectItinPill(this)">
+                    <i class="bi bi-journal-check"></i>
+                    <input type="radio" name="selected_itin" value="${i.id}" style="display:none;"> ${i.name}
+                </label>
+            `).join('');
+        });
     }
-</script> -->
+
+    function closeItinModal() {
+        document.getElementById('itinerary-modal').style.display = 'none';
+        activeItem = null;
+    }
+    function toggleNewItin(show, el) {
+        document.querySelectorAll('#itin-list .tag-pill').forEach(p => p.classList.remove('active'));
+        el.classList.add('active');
+        document.getElementById('new-itin-name').style.display = show ? 'block' : 'none';
+        document.querySelectorAll('input[name="selected_itin"]').forEach(i => i.checked = false);
+        if (show) document.getElementById('new-itin-name').focus();
+    }
+    function selectItinPill(el) {
+        document.getElementById('new-itin-name').style.display = 'none';
+        document.getElementById('new-itin-name').value = '';
+        document.querySelectorAll('#itin-list .tag-pill').forEach(p => p.classList.remove('active'));
+        el.classList.add('active');
+        const radio = el.querySelector('input');
+        if(radio) radio.checked = true;
+    }
+    async function confirmAddToItinerary() {
+        const radio = document.querySelector('input[name="selected_itin"]:checked');
+        const newName = document.getElementById('new-itin-name').value;
+            
+        // 1. Validation: Prevent duplicate trip names locally
+        if (newName) {
+            const exists = existingItineraries.some(itin => itin.name.toLowerCase() === newName.toLowerCase());
+            if (exists) {
+                alert(`A trip named "${newName}" already exists. Please select it from the list or choose a different name.`);
+                return;
+            }
+        }
+
+        // 2. Validation: Ensure something is selected/typed
+        if (!radio && !newName) {
+            alert("Please select an existing trip or enter a new trip name.");
+            return;
+        }
+
+        const payload = {
+            ...activeItem, // Contains id, type, and name
+            itinerary_id: radio ? radio.value : null,
+            new_itinerary_name: newName || null
+        };
+
+        // 3. UI Feedback: Disable button
+        const btn = document.querySelector('#itinerary-modal .filter-btn');
+        const originalText = btn.innerText;
+        btn.disabled = true; 
+        btn.innerText = "Adding...";
+
+        try {
+            const response = await fetch('/add-to-itinerary/', {
+                method: 'POST',
+                headers: { 
+                    'Content-Type': 'application/json',
+                    'X-CSRFToken': getCookie('csrftoken'),
+                },
+                body: JSON.stringify(payload)
+            });
+
+            // 4. Handle Unauthorized
+            if (response.status === 401) {
+                window.location.href = "{% url 'login' %}?next=" + encodeURIComponent(window.location.pathname);
+                return;
+            }
+
+            const data = await response.json();
+
+            if (response.ok && data.status === 'success') {
+                // 5. SUCCESS: Update the "plus" icon state in the UI
+                if (activeItem) {
+                    // Find the specific icon using data attributes
+                    const selector = `.plus-icon[data-id="${activeItem.id}"][data-type="${activeItem.type}"]`;
+                    const icon = document.querySelector(selector);
+
+                    if (icon) {
+                        icon.classList.replace('bi-plus-square', 'bi-plus-square-fill');
+                        icon.style.color = '#0a583a';
+                    }
+                }
+
+                closeItinModal();
+
+                /* 
+                   Optional: If you want the user to stay on the page and see the 
+                   filled icon, comment out the redirect below. 
+                */
+                window.location.href = "{% url 'itinerary' %}";
+
+            } else {
+                alert(`Error: ${data.message || 'Something went wrong.'}`);
+            }
+        } catch (e) {
+            console.error("Network error:", e);
+            alert("A network error occurred. Please try again.");
+        } finally {
+            // 6. Reset button state
+            btn.disabled = false;
+            btn.innerText = originalText;
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,301 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #01321F;
+}
+
+@font-face {
+    font-family: 'BoldCondensed';
+    src: url('../../static/Brice Bold Condensed.otf') format('opentype');
+}
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    pointer-events: none;
+}
+
+/* ========== VERY FIRST SECTION — just title ========== */
+.page_name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -35px;
+    margin-left: 2;
+}
+.page_name span {
+    font-family: 'BoldCondensed';
+    font-size: 65px;
+    color: #ffffff;
+    line-height: 1;
+}
+.page_name p {
+    font-family: 'BoldCondensed';
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.6);
+}
+/* ========== FIRST SECTION ========== */
+.first-section {
+    display: flex;
+    align-items: flex-start;
+    background-color: #01321F;
+    min-height: 100vh;
+}
+
+
+
+
+/* ========== MAIN CONTENT ========== */
+.container_activities {
+    flex: 1;
+    padding: 120px 0px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    min-width: 0;
+}
+/* ========== COUNTRY SECTION ========== */
+.container_activities h1{
+    color: #ffffff;
+    font-size: 42px;
+    text-decoration: none;
+    margin-left: 56px;
+}
+/* ========== CAROUSEL ========== */
+.carousel-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+.activities_carousel {
+    display: flex;
+    gap: 15px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    flex: 1;
+    min-width: 0;
+    align-items: flex-start;
+    scrollbar-width: none; 
+}
+
+.activities_carousel::-webkit-scrollbar {
+    display: none;
+}
+/* ========== ARROW BUTTONS ========== */
+.carousel_btn {
+    height: 46px;
+    width: 46px;
+    border-radius: 50%;
+    border: none;
+    background-color: #a5b7c5;
+    font-size: 20px;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: background-color 0.2s;
+    margin: 5px;
+}
+.carousel_btn:hover {
+    background-color: #c6d2db;
+}
+
+/* ========== ACTIVITY CARD ========== */
+.activity {
+    height: 310px;
+    max-height: 310px;
+    min-width: 260px;
+    width: 280px;
+    max-width: 280px; 
+    border: solid 2px #012a1a;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.activity img {
+    height: 180px;
+    min-height: 180px;
+    max-height: 180px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    flex-shrink: 0;
+}
+.activity_name {
+    font-size: 20px;
+    font-weight: 600;
+    color: #01321F;
+}
+.activity_city {
+    font-size: 20px;
+    color: #555;
+}
+.activity_price {
+    margin-top: auto;
+    font-size: 24px;
+    color: #01321F;
+    font-weight: 700;
+}
+/* ========== ACTIVITIES ========== */
+.activity_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.activity_description {
+    flex: 1;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 12px;
+    font-family: 'BoldCondensed';
+    gap: 5px;
+}
+.activity_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.activity_row i {
+    font-size: 26px;
+    color: #01321F;
+    cursor: pointer;
+    transition: color 0.2s, transform 0.15s;
+    flex-shrink: 0;
+}
+.activity_row i:hover {
+    transform: scale(1.2);
+}
+.heart-icon, .plus-icon { color: #01321F; transition: all 0.3s; }
+.heart-icon:hover, .heart-icon.active { color: #e63946 !important; }
+.plus-icon:hover { color: #0a583a; }
+.activity_row i.plus-icon {
+    color: #0a583a;
+}
+.activity_row i.plus-icon:hover {
+    color: #01321F;
+}
+/* ========== FILTERING FORM FOR ITINERARY ========== */
+/* Modal Styles */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-content {
+    background: #012318;
+    padding: 30px;
+    border-radius: 20px;
+    width: 400px;
+    color: white;
+    border: 1px solid #ffe176;
+}
+.modal-btns {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.cancel-btn{
+    background: transparent;
+    border: 1px solid #ffe176;
+    color: white;
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.tags-container, .checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 10px;
+}
+.tag-pill {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 6px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 13px;
+    color: #ffffff;
+    transition: all 0.2s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    user-select: none;
+    display: flex;
+    align-items: center;
+}
+.tag-pill:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+.tag-pill.active {
+    background: #91745c;
+    border-color: #baa492;
+    color: white;
+    font-weight: 500;
+}
+.tag-pill input {
+    display: none;
+}
+.input_block {
+    width: 100%;
+    height: 44px;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 8px 14px;
+    border: none;
+    outline: none;
+    background-color: #01321F;
+    color: #ffffff;
+    border: 1px solid #0a583a;
+    transition: box-shadow 0.2s;
+    margin-top: 15px;
+}
+.input_block::placeholder {
+    color: rgba(255, 255, 255, 0.35);
+}
+.input_block:focus {
+    box-shadow: 0 0 0 3px rgba(255, 225, 118, 0.2);
+}
+.input_block[type="number"]::-webkit-outer-spin-button,
+.input_block[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.tag-label input[type="checkbox"] {
+    accent-color: #91745c;
+    width: 16px;
+    height: 16px;
+}
+.filter-btn {
+    width: 100%;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    background: #ffe176;
+    font-family: 'BoldCondensed';
+    font-size: 22px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+    margin-top: 4px;
+}
+.filter-btn:hover {
+    background: #f7c11e;
+    transform: translateY(-1px);
+}

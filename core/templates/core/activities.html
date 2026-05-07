@@ -19,7 +19,6 @@
                 </label>
                 <div id="existing-itins-container" style="display: contents;"></div>
             </div>
-            <hr>
             <input type="text" id="new-itin-name" placeholder="Enter new trip name..." class="input_block" style="display:none;">
             <div class="modal-btns">
                 <button onclick="confirmAddToItinerary()" class="filter-btn">Add</button>
@@ -103,14 +102,24 @@
                                     <div class="activity_description">
                                         <div class="activity_row">
                                             <span class="activity_name">{{ a.name }}</span>
-                                            <i class="bi bi-heart heart-icon" data-id="{{ a.id }}" data-type="activity" onclick="toggleLike(this)"></i>
+                                            <i class="bi bi-heart{% if a.id in liked_ids %}-fill{% endif %}"
+                                               data-type="activity"
+                                               data-id="{{ a.id }}"
+                                               style="{% if a.id in liked_ids %}color:#e63946{% endif %}">
+                                            </i>
                                         </div>
                                         <span class="activity_city">{{ a.city }}</span>
                                         <div class="activity_row">
                                             <span class="activity_price">
                                                 {% if a.price == 0 %} Free {% else %} ${{ a.price }} {% endif %}
                                             </span>
-                                            <i class="bi bi-plus-square plus-icon" data-id="{{ a.id }}" data-type="activity" data-name="{{ a.name }}" onclick="openItinModal(this)"></i>
+                                            <i class="bi bi-plus-square{% if a.id in itin_ids %}-fill{% endif %} plus-icon" 
+                                                data-id="{{ a.id }}" 
+                                                data-type="activity" 
+                                                data-name="{{ a.name }}" 
+                                                onclick="openItinModal(this)"
+                                                style="{% if a.id in itin_ids %}color: #0a583a;{% endif %}">
+                                            </i>
                                         </div>
                                     </div>
                                 </div>
@@ -126,237 +135,232 @@
         </main>
     </div>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const countryCheckboxes = document.querySelectorAll('#country-checkboxes input[type="checkbox"]');
-            const cityCheckboxesContainer = document.getElementById('city-checkboxes');
-            const filterForm = document.getElementById('filter-form');
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const countryCheckboxes = document.querySelectorAll('#country-checkboxes input[type="checkbox"]');
+        const cityCheckboxesContainer = document.getElementById('city-checkboxes');
+        const filterForm = document.getElementById('filter-form');
 
-            // Function to fetch and update cities based on selected countries
-            async function updateCitiesDropdown() {
-                const selectedCountries = Array.from(countryCheckboxes)
-                                            .filter(cb => cb.checked)
-                                            .map(cb => cb.value);
-                
-                // Get currently selected cities to re-check them after update
-                const currentlySelectedCities = {{ selected_cities|safe }};
-                // Read currently checked cities from the DOM so we don't lose local changes
-                const currentlyCheckedInDOM = Array.from(cityCheckboxesContainer.querySelectorAll('input:checked'))
-                                                   .map(cb => cb.value);
-                
-                // Fallback to server-side initial selection if DOM is empty (first load)
-                const initialCities = {{ selected_cities|safe }};
-                const citiesToKeep = currentlyCheckedInDOM.length > 0 ? currentlyCheckedInDOM : initialCities;
-                
-                let url = '/ajax/get-cities/';
-                if (selectedCountries.length > 0) {
-                    url += '?' + selectedCountries.map(c => `countries[]=${encodeURIComponent(c)}`).join('&');
-                }
-
-                const response = await fetch(url);
-                const data = await response.json();
-
-                cityCheckboxesContainer.innerHTML = ''; // Clear existing cities
-                data.cities.forEach(city => {
-                    const label = document.createElement('label');
-                    label.className = 'tag-pill';
-                    // Apply the same tag-pill style as countries/tags
-                    label.className = 'tag-pill'; 
-                    const input = document.createElement('input');
-                    input.type = 'checkbox';
-                    input.name = 'city';
-                    input.value = city;
-                    if (currentlySelectedCities.includes(city)) input.checked = true;
-
-                    if (citiesToKeep.includes(city)) {
-                        input.checked = true;
-                        label.classList.add('active');
-                    }
-                    
-                    input.onchange = () => label.classList.toggle('active', input.checked);
-                    label.appendChild(input);
-                    label.appendChild(document.createTextNode(city));
-                    cityCheckboxesContainer.appendChild(label);
-                });
+        // Function to fetch and update cities based on selected countries
+        async function updateCitiesDropdown() {
+            const selectedCountries = Array.from(countryCheckboxes)
+                                        .filter(cb => cb.checked)
+                                        .map(cb => cb.value);
+            
+            // Get currently selected cities to re-check them after update
+            const currentlySelectedCities = {{ selected_cities|safe }};
+            // Read currently checked cities from the DOM so we don't lose local changes
+            const currentlyCheckedInDOM = Array.from(cityCheckboxesContainer.querySelectorAll('input:checked'))
+                                               .map(cb => cb.value);
+            
+            // Fallback to server-side initial selection if DOM is empty (first load)
+            const initialCities = {{ selected_cities|safe }};
+            const citiesToKeep = currentlyCheckedInDOM.length > 0 ? currentlyCheckedInDOM : initialCities;
+            
+            let url = '/ajax/get-cities/';
+            if (selectedCountries.length > 0) {
+                url += '?' + selectedCountries.map(c => `countries[]=${encodeURIComponent(c)}`).join('&');
             }
+            const response = await fetch(url);
+            const data = await response.json();
+            cityCheckboxesContainer.innerHTML = ''; // Clear existing cities
+            data.cities.forEach(city => {
+                const label = document.createElement('label');
+                label.className = 'tag-pill';
+                // Apply the same tag-pill style as countries/tags
+                label.className = 'tag-pill'; 
+                const input = document.createElement('input');
+                input.type = 'checkbox';
+                input.name = 'city';
+                input.value = city;
+                // Use citiesToKeep for checking, which prioritizes DOM state
+                if (citiesToKeep.includes(city)) {
+                    input.checked = true;
+                    label.classList.add('active');
+                }
+                
+                input.onchange = () => label.classList.toggle('active', input.checked);
+                label.appendChild(input);
+                label.appendChild(document.createTextNode(city));
+                cityCheckboxesContainer.appendChild(label);
+            });
+        }
+        countryCheckboxes.forEach(cb => cb.addEventListener('change', updateCitiesDropdown));
+        updateCitiesDropdown(); // Initial call
+    });
 
-            countryCheckboxes.forEach(cb => cb.addEventListener('change', updateCitiesDropdown));
-            updateCitiesDropdown(); // Initial call
+    function scroll_left(btn) {
+        const carousel = btn.nextElementSibling;
+        carousel.scrollBy({ left: -600, behavior: 'smooth' });
+    }
+    function scroll_right(btn) {
+        const carousel = btn.previousElementSibling;
+        carousel.scrollBy({ left: 600, behavior: 'smooth' });
+    }
+
+    // --- Likes + Itineraries ---
+    document.addEventListener('click', async (e) => {
+        const icon = e.target;
+    
+        // Like toggle — only for card hearts (must have data-type)
+        if ((icon.classList.contains('bi-heart') || icon.classList.contains('bi-heart-fill')) && icon.dataset.type) {
+            e.preventDefault();
+        
+            const placeType = icon.dataset.type;
+            const placeId   = icon.dataset.id;
+        
+            try {
+                const res = await fetch('/ajax/toggle-like/', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'X-CSRFToken': getCookie('csrftoken'),
+                    },
+                    body: JSON.stringify({ place_type: placeType, place_id: placeId }),
+                });
+                const data = await res.json();
+            
+                if (data.liked) {
+                    icon.classList.replace('bi-heart', 'bi-heart-fill');
+                    icon.style.color = '#e63946';
+                } else {
+                    icon.classList.replace('bi-heart-fill', 'bi-heart');
+                    icon.style.color = '';
+                }
+            } catch (err) {
+                console.error('Like toggle failed:', err);
+            }
+        }
+    });
+
+    function getCookie(name) {
+        const v = document.cookie.match('(^|;) ?' + name + '=([^;]*)(;|$)');
+        return v ? v[2] : null;
+    }
+        // --- Itinerary Modal ---
+    let activeItem = null;
+    let existingItineraries = [];
+
+    function openItinModal(el) {
+        activeItem = { id: el.dataset.id, type: el.dataset.type, name: el.dataset.name }; // Capture name
+        document.getElementById('itinerary-modal').style.display = 'flex';
+        document.getElementById('new-itin-name').style.display = 'none';
+        document.getElementById('new-itin-name').value = '';
+        fetch('/ajax/get-itineraries/').then(r => r.json()).then(data => {
+            existingItineraries = data.itineraries;
+            const container = document.getElementById('existing-itins-container');
+            container.innerHTML = data.itineraries.map(i => `
+                <label class="tag-pill" onclick="selectItinPill(this)">
+                    <i class="bi bi-journal-check"></i>
+                    <input type="radio" name="selected_itin" value="${i.id}" style="display:none;"> ${i.name}
+                </label>
+            `).join('');
         });
+    }
 
-        function scroll_left(btn) {
-            const carousel = btn.nextElementSibling;
-            carousel.scrollBy({ left: -600, behavior: 'smooth' });
+    function closeItinModal() {
+        document.getElementById('itinerary-modal').style.display = 'none';
+        activeItem = null;
+    }
+    function toggleNewItin(show, el) {
+        document.querySelectorAll('#itin-list .tag-pill').forEach(p => p.classList.remove('active'));
+        el.classList.add('active');
+        document.getElementById('new-itin-name').style.display = show ? 'block' : 'none';
+        document.querySelectorAll('input[name="selected_itin"]').forEach(i => i.checked = false);
+        if (show) document.getElementById('new-itin-name').focus();
+    }
+    function selectItinPill(el) {
+        document.getElementById('new-itin-name').style.display = 'none';
+        document.getElementById('new-itin-name').value = '';
+        document.querySelectorAll('#itin-list .tag-pill').forEach(p => p.classList.remove('active'));
+        el.classList.add('active');
+        const radio = el.querySelector('input');
+        if(radio) radio.checked = true;
+    }
+
+            
+    async function confirmAddToItinerary() {
+        const radio = document.querySelector('input[name="selected_itin"]:checked');
+        const newName = document.getElementById('new-itin-name').value;
+            
+        // 1. Validation: Prevent duplicate trip names locally
+        if (newName) {
+            const exists = existingItineraries.some(itin => itin.name.toLowerCase() === newName.toLowerCase());
+            if (exists) {
+                alert(`A trip named "${newName}" already exists. Please select it from the list or choose a different name.`);
+                return;
+            }
         }
-        function scroll_right(btn) {
-            const carousel = btn.previousElementSibling;
-            carousel.scrollBy({ left: 600, behavior: 'smooth' });
+
+        // 2. Validation: Ensure something is selected/typed
+        if (!radio && !newName) {
+            alert("Please select an existing trip or enter a new trip name.");
+            return;
         }
 
-        // --- Likes ---
-        async function toggleLike(el) {
-            const formData = new FormData();
-            formData.append('id', el.dataset.id);
-            formData.append('type', el.dataset.type);
-            formData.append('csrfmiddlewaretoken', '{{ csrf_token }}');
+        const payload = {
+            ...activeItem, // Contains id, type, and name
+            itinerary_id: radio ? radio.value : null,
+            new_itinerary_name: newName || null
+        };
 
-            const response = await fetch('/like/', { method: 'POST', body: formData });
+        // 3. UI Feedback: Disable button
+        const btn = document.querySelector('#itinerary-modal .filter-btn');
+        const originalText = btn.innerText;
+        btn.disabled = true; 
+        btn.innerText = "Adding...";
+
+        try {
+            const response = await fetch('/add-to-itinerary/', {
+                method: 'POST',
+                headers: { 
+                    'Content-Type': 'application/json',
+                    'X-CSRFToken': getCookie('csrftoken'),
+                },
+                body: JSON.stringify(payload)
+            });
+
+            // 4. Handle Unauthorized
             if (response.status === 401) {
                 window.location.href = "{% url 'login' %}?next=" + encodeURIComponent(window.location.pathname);
                 return;
             }
+
             const data = await response.json();
-            if (data.status === 'liked') {
-                el.classList.replace('bi-heart', 'bi-heart-fill');
-                el.classList.add('active');
+
+            if (response.ok && data.status === 'success') {
+                // 5. SUCCESS: Update the "plus" icon state in the UI
+                if (activeItem) {
+                    // Find the specific icon using data attributes
+                    const selector = `.plus-icon[data-id="${activeItem.id}"][data-type="${activeItem.type}"]`;
+                    const icon = document.querySelector(selector);
+
+                    if (icon) {
+                        icon.classList.replace('bi-plus-square', 'bi-plus-square-fill');
+                        icon.style.color = '#0a583a';
+                    }
+                }
+
+                closeItinModal();
+
+                /* 
+                   Optional: If you want the user to stay on the page and see the 
+                   filled icon, comment out the redirect below. 
+                */
+                window.location.href = "{% url 'itinerary' %}";
+
             } else {
-                el.classList.replace('bi-heart-fill', 'bi-heart');
-                el.classList.remove('active');
+                alert(`Error: ${data.message || 'Something went wrong.'}`);
             }
+        } catch (e) {
+            console.error("Network error:", e);
+            alert("A network error occurred. Please try again.");
+        } finally {
+            // 6. Reset button state
+            btn.disabled = false;
+            btn.innerText = originalText;
         }
-
-        // --- Itinerary Modal ---
-        let activeItem = null;
-        let existingItineraries = [];
-
-        function openItinModal(el) {
-            activeItem = { id: el.dataset.id, type: el.dataset.type, name: el.dataset.name }; // Capture name
-            document.getElementById('itinerary-modal').style.display = 'flex';
-            document.getElementById('new-itin-name').style.display = 'none';
-            document.getElementById('new-itin-name').value = '';
-
-            fetch('/ajax/get-itineraries/').then(r => r.json()).then(data => {
-                existingItineraries = data.itineraries;
-                const container = document.getElementById('existing-itins-container');
-                container.innerHTML = data.itineraries.map(i => `
-                    <label class="tag-pill" onclick="selectItinPill(this)">
-                        <i class="bi bi-journal-check"></i>
-                        <input type="radio" name="selected_itin" value="${i.id}" style="display:none;"> ${i.name}
-                    </label>
-                `).join('');
-            });
-        }
-
-        function closeItinModal() {
-            document.getElementById('itinerary-modal').style.display = 'none';
-            activeItem = null;
-        }
-
-        function toggleNewItin(show, el) {
-            document.querySelectorAll('#itin-list .tag-pill').forEach(p => p.classList.remove('active'));
-            el.classList.add('active');
-            document.getElementById('new-itin-name').style.display = show ? 'block' : 'none';
-            document.querySelectorAll('input[name="selected_itin"]').forEach(i => i.checked = false);
-            if (show) document.getElementById('new-itin-name').focus();
-        }
-
-        function selectItinPill(el) {
-            document.getElementById('new-itin-name').style.display = 'none';
-            document.getElementById('new-itin-name').value = '';
-            document.querySelectorAll('#itin-list .tag-pill').forEach(p => p.classList.remove('active'));
-            el.classList.add('active');
-            const radio = el.querySelector('input');
-            if(radio) radio.checked = true;
-        }
-
-        async function confirmAddToItinerary() {
-            const radio = document.querySelector('input[name="selected_itin"]:checked');
-            const newName = document.getElementById('new-itin-name').value;
-            
-            // Check if new trip name already exists
-            if (newName) {
-                const exists = existingItineraries.some(itin => itin.name.toLowerCase() === newName.toLowerCase());
-                if (exists) {
-                    alert(`A trip named "${newName}" already exists. Please select it from the list or choose a different name.`);
-                    return;
-                }
-            }
-
-            const payload = {
-                ...activeItem,
-                itinerary_id: radio ? radio.value : null,
-                new_itinerary_name: newName || null
-            };
-
-            // Client-side validation: must have a name OR a selection
-            if (!payload.itinerary_id && !payload.new_itinerary_name) {
-                alert("Please select an existing trip or enter a new trip name.");
-                return; // Stop execution if no selection
-            }
-
-            // Target the specific button in the modal to avoid UI lag/confusion
-            const btn = document.querySelector('#itinerary-modal .filter-btn'); // More specific selector
-            const originalText = btn.innerText;
-            btn.disabled = true; btn.innerText = "Adding...";
-
-            try {
-                const response = await fetch('/add-to-itinerary/', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json', 'X-CSRFToken': '{{ csrf_token }}' },
-                    body: JSON.stringify(payload)
-                });
-
-                if (response.status === 401) {
-                    window.location.href = "{% url 'login' %}?next=" + encodeURIComponent(window.location.pathname);
-                    return;
-                }
-                
-                const data = await response.json();
-                if (response.ok && data.status === 'success') {
-                    closeItinModal();
-                    window.location.href = "{% url 'itinerary' %}";
-                } else {
-                    alert(`Error: ${data.message || 'Something went wrong.'}`);
-                }
-            } catch (e) {
-                alert("Network error occurred.");
-            } finally {
-                btn.disabled = false;
-                btn.innerText = originalText;
-            }
-        }
-
-    </script>
+    }
+</script>
 </body>
 </html>
-
-
-
-<!-- <script>
-    function likePlace(type, id) {
-        fetch("/like/", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/x-www-form-urlencoded",
-                "X-CSRFToken": getCSRF()
-            },
-            body: type=${type}&id=${id}
-        })
-            .then(res => res.json())
-            .then(data => console.log(data));
-    }
-
-    function addToItinerary(type, id, name, lat, lng) {
-        fetch("/add-to-itinerary/", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                "X-CSRFToken": getCSRF()
-            },
-            body: JSON.stringify({
-                type, id, name, lat, lng
-            })
-        })
-            .then(res => res.json())
-            .then(data => alert("Added to itinerary"));
-    }
-
-    function getCSRF() {
-        let cookies = document.cookie.split(';');
-        for (let c of cookies) {
-            if (c.trim().startsWith('csrftoken=')) {
-                return c.split('=')[1];
-            }
-        }
-    }
-</script> -->

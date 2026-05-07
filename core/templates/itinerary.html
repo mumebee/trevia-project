@@ -1,0 +1,11 @@
+{% load static %}
+
+<!-- ... (rest of your itinerary.html content) ... -->
+
+<!-- This script tag will contain the JSON data for itineraries -->
+<script type="application/json" id="itineraries_json">
+    {{ itineraries|json_script:"itineraries_json" }}
+</script>
+
+<!-- Link to your external JavaScript file -->
+<script src="{% static 'itinerary.js' %}"></script>

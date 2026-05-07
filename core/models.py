@@ -54,12 +54,17 @@ class Activity(BasePlace):
 
 class Restaurant(BasePlace):
     cuisine_type = models.CharField(max_length=100)
-    tags = models.JSONField(default=list)  # add this
+    cuisine_tags = models.JSONField(default=list)
     menu = models.JSONField(default=dict)
 
     def display_card(self):
         return f"{self.name} ({self.cuisine_type}) | ${self.price}"
-
+    
+    def save(self, *args, **kwargs):
+    # Automatically sync the cuisine_tags list to the inherited tags string for filtering
+        if isinstance(self.cuisine_tags, list):
+            self.tags = ",".join(str(tag).strip().lower() for tag in self.cuisine_tags)
+        super().save(*args, **kwargs)
 
 class Hotel(BasePlace):
     stars = models.IntegerField(default=3)
@@ -90,6 +95,24 @@ class SavedPlace(models.Model):
 
     created_at = models.DateTimeField(auto_now_add=True)
 
+
+
+class LikedPlace(models.Model):
+    PLACE_TYPES = [
+        ('activity', 'Activity'),
+        ('restaurant', 'Restaurant'),
+        ('hotel', 'Hotel'),
+    ]
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='liked_places')
+    place_type = models.CharField(max_length=20, choices=PLACE_TYPES)
+    place_id = models.IntegerField()
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        unique_together = ('user', 'place_type', 'place_id')
+
+    def __str__(self):
+        return f"{self.user.username} likes {self.place_type}:{self.place_id}"
 
 class Itinerary(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)

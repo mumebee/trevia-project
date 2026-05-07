@@ -1,5 +1,8 @@
 /* ==========HEADER========= */
 /* header.css */
+.form-control:focus-visible {
+    scroll-margin-top: 9999px;
+}
 .main-header {
     background: #ffffff63;
     width: 100%;
@@ -39,7 +42,7 @@
 .main-header.scrolled {
     max-width: 80px;
     margin-right: 20px;
-    border-radius: 25px;
+    border-radius: 30px;
     background-color: rgba(255, 255, 255, 0.284);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -49,7 +52,8 @@
 
 /* Hide navigation and search when scrolled */
 .main-header.scrolled .nav-container,
-.main-header.scrolled .search-wrapper {
+.main-header.scrolled .search-wrapper,
+.main-header.scrolled .header-right-heart {
     opacity: 0;
     visibility: hidden;
     width: 0;
@@ -67,7 +71,7 @@
     margin: 0;
 }
 
-.nav-container, .header-right{
+.nav-container, .header-right, .header-right-heart{
     display: flex;
     align-items: center;
     gap: 20px;
@@ -90,6 +94,16 @@
     cursor: pointer;
     font-weight: 600;
 }
+
+.heart-btn {
+    background: none;
+    border: none;
+    font-size: 35px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #333;
+}
+
 .user-btn{
     background: none;
     border: none;

@@ -5,7 +5,7 @@
       "country": "Uzbekistan",
       "city": "Tashkent",
       "name": "Hilton Tashkent City",
-      "image": "https://www.afisha.uz/uploads/media/2024/04/508338da550350b7c738441c5da09284_l.jpg",
+      "image": "https://www.hilton.com/im/en/TASTCHI/19166656/main-entrance-1.jpg?impolicy=crop&cw=5000&ch=2799&gravity=NorthWest&xposition=0&yposition=268&rw=768&rh=430",
       "rooms": [
         {
           "name": "King Guest Room",
@@ -76,7 +76,7 @@
       "name": "InterContinental Tashkent",
       "country": "Uzbekistan",
       "city": "Tashkent",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://ak-d.tripcdn.com/images/1mc5f12000cic8jpoD8EE_R_960_660_R5_D.jpg",
       "rooms": [
         {
           "name": "Classic Room",
@@ -133,7 +133,7 @@
       "name": "Garnet Mir Hotel",
       "country": "Uzbekistan",
       "city": "Tashkent",
-      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/428689377.jpg?k=fed55469f91c1eef94fa8ca1e638857eae7ff91f656c1ce18ad222d59121687a&o=",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/482797850.jpg?k=a241737f9565a111ab0458820a1bdc7790cc71495f0dadef9c4d3b957f2ab7d3&o=&hp=1",
       "rooms": [
         {
           "name": "Standard Room",
@@ -184,7 +184,7 @@
       "name": "Royal Sebzor Hotel",
       "country": "Uzbekistan",
       "city": "Tashkent",
-      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/592870848.jpg?k=1ab0a8ca8c0d818847cd211d5a034ed9eb1185fa3441c241c2a3230f01390b37&o=",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/592870848.jpg?k=1ab0a8ca8c0d818847cd211d5a034ed9eb1185fa3441c241c2a3230f01390b37&o=&hp=1",
       "rooms": [
         {
           "name": "Standard",
@@ -235,7 +235,7 @@
       "name": "Avant Wellness Hotel",
       "country": "Uzbekistan",
       "city": "Tashkent",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcAiVeWJ-dkZxGdwVdW5QdMkotVcG4f2RgNA&s",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/667482252.jpg?k=f8044afa81b3e03c3649f1c092d5a33f750ab501221976f07fad3c135bc66040&o=&hp=1",
       "rooms": [
         {
           "name": "Wellness Room",
@@ -286,7 +286,7 @@
       "name": "Mercure Tashkent South",
       "country": "Uzbekistan",
       "city": "Tashkent",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5Nfzy7laEWFu6t52gpnRvOTfLKHkGulMwJg&s",
+      "image": "https://www.ahstatic.com/photos/c042_ho_00_p_1024x768.jpg",
       "rooms": [
         {
           "name": "Standard",
@@ -337,7 +337,7 @@
       "name": "Mövenpick Tashkent Old City",
       "country": "Uzbekistan",
       "city": "Tashkent",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWAW1WfbsTrZ7q6o__l-o3ywAvbfXOTH9sow&s",
+      "image": "https://www.ahstatic.com/photos/c5k7_ho_03_p_1024x768.jpg",
       "rooms": [
         {
           "name": "Classic Room",
@@ -388,7 +388,7 @@
       "name": "Swissôtel Tashkent",
       "country": "Uzbekistan",
       "city": "Tashkent",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo-uGFWR_Y_bx-jpDQec_3RI8uqHMyGZrYqA&s",
+      "image": "https://www.ahstatic.com/photos/c093_ho_00_p_2048x1536.jpg",
       "rooms": [
         {
           "name": "Deluxe Room",
@@ -419,7 +419,7 @@
         }
       ],
       "location": {
-        "lat": 41.30,
+        "lat": 41.3,
         "long": 69.27
       },
       "views": {
@@ -439,7 +439,7 @@
       "name": "Praga Hotel",
       "country": "Uzbekistan",
       "city": "Tashkent",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrR5AhK0rwkyh2Sl6cgrs0Y3khlmzz_jRitQ&s",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/83/11/80/praga-hotel.jpg?w=1100&h=-1&s=1",
       "rooms": [
         {
           "name": "Standard",
@@ -490,7 +490,7 @@
       "name": "Radisson Blu Hotel",
       "country": "Uzbekistan",
       "city": "Tashkent",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5-9Pmvi_yE9dvWu4HSyqY3xwEbynhlQ70kA&s",
+      "image": "https://onlineexpo.com/site/assets/files/13047/uzbekistan_tashkent_hotel_radisson_blu.1920x1080.jpg",
       "rooms": [
         {
           "name": "Standard",
@@ -541,7 +541,7 @@
       "name": "Crowne Plaza Tashkent",
       "country": "Uzbekistan",
       "city": "Tashkent",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0J4mrpidX51QqlOLwvukfMP4khM5nZs2GGA&s",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/62/bb/02/hotel-facade.jpg?w=1400&h=-1&s=1",
       "rooms": [
         {
           "name": "Standard",
@@ -572,7 +572,7 @@
         }
       ],
       "location": {
-        "lat": 41.30,
+        "lat": 41.3,
         "long": 69.26
       },
       "views": {
@@ -592,7 +592,7 @@
       "name": "Hotel New York Tashkent",
       "country": "Uzbekistan",
       "city": "Tashkent",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYKSpoALyBqgUcxCzCy-X5swz5b-1bIKASBQ&s",
+      "image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=103789198323595",
       "rooms": [
         {
           "name": "Standard",
@@ -643,7 +643,7 @@
       "country": "Uzbekistan",
       "city": "Samarkand",
       "name": "Hilton Garden Inn Samarkand",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNzSWT8O76uRjk5ME3177enNp1UF_KE1-R5A&s",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/5e/6d/16/hilton-garden-inn-samarkand.jpg?w=700&h=-1&s=1",
       "rooms": [
         {
           "name": "Standard Room",
@@ -700,7 +700,7 @@
       "country": "Uzbekistan",
       "city": "Samarkand",
       "name": "Minor Hotel",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfRXro_zC_tUe_Y6mFgPo4mCfR3oTMzyJr6A&s",
+      "image": "https://www.advantour.com/img/uzbekistan/hotels/samarkand/minor-samarkand-hotel.jpg",
       "rooms": [
         {
           "name": "Standard Room",
@@ -751,7 +751,7 @@
       "country": "Uzbekistan",
       "city": "Samarkand",
       "name": "Khan Hotel Samarkand",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTL5sa0I6944UuG-QjVK8VJ8TMBRMYWpw0ng&s",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/679922164.jpg?k=ccab6e94e3ef4054c24f27abd06903636800b0bfcdf32c5103619ba3bdd7b70e&o=&hp=1",
       "rooms": [
         {
           "name": "Standard Room",
@@ -802,7 +802,7 @@
       "country": "Uzbekistan",
       "city": "Samarkand",
       "name": "Savitsky Plaza",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFgftNuP8oy-AviiezD5VZzFZaiqzCdiWNdg&s",
+      "image": "https://www.silkroad-samarkand.com/upload/iblock/651/8x4xfs507zyc9ptollfy9sygx1h6hki7.jpg",
       "rooms": [
         {
           "name": "Deluxe Room",
@@ -853,7 +853,7 @@
       "country": "Uzbekistan",
       "city": "Samarkand",
       "name": "L'Argamak",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1xSZVNjoQuAPVWtuvIhU07SrpwbV4pUq9IA&s",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/4a/3a/be/caption.jpg?w=1200&h=1200&s=1",
       "rooms": [
         {
           "name": "Boutique Room",
@@ -904,7 +904,7 @@
       "country": "Uzbekistan",
       "city": "Samarkand",
       "name": "Silk Road By Minyoun",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR42firv6-TjzPphaa66Op01izhLsGvpQqX8g&s",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/424583654.jpg?k=338a69c19c976cde967701ff8488565caa31aeeefc006fb3b4cffd8fd0986801&o=&hp=1",
       "rooms": [
         {
           "name": "Deluxe Room",
@@ -955,7 +955,7 @@
       "country": "Uzbekistan",
       "city": "Samarkand",
       "name": "Mövenpick Samarkand",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIp_UMIYcchRQ020CrVhZqW9Nl5ijG1ZYOOw&s",
+      "image": "https://www.ahstatic.com/photos/c076_ho_01_p_2048x1536.jpg",
       "rooms": [
         {
           "name": "Classic Room",
@@ -1006,7 +1006,7 @@
       "country": "Uzbekistan",
       "city": "Samarkand",
       "name": "Hotel Caravan Serail",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkJKvPqPRcEbYy9bZvkFC72bGYUwY4NNFSNg&s",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/59/06/42/photo2jpg.jpg?w=1200&h=1200&s=1",
       "rooms": [
         {
           "name": "Standard Room",
@@ -1057,7 +1057,7 @@
       "country": "Uzbekistan",
       "city": "Samarkand",
       "name": "Nizamov Hotel",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA0tYCGRQkeOtoICkhi0SENCFVnFFNMsIcgQ&s",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/694838427.jpg?k=e65e8350b36e14e4642eb40a06c20787930b401dd55bb94e3d285e7832c513d8&o=&hp=1",
       "rooms": [
         {
           "name": "Standard Room",
@@ -1108,7 +1108,7 @@
       "country": "Uzbekistan",
       "city": "Samarkand",
       "name": "Platan",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiildukQweWv4LqLOJLXjCzlJtkjSAWlk60w&s",
+      "image": "https://www.advantour.com/img/uzbekistan/hotels/samarkand/platan/courtyard2.jpg",
       "rooms": [
         {
           "name": "Standard Room",
@@ -1159,7 +1159,7 @@
       "country": "Uzbekistan",
       "city": "Samarkand",
       "name": "Guest House SEASONS",
-      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/c7/f7/64/season.jpg?w=900&h=500&s=1",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/1a/77/bd/7d/season.jpg",
       "rooms": [
         {
           "name": "Standard Room",
@@ -1210,7 +1210,7 @@
       "country": "Uzbekistan",
       "city": "Bukhara",
       "name": "Bibi-Khanym Hotel",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpB8NzsYoGZ_iAomw9DDYKPi1jst9rioexFQ&s",
+      "image": "https://www.advantour.com/img/uzbekistan/hotels/bukhara/bibi-khanym-hotel.jpg",
       "rooms": [
         {
           "name": "Standard Room",
@@ -1261,7 +1261,7 @@
       "name": "Rangrez Hotel",
       "country": "Uzbekistan",
       "city": "Bukhara",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQejbl9y-P9f6D5RFQY_b07aAwnF-5_Vjcl3g&s",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/08/15/db/ce/caption.jpg",
       "rooms": [
         {
           "name": "Standard",
@@ -1312,7 +1312,7 @@
       "name": "Amelia Hotel",
       "country": "Uzbekistan",
       "city": "Bukhara",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmeS7h2Lvv059hAE4cBgN4AaLJt7NIgUKrjg&s",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/25/b3/d6/caption.jpg?w=1600&h=1600&s=1",
       "rooms": [
         {
           "name": "Standard",
@@ -1362,7 +1362,7 @@
       "id": 27,
       "name": "Salom Inn",
       "country": "Uzbekistan",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwXDxktY4eiykcmo7ivfTD8her3nRz9KHZ_Q&s",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max500/435754659.jpg?k=62b1282df85a3bdccc5aa63403518cb629a726e545cf19f46ae41e79c9e1e6d9&o=",
       "city": "Bukhara",
       "rooms": [
         {
@@ -1414,7 +1414,7 @@
       "name": "Meros Hotel",
       "country": "Uzbekistan",
       "city": "Bukhara",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2zojvTwxqzusjO3ENwqOE-pSxQtGOvRjN3w&s",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/24/23/25/caption.jpg?w=1200&h=-1&s=1",
       "rooms": [
         {
           "name": "Standard",
@@ -1465,7 +1465,7 @@
       "name": "Wyndham Bukhara",
       "country": "Uzbekistan",
       "city": "Bukhara",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoOHnl5Wj-yENUIobB2eNQbZSVEGusxhlAZA&s",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/465501694.jpg?k=e01d5247c9b8046fb4ac09e06087c88edb3d391a05aca435ec4453b53c5ad730&o=&hp=1",
       "rooms": [
         {
           "name": "Standard Room",
@@ -1516,7 +1516,7 @@
       "name": "Lyabi-House Hotel",
       "country": "Uzbekistan",
       "city": "Bukhara",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj6jOew19Qb-hJRGEOIHZHuuTcOjwjKsJ4vg&s",
+      "image": "https://uzbek-travel.com/images/uz/Hotels/Bukhara/Lyabi-Haus_Hotel/7856432.jpeg",
       "rooms": [
         {
           "name": "Standard",
@@ -1567,7 +1567,7 @@
       "name": "Hotel Malika Bukhara",
       "country": "Uzbekistan",
       "city": "Bukhara",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4OhjsqthcmECJp1L7wfmjogHF4wkZBCWcAw&s",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/549349332.jpg?k=5edcd8f74a0519ad2c7f82ce1065e131841aef4b60b44062f85cebbf1a3c8771&o=&hp=1",
       "rooms": [
         {
           "name": "Standard",
@@ -1618,7 +1618,7 @@
       "name": "Kukaldosh Boutique Hotel",
       "country": "Uzbekistan",
       "city": "Bukhara",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdhuUYvhuuQR-XuAXo4Axb52rRZi8cqgwZ2w&s",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/598893804.jpg?k=b12761ebd430f1dea9d76a4d25a3dbd741bba1b8c7727555e340b730f7ba3c5e&o=",
       "rooms": [
         {
           "name": "Boutique Room",
@@ -1669,7 +1669,7 @@
       "name": "Hotel Bukhara",
       "country": "Uzbekistan",
       "city": "Bukhara",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI1it7Fo9Ava_S295rl5iTuEq-x-nGgXl4gQ&s",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/236957216.jpg?k=3552d2543a6e7512d6eff11504bfb3667e0ae82f733a8811ee54af3b485925bf&o=&hp=1",
       "rooms": [
         {
           "name": "Standard",
@@ -1720,7 +1720,7 @@
       "name": "Hotel Asia Bukhara",
       "country": "Uzbekistan",
       "city": "Bukhara",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLnmnEHNuR6WZ_yHIpyqOYg9apYf9qWp5ANQ&s",
+      "image": "https://c8.alamy.com/comp/KRG6W8/the-asia-hotel-bukhara-uzbekistan-KRG6W8.jpg",
       "rooms": [
         {
           "name": "Standard",
@@ -1771,7 +1771,7 @@
       "name": "Paradise Plaza Luxury Hotel",
       "country": "Uzbekistan",
       "city": "Bukhara",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHX2tQrrj9-AE9pXJxtwQfUF5TUCjosHnmIw&s",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/25/48/ed/9e/caption.jpg",
       "rooms": [
         {
           "name": "Deluxe Room",
@@ -1822,7 +1822,7 @@
       "country": "Uzbekistan",
       "city": "Khiva",
       "name": "Farovon Khiva Hotel",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuD4wRoehZsx5AId9QHyVaehKbfxIOi-a9bQ&s",
+      "image": "https://www.centralasia-travel.com/upload/tiles/farovon-khiva-01.jpg",
       "rooms": [
         {
           "name": "Standard Room",
@@ -1873,7 +1873,7 @@
       "name": "Polvon Qoriy Boutique Hotel",
       "country": "Uzbekistan",
       "city": "Khiva",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfNWxP0jbW7WIYKatHlLKI--Ofx9O6P6lAnw&s",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/1d/15/93/c6/caption.jpg",
       "rooms": [
         {
           "name": "Boutique Room",
@@ -1924,7 +1924,7 @@
       "name": "Feruzkhan Hotel",
       "country": "Uzbekistan",
       "city": "Khiva",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbF71eWJ7oBo71T_OJOu08Z700ZSWBCx9rQg&s",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/f8/ce/ce/caption.jpg?w=1100&h=-1&s=1",
       "rooms": [
         {
           "name": "Standard",
@@ -1975,7 +1975,7 @@
       "name": "Islambek Khiva",
       "country": "Uzbekistan",
       "city": "Khiva",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU2i_5g6y2NdpXDd5wCpKBZnvtcd1ag_S4Eg&s",
+      "image": "http://photos.wikimapia.org/p/00/00/65/58/53_big.jpg",
       "rooms": [
         {
           "name": "Standard",
@@ -2026,7 +2026,7 @@
       "name": "Hotel Bankir Khiva",
       "country": "Uzbekistan",
       "city": "Khiva",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtaFuGs4Rak47rTysV5FkZCsUkn95-Vnww_Q&s",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/24/e1/40/caption.jpg?w=1100&h=-1&s=1",
       "rooms": [
         {
           "name": "Standard",
@@ -2077,7 +2077,7 @@
       "name": "Khiva Siyovush Hotel",
       "country": "Uzbekistan",
       "city": "Khiva",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5msu_II53IUf1BaSuHnzg3gVXd977841OPg&s",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/bf/50/1b/caption.jpg?w=1200&h=1200&s=1",
       "rooms": [
         {
           "name": "Standard",
@@ -2128,7 +2128,7 @@
       "name": "Said Islom Khodja",
       "country": "Uzbekistan",
       "city": "Khiva",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG22h98mvnZHmEHNAFIBybPLHNoItCTIsNNQ&s",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/0f/3e/30/caption.jpg?w=1200&h=1200&s=1",
       "rooms": [
         {
           "name": "Standard",
@@ -2179,7 +2179,7 @@
       "name": "Shaherezada Khiva",
       "country": "Uzbekistan",
       "city": "Khiva",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS6NFIg16zIccoCXmtP437wRLaR5Ef8942Dg&s",
+      "image": "https://uzbek-travel.com/images/uz/Hotels/Khiva/Shaherezada_Khiva_hotel/snimok167.jpg",
       "rooms": [
         {
           "name": "Standard",
@@ -2230,7 +2230,7 @@
       "name": "Hotel Erkin Palace",
       "country": "Uzbekistan",
       "city": "Khiva",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOWyTnB9FlmthXUFfmvCTRc57hclGWjOlOfQ&s",
+      "image": "https://erkinpalace.uz/wp-content/uploads/2023/12/erkin-pl-scaled.jpg",
       "rooms": [
         {
           "name": "Standard",
@@ -2281,7 +2281,7 @@
       "name": "Sulton-Sayyor",
       "country": "Uzbekistan",
       "city": "Khiva",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzZgkAtx46yC8K3hcEvRPFrczfEE3F8_K2Jw&s",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/41/16/69/caption.jpg?w=500&h=-1&s=1",
       "rooms": [
         {
           "name": "Standard",
@@ -2332,7 +2332,7 @@
       "name": "Yyldyz Hotel",
       "country": "Turkmenistan",
       "city": "Ashgabat",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHSHGBmIfQvbZ0IGEYr7d7NOS-Dvv2VaZqOg&s",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/06/67/41/04/caption.jpg",
       "rooms": [
         {
           "name": "Standard",
@@ -2383,7 +2383,7 @@
       "name": "Nusay Hotel",
       "country": "Turkmenistan",
       "city": "Ashgabat",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://dntours-business.com/wp-content/uploads/2014/04/Nusay-Hotel-Ashgabat-Turkmenistan.jpg",
       "rooms": [
         {
           "name": "Standard",
@@ -2434,7 +2434,7 @@
       "name": "Archabil Hotel",
       "country": "Turkmenistan",
       "city": "Ashgabat",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://dntours-business.com/wp-content/uploads/2018/10/MRZ_8931.jpg",
       "rooms": [
         {
           "name": "Standard",
@@ -2485,7 +2485,7 @@
       "name": "Hotel Nebitchi",
       "country": "Turkmenistan",
       "city": "Ashgabat",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/4e/a3/9a/hotel-nebitchi.jpg?w=1000&h=-1&s=1",
       "rooms": [
         {
           "name": "Economy",
@@ -2517,7 +2517,7 @@
       ],
       "location": {
         "lat": 37.96,
-        "long": 58.40
+        "long": 58.4
       },
       "views": {
         "good": [
@@ -2536,7 +2536,7 @@
       "name": "Olimpia Hotel",
       "country": "Turkmenistan",
       "city": "Ashgabat",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://ayan-turkmenistan.travel/wp-content/uploads/2023/07/front-view-to-the-hotel.jpg",
       "rooms": [
         {
           "name": "Standard",
@@ -2587,7 +2587,7 @@
       "name": "Hotel Rahat",
       "country": "Turkmenistan",
       "city": "Ashgabat",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/65/c7/6f/hotel-rahat.jpg?w=700&h=-1&s=1",
       "rooms": [
         {
           "name": "Comfort",
@@ -2638,7 +2638,7 @@
       "name": "The Grand Turkmen Hotel",
       "country": "Turkmenistan",
       "city": "Ashgabat",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://www.ashgabathotels.ru/wp-content/uploads/2023/09/granddturkmen.webp",
       "rooms": [
         {
           "name": "Deluxe",
@@ -2689,7 +2689,7 @@
       "name": "Hotel Ak Altyn",
       "country": "Turkmenistan",
       "city": "Ashgabat",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/4e/91/1c/ak-altyn.jpg?w=700&h=-1&s=1",
       "rooms": [
         {
           "name": "Standard",
@@ -2740,7 +2740,7 @@
       "name": "Hotel Ashgabat",
       "country": "Turkmenistan",
       "city": "Ashgabat",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://ayan-turkmenistan.travel/wp-content/uploads/2023/07/ashgabat-hotel.jpg",
       "rooms": [
         {
           "name": "Economy",
@@ -2791,7 +2791,7 @@
       "name": "Hotel Oguzkent",
       "country": "Turkmenistan",
       "city": "Ashgabat",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://live.staticflickr.com/5061/5730563423_0b264a76d2_b.jpg",
       "rooms": [
         {
           "name": "Superior",
@@ -2842,7 +2842,7 @@
       "name": "Berkarar Hotel",
       "country": "Turkmenistan",
       "city": "Turkmenbashi",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://songulaydinlatma.com/dacegug/2025/06/18-BERKARAR-HOTEL-AWAZA.TURKMENISTAN_1.jpg",
       "rooms": [
         {
           "name": "Standard",
@@ -2893,7 +2893,7 @@
       "name": "Beyik Yupek Yoly Hotel",
       "country": "Turkmenistan",
       "city": "Turkmenbashi",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://ayan-turkmenistan.travel/wp-content/uploads/2023/07/screenshot_20230721_150528_gallery.jpg",
       "rooms": [
         {
           "name": "Comfort",
@@ -2944,7 +2944,7 @@
       "name": "Carlak Hotel",
       "country": "Turkmenistan",
       "city": "Turkmenbashi",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-p/1b/e9/e8/27/photo0jpg.jpg",
       "rooms": [
         {
           "name": "Economy",
@@ -2995,7 +2995,7 @@
       "name": "Hazar Hotel",
       "country": "Turkmenistan",
       "city": "Turkmenbashi",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://dntours-business.com/wp-content/uploads/2018/03/P15503701-640x480_c.jpg",
       "rooms": [
         {
           "name": "Standard",
@@ -3026,7 +3026,7 @@
         }
       ],
       "location": {
-        "lat": 40.00,
+        "lat": 40.0,
         "long": 52.95
       },
       "views": {
@@ -3046,7 +3046,7 @@
       "name": "Deniz Hotel",
       "country": "Turkmenistan",
       "city": "Turkmenbashi",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "http://dntours-business.com/wp-content/uploads/2014/07/Deniz-Hotel-Avaza-Turkmenbashi-city-Turkmenistan1-640x480_c.jpg",
       "rooms": [
         {
           "name": "Standard",
@@ -3097,7 +3097,7 @@
       "name": "Yelken Yacht Club Hotel",
       "country": "Turkmenistan",
       "city": "Turkmenbashi",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/5f/44/36/yelken-yacht-club.jpg?w=2400&h=-1&s=1",
       "rooms": [
         {
           "name": "Club Room",
@@ -3148,7 +3148,7 @@
       "name": "Hotel Kervan",
       "country": "Turkmenistan",
       "city": "Turkmenbashi",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/03/f8/75/f2/hotel-kervan.jpg",
       "rooms": [
         {
           "name": "Economy",
@@ -3199,7 +3199,7 @@
       "name": "Serdar Hotel",
       "country": "Turkmenistan",
       "city": "Turkmenbashi",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjN5peBzQ1nPYx8G_wOpOJb0SIxCIgw_VoJiELapemtsI6SNUgB1QscazOOpUODYg7DSnQv9su3znWBdEI2VX7HL01dp6vo0UrAnmYE0zfLxA2EUhlMXjCImVQJ715gO91QgZYqOBL0akCT/w1200-h630-p-k-no-nu/P10_39_A3ReferansProjeler_Page_18.jpg",
       "rooms": [
         {
           "name": "Standard",
@@ -3230,7 +3230,7 @@
         }
       ],
       "location": {
-        "lat": 40.00,
+        "lat": 40.0,
         "long": 52.97
       },
       "views": {
@@ -3250,7 +3250,7 @@
       "name": "Hazyna Hotel",
       "country": "Turkmenistan",
       "city": "Turkmenbashi",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/08/6e/fb/d4/hazyna-hotel.jpg",
       "rooms": [
         {
           "name": "Deluxe",
@@ -3301,7 +3301,7 @@
       "name": "Hotel Seyrana",
       "country": "Turkmenistan",
       "city": "Turkmenbashi",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/16/9e/c7/11/seyrana-hotel.jpg",
       "rooms": [
         {
           "name": "Seaview Standard",
@@ -3352,7 +3352,7 @@
       "name": "Margush Hotel",
       "country": "Turkmenistan",
       "city": "Mary",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/33/f4/c4/caption.jpg?w=1200&h=-1&s=1",
       "rooms": [
         {
           "name": "Standard",
@@ -3403,7 +3403,7 @@
       "name": "Hotel Mary",
       "country": "Turkmenistan",
       "city": "Mary",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/5d/4b/88/entrance-and-front-of.jpg?w=1200&h=1200&s=1",
       "rooms": [
         {
           "name": "Economy",
@@ -3434,7 +3434,7 @@
         }
       ],
       "location": {
-        "lat": 37.60,
+        "lat": 37.6,
         "long": 61.84
       },
       "views": {
@@ -3454,7 +3454,7 @@
       "name": "Motel Rahat",
       "country": "Turkmenistan",
       "city": "Mary",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/21/76/3d/motel-rahat.jpg?w=900&h=500&s=1",
       "rooms": [
         {
           "name": "Basic Room",
@@ -3505,7 +3505,7 @@
       "name": "Hotel Margush",
       "country": "Turkmenistan",
       "city": "Mary",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/33/f6/26/caption.jpg?w=700&h=-1&s=1",
       "rooms": [
         {
           "name": "Standard",
@@ -3556,7 +3556,7 @@
       "name": "Diyarbekir Hotel",
       "country": "Turkmenistan",
       "city": "Dashoguz",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://www.seidenstrasse-rundreisen.de/media/Seidenstrasse/Turkmenistan/Dashoguz_Hotel/turkmenistan-reise-dashoguz-hotel-2.JPG",
       "rooms": [
         {
           "name": "Standard",
@@ -3607,7 +3607,7 @@
       "name": "L'Erik Hotel",
       "country": "Turkmenistan",
       "city": "Dashoguz",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://ayan-turkmenistan.travel/wp-content/uploads/2023/07/guest-room-1.jpg",
       "rooms": [
         {
           "name": "Comfort",
@@ -3658,7 +3658,7 @@
       "name": "Uzboý Oteli",
       "country": "Turkmenistan",
       "city": "Dashoguz",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://ayan-turkmenistan.travel/wp-content/uploads/2023/07/guest-room.jpg",
       "rooms": [
         {
           "name": "Economy",
@@ -3709,7 +3709,7 @@
       "name": "Hotel Şabat",
       "country": "Turkmenistan",
       "city": "Dashoguz",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://ayan-turkmenistan.travel/wp-content/uploads/2023/07/guest-room-1.jpg",
       "rooms": [
         {
           "name": "Standard",
@@ -3760,7 +3760,7 @@
       "name": "Dashoguz Hotel",
       "country": "Turkmenistan",
       "city": "Dashoguz",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://www.seidenstrasse-rundreisen.de/media/Seidenstrasse/Turkmenistan/Dashoguz_Hotel/turkmenistan-reise-dashoguz-hotel-2.JPG",
       "rooms": [
         {
           "name": "Economy",
@@ -3811,7 +3811,7 @@
       "name": "Hilton Dushanbe",
       "country": "Tajikistan",
       "city": "Dushanbe",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/26/68/03/00/exterior.jpg",
       "rooms": [
         {
           "name": "Superior Room",
@@ -3862,7 +3862,7 @@
       "name": "The Rumi Hotel & Residences",
       "country": "Tajikistan",
       "city": "Dushanbe",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://cdn.worldota.net/t/640x400/extranet/30/88/3088b1d46b50b3552f0f65108f6b1804d0f6d7f6.jpeg",
       "rooms": [
         {
           "name": "Classic Room",
@@ -3913,7 +3913,7 @@
       "name": "Crowne Plaza Dushanbe by IHG",
       "country": "Tajikistan",
       "city": "Dushanbe",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/740525277.jpg?k=3c90ae1e0e90bddb976d6bc6e61c970fa5b2f39f58c4e378adea95e2f87958fa&o=",
       "rooms": [
         {
           "name": "Superior",
@@ -3964,7 +3964,7 @@
       "name": "Hotel Shumon",
       "country": "Tajikistan",
       "city": "Dushanbe",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://pix10.agoda.net/hotelImages/6366350/-1/11eb3dd63cf34cbabed45eff2d20b9af.jpg?ca=8&ce=1&s=1024x768",
       "rooms": [
         {
           "name": "Standard",
@@ -4015,7 +4015,7 @@
       "name": "Baland Hotel",
       "country": "Tajikistan",
       "city": "Dushanbe",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://content.r9cdn.net/himg/5f/bb/d6/booking-1070870052-555642140-048449.jpg",
       "rooms": [
         {
           "name": "Economy",
@@ -4047,7 +4047,7 @@
       ],
       "location": {
         "lat": 38.56,
-        "long": 68.80
+        "long": 68.8
       },
       "views": {
         "good": [
@@ -4066,7 +4066,7 @@
       "name": "Soro Hotel",
       "country": "Tajikistan",
       "city": "Dushanbe",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://q-xx.bstatic.com/xdata/images/hotel/square600/785143760.webp?k=f60216e8bce23cad1c3063eb934c7203525b562dc1cb6d4ba3f124af7e788297&o=",
       "rooms": [
         {
           "name": "Standard",
@@ -4117,7 +4117,7 @@
       "name": "Hostel Hello Dushanbe",
       "country": "Tajikistan",
       "city": "Dushanbe",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/fc/ab/d6/hostel-hello-dushanbe.jpg?w=1200&h=-1&s=1",
       "rooms": [
         {
           "name": "Dorm Bed",
@@ -4148,7 +4148,7 @@
         }
       ],
       "location": {
-        "lat": 38.60,
+        "lat": 38.6,
         "long": 68.78
       },
       "views": {
@@ -4168,7 +4168,7 @@
       "name": "Safir Business Hotel",
       "country": "Tajikistan",
       "city": "Dushanbe",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/95/9a/b9/reception.jpg?w=700&h=-1&s=1",
       "rooms": [
         {
           "name": "Business Standard",
@@ -4219,7 +4219,7 @@
       "name": "Hotel Sharq",
       "country": "Tajikistan",
       "city": "Dushanbe",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/604613258.jpg?k=53e1ff8cfa444888c8b9bd00fc53938ae0f62c69e97fedc14f501a225a2e85bb&o=&hp=1",
       "rooms": [
         {
           "name": "Standard",
@@ -4270,7 +4270,7 @@
       "name": "Hotel Firuz",
       "country": "Tajikistan",
       "city": "Dushanbe",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=408887547896972",
       "rooms": [
         {
           "name": "Economy",
@@ -4321,7 +4321,7 @@
       "name": "Kangurt Grand Hotel",
       "country": "Tajikistan",
       "city": "Dushanbe",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://kangurt.com/img/0f688f18c2cb910c.webp",
       "rooms": [
         {
           "name": "Deluxe",
@@ -4372,7 +4372,7 @@
       "name": "Armon Apart Hotel",
       "country": "Tajikistan",
       "city": "Khujand",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://images.happycow.net/venues/1024/35/13/hcmp351344_2139988.jpeg",
       "rooms": [
         {
           "name": "Apartment Studio",
@@ -4423,7 +4423,7 @@
       "name": "Sugdiyon Hotel",
       "country": "Tajikistan",
       "city": "Khujand",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/238694762.jpg?k=6b0199efb855353a1e5d7f0c00f7849d8021d236105bd9483658a2e82a053513&o=&hp=1",
       "rooms": [
         {
           "name": "Standard",
@@ -4474,7 +4474,7 @@
       "name": "Hostel Sharq 21",
       "country": "Tajikistan",
       "city": "Khujand",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/207339689.jpg?k=92890fc5ad4da0eabc65494e9f3fced7c32ed7a4b68fd9596c65b32981eccb14&o=",
       "rooms": [
         {
           "name": "Dorm Bed",
@@ -4525,7 +4525,7 @@
       "name": "Hotel Firuz",
       "country": "Tajikistan",
       "city": "Khujand",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/46037308.jpg?k=def05123e48c1dac510d9904fee63bdc09e9a058b4a5e16b57a92cfac7e9bd7f&o=&hp=1",
       "rooms": [
         {
           "name": "Economy",
@@ -4557,7 +4557,7 @@
       ],
       "location": {
         "lat": 40.28,
-        "long": 69.60
+        "long": 69.6
       },
       "views": {
         "good": [
@@ -4576,7 +4576,7 @@
       "name": "Khotel Kheson",
       "country": "Tajikistan",
       "city": "Khujand",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/0a/12/d4/cf/caption.jpg",
       "rooms": [
         {
           "name": "Comfort",
@@ -4607,7 +4607,7 @@
         }
       ],
       "location": {
-        "lat": 40.30,
+        "lat": 40.3,
         "long": 69.62
       },
       "views": {
@@ -4627,7 +4627,7 @@
       "name": "Sari Khosor Resort",
       "country": "Tajikistan",
       "city": "Kulob",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/734126615.jpg?k=293af1ba24783fcc7cc6bbde8c9270b73b33302ed7bf77c92e1c9981b2a1a796&o=&hp=1",
       "rooms": [
         {
           "name": "Mountain View Room",
@@ -4678,7 +4678,7 @@
       "name": "Kulob Hotel",
       "country": "Tajikistan",
       "city": "Kulob",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/71/08/b0/hotel-kulob.jpg?w=900&h=500&s=1",
       "rooms": [
         {
           "name": "Standard",
@@ -4729,7 +4729,7 @@
       "name": "PuliSangin Hotel",
       "country": "Tajikistan",
       "city": "Kulob",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/df/2c/14/caption.jpg?w=1200&h=1200&s=1",
       "rooms": [
         {
           "name": "Economy",
@@ -4780,7 +4780,7 @@
       "name": "Tohir Hotel",
       "country": "Tajikistan",
       "city": "Kulob",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/768999988.jpg?k=e6566703b3997f88d7d8405ef8b8da54961a98e497caf61ac2533ed6a6bd3d57&o=&hp=1",
       "rooms": [
         {
           "name": "Standard",
@@ -4831,7 +4831,7 @@
       "name": "Pamir Lodge",
       "country": "Tajikistan",
       "city": "Khorog",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/85/58/1f/pamir-lodge.jpg?w=700&h=-1&s=1",
       "rooms": [
         {
           "name": "Mountain View Room",
@@ -4882,7 +4882,7 @@
       "name": "Khorog Serena Inn",
       "country": "Tajikistan",
       "city": "Khorog",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/f5/97/ed/khorog-serena-inn.jpg?w=700&h=-1&s=1",
       "rooms": [
         {
           "name": "Standard Room",
@@ -4933,7 +4933,7 @@
       "name": "Lal Hotel",
       "country": "Tajikistan",
       "city": "Khorog",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=186509285521863",
       "rooms": [
         {
           "name": "Economy",
@@ -4984,7 +4984,7 @@
       "name": "Pamir Alibaba Hotel",
       "country": "Tajikistan",
       "city": "Khorog",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/295386141.jpg?k=6638a15622371aa4af4af5c9131aa0d2695f0b84c5e43b21cc224bfa839c8332&o=&hp=1",
       "rooms": [
         {
           "name": "Standard",
@@ -5035,7 +5035,7 @@
       "name": "Pamir Palace Hotel",
       "country": "Tajikistan",
       "city": "Khorog",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=431890175618352",
       "rooms": [
         {
           "name": "Deluxe Room",
@@ -5086,7 +5086,7 @@
       "name": "Urban Hotel",
       "country": "Kyrgyzstan",
       "city": "Bishkek",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://urbanhotelbishkek.com/img/a7ce271a539ae1fb.webp",
       "rooms": [
         {
           "name": "Standard Room",
@@ -5137,7 +5137,7 @@
       "name": "Oasis Residence",
       "country": "Kyrgyzstan",
       "city": "Bishkek",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/85/33/3e/oasis-residences-the.jpg?w=1200&h=1200&s=1",
       "rooms": [
         {
           "name": "Studio",
@@ -5188,7 +5188,7 @@
       "name": "Plaza Hotel",
       "country": "Kyrgyzstan",
       "city": "Bishkek",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://images.trvl-media.com/hotels/10000000/9810000/9807100/9807003/6d15369a_z.jpg",
       "rooms": [
         {
           "name": "Standard Room",
@@ -5219,8 +5219,8 @@
         }
       ],
       "location": {
-        "lat": 42.8760,
-        "long": 74.6030
+        "lat": 42.876,
+        "long": 74.603
       },
       "views": {
         "good": [
@@ -5239,7 +5239,7 @@
       "name": "Golden Dragon Hotel & Spa",
       "country": "Kyrgyzstan",
       "city": "Bishkek",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://www.centralasia-travel.com/upload/tiles/golden-dragon-bishkek-11.jpg",
       "rooms": [
         {
           "name": "Deluxe Room",
@@ -5290,7 +5290,7 @@
       "name": "Dosman Hotel",
       "country": "Kyrgyzstan",
       "city": "Bishkek",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/443177047.jpg?k=f6fcb12cf50cc97ced3d1df2a964372b1fb530d83cb0a228798a10d067b23e32&o=&hp=1",
       "rooms": [
         {
           "name": "Standard Room",
@@ -5322,7 +5322,7 @@
       ],
       "location": {
         "lat": 42.8689,
-        "long": 74.5800
+        "long": 74.58
       },
       "views": {
         "good": [
@@ -5341,7 +5341,7 @@
       "name": "Futuro Hotel",
       "country": "Kyrgyzstan",
       "city": "Bishkek",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://www.advantour.com/img/kyrgyzstan/hotels/bishkek/futuro/futuro.jpg",
       "rooms": [
         {
           "name": "Standard Room",
@@ -5373,7 +5373,7 @@
       ],
       "location": {
         "lat": 42.8755,
-        "long": 74.5950
+        "long": 74.595
       },
       "views": {
         "good": [
@@ -5392,7 +5392,7 @@
       "name": "Hyatt Regency Bishkek",
       "country": "Kyrgyzstan",
       "city": "Bishkek",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/e5/6b/70/exterior.jpg?w=1100&h=-1&s=1",
       "rooms": [
         {
           "name": "King Room",
@@ -5423,7 +5423,7 @@
         }
       ],
       "location": {
-        "lat": 42.8790,
+        "lat": 42.879,
         "long": 74.6065
       },
       "views": {
@@ -5443,7 +5443,7 @@
       "name": "Evropa Hotel",
       "country": "Kyrgyzstan",
       "city": "Bishkek",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://images.trvl-media.com/lodging/15000000/14910000/14909700/14909608/b9735d9f.jpg?impolicy=resizecrop&rw=598&ra=fit",
       "rooms": [
         {
           "name": "Standard Room",
@@ -5494,7 +5494,7 @@
       "name": "Novotel Bishkek City Center",
       "country": "Kyrgyzstan",
       "city": "Bishkek",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/57/15/c6/exterior.jpg?w=1100&h=-1&s=1",
       "rooms": [
         {
           "name": "Superior Room",
@@ -5526,7 +5526,7 @@
       ],
       "location": {
         "lat": 42.8768,
-        "long": 74.6040
+        "long": 74.604
       },
       "views": {
         "good": [
@@ -5545,7 +5545,7 @@
       "name": "Orion Hotel Bishkek",
       "country": "Kyrgyzstan",
       "city": "Bishkek",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://www.wildfrontierstravel.com/upload/mirror/dhruv-wildfrontierstravel-com/28eaff2a_IMG1584.JPEG",
       "rooms": [
         {
           "name": "Deluxe Room",
@@ -5596,7 +5596,7 @@
       "name": "Classic Hotel",
       "country": "Kyrgyzstan",
       "city": "Osh",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/52/90/5e/caption.jpg?w=900&h=-1&s=1",
       "rooms": [
         {
           "name": "Standard Room",
@@ -5647,7 +5647,7 @@
       "name": "Rayan Hotel",
       "country": "Kyrgyzstan",
       "city": "Osh",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/199466210.jpg?k=20a775c0ea0e0b4b4bcb3498b4f1377a57591e0e316b5ac787d1e33b697a0377&o=&hp=1",
       "rooms": [
         {
           "name": "Standard Room",
@@ -5678,8 +5678,8 @@
         }
       ],
       "location": {
-        "lat": 40.5300,
-        "long": 72.8000
+        "lat": 40.53,
+        "long": 72.8
       },
       "views": {
         "good": [
@@ -5698,7 +5698,7 @@
       "name": "Kaganat Boutique Hotel",
       "country": "Kyrgyzstan",
       "city": "Osh",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://images.trvl-media.com/lodging/117000000/116500000/116495300/116495278/207ef015.jpg?impolicy=resizecrop&rw=598&ra=fit",
       "rooms": [
         {
           "name": "Deluxe Room",
@@ -5730,7 +5730,7 @@
       ],
       "location": {
         "lat": 40.5275,
-        "long": 72.7950
+        "long": 72.795
       },
       "views": {
         "good": [
@@ -5749,7 +5749,7 @@
       "name": "Level Hotel",
       "country": "Kyrgyzstan",
       "city": "Osh",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100063547391486",
       "rooms": [
         {
           "name": "Standard Room",
@@ -5780,8 +5780,8 @@
         }
       ],
       "location": {
-        "lat": 40.5290,
-        "long": 72.8020
+        "lat": 40.529,
+        "long": 72.802
       },
       "views": {
         "good": [
@@ -5800,7 +5800,7 @@
       "name": "Biy Ordo Guest House",
       "country": "Kyrgyzstan",
       "city": "Osh",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/0d/97/a7/67/caption.jpg",
       "rooms": [
         {
           "name": "Standard Room",
@@ -5831,8 +5831,8 @@
         }
       ],
       "location": {
-        "lat": 40.5260,
-        "long": 72.7970
+        "lat": 40.526,
+        "long": 72.797
       },
       "views": {
         "good": [
@@ -5851,7 +5851,7 @@
       "name": "Hotel Orto Asia",
       "country": "Kyrgyzstan",
       "city": "Osh",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/db/63/f2/caption.jpg?w=1200&h=-1&s=1",
       "rooms": [
         {
           "name": "Standard Room",
@@ -5882,8 +5882,8 @@
         }
       ],
       "location": {
-        "lat": 40.5310,
-        "long": 72.8030
+        "lat": 40.531,
+        "long": 72.803
       },
       "views": {
         "good": [
@@ -5902,7 +5902,7 @@
       "name": "Lovely Home For You",
       "country": "Kyrgyzstan",
       "city": "Osh",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/a1/31/e8/lovely-home-for-you.jpg?w=500&h=400&s=1",
       "rooms": [
         {
           "name": "Private Room",
@@ -5933,8 +5933,8 @@
         }
       ],
       "location": {
-        "lat": 40.5250,
-        "long": 72.7990
+        "lat": 40.525,
+        "long": 72.799
       },
       "views": {
         "good": [
@@ -5953,7 +5953,7 @@
       "name": "Konok Hostel",
       "country": "Kyrgyzstan",
       "city": "Osh",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-p/09/83/2d/8e/caption.jpg",
       "rooms": [
         {
           "name": "Dorm Room",
@@ -6004,7 +6004,7 @@
       "name": "Hotel 78 Cafe",
       "country": "Kyrgyzstan",
       "city": "Karakol",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/c6/b4/48/caption.jpg?w=1200&h=1200&s=1",
       "rooms": [
         {
           "name": "Standard Room",
@@ -6055,7 +6055,7 @@
       "name": "EniRest",
       "country": "Kyrgyzstan",
       "city": "Karakol",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=2761833553842489",
       "rooms": [
         {
           "name": "Standard Room",
@@ -6086,8 +6086,8 @@
         }
       ],
       "location": {
-        "lat": 42.4920,
-        "long": 78.3950
+        "lat": 42.492,
+        "long": 78.395
       },
       "views": {
         "good": [
@@ -6106,7 +6106,7 @@
       "name": "Alakol",
       "country": "Kyrgyzstan",
       "city": "Karakol",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/16/f6/cf/89/caption.jpg",
       "rooms": [
         {
           "name": "Standard Room",
@@ -6137,8 +6137,8 @@
         }
       ],
       "location": {
-        "lat": 42.4890,
-        "long": 78.3900
+        "lat": 42.489,
+        "long": 78.39
       },
       "views": {
         "good": [
@@ -6157,7 +6157,7 @@
       "name": "KbH-Karakol based Hostel",
       "country": "Kyrgyzstan",
       "city": "Karakol",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://www.hostelkbh.com/wp-content/uploads/2019/10/KBH-Karakol-based-hostel-8-warm-dorm.jpg",
       "rooms": [
         {
           "name": "Dorm Room",
@@ -6208,7 +6208,7 @@
       "name": "Green Yard Hotel",
       "country": "Kyrgyzstan",
       "city": "Karakol",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://www.wildfrontierstravel.com/upload/mirror/dhruv-wildfrontierstravel-com/40a49c8d_IMG30697071Enhancer_1.jpg",
       "rooms": [
         {
           "name": "Standard Room",
@@ -6239,7 +6239,7 @@
         }
       ],
       "location": {
-        "lat": 42.4880,
+        "lat": 42.488,
         "long": 78.3945
       },
       "views": {
@@ -6259,7 +6259,7 @@
       "name": "Interhouse Karakol",
       "country": "Kyrgyzstan",
       "city": "Karakol",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/cf/9b/d2/interhouse-karakol.jpg?w=700&h=-1&s=1",
       "rooms": [
         {
           "name": "Dorm Room",
@@ -6291,7 +6291,7 @@
       ],
       "location": {
         "lat": 42.4908,
-        "long": 78.3960
+        "long": 78.396
       },
       "views": {
         "good": [
@@ -6310,7 +6310,7 @@
       "name": "Hillside Karakol",
       "country": "Kyrgyzstan",
       "city": "Karakol",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://assets.hotel.check24.de/size=0x450/nfc=404/source=aHR0cHM6Ly9pLnRyYXZlbGFwaS5jb20vbG9kZ2luZy8yNDAwMDAwMC8yMzI2MDAwMC8yMzI1MzYwMC8yMzI1MzUwNy8xMzMzNmY2Zl96LmpwZw==!a8b5c7/picture.jpg",
       "rooms": [
         {
           "name": "Standard Room",
@@ -6341,8 +6341,8 @@
         }
       ],
       "location": {
-        "lat": 42.4870,
-        "long": 78.3880
+        "lat": 42.487,
+        "long": 78.388
       },
       "views": {
         "good": [
@@ -6361,7 +6361,7 @@
       "name": "Park Hotel Almaty",
       "country": "Kazakhstan",
       "city": "Almaty",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://images.trvl-media.com/lodging/5000000/4120000/4115600/4115549/17f74a73.jpg?impolicy=resizecrop&rw=598&ra=fit",
       "rooms": [
         {
           "name": "Standard Room",
@@ -6392,7 +6392,7 @@
         }
       ],
       "location": {
-        "lat": 43.2220,
+        "lat": 43.222,
         "long": 76.8512
       },
       "views": {
@@ -6412,7 +6412,7 @@
       "name": "Rixos Almaty",
       "country": "Kazakhstan",
       "city": "Almaty",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://rixos-almaty.almaty-hotel.com/data/Photos/OriginalPhoto/12839/1283930/1283930881/almaty-rixos-hotel-photo-20.JPEG",
       "rooms": [
         {
           "name": "Superior Room",
@@ -6443,7 +6443,7 @@
         }
       ],
       "location": {
-        "lat": 43.2220,
+        "lat": 43.222,
         "long": 76.8512
       },
       "views": {
@@ -6463,7 +6463,7 @@
       "name": "Swissôtel Wellness Resort Alatau Almaty",
       "country": "Kazakhstan",
       "city": "Almaty",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://www.ahstatic.com/photos/b967_ho_00_p_2048x1536.jpg",
       "rooms": [
         {
           "name": "Classic Room",
@@ -6494,7 +6494,7 @@
         }
       ],
       "location": {
-        "lat": 43.2220,
+        "lat": 43.222,
         "long": 76.8512
       },
       "views": {
@@ -6514,7 +6514,7 @@
       "name": "Renion City Hotel",
       "country": "Kazakhstan",
       "city": "Almaty",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://renion-city.almaty-hotel.com/data/Photos/OriginalPhoto/16948/1694833/1694833550/almaty-renion-city-hotel-photo-2.JPEG",
       "rooms": [
         {
           "name": "Standard Room",
@@ -6545,7 +6545,7 @@
         }
       ],
       "location": {
-        "lat": 43.2220,
+        "lat": 43.222,
         "long": 76.8512
       },
       "views": {
@@ -6565,7 +6565,7 @@
       "name": "Kazzhol Park Hotel",
       "country": "Kazakhstan",
       "city": "Almaty",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/243475228.jpg?k=acfacc1935ba009ac142eaf1a43396c19364f469d8db251306da2116b6cfd8dc&o=&hp=1",
       "rooms": [
         {
           "name": "Comfort Room",
@@ -6596,7 +6596,7 @@
         }
       ],
       "location": {
-        "lat": 43.2220,
+        "lat": 43.222,
         "long": 76.8512
       },
       "views": {
@@ -6616,7 +6616,7 @@
       "name": "Grand Hotel Tien-Shan",
       "country": "Kazakhstan",
       "city": "Almaty",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/04/62/ec/46/grand-hotel-tien-shan.jpg",
       "rooms": [
         {
           "name": "Standard Room",
@@ -6647,7 +6647,7 @@
         }
       ],
       "location": {
-        "lat": 43.2220,
+        "lat": 43.222,
         "long": 76.8512
       },
       "views": {
@@ -6667,7 +6667,7 @@
       "name": "Hotel Voyage",
       "country": "Kazakhstan",
       "city": "Almaty",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/0f/d3/6d/9c/the-entrance.jpg",
       "rooms": [
         {
           "name": "Standard Room",
@@ -6698,7 +6698,7 @@
         }
       ],
       "location": {
-        "lat": 43.2220,
+        "lat": 43.222,
         "long": 76.8512
       },
       "views": {
@@ -6718,7 +6718,7 @@
       "name": "Intercontinental Almaty by IHG",
       "country": "Kazakhstan",
       "city": "Almaty",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://digital.ihg.com/is/image/ihg/intercontinental-almaty-2532156874-16x9?",
       "rooms": [
         {
           "name": "Classic Room",
@@ -6749,7 +6749,7 @@
         }
       ],
       "location": {
-        "lat": 43.2220,
+        "lat": 43.222,
         "long": 76.8512
       },
       "views": {
@@ -6769,7 +6769,7 @@
       "name": "Almaty Hotel",
       "country": "Kazakhstan",
       "city": "Almaty",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/16/e8/42/caption.jpg?w=700&h=-1&s=1",
       "rooms": [
         {
           "name": "Standard Room",
@@ -6800,7 +6800,7 @@
         }
       ],
       "location": {
-        "lat": 43.2220,
+        "lat": 43.222,
         "long": 76.8512
       },
       "views": {
@@ -6820,7 +6820,7 @@
       "name": "Royal Park Hotel",
       "country": "Kazakhstan",
       "city": "Almaty",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/67/b9/f5/exterior.jpg?w=700&h=-1&s=1",
       "rooms": [
         {
           "name": "Standard Room",
@@ -6851,7 +6851,7 @@
         }
       ],
       "location": {
-        "lat": 43.2220,
+        "lat": 43.222,
         "long": 76.8512
       },
       "views": {
@@ -6871,7 +6871,7 @@
       "name": "Sheraton Astana Hotel",
       "country": "Kazakhstan",
       "city": "Astana",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://www.sheratonastana.kz/resourcefiles/gallery-image-sec_left/exterior.jpg?version=11192024144722",
       "rooms": [
         {
           "name": "Standard Room",
@@ -6902,8 +6902,8 @@
         }
       ],
       "location": {
-        "lat": 51.1280,
-        "long": 71.4300
+        "lat": 51.128,
+        "long": 71.43
       },
       "views": {
         "good": [
@@ -6922,7 +6922,7 @@
       "name": "Rixos President Astana",
       "country": "Kazakhstan",
       "city": "Astana",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://www.myqvi.com/wp-content/uploads/Rixos-President-Astana-Hotel-Building-3.jpg",
       "rooms": [
         {
           "name": "Deluxe Room",
@@ -6973,7 +6973,7 @@
       "name": "The Ritz-Carlton Astana",
       "country": "Kazakhstan",
       "city": "Astana",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://hautegrandeur.com/wp-content/uploads/2025/03/The-Ritz-Carlton-Astana-11.jpg",
       "rooms": [
         {
           "name": "Deluxe Room",
@@ -7004,8 +7004,8 @@
         }
       ],
       "location": {
-        "lat": 51.1300,
-        "long": 71.4200
+        "lat": 51.13,
+        "long": 71.42
       },
       "views": {
         "good": [
@@ -7024,7 +7024,7 @@
       "name": "Hilton Garden Inn Astana",
       "country": "Kazakhstan",
       "city": "Astana",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/fb/19/49/exterior.jpg?w=1100&h=-1&s=1",
       "rooms": [
         {
           "name": "Standard Room",
@@ -7075,7 +7075,7 @@
       "name": "The Veil Hotel",
       "country": "Kazakhstan",
       "city": "Astana",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/92/b4/45/facade.jpg?w=700&h=-1&s=1",
       "rooms": [
         {
           "name": "Standard Room",
@@ -7106,8 +7106,8 @@
         }
       ],
       "location": {
-        "lat": 51.1400,
-        "long": 71.4200
+        "lat": 51.14,
+        "long": 71.42
       },
       "views": {
         "good": [
@@ -7126,7 +7126,7 @@
       "name": "Elite Apart-Hotel",
       "country": "Kazakhstan",
       "city": "Astana",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_534,q_40,w_800/partner-images/3f/eb/18cef722872aa1d1f44c788b1b18afd3732741a79e8f62fffb4d482de822.jpeg",
       "rooms": [
         {
           "name": "Studio Apartment",
@@ -7158,7 +7158,7 @@
       ],
       "location": {
         "lat": 51.1305,
-        "long": 71.4400
+        "long": 71.44
       },
       "views": {
         "good": [
@@ -7177,7 +7177,7 @@
       "name": "The St. Regis Astana",
       "country": "Kazakhstan",
       "city": "Astana",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://www.travoh.com/wp-content/uploads/2021/11/002-The-St.-Regis-Astana-Hotel-Astana-Kazakhstan-Hotel-Exterior.jpg",
       "rooms": [
         {
           "name": "Grand Deluxe Room",
@@ -7208,8 +7208,8 @@
         }
       ],
       "location": {
-        "lat": 51.1330,
-        "long": 71.4220
+        "lat": 51.133,
+        "long": 71.422
       },
       "views": {
         "good": [
@@ -7228,7 +7228,7 @@
       "name": "Jumbaktas Hotel",
       "country": "Kazakhstan",
       "city": "Astana",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://static.readytotrip.com/upload/information_system_24/2/8/2/item_282544/information_items_282544.jpg",
       "rooms": [
         {
           "name": "Standard Room",
@@ -7260,7 +7260,7 @@
       ],
       "location": {
         "lat": 51.1308,
-        "long": 71.4250
+        "long": 71.425
       },
       "views": {
         "good": [
@@ -7310,7 +7310,7 @@
       ],
       "location": {
         "lat": 51.1295,
-        "long": 71.4280
+        "long": 71.428
       },
       "views": {
         "good": [
@@ -7322,14 +7322,15 @@
           "Basic design.",
           "Not luxury."
         ]
-      }
+      },
+      "image": "https://images.bestwestern.com/bwi/brochures/91233/photos/1024/10003309.jpg"
     },
     {
       "id": 144,
       "name": "Wyndham Garden Astana",
       "country": "Kazakhstan",
       "city": "Astana",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/156654856.jpg?k=6deba69434c7cae544b259d45d9fd994958089c011cf63455bf9b6e2be718bfc&o=&hp=1",
       "rooms": [
         {
           "name": "Standard Room",
@@ -7360,8 +7361,8 @@
         }
       ],
       "location": {
-        "lat": 51.1270,
-        "long": 71.4350
+        "lat": 51.127,
+        "long": 71.435
       },
       "views": {
         "good": [
@@ -7380,7 +7381,7 @@
       "name": "Hotel Aykun",
       "country": "Kazakhstan",
       "city": "Astana",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/347807111.jpg?k=5d78faecea78e059f2edd4db3b69c73530412c8e7b42d81033554842ec0d655a&o=&hp=1",
       "rooms": [
         {
           "name": "Standard Room",
@@ -7411,7 +7412,7 @@
         }
       ],
       "location": {
-        "lat": 51.1310,
+        "lat": 51.131,
         "long": 71.4405
       },
       "views": {
@@ -7431,7 +7432,7 @@
       "name": "Aidana Plaza Hotel",
       "country": "Kazakhstan",
       "city": "Shymkent",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/114467917.jpg?k=c2471140c90b3e426b64bfeb480698ae515e9ec3da61404acab12d2b7b2a838e&o=&hp=1",
       "rooms": [
         {
           "name": "Standard Room",
@@ -7462,8 +7463,8 @@
         }
       ],
       "location": {
-        "lat": 42.3410,
-        "long": 69.5900
+        "lat": 42.341,
+        "long": 69.59
       },
       "views": {
         "good": [
@@ -7512,8 +7513,8 @@
         }
       ],
       "location": {
-        "lat": 42.3200,
-        "long": 69.5900
+        "lat": 42.32,
+        "long": 69.59
       },
       "views": {
         "good": [
@@ -7525,14 +7526,15 @@
           "Expensive.",
           "Can be crowded."
         ]
-      }
+      },
+      "image": "https://www.rixos.com/sites/default/files/styles/resort_page_contacts_block_image_desktop/public/2020-04/facade+resized.jpg?itok=YqV8xz5W"
     },
     {
       "id": 148,
       "name": "DoubleTree by Hilton Shymkent",
       "country": "Kazakhstan",
       "city": "Shymkent",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/487341035.jpg?k=49ca63da69c42dd8c8a410dfe420cfbe53cd44edf11aaadb68ba6303408ee412&o=&hp=1",
       "rooms": [
         {
           "name": "Standard Room",
@@ -7564,7 +7566,7 @@
       ],
       "location": {
         "lat": 42.3205,
-        "long": 69.6000
+        "long": 69.6
       },
       "views": {
         "good": [
@@ -7583,7 +7585,7 @@
       "name": "Megapolis Hotel Shymkent",
       "country": "Kazakhstan",
       "city": "Shymkent",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/306410992.jpg?k=45524138749514bac44703e80c93596e60090f06a5d27c2ebd730439703954b9&o=",
       "rooms": [
         {
           "name": "Standard Room",
@@ -7614,8 +7616,8 @@
         }
       ],
       "location": {
-        "lat": 42.3300,
-        "long": 69.6000
+        "lat": 42.33,
+        "long": 69.6
       },
       "views": {
         "good": [
@@ -7634,7 +7636,7 @@
       "name": "Park Hotel al Bustan",
       "country": "Kazakhstan",
       "city": "Shymkent",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/311055257.jpg?k=abc892c7f55484c5fd1af57054fdde93b169ea11b37f3f7fbbd19678768ba8c4&o=&hp=1",
       "rooms": [
         {
           "name": "Standard Room",
@@ -7665,8 +7667,8 @@
         }
       ],
       "location": {
-        "lat": 42.3500,
-        "long": 69.6200
+        "lat": 42.35,
+        "long": 69.62
       },
       "views": {
         "good": [
@@ -7685,7 +7687,7 @@
       "name": "Shymkent Grand Hotel",
       "country": "Kazakhstan",
       "city": "Shymkent",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/207079225.jpg?k=eb8d32d3fc21898ab995e8a6a0cee6ed7e3452f4826ee78b5c2b8b4592752d45&o=&hp=1",
       "rooms": [
         {
           "name": "Standard Room",
@@ -7717,7 +7719,7 @@
       ],
       "location": {
         "lat": 42.3405,
-        "long": 69.5950
+        "long": 69.595
       },
       "views": {
         "good": [
@@ -7736,7 +7738,7 @@
       "name": "Ramada by Wyndham Shymkent",
       "country": "Kazakhstan",
       "city": "Shymkent",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://www.wyndhamhotels.com/content/dam/property-images/en-us/ra/kz/others/shymkent/52559/52559_exterior_view_2.jpg",
       "rooms": [
         {
           "name": "Standard Room",
@@ -7767,7 +7769,7 @@
         }
       ],
       "location": {
-        "lat": 42.3180,
+        "lat": 42.318,
         "long": 69.5905
       },
       "views": {
@@ -7787,7 +7789,7 @@
       "name": "Boutique Hotel Silk Way",
       "country": "Kazakhstan",
       "city": "Turkistan",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/1b/07/73/cc/boutique-hotel-silk-way.jpg",
       "rooms": [
         {
           "name": "Standard Room",
@@ -7818,8 +7820,8 @@
         }
       ],
       "location": {
-        "lat": 43.2970,
-        "long": 68.2690
+        "lat": 43.297,
+        "long": 68.269
       },
       "views": {
         "good": [
@@ -7838,7 +7840,7 @@
       "name": "Golden Ray Hotel",
       "country": "Kazakhstan",
       "city": "Turkistan",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/1c/f0/5c/4e/i-stayed-in-a-standard.jpg",
       "rooms": [
         {
           "name": "Standard Room",
@@ -7869,8 +7871,8 @@
         }
       ],
       "location": {
-        "lat": 43.2900,
-        "long": 68.2700
+        "lat": 43.29,
+        "long": 68.27
       },
       "views": {
         "good": [
@@ -7889,7 +7891,7 @@
       "name": "Ramada By Wyndham Turkistan",
       "country": "Kazakhstan",
       "city": "Turkistan",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/4f/62/0b/ramada-by-wyndham-turkistan.jpg?w=1200&h=-1&s=1",
       "rooms": [
         {
           "name": "Standard Room",
@@ -7920,8 +7922,8 @@
         }
       ],
       "location": {
-        "lat": 43.2920,
-        "long": 68.2750
+        "lat": 43.292,
+        "long": 68.275
       },
       "views": {
         "good": [
@@ -7940,7 +7942,7 @@
       "name": "Royal Grand Hotel",
       "country": "Kazakhstan",
       "city": "Turkistan",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://c8.alamy.com/comp/2H597P5/royal-grand-hotel-sign-in-turkistan-kazakhstan-2H597P5.jpg",
       "rooms": [
         {
           "name": "Standard Room",
@@ -7971,8 +7973,8 @@
         }
       ],
       "location": {
-        "lat": 43.2950,
-        "long": 68.2800
+        "lat": 43.295,
+        "long": 68.28
       },
       "views": {
         "good": [
@@ -7991,7 +7993,7 @@
       "name": "Eurasia Hotel",
       "country": "Kazakhstan",
       "city": "Turkistan",
-      "image": "https://www.gazeta.uz/media/img/2022/06/vvHJ8W16558800572876_b.jpg",
+      "image": "https://limak-eurasia-luxury-hotel-istanbul.at-hotels.com/data/Imgs/OriginalPhoto/15805/1580503/1580503765/limak-eurasia-luxury-hotel-istanbul-img-11.JPEG",
       "rooms": [
         {
           "name": "Standard Room",
@@ -8022,8 +8024,8 @@
         }
       ],
       "location": {
-        "lat": 43.3000,
-        "long": 68.2650
+        "lat": 43.3,
+        "long": 68.265
       },
       "views": {
         "good": [
