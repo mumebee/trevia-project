@@ -1,3 +1,4 @@
+import json
 from django.shortcuts import render, redirect
 from django.http import JsonResponse
 from django.contrib.auth import authenticate, login, logout
@@ -50,6 +51,10 @@ def activities_view(request):
                 place_type='activity'
             ).values_list('place_id', flat=True)
         )
+
+    existing_itins = []
+    if request.user.is_authenticated:
+        existing_itins = list(Itinerary.objects.filter(user=request.user).values('id', 'name'))
 
     itin_ids = set()
     if request.user.is_authenticated:
@@ -104,7 +109,8 @@ def activities_view(request):
         "selected_countries": selected_countries,
         "selected_cities": selected_cities,
         "liked_ids": liked_ids,
-        "itin_ids": itin_ids
+        "itin_ids": itin_ids,
+        "existing_itineraries_json": json.dumps(existing_itins)
     })
 
 def restaurants_view(request):
@@ -116,6 +122,10 @@ def restaurants_view(request):
                 place_type='restaurant'
             ).values_list('place_id', flat=True)
         )
+
+    existing_itins = []
+    if request.user.is_authenticated:
+        existing_itins = list(Itinerary.objects.filter(user=request.user).values('id', 'name'))
 
     itin_ids = set()
     if request.user.is_authenticated:
@@ -151,22 +161,12 @@ def restaurants_view(request):
         cities = Restaurant.objects.values_list('city', flat=True).distinct().order_by('city')
 
     # 4. Dynamically extract unique cuisine tags for the sidebar
-    # We check for both list types and string types to prevent empty sidebars
-    raw_tags = Restaurant.objects.values_list('tags', flat=True)
+    raw_tags = Restaurant.objects.values_list('cuisine_tags', flat=True)
     unique_cuisines = set()
     
     for entry in raw_tags:
-        if not entry:
-            continue
-        
-        # If stored as a true list (JSONField)
         if isinstance(entry, list):
-            unique_cuisines.update(str(t).strip().lower() for t in entry if t)
-        # If stored as a string (common in SQLite stringified arrays)
-        elif isinstance(entry, str):
-            clean_entry = entry.replace('[', '').replace(']', '').replace('"', '').replace("'", "")
-            tags = clean_entry.split(',')
-            unique_cuisines.update(t.strip().lower() for t in tags if t)
+            unique_cuisines.update(str(t).strip().lower() for t in entry if t.strip())
 
     # 5. Group results by country for the template carousel
     restaurants_by_country = {}
@@ -185,7 +185,8 @@ def restaurants_view(request):
         "selected_cities": selected_cities, 
         "selected_tags": params.getlist("tags"),
         "liked_ids": liked_ids,
-        'itin_ids': itin_ids
+        'itin_ids': itin_ids,
+        "existing_itineraries_json": json.dumps(existing_itins)
     })
 
 
@@ -200,6 +201,14 @@ def hotels_view(request):
             ).values_list('place_id', flat=True)
         )
     
+    existing_itins = []
+    if request.user.is_authenticated:
+        existing_itins = list(Itinerary.objects.filter(user=request.user).values('id', 'name'))
+
+    existing_itins = []
+    if request.user.is_authenticated:
+        existing_itins = list(Itinerary.objects.filter(user=request.user).values('id', 'name'))
+
     itin_ids = set()
     if request.user.is_authenticated:
         itin_ids = set(
@@ -239,7 +248,8 @@ def hotels_view(request):
         "selected_countries": selected_countries,
         "selected_cities": selected_cities,
         "liked_ids": liked_ids,
-        'itin_ids': itin_ids
+        'itin_ids': itin_ids,
+        "existing_itineraries_json": json.dumps(existing_itins)
     })
 
 
@@ -325,6 +335,15 @@ def get_hotel_cities_ajax(request):
         cities = Hotel.objects.filter(country__in=countries).values_list('city', flat=True).distinct().order_by('city')
     else:
         cities = Hotel.objects.values_list('city', flat=True).distinct().order_by('city')
+    return JsonResponse({'cities': list(cities)})
+
+# restaurants end point
+def get_restaurant_cities_ajax(request):
+    countries = request.GET.getlist('countries[]')
+    if countries:
+        cities = Restaurant.objects.filter(country__in=countries).values_list('city', flat=True).distinct().order_by('city')
+    else:
+        cities = Restaurant.objects.values_list('city', flat=True).distinct().order_by('city')
     return JsonResponse({'cities': list(cities)})
 
 # ITINERARY

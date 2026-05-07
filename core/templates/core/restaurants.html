@@ -154,10 +154,13 @@
                                         .filter(cb => cb.checked)
                                         .map(cb => cb.value);
             
+            const currentlyCheckedInDOM = Array.from(cityCheckboxesContainer.querySelectorAll('input:checked'))
+                                               .map(cb => cb.value);
             // Server-side selection passed to JS
             const initialSelectedCities = {{ selected_cities|safe }};
-            
-            let url = '/ajax/get-cities/';
+            const citiesToKeep = currentlyCheckedInDOM.length > 0 ? currentlyCheckedInDOM : initialSelectedCities;
+
+            let url = '{% url "get_restaurant_cities_ajax" %}';
             if (selectedCountries.length > 0) {
                 url += '?' + selectedCountries.map(c => `countries[]=${encodeURIComponent(c)}`).join('&');
             }
@@ -167,16 +170,18 @@
                 cityCheckboxesContainer.innerHTML = ''; 
                 data.cities.forEach(city => {
                     const label = document.createElement('label');
-                    label.className = 'tag-label'; // Changed to match your sidebar style
+                    label.className = 'tag-pill'; 
                     
                     const input = document.createElement('input');
                     input.type = 'checkbox';
                     input.name = 'city';
                     input.value = city;
                     
-                    if (initialSelectedCities.includes(city)) {
+                    if (citiesToKeep.includes(city)) {
                         input.checked = true;
+                        label.classList.add('active');
                     }
+                    input.onchange = () => label.classList.toggle('active', input.checked);
                     label.appendChild(input);
                     label.appendChild(document.createTextNode(' ' + city));
                     cityCheckboxesContainer.appendChild(label);
@@ -186,10 +191,7 @@
             }
         }
         countryCheckboxes.forEach(cb => cb.addEventListener('change', updateCitiesDropdown));
-        // Only update on load if countries are already checked (to preserve initial state)
-        if (Array.from(countryCheckboxes).some(cb => cb.checked)) {
-            updateCitiesDropdown();
-        }
+        updateCitiesDropdown(); // Initial call
     });
         // Carousel Functions
     function scroll_left(btn) {
@@ -312,8 +314,8 @@
             const response = await fetch('/add-to-itinerary/', {
                 method: 'POST',
                 headers: { 
-                    'Content-Type': 'application/json', 
-                    'X-CSRFToken': '{{ csrf_token }}' 
+                    'Content-Type': 'application/json',
+                    'X-CSRFToken': getCookie('csrftoken'),
                 },
                 body: JSON.stringify(payload)
             });
