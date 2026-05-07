@@ -173,7 +173,7 @@
                 input.type = 'checkbox';
                 input.name = 'city';
                 input.value = city;
-                if (currentlySelectedCities.includes(city)) input.checked = true;
+                // Use citiesToKeep for checking, which prioritizes DOM state
                 if (citiesToKeep.includes(city)) {
                     input.checked = true;
                     label.classList.add('active');
@@ -314,8 +314,8 @@
             const response = await fetch('/add-to-itinerary/', {
                 method: 'POST',
                 headers: { 
-                    'Content-Type': 'application/json', 
-                    'X-CSRFToken': '{{ csrf_token }}' 
+                    'Content-Type': 'application/json',
+                    'X-CSRFToken': getCookie('csrftoken'),
                 },
                 body: JSON.stringify(payload)
             });
