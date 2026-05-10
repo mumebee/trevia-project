@@ -79,13 +79,14 @@ header {
 /* 5. The Boxes */
 .category {
     min-height: 260px;
-    width: 360px;
-    background: rgba(255, 255, 255, 0.08);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    border-radius: 20px;
-    transition: all 0.3s ease;
+    width: 100%;
+    background: linear-gradient(135deg, rgba(1, 50, 31, 0.25), rgba(1, 50, 31, 0.08)); /* Liquidy gradient */
+    backdrop-filter: blur(12px);          /* Less blur for a clearer, 'wetter' glass look */
+    -webkit-backdrop-filter: blur(12px);
+    border: 1.5px solid rgba(255, 255, 255, 0.4); /* Crisper, more defined glass edge */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2), inset 0 0 20px rgba(255, 255, 255, 0.03);
+    border-radius: 12px;                  /* Sharper, more professional corners */
+    transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1); /* Very smooth, fluid transition */
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -93,8 +94,10 @@ header {
 }
 
 .category:hover {
-    transform: scale(1.02);
-    background: rgba(255, 255, 255, 0.12);
+    transform: translateY(-12px);        /* Higher lift for a floating liquid feel */
+    background: linear-gradient(135deg, rgba(1, 50, 31, 0.35), rgba(1, 50, 31, 0.15));
+    border: 1.5px solid rgba(255, 255, 255, 0.6);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
 
 .category {
@@ -106,10 +109,12 @@ header {
     max-width: 75%;
     height: 173px;
     margin: auto;
+    /* Filter to make icons pure white to pop against the dark glass */
+    filter: brightness(0) invert(1);
 }
 
 .category span {
-    /* font-family: 'BoldCondensed'; */
+    font-family: 'BoldCondensed';        /* Using your brand font */
     font-size: 30px;
     margin: auto;
     color: #ffffff;
@@ -240,8 +245,8 @@ header {
     height: 220px;
     object-fit: contain; /* Prevents icons from stretching */
     padding: 40px;
-    filter: invert(14%) sepia(21%) saturate(2803%) hue-rotate(114deg) brightness(91%) contrast(101%); 
-    /* Pro Tip: Instead of pure black/white invert, I used a filter that matches your #01321F green */
+    /* Consistent dark green filter (#01321F) */
+    filter: brightness(0) saturate(100%) invert(14%) sepia(21%) saturate(2803%) hue-rotate(114deg) brightness(91%) contrast(101%);
 }
 
 .transport_text_div {
