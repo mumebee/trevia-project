@@ -41,6 +41,8 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed; /* Added for parallax effect */
+    transition: background-size 1s ease-out, background-position 1s ease-out; /* Smooth transition for the zoom */
 
     display: flex;
     justify-content: center;
@@ -58,6 +60,17 @@ header {
     height: 100%;
     background: rgba(1, 50, 31, 0.45);
     z-index: 0;
+    transition: background 1s ease-out; /* Smooth transition for the overlay fade */
+}
+
+/* State when scrolled */
+.first-section.scrolled {
+    background-size: 115%; /* Zoom in effect */
+    background-position: center 0%; /* Shift up slightly */
+}
+
+.first-section.scrolled::before {
+    background: rgba(1, 50, 31, 0.2); /* Lighter overlay on scroll */
 }
 
 /* ========== CONTENT (The Center Pills) ========== */

@@ -112,6 +112,18 @@
 
     <script type="text/javascript">
 
+        // Background Zoom & Fade Effect
+        const firstSection = document.querySelector('.first-section');
+        if (firstSection) {
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 50) {
+                    firstSection.classList.add('scrolled');
+                } else {
+                    firstSection.classList.remove('scrolled');
+                }
+            });
+        }
+
         ymaps.ready(init);
 
 

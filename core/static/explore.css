@@ -40,6 +40,8 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed; /* Parallax effect */
+    transition: background-size 1s ease-out, background-position 1s ease-out;
 
     display: flex;
     flex-direction: column;
@@ -61,6 +63,17 @@ header {
     height: 100%;
     background: rgba(1, 50, 31, 0.45);
     z-index: 0;
+    transition: background 1s ease-out;
+}
+
+/* Effect when scrolling down */
+.first-section.scrolled {
+    background-size: 115%; /* Zoom in */
+    background-position: center 0%; /* Subtle shift */
+}
+
+.first-section.scrolled::before {
+    background: rgba(1, 50, 31, 0.2); /* Reveal more image */
 }
 
 /* 4. The Grid Container */
