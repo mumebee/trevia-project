@@ -78,25 +78,25 @@ header {
 
 /* 5. The Boxes */
 .category {
-    min-height: 260px;
+    min-height: 210px;
     width: 100%;
-    background: linear-gradient(135deg, rgba(1, 50, 31, 0.25), rgba(1, 50, 31, 0.08)); /* Liquidy gradient */
-    backdrop-filter: blur(12px);          /* Less blur for a clearer, 'wetter' glass look */
-    -webkit-backdrop-filter: blur(12px);
-    border: 1.5px solid rgba(255, 255, 255, 0.4); /* Crisper, more defined glass edge */
+    background: linear-gradient(135deg, rgba(1, 50, 31, 0.6), rgba(1, 50, 31, 0.3)); /* Slightly more transparent dark green */
+    backdrop-filter: blur(20px);          /* Increased blur for a glassier effect */
+    -webkit-backdrop-filter: blur(20px);
+    border: 2px solid rgba(255, 255, 255, 0.6); /* Sharp white outline */
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2), inset 0 0 20px rgba(255, 255, 255, 0.03);
-    border-radius: 12px;                  /* Sharper, more professional corners */
+    border-radius: 4px;                  /* Crisp, sharp corners */
     transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1); /* Very smooth, fluid transition */
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 15px;
     gap: 5px;
 }
 
 .category:hover {
-    transform: translateY(-12px);        /* Higher lift for a floating liquid feel */
-    background: linear-gradient(135deg, rgba(1, 50, 31, 0.35), rgba(1, 50, 31, 0.15));
-    border: 1.5px solid rgba(255, 255, 255, 0.6);
+    transform: translateY(-8px);         /* Adjusted lift for smaller size */
+    background: linear-gradient(135deg, rgba(1, 50, 31, 0.75), rgba(1, 50, 31, 0.45)); /* Slightly more solid on hover */
+    border: 2px solid rgba(255, 255, 255, 0.8); /* Slightly more transparent white border on hover */
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
 
@@ -107,15 +107,15 @@ header {
 
 .category img {
     max-width: 75%;
-    height: 173px;
+    height: 120px;
     margin: auto;
-    /* Filter to make icons pure white to pop against the dark glass */
+    /* Filter to make icons pure white */
     filter: brightness(0) invert(1);
 }
 
 .category span {
     font-family: 'BoldCondensed';        /* Using your brand font */
-    font-size: 30px;
+    font-size: 24px;
     margin: auto;
     color: #ffffff;
 }
@@ -226,8 +226,8 @@ header {
 
 .transport {
     background: #ffffff;
-    border: 1px solid rgba(1, 50, 31, 0.1);
-    border-radius: 24px;
+    border: 2px solid #01321F;
+    border-radius: 4px;
     display: flex;
     flex-direction: column;
     transition: transform 0.3s ease, box-shadow 0.3s ease;

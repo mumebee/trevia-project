@@ -112,7 +112,7 @@ header {
     flex: 1;
 }
 .subtitle {
-    color: #0057B8;
+    color: #91745c;
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -148,12 +148,20 @@ header {
 /* Right side image styling */
 .about-image {
     flex: 1;
+    height: 550px;
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
 }
 .about-image img {
     width: 100%;
-    height: auto;
-    border-radius: 8px;
+    height: 150%; /* Even taller for a more obvious reveal */
+    object-fit: cover;
     display: block;
+    position: absolute;
+    top: 0;
+    will-change: transform;
 }
 .about-us{
     display: flex;

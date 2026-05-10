@@ -102,6 +102,23 @@ history.scrollRestoration = 'manual';  // prevents browser restoring scroll on b
 window.scrollTo(0, 0);
 
 let currentIndex = 0;
+
+// Wix-style Scroll Reveal for About Us Image
+window.addEventListener('scroll', () => {
+    const container = document.querySelector('.about-image');
+    const img = container.querySelector('img');
+    
+    const rect = container.getBoundingClientRect();
+    const windowHeight = window.innerHeight;
+
+    // Only animate if the image is actually visible on screen
+    if (rect.top < windowHeight && rect.bottom > 0) {
+        // Increased intensity to 0.25 for a more obvious Wix-style reveal
+        const shift = (windowHeight - rect.top) * 0.25;
+        img.style.transform = `translateY(-${shift}px)`;
+    }
+});
+
 const track = document.getElementById('carousel-track');
 
 async function initCarousel() {
